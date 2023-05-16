@@ -1,0 +1,32 @@
+# 同步代码
+- hosts: all_host
+  become: yes
+  tasks:
+    - name: 检查日志目录
+      file:
+        path: /data/log
+        state: directory
+        owner: haojisheng
+
+- hosts: all_host
+  tasks:
+    - name: 同步代码
+      synchronize:
+        src: ../../../export/
+        dest: "{{zc_root}}"
+    - name: 链接日志目录
+      file:
+        src: /data/log
+        dest: "{{zc_root}}/log"
+        state: link
+    - name: status目录
+      file:
+        path: "{{zc_root}}/status"
+        state: directory
+        owner: haojisheng
+    - name: 启动auto_reload
+      shell: python tools/deploy/check_py_process.py start tools/auto_reload.py
+      args:
+        chdir: "{{zc_root}}"
+      register: result
+      changed_when: result.stdout != ""

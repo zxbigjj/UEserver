@@ -1,0 +1,8 @@
+- hosts: all_host
+  tasks:
+    - name: 关闭auto_reload
+      shell: python tools/deploy/check_py_process.py stop tools/auto_reload.py
+      args:
+        chdir: "{{zc_root}}"
+      register: result
+      changed_when: result.stdout != ""

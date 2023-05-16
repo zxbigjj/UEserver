@@ -1,0 +1,128 @@
+# [stage index dispatch] ------ [900, 999] ------
+
+c_stage_fight 901 {      #普通关卡 
+    request {
+    }
+    response {
+        errcode 0 : integer
+        is_win 1 : boolean
+        self_cost 2 : integer   #己方消耗
+        enemy_cost 3 : integer  #敌方消耗
+        item_list 4 : *RoleItem
+    }
+}
+
+c_boss_stage_fight 902 {   #boss关卡 
+    request {
+        stage_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+        fight_data 1 : FightData
+        is_win 2 : boolean
+        item_list 3 : *RoleItem
+        traitor_info 4 : TraitorInfo          #叛军信息，没有出现叛军为nil
+    }
+}
+
+c_sweep_boss_stage 903 {   #扫荡boss关卡 
+    request {
+        stage_id 0 : integer
+        is_first 1 : boolean   #是否第一次扫荡（自动击杀叛军需要）
+    }
+    response {
+        errcode 0 : integer
+        item_list 1 : *RoleItem
+        traitor_info 2 : TraitorInfo          #叛军信息，没有出现叛军为nil
+    }
+}
+
+c_reset_boss_stage 904 {   #重置boss关卡 
+    request {
+        stage_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_get_stage_first_reward 905 {   #获取关卡首通奖励
+    request {
+        stage_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_add_action_point 906 {   #增加行动点(使用行动药水)
+    request {
+        item_count 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_get_city_star_reward 907 {    #获取城市星星宝箱奖励
+    request {
+        city_id 0 : integer
+        reward_index 1 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_get_country_occupy_reward 908 {    #获取国家城市占有度宝箱奖励
+    request {
+        country_id 0 : integer
+        reward_index 1 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_get_city_resource 909 {    #获取城市产出资源
+    request {
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_manage_city 910 {    #管辖城市
+    request {
+        city_id 0 : integer
+        manager_type 1 : integer
+        manager_id 2 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_get_city_all_reward 911 {   #获取城市所有奖励（首通宝箱和星星宝箱）
+    request {
+        city_id 0 : integer  #没有表示获取所有城市的
+    }
+    response {
+        errcode 0 : integer
+        item_list 1 : *RoleItem
+    }
+}
+
+c_stage_fight_end 912 {      #关卡战斗结束（用于发奖励）
+    request {
+    }
+}
+
+c_enter_stage 913 {      #进入关卡界面
+    request {
+        stage_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}

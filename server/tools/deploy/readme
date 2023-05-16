@@ -1,0 +1,1 @@
+ansible-playbook stop_all.yaml -i hosts.ini

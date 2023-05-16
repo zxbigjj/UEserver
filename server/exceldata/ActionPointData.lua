@@ -1,0 +1,26 @@
+return {
+    [ 1 ] = {
+        [ "action_point" ] = 50,
+        [ "id" ] = 1,
+        [ "lover_exp_ratio" ] = 0.5,
+        [ "lover_exp_value" ] = 50,
+        [ "name" ] = "午宴",
+        [ "start_sec" ] = 43200,
+        [ "start_time" ] = "12:00",
+        [ "stop_sec" ] = 50400,
+        [ "stop_time" ] = "14:00",
+        [ "time_perfix" ] = "am",
+    },
+    [ 2 ] = {
+        [ "action_point" ] = 50,
+        [ "id" ] = 2,
+        [ "lover_exp_ratio" ] = 0.5,
+        [ "lover_exp_value" ] = 50,
+        [ "name" ] = "晚宴",
+        [ "start_sec" ] = 64800,
+        [ "start_time" ] = "18:00",
+        [ "stop_sec" ] = 72000,
+        [ "stop_time" ] = "20:00",
+        [ "time_perfix" ] = "pm",
+    },
+}

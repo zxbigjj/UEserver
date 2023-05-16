@@ -1,0 +1,58 @@
+# [benefit index dispatch] ------ [1800, 1899] ------
+
+c_first_week_recive_reward 1800 {    #首周签到领取奖励
+    request {
+        task_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_first_week_buy_half_sell 1801 {    #首周签到购买半价限购
+    request {
+        day_index 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_first_week_buy_sell_item 1802 {    #首周签到购买每日热卖
+    request {
+        day_index 0 : integer
+        sell_id 1 : integer
+        buy_num 2 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_check_in_monthly 1803 {
+    request {
+        check_in_date 0 : integer       #签到日期
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_check_in_monthly_chest 1804 {
+    request {
+        reward_pos 0 : integer          #奖励宝箱位置
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_check_in_weekly 1805 {
+    request {
+        check_in_date 0 : integer       #签到日期
+    }
+    response {
+        errcode 0 : integer
+        is_luck 1 : boolean
+    }
+}

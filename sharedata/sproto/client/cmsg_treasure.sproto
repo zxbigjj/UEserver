@@ -1,0 +1,84 @@
+# [treasure index dispatch] ------ [1000, 1099] ------
+
+c_get_grab_role_list 1000 {           #获取抢夺玩家列表
+    request {
+        treasure_id 0 : integer         #宝物ID
+        fragment_id 1 : integer         #碎片ID
+    }
+    response {
+        errcode 0 : integer
+        role_list 1 : *GrabTreasureRole
+    }
+}
+
+c_clear_grab_role_list 1001 {        #清除抢夺玩家列表
+    request {
+    }
+}
+
+c_grab_treasure 1002 {           #抢夺宝物
+    request {
+        uuid 0 : string
+    }
+    response {
+        errcode 0 : integer
+        fight_data 1 : FightData
+        is_win 2 : boolean
+        is_success 3 : boolean
+        reward_dict 4 : i$integer
+    }
+}
+
+c_grab_treasure_select_reward 1003 {           #选择奖励（翻牌）
+    request {
+        reward_index 0 : integer
+    }
+    response {
+        errcode 0 : integer
+        reward_list 1 : *RoleItem
+    }
+}
+
+c_grab_treasure_five_times 1004 {        #夺宝5次
+    request {
+        uuid 0 : string
+    }
+    response {
+        errcode 0 : integer
+        result 1 : *GrabTreasureResult  #夺宝结果
+    }
+}
+
+c_quick_grab_treasure 1005 {            #一键夺宝
+    request {
+        treasure_id 0 : integer
+        auto_use_item 1 : boolean      #自动消耗活力丹
+    }
+    response {
+        errcode 0 : integer
+        reward_dict 1 : i$integer       #抢夺奖励
+        random_reward 2 : i$integer     #随机奖励
+        grab_count 3 : integer          #抢夺次数
+        cost_item_count 4 : integer     #消耗活力丹数量
+    }
+}
+
+c_treasure_compose 1006 {              #宝物合成
+    request {
+        treasure_id 0 : integer
+        compose_count 1 : integer      #合成数量
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_treasure_smelt 1007 {               #宝物熔炼
+    request {
+        guid_list 0 : *string          #消耗宝物的guid
+        treasure_id 1 : integer        #宝物id
+    }
+    response {
+        errcode 0 : integer
+    }
+}

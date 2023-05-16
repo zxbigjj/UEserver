@@ -1,0 +1,82 @@
+# [traitor index dispatch] ------ [1700, 1799] ------
+
+s_update_traitor_info 1700 {           #更新叛军信息
+    request {
+        traitor_info 0 : TraitorInfo
+        challenge_ticket 1 : integer
+        feats 2 : integer              #功勋
+        feats_reward 3 : i$boolean     #功勋奖励, true表示已领取
+        shop_dict 4 : i$integer
+        auto_kill 5 : TraitorAutoKill  #自动击杀设置
+        total_hurt 6 : integer         #总伤害
+    }
+}
+
+s_delete_traitor 1701 {                      #删除叛军（叛军被杀或者逃跑）
+    request {
+        is_kill 0 : boolean                   #true表示叛军被击杀，nil表示叛军逃跑
+    }
+}
+
+# ----------------------------------------- 叛军boss ---------------------------------
+
+s_traitor_boss_open 1751 {                          #叛军boss开启
+    request {
+    }
+}
+
+s_traitor_boss_close 1752 {                         #叛军boss结束
+    request {
+    }
+}
+
+s_update_traitor_boss_challenge_num 1753 {         #更新叛军boss挑战次数恢复
+    request {
+        challenge_num 0 : integer
+        challenge_num_ts 1 : integer
+    }
+}
+
+s_update_traitor_boss_info 1754 {         #更新叛军boss信息
+    request {
+        boss_level 0 : integer            #boss等级
+        max_hp 1 : integer                #boss最大血量
+        hp_dict 2 : i$integer             #当前血量，客户端需要遍历加起来
+        revive_ts 3 : integer             #复活时间，存在表示boss已死亡
+        role_name 4 : string              #玩家名字
+        role_hurt 5 : integer             #玩家造成伤害
+        killed_role 6 : string            #击杀boss的玩家 
+    }
+}
+
+s_traitor_boss_revive 1755 {              #叛军boss复活
+    request {
+        boss_level 0 : integer            #boss等级
+        max_hp 1 : integer                #boss最大血量
+        hp_dict 2 : i$integer             #当前血量，客户端需要遍历加起来
+    }
+}
+
+s_update_cross_cooling_ts 1756 {          #更新个人挑战跨服boss的冷却时间
+    request {
+        cooling_ts 0 : integer            #nil表示冷却时间到达
+    }
+}
+
+s_update_cross_traitor_info 1757 {               #跨服boss信息
+    request {
+        fight_ts 0 : integer                     #结算时间
+        pos_dict 1 : i$CrossTraitorBossPosInfo   #玩家占位信息
+    }
+}
+
+s_cross_traitor_boss_fight 1758 {                #玩家和跨服boss发生战斗
+    request {
+        fight_data 0 : FightData
+        is_win 1 : boolean
+        honour 2 : integer                       #挑战获得的荣誉
+        crit_id 3 : integer                      #战功暴击id，不暴击为nil
+        reward_dict 4 : i$integer               #战斗奖励
+        
+    }
+}

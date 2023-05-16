@@ -1,0 +1,7 @@
+# [role index dispatch] ------ [1900, 1999] ------
+
+s_update_recharge_info 1900 {
+    request {
+        recharge_info 0 : i$boolean    #首冲信息，键为档位，值为状态
+    }
+}

@@ -1,0 +1,35 @@
+.HuntGround {
+    ground_id 0 : integer
+    animal_num 1 : integer         #已经狩猎的猎物数量
+    animal_hp 2 : integer
+    hero_list 3 : *integer
+    arrow_num 4 : integer        #剩余弓箭数
+    first_reward 5 : boolean     #首通奖励，true可领取，false未通关，nil已领取
+}
+
+.RareAnimal {
+    animal_id 0 : integer
+    animal_hp 1 : float
+    join_num 2 : integer       #参与人数
+    is_start 3 : boolean       #true已经开始狩猎，nil未开始
+    kill_ts 4 : integer        #击杀时间
+    revive_ts 5 : integer      #复活时间
+}
+
+.HurtAnimal {
+    animal_id 0 : integer
+    animal_hp 1 : float
+    hurt_rank 2 : *HurtRank      #伤害排行
+    self_rank 3 : integer
+    inspire_num 4 : integer      #鼓舞次数
+    self_hurt 5 : integer
+}
+
+.HurtRank {                  #伤害排行
+    role_name 0 : string
+    hurt 1 : integer
+    rank 2 : integer
+    vip 3 : integer
+    role_level 4 : integer
+    role_id 5 : integer
+}

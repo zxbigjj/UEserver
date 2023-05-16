@@ -1,0 +1,42 @@
+# [hunt index dispatch] ------ [700, 799] ------
+
+s_update_hunt_data 700 {
+    request {
+        hunt_ground 0 : i$HuntGround      #猎场数据
+        hunt_point 1 : integer            #当前狩猎积分
+        hunt_num 2 : integer         #剩余狩猎珍兽次数
+        hunt_ts 3 : integer          #狩猎珍兽时间点
+        listen_animal 4 : integer            #监视中的珍兽
+        hero_dict 5 : i$boolean            #当天已经狩猎过的英雄
+        hunt_shop 6 : i$integer         #key为shop_id，值为今日已经兑换的次数
+        refresh_ts 7 : integer         #狩猎商店刷新时间
+        add_hunt_num 8 : integer      #每天购买狩猎珍兽次数
+    }
+}
+
+s_rare_animal_appear 701 {             #珍兽出现
+    request {
+        animal_id 0 : integer
+    }
+}
+
+s_update_curr_ground 702 {             #更新当前猎场
+    request {
+        curr_ground 0 : integer        #当前猎场
+    }
+}
+
+s_hunt_ground_kill_reward 703 {        #猎场击杀奖励
+    request {
+        ground_id 0 : integer
+        item_list 1 : *RoleItem
+    }
+}
+
+s_hunt_rare_animal_kill_reward 704 {        #珍兽击杀奖励
+    request {
+        animal_id 0 : integer
+        item_list 1 : *RoleItem
+        self_rank 2 : integer
+    }
+}

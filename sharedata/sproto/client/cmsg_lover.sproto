@@ -1,0 +1,306 @@
+# [lover index dispatch] ------ [600, 699] ------
+
+c_lover_discuss 600 {         #商谈（翻牌）
+    request {
+    }
+    response {
+        errcode 0 : integer
+        lover_id 1 : integer           #情人id
+        child_info 2 : ChildInfo
+        fondle_num 3 : integer         #爱抚次数
+    }
+}
+
+c_recover_energy 601 {         #恢复精力
+    request {
+        item_count 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_upgrade_lover_spell 602 {         #提升情人势力技能
+    request {
+        lover_id 0 : integer
+        spell_id 1 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_give_lover_item 603 {         #赠送情人物品
+    request {
+        lover_id 0 : integer
+        item_id 1 : integer
+        is_ten 2 : boolean      #是否赠送10次
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_dote_lover 604 {         #宠爱情人
+    request {
+        lover_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+        child_info 1 : ChildInfo
+        fondle_num 2 : integer         #爱抚次数
+    }
+}
+
+c_change_lover_fashion 605 {         #改变情人时装
+    request {
+        lover_id 0 : integer
+        fashion_id 1 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_change_lover_sex 606 {         #改变情人性别
+    request {
+        lover_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+        new_lover 1 : LoverInfo
+    }
+}
+
+c_change_lover_grade 607 {         #改变情人品级(册封)
+    request {
+        lover_id 0 : integer
+        grade 1 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_child_give_name 608 {
+    request {
+        child_id 0 : integer
+        name 1 : string
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_child_education 609 {
+    request {
+        child_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_child_canonized 610 {
+    request {
+        child_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_child_grid 611 {                      #格子解锁
+    request {
+
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_child_rename 612 {                    #改名
+    request {
+        child_id 0 : integer
+        name 1 : string
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_child_use_item 613 {
+    request {
+        child_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_open_joint_marriage 614 {     #打开联姻列表
+    request {
+        sex 0 : integer
+        page_id 1 : integer
+        grade 2 : integer
+    }
+    response {
+        errcode 0 : integer
+        service_object_list 1 : *ChildObject
+        cross_object_list 2 : *ChildObject
+    }
+}
+
+c_child_send_request 615 {         #提亲
+    request {
+        child_id 0 : integer
+        apply_type 1 : integer
+        uuid 2 : string
+        item_id 3 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_child_cancel_request 616 {      #取消提亲
+    request {
+        child_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_child_refuse_request 617 {        #拒绝提亲
+    request {
+        uuid 0 : string
+        child_id 1 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_child_refuse_all_request 618 {
+    request {
+
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_child_marriage 619 {              #结婚
+    request {
+        child_id 0 : integer
+        apply_type 1 : integer
+        object_uuid 2 : string
+        object_child_id 3 : integer
+        item_id 4 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_child_marriage_confirm 620 {
+    request {
+        child_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_lover_train 621 {            #情人培训
+    request {
+        event_id 0 : integer
+        lover_id 1 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_lover_train_quicken 622 {            #培训加速
+    request {
+        event_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_get_lover_train_reward 623 {         #培训完成,获取属性奖励
+    request {
+        event_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_lover_unlock_event_grid 624 {         #解锁事件格子
+    request {
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_upgrade_lover_star_lv 625 {          #情人升星
+    request {
+        lover_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_buy_lover_shop_item 626 {          #购买情人商店物品
+    request {
+        shop_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_refresh_lover_shop 627 {          #刷新情人商店
+    request {
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_total_lover_discuss 628 {          #一键翻牌
+    request {
+    }
+    response {
+        errcode 0 : integer
+        lover_list 1 : i$integer        #情人id
+        child_dict 2 : i$ChildInfo
+    }
+}
+
+c_fondle_lover 629 {                   #爱抚情人
+    request {
+    }
+    response {
+        errcode 0 : integer
+        fondle_num 1 : integer         #爱抚次数
+        power_value 2 : integer        #爱抚获得势力值
+    }
+}
+
+c_query_lover_info 630 {                   #查询情人信息
+    request {
+        lover_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+        fashion_id 1 : integer         #当前使用时装id
+    }
+}

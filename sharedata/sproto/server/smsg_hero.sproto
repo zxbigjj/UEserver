@@ -1,0 +1,85 @@
+# [hero index dispatch] ------ [500, 599] ------
+
+s_online_hero 500 {
+    request {
+        all_hero 0 : i$HeroInfo
+    }
+}
+
+s_update_hero_info 501 {      #更新单个英雄的信息
+    request {
+        hero_id 0 : integer
+        level 1 : integer
+        score 2 : integer
+        attr_dict 3 : s$float
+        spell_dict 4 : i$integer
+        break_lv 5 : integer               #突破等级
+        star_lv 6 : integer                #升星等级
+        destiny_lv 7 : integer             #天命等级
+        destiny_exp 8 : integer            #天命值
+        fate_dict 9 : i$boolean            #已激活的缘分
+        destiny_lv_cost 10 : integer       #天命升级总消耗
+        book_attr_dict 11 : s$integer      #吃书属性
+    }
+}
+
+s_add_hero 502 {      #增加新英雄
+    request {
+        hero_info 0 : HeroInfo
+    }
+}
+
+s_update_lineup_info 503 {
+    request {
+        lineup_dict 0 : i$LineupInfo
+    }
+}
+
+s_update_lineup_equip_info 504 {        #更新装备信息
+    request {
+        lineup_id 0 : integer
+        part_index 1 : integer
+        equip_dict 2 : i$string
+    }
+}
+
+s_update_lineup_master_lv 505 {     #更新装备强化大师等级和精炼大师等级
+    request {
+        lineup_id 0 : integer
+        strengthen_master_lv 1 : i$integer
+        refine_master_lv 2 : i$integer
+    }
+}
+
+s_clear_equip_lucky_value 506 {     #清除装备幸运值
+    request {
+    }
+}
+
+s_clear_hero_destiny_exp 507 {     #清除英雄天命值
+    request {
+    }
+}
+
+s_update_reinforcements 508 {     #更新援军信息
+    request {
+        reinforcements_dict 0 : i$ReinforcementsInfo
+    }
+}
+
+s_update_hero_shop 509 {     #更新英雄商店信息
+    request {
+        refresh_ts 0 : integer          #刷新时间
+        free_refresh_num 1 : integer    #免费刷新次数
+        total_refresh_num 2 : integer   #每天总刷新次数
+        shop_dict 3 : i$integer         #键为商品id, 值为购买次数
+    }
+}
+
+s_update_hero_activity 510 {             #更新情人活动
+    request {
+        hero_activity_id 0 :  integer #活动id
+        times 1 : integer          #购买次数
+        status 2 : integer    #购买状态
+    }
+}

@@ -1,0 +1,182 @@
+# [activity index dispatch] ------ [2100, 2199] ------
+
+#首冲礼包
+s_update_first_recharge_info 1901 {
+    request {
+        first_recharge 0 : boolean
+    }
+}
+
+#每日单冲活动
+s_update_single_recharge_info 1902 {
+    request {
+        recharge_dict 0 : i$RechargeActivityInfo     #键为活动id，值为单冲信息
+    }
+}
+
+#超值单冲活动
+s_update_worth_recharge_info 1903 {
+    request {
+        recharge_dict 0 : i$RechargeActivityInfo      #键为活动id，值为单冲信息
+    }
+}
+
+# 充值活动停止
+s_end_recharge_activity 1904 {
+    request {
+        activity_id 0 : integer
+    }
+}
+
+# 充值活动过期
+s_close_recharge_activity 1905 {
+    request {
+        activity_id 0 : integer
+    }
+}
+
+# 充值抽奖
+s_update_recharge_draw_info 1906 {
+    request {
+        activity_id 0 : integer
+        award_list 1 : *integer             #转盘抽奖物品
+        recharge_count 2 : integer          #已充值金额
+        draw_count 3 : integer              #可用抽奖次数
+        self_award_list 4 : *AwardInfo      #自己中奖信息
+        shop_dict 5 : i$integer
+    }
+}
+
+# 限时活动数据更新
+s_activity_data_update 2100 {
+    request {
+        activity_dict 0 : i$ActivityInfo # key:activity_id
+    }
+}
+
+# 冲榜活动数据更新
+s_rush_activity_data_update 2101 {
+    request {
+        activity_dict 0 : i$RushActivityInfo # key:activity_id
+    }
+}
+
+# 更新节日活动数据
+s_update_festival_activity_info 2102 {
+    request {
+        activity_dict 0 : i$FestivalActivityInfo # key: 小活动id (FestivalActivityData)
+    }
+}
+
+# 定点体力数据更新
+s_update_fixed_action_point_info 2103 {
+    request {
+        data_id       0 : integer # excel表的id
+        lover_id      1 : integer # 随机的一位情人id
+        reward_status 2 : integer # RewardState.unpick|pick|picked
+    }
+}
+
+# 开服基金数据更新
+s_update_openservice_fund_data 2104 {
+    request {
+        count          0 : integer   # 购买人数
+        is_buy         1 : boolean   # 是否买过
+        fund_reward    2 : i$integer # 基金奖励
+        welfare_reward 3 : i$integer # 福利奖励
+    }
+}
+
+# 豪华签到
+s_update_luxurycheckin_data 2105 {
+    request {
+        checkin_data 0 : i$LuxuryCheckInData # key: LuxuryCheckInData主键
+    }
+}
+
+# 天天充值送好礼活动
+s_update_daily_recharge_data 2106 {
+    request {
+        id          0 : integer   # DailyRechargeData.id
+        cur_day     1 : integer   # 今天是活动进行的第几天, 即 1..7
+        reward_dict 2 : i$integer # 奖励状态, key: RewardData.id, value: CSConst.RewardState
+    }
+}
+
+# 月卡终身卡
+s_update_monthly_card_data 2107 {
+    request {
+        # card_dict 存储的是已购买的且还有效的月卡/终身卡，如果一个都没，则 card_dict = {}
+        card_dict 0 : i$MonthlyCardInfo # key: MonthlyCardData.id, value: MonthlyCardInfo
+    }
+}
+
+# 月卡过期通知
+s_notify_monthly_card_expired 2108 {
+    request {
+        card_id 0 : integer # 过期的月卡id
+    }
+}
+
+# 限时累充更新
+s_update_accum_recharge_data 2109 {
+    request {
+        state             0 : integer   # 活动状态, CSConst.ActivityState, started:活动进行中,stopped:保留状态(领奖、看进度),invalid:活动过期
+        stop_ts           1 : integer   # 活动停止时间(这个点之后只能领奖励、看进度)
+        end_ts            2 : integer   # 活动到期时间(到这个点就清除活动数据)
+        level_gear        3 : integer   # 等级档位,accum_reward_list的索引值
+        recharge_amount   4 : integer   # 累计充值数额
+        reward_state_dict 5 : i$integer # 奖励状态, k:SingleRechargeData.id, v:CSConst.RewardState
+    }
+}
+
+# 酒吧头目或情人数据更新
+s_update_bar_unit_data 2110 {
+    request {
+        hero_dict 0 : i$integer # hero_id => 剩余挑战次数(0表示没有挑战次数了,即"消失")
+        lover_id  1 : integer   # 酒吧随机的情人id
+        lover_cnt 2 : integer   # 情人的剩余挑战次数(0表示没有挑战次数了,即"消失")
+    }
+}
+
+# 酒吧刷新、购买次数更新
+s_update_bar_count_data 2111 {
+    request {
+        hero_already_refresh_cnt      0 : integer # 英雄-今日刷新过多少次英雄列表
+        hero_already_challenge_cnt    1 : integer # 英雄-今日买过多少次挑战次数
+        hero_remaining_challenge_cnt  2 : integer # 英雄-还剩余多少次挑战次数
+        lover_already_refresh_cnt     3 : integer # 情人-今日刷新过多少次情人列表
+        lover_already_challenge_cnt   4 : integer # 情人-今日买过多少次挑战次数
+        lover_remaining_challenge_cnt 5 : integer # 情人-还剩余多少次挑战次数
+    }
+}
+
+# 更新正在进行的情人礼包
+s_update_ongoing_lover_activities 2112 {
+    request {
+        activity_list 0 : *LoverActivityList
+    }
+}
+
+# 获取情人写真奖励
+s_update_lover_video_reward 2113 {
+    request {
+        reward_list 0 : *ActivityItemList
+    }
+}
+
+# 更新正在进行的礼包
+s_update_ongoing_hero_activities 2114 {
+    request {
+        activity_list 0 : *HeroActivityList
+    }
+}
+
+# 更新每日礼包
+s_update_daily_gift 2115 {             #更新每日礼包
+    request {
+        day_residue_time 0 : integer
+        week_residue_time 1 : integer
+        detail_gift_package_list 2 : *GiftPackageList
+    }
+}

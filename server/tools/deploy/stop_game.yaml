@@ -1,0 +1,9 @@
+# game
+- hosts: h_game_*
+  roles:
+    - stop_skynet
+
+# cross
+- hosts: cross_*
+  roles:
+    - stop_skynet

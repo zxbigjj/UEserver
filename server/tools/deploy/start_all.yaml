@@ -1,0 +1,8 @@
+- import_playbook: start_global.yaml
+
+# cross
+# - hosts: cross_*
+#   roles:
+#     - lauch_skynet
+
+- import_playbook: start_game.yaml

@@ -1,0 +1,390 @@
+# [activity index dispatch] ------ [2100, 2199] ------
+
+#领取首冲礼包
+c_receive_first_recharge_reward 1901 {
+    request {
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+#领取每日单冲
+c_receive_single_recharge_reward 1902 {
+    request {
+        recharge_id 0 : integer
+        select_list 1 : *integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+#充值超值单冲(不计入普通充值)
+c_recharge_worth_recharge 1903 {
+    request {
+        recharge_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+#领取超值单冲物品
+c_receive_worth_recharge_reward 1904 {
+    request {
+        recharge_id 0 : integer
+        select_list 1 : *integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+#抽取充值抽奖
+c_do_recharge_draw 1905 {
+    request {
+        activity_id 0 : integer
+        is_ten_draw 1 : boolean
+    }
+    response {
+        errcode 0 : integer
+        award_list 1 : *integer
+    }
+}
+
+#获取全服中奖纪录
+c_get_recharge_draw_award_info 1906 {
+    request {
+        activity_id 0 : integer
+    }
+    response {
+        award_list 0 : *AwardInfo
+    }
+}
+
+#充值抽奖积分购买
+c_buy_recharge_draw_integral_shop 1907 {
+    request {
+        shop_id 0 : integer
+        shop_num 1 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+# 领取限时活动奖励
+c_activity_get_reward 2100 {
+    request {
+        reward_id 0 : integer # 活动奖励id
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+# 获取限时活动排行
+c_activity_get_rank 2101 {
+    request {
+        rank_name 0 : string # 排行榜名称
+    }
+    response {
+        errcode 0 : integer
+        rank_list 1 : *RankInfo
+        self_rank 2 : integer        #未上榜为nil
+        self_rank_score 3 : integer  #排行积分，不同排行榜表示意思不一样
+    }
+}
+
+# 获取冲榜活动排行(自身的排行)
+c_rush_activity_get_self_rank 2102 {
+    request {
+        activity_id 0 : integer # 不传就获取全部started的冲榜活动排行
+    }
+    response {
+        errcode 0 : integer
+        rank_dict 1 : i$integer # key: activity_id, value: 自身排名值
+    }
+}
+
+# 获取冲榜活动排行
+c_rush_activity_get_rank 2103 {
+    request {
+        rank_name 0 : string # 排行榜名称
+    }
+    response {
+        errcode 0 : integer
+        rank_list 1 : *RankInfo
+        self_rank 2 : integer        #未上榜为nil
+        self_rank_score 3 : integer  #排行积分，不同排行榜表示意思不一样
+    }
+}
+
+# 获取冲榜活动历史排行
+c_get_rush_activity_history_rank 2126 {
+    request {
+        rank_name 0 : string # 排行榜名称
+    }
+    response {
+        errcode 0 : integer
+        rank_list 1 : *RankInfo
+        self_rank 2 : integer        #未上榜为nil
+        self_rank_score 3 : integer  #排行积分，不同排行榜表示意思不一样
+    }
+}
+
+# 获取王朝冲榜排行
+c_rush_activity_get_dynasty_rank 2104 {
+    request {
+    }
+    response {
+        errcode 0 : integer
+        rank_list 1 : *DynastyRank  # 王朝排行榜 list
+        self_rank 2 : integer       # 当前玩家所属王朝的排行名次, nil:未加入王朝(或未上榜)
+        self_rank_score 3 : integer # 当前玩家所属王朝的排行积分, nil:未加入王朝, 如果加入了王朝，则最小值为0
+    }
+}
+
+# 领取节日活动奖励
+c_pick_festival_activity_reward 2105 {
+    request {
+        reward_id 0 : integer # 奖励id (FestivalRewardData)
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+# 节日活动限时折扣
+c_buy_festival_activity_discount 2106 {
+    request {
+        discount_id 0 : integer # 折扣id (FestivalDiscountData)
+        discount_cnt 1 : integer # 购买次数
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+# 兑换节日活动商品
+c_get_festival_activity_exchange 2107 {
+    request {
+        exchange_id 0 : integer # 商品id (FestivalExchangeData)
+        exchange_cnt 1 : integer # 兑换次数
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+# 领取定点体力奖励
+c_get_fixed_action_point_reward 2108 {
+    request {
+    }
+    response {
+        errcode    0 : integer
+        is_add_exp 1 : boolean # 是否增加的情人经验
+    }
+}
+
+# 购买开服基金
+c_buy_openservice_fund 2109 {
+    request {
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+# 领取基金个人奖励
+c_get_openservice_fund_reward 2110 {
+    request {
+        id 0 : integer # OpenServiceRewardData主键
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+# 领取基金公共奖励
+c_get_openservice_welfare_reward 2111 {
+    request {
+        id 0 : integer # OpenServiceWelfareData主键
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+# 领取豪华签到奖励
+c_receiving_luxurycheckin_reward 2112 {
+    request {
+        id 0 : integer # LuxuryCheckInData主键
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+# 领取天天充值奖励
+c_receiving_daily_recharge_reward 2113 {
+    request {
+        reward_id 0 : integer # 奖励表的id
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+# 购买月卡
+c_buy_monthly_card 2114 {
+    request {
+        card_id 0 : integer # 月卡id
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+# 领取月卡奖励
+c_receiving_monthly_card_reward 2115 {
+    request {
+        card_id 0 : integer # 月卡id
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+# 领取累充奖励
+c_receiving_accum_recharge_reward 2116 {
+    request {
+        activity_id  0 : integer # SingleRechargeData.id
+        select_index 1 : integer # 多选一奖励的下标值
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+# 能否玩酒吧游戏
+c_can_play_bar_game 2117 {
+    request {
+        hero_id  0 : integer # 与英雄玩游戏(2选1)
+        lover_id 1 : integer # 与情人玩游戏(2选1)
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+# 酒吧普通挑战
+c_bar_general_challenge 2118 {
+    request {
+        hero_id  0 : integer # 与英雄玩游戏(2选1)
+        lover_id 1 : integer # 与情人玩游戏(2选1)
+        result   2 : boolean # true胜利, false失败
+    }
+    response {
+        errcode   0 : integer
+        item_dict 1 : i$integer # item_id => count
+    }
+}
+
+# 酒吧快速挑战
+c_bar_quick_challenge 2119 {
+    request {
+        hero_id  0 : integer # 与英雄玩游戏(2选1)
+        lover_id 1 : integer # 与情人玩游戏(2选1)
+    }
+    response {
+        errcode   0 : integer
+        item_dict 1 : i$integer # item_id => count
+    }
+}
+
+# 购买酒吧挑战次数
+c_buy_bar_challenge_count 2120 {
+    request {
+        bar_type 0 : integer # CSConst.BarType
+        count    1 : integer # 买多少次
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+# 刷新酒吧英雄或情人
+c_refresh_bar_unit 2121 {
+    request {
+        bar_type 0 : integer # CSConst.BarType
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+# 获取正在进行的英雄礼包
+c_get_ongoing_lover_activities 2122 {
+    request {
+    }
+    response {
+        errcode 0 : integer
+        activity_list 1 : *LoverActivityList
+    }
+}
+
+# 获取正在进行的英雄礼包
+c_get_ongoing_hero_activities 2123 {
+    request {
+    }
+    response {
+        errcode 0 : integer
+        activity_list 1 : *HeroActivityList
+    }
+}
+
+# 获取已经购买的情人视频
+c_get_purchased_lover_videos 2124 {
+    request {}
+    response {
+        errcode 0 : integer
+        total_num 1 : integer
+        purchased_num 2 : integer
+        own_lover_videos 3 : *LoverVideosInfo
+        impersonal_lover_videos 4 : *LoverVideosInfo
+    }
+}
+
+c_get_lover_video_reward 2125 {
+    request {
+        lover_video_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+        reward_status 1 : integer
+    }
+}
+
+c_get_detail_gift_package_list 2127 {
+    request {}
+    response {
+        errcode 0 : integer
+        day_residue_time 1 : integer
+        week_residue_time 2 : integer
+        detail_gift_package_list 3 : *GiftPackageList
+    }
+}
+
+c_daily_zero_gift 2128 {
+    request {
+        gift_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+        day_residue_time 1 : integer
+        week_residue_time 2 : integer
+        detail_gift_package_list 3 : *GiftPackageList
+    }
+}

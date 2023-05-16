@@ -1,0 +1,23 @@
+# [stage index dispatch] ------ [900, 999] ------
+
+s_update_stage_info 901 {        #更新关卡信息
+    request {
+        curr_stage 0 : integer     #当前关卡
+        curr_part 1 : integer       #当前关卡的第几小节
+        remain_enemy 2 : integer    #敌人剩余数量
+        stage_dict 3 : i$StageDict   #关卡数据
+    }
+}
+
+s_update_city_info 902 {        #更新城市信息
+    request {
+        city_dict 0 : i$CityDict   #城市数据
+        resource_dict 1 : i$integer     #城市产出资源，所有城市之和
+    }
+}
+
+s_update_country_info 903 {        #更新国家信息
+    request {
+        country_dict 0 : i$CountryDict   #国家数据
+    }
+}

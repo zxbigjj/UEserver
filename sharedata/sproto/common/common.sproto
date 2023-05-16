@@ -1,0 +1,495 @@
+.Pos {
+    x 0 : float
+    y 1 : float
+    z 2 : float
+}
+
+.Color {
+    r 0 : float
+    g 1 : float
+    b 2 : float
+    a 3 : float
+}
+
+.Rect {
+    x 0 : float
+    y 1 : float
+    width 2 : float
+    height 3 : float
+}
+
+.Vector4 {
+    x 0 : float
+    y 1 : float
+    z 2 : float
+    w 3 : float
+}
+
+.Info {
+    last_time 0 : integer
+    num 1 : integer
+    info_id 2 : integer
+    item_id 3 : integer
+    count 4 : integer
+}
+
+.Cmd {
+    last_time 0 : integer
+    num 1 : integer
+}
+
+.HeroInfo {
+    hero_id 0 : integer
+    level 1 : integer
+    score 2 : integer
+    attr_dict 3 : s$float
+    spell_dict 4 : i$integer
+    break_lv 5 : integer               #突破等级
+    star_lv 6 : integer                #升星等级
+    destiny_lv 7 : integer             #天命等级
+    destiny_exp 8 : integer            #天命值
+    fate_dict 9 : i$boolean            #已激活的缘分
+    destiny_lv_cost 10 : integer       #天命升级总消耗
+    book_attr_dict 11 : s$integer      #吃书属性
+}
+
+.LoverInfo {
+    lover_id 0 : integer
+    level 1 : integer
+    exp 2 : integer
+    grade 3 : integer               # 品级
+    old_grade 4 : integer
+    power_value 5 : integer         # 势力值
+    attr_dict 6 : s$integer
+    spell_dict 7 : i$integer
+    fashion_id 8 : integer          #当前时装id
+    fashion_dict 9 : i$boolean      #拥有的所有时装
+    other_fashion_dict 10 : i$boolean      #前世拥有的所有时装
+    children 11 : integer           #孩子
+    star_lv 12 : integer                   #升星等级
+}
+
+.ChildInfo {
+    child_id 0 : integer
+    mother_id 1 : integer
+    name 2 : string
+    child_status 3 : integer
+    sex 4 : integer
+    level 5 : integer
+    exp 6 : integer
+    vitality_num 7 : integer
+    last_time 8 : integer
+    grade 9 : integer               # 品级
+    attr_dict 10 : s$integer
+    aptitude_dict 11 : s$integer
+    marry 12 : ChildObject          #结婚对象
+    birth_time 13 : integer
+    apply_time 14 : integer         #申请提亲时间
+    apply_role_name 15 : string
+    apply_type 16 : integer
+    display_id 17 : integer            #肤色
+}
+
+.ChildObject {
+    uuid 0 : string
+    role_name 1 : string
+    child_id 2 : integer
+    child_name 3 : string
+    grade 4 : integer
+    sex 5 : integer
+    apply_time 6 : integer
+    marry_time 7 : integer
+    attr_dict 8 : s$integer
+    aptitude_dict 9 : s$integer
+    display_id 17 : integer            #肤色
+}
+
+.LoverEventDict {
+    lover_id 0 : integer
+    train_ts 1 : integer
+    is_finish 2 : boolean
+    event_id 3 : integer
+}
+
+.RoleItem {
+    guid 0 : string
+    item_id 1 : integer
+    count 2 : integer
+    refine_lv 3 : integer                #装备精炼等级
+    refine_exp 4 : integer               #装备精炼总经验
+    strengthen_exp 5 : integer           #装备强化总经验
+    strengthen_lv 6 : integer            #装备强化等级
+    star_lv 7 : integer                  #装备升星等级
+    smelt_lv 8 : integer                 #装备炼化等级
+    smelt_exp 9 : integer                #装备炼化经验
+    lucky_value 10 : integer             #装备幸运值
+    lineup_id 11 : integer               #穿戴阵容位置id
+    smelt_cost 12 : i$integer            #炼化消耗
+    refine_cost 13 : i$integer           #精炼消耗
+}
+
+.LineupInfo {
+    hero_id 0 : integer
+    pos_id 1 : integer
+    lineup_id 2 : integer
+    unlock_status 3 : integer
+    equip_dict 4 : i$string              #键为装备位置，值为物品guid          
+    strengthen_master_lv 5 : i$integer
+    refine_master_lv 6 : i$integer
+}
+
+.FightData {
+    seed 0 : integer
+    is_pvp 1 : boolean
+    victory_id  2 : integer
+    own_fight_data 3 : *PosData
+    enemy_fight_data 4 : *PosData
+}
+
+.PosData {
+    score 0 : float
+    unit_id 1 : integer
+    spell_dict 2 : i$integer
+    fight_attr_dict 3 : s$float
+    monster_id 4 : integer
+    hero_id 5 : integer
+    buff_list 6 : *integer
+    add_anger 7 : integer
+}
+
+.StageDict {
+    star_num 0 : integer
+    victory_num 1 : integer
+    first_reward 2 : boolean   # true 表示首通奖励可领取，false表示不可领取，nil表示已领取
+    reset_num 3 : integer      # 重置关卡次数
+    state 4 : integer          # 通关状态，意思看CSConst.Stage.State
+}
+
+.CityDict {
+    star_num 0 : integer
+    is_occupied 1 : boolean     #是否已占领
+    reward_dict 2 : i$boolean   #城市宝箱领取状态，false表示不可领取，true表示可领取，nil表示已领取
+    manager_type 3 : integer    #管理者类型，1表示英雄，2表示孩子
+    manager_id 4 : integer
+}
+
+.CountryDict {
+    occupy_city_num 0 : integer  #占领城市数
+    reward_dict 1 : i$boolean   #国家宝箱领取状态，false表示不可领取，true表示可领取，nil表示已领取
+}
+
+.Luck {
+    value 0 : integer
+    set_value 1 : integer
+    set_item_id 2 : integer
+    restore_num 3 : integer
+}
+
+.LoverMeet {
+    meet_id 0 : integer
+    meet_num 1 : integer
+}
+
+.ArenaRole {
+    uuid 0 : string
+    name 1 : string
+    level 2 : integer
+    rank 3 : integer
+    vip 4 : integer
+    role_id 5 : integer
+    fight_score 6 : integer
+    title 7 : integer
+}
+
+.RoleInfo {
+    uuid 0 : string
+    role_id 1 : integer
+    name 2 : string
+    level 3 : integer
+    vip 4 : integer
+    attr_point_dict 5 : s$integer
+    lover 6 : LoverInfo
+    index 7 : integer           #沙龙专用
+    server_id 8 : integer
+    score 9 : integer           #国力
+    fight_score 10 : integer    #战力
+}
+
+.SalonInfo {
+    lover_id 0 : integer
+    rank 1 : integer
+    pvp_id 2 : integer
+    attr_point_dict 3 : s$integer
+    integral 4 : integer
+    salon_id 5 : integer
+}
+
+.SalonPvPRecordInfo {
+    salon_id 0 : integer
+    pvp_id 1 : integer
+    role_dict 2 : s$RoleInfo
+    round 3 : *SalonPvPRoundRankInfo
+    total_rank 4 : *ScoreRankInfo
+}
+
+.ScoreRankInfo {
+    uuid 0 : string
+    score 1 : integer
+}
+
+.SalonPvPRoundRankInfo {
+    rank_list 0 : *ScoreRankInfo
+}
+
+.GrabTreasure {
+    fragment_dict 0 : i$integer      #键为碎片id，值为碎片数量，数量为0则为nil
+}
+
+.GrabTreasureRole {
+    uuid 0 : string
+    name 1 : string
+    level 2 : integer
+    hero_list 3 : *integer
+    is_robot 4 : boolean
+}
+
+.GrabTreasureResult {
+    is_success 0 : boolean
+    reward_dict 1 : i$integer       #抢夺奖励
+    random_reward 2 : i$integer     #随机奖励
+}
+
+.DailyDare {
+    difficult_list 0 : *integer
+    is_passing 1 : boolean
+    dare_id 2 : integer
+}
+
+.TrainReward {
+    count 0 : integer             #物品数量
+    crit 1 : integer              #暴击id，不暴击为nil
+}
+
+.TrainResult {
+    stage_id 0 : integer             #关卡数
+    reward_dict 1 : i$TrainReward    #通关奖励
+}
+
+.FightHurt {
+    own_info 0 : i$integer         #键为站位，值为伤害
+    enemy_info 1 : i$integer 
+}
+
+.PartyInfo {
+    end_type 0 : integer
+    party_id 1 : integer
+    lover_id 2 : integer
+    party_type_id 3 : integer
+    start_time 4 : integer
+    end_time 5 : integer
+    guests_list 6 : *PartyGuestsInfo
+    # 砸场仇人 需要
+    enemy_info 7 : PartyEnemyInfo
+    # party_record 需要
+    add_ratio 8 : float
+    integral_count 9 : integer
+    host_info 10 : RoleInfo
+    lover_level 11 : integer
+}
+
+.PartyEnemyInfo {
+    role_info 0 : RoleInfo
+    interrupt_time 2 : integer
+}
+
+.PartyGuestsInfo {
+    role_info 0 : RoleInfo
+    lover_id 1 : integer
+    gift_id 2 : integer
+    games_num 3 : integer
+    integral 5 : integer
+}
+
+.PartyInviteInfo {
+    uuid 0 : string
+    name 1 : string
+    party_id 2 : integer
+}
+
+.MailInfo {
+    mail_guid 0 : string
+    mail_id 1 : integer
+    content 2 : string
+    send_ts 3 : integer
+    is_read 4 : boolean
+    is_get_item 5 : boolean
+    item_list 6 : *RoleItem
+    title 7 : string                #邮件标题
+    deadline_ts 8 : integer         #邮件到期时间
+}
+
+.DecomposeItem {
+    guid 0 : string          #物品guid
+    count 2 : integer        #需要分解数量
+}
+
+.TraitorInfo {
+    traitor_guid 0 : string
+    traitor_id 1 : integer
+    traitor_level 2 : integer
+    appear_ts 3 : integer            #叛军出现时间
+    quality 4 : integer              #品质
+    max_hp 5 : integer               #生命上限
+    hp_dict 6 : i$integer            #当前血量，客户端需要遍历把值加一起
+    role_name 7 : string             #发现叛军玩家名字
+    is_share 8 : boolean             #是否分享标志
+}
+
+.TraitorAutoKill {
+    quality_dict 0 : i$integer      #键为品质，值为攻击类型（nil未设置，1普通攻击，2全力一击）
+    is_share 1 : boolean
+    is_cost 2 : boolean
+}
+
+.TraitorBossRecord {
+    boss_level 0 : integer
+    time 1 : integer
+    role_name 2 : string
+    item_id 3 : integer
+    item_count 4 : integer
+    is_lucky 5 : boolean       #true表示幸运一击，false表示击杀
+}
+
+.CrossTraitorBossRecord {
+    time 0 : integer
+    role_name 1 : string
+    hurt 2 : integer
+    item_id 3 : integer
+    item_count 4 : integer
+}
+
+.CrossTraitorBossPosInfo {
+    uuid 0 : string
+    role_name 1 : string
+    role_id 2 : integer
+    server_id 3 : integer
+    protect_ts 4 : integer           #保护时间，无时间为nil
+    fight_score 5 : integer
+}
+
+.AchievementInfo {
+    progress 0 : integer             #成就进度
+    achievement_id 1 : integer       #成就id，nil表示该类型成就已全部做完
+    is_reach 2 : boolean             #true表示成就达成
+}
+
+.FriendBasicInfo{
+    uuid 0 : string
+    role_id 1 : integer             #头像所使用的英雄id
+    name 2 : string
+    level 3 : integer
+    fight_score 4 : integer
+    dynasty 5 : string
+    server_id 6 : integer
+    offline_time 7 : integer         #在线状态，在线返回0，离线返回最后在线时间戳
+    send_gift 8 : boolean            #是否已赠送兴奋度
+    apply_time 9 : integer           #申请添加好友时间
+    score 10 : integer               #国立
+}
+
+.FriendLineupInfo{
+    hero_info 0 : HeroInfo
+    pos_id 1 : integer
+    lineup_id 2 : integer
+    equip_dict 3 : i$RoleItem       #键为装备位置，值为装备信息
+}
+
+# 排行榜
+.RankInfo {
+    name 0 : string
+    dynasty_name 1 : string        #王朝名字，没有王朝为nil
+    role_id 2 : integer
+    vip 3 : integer
+    server_id 4 : integer          #服务器id, 本服排行榜为nil
+    rank_score 5 : integer         #排行积分，不同排行榜表示意思不一样
+    level 6 : integer # 等级
+    uuid 7 : string
+}
+
+# 王朝排行榜
+.DynastyRank {
+    dynasty_name 0 : string
+    dynasty_level 1 : integer
+    dynasty_badge 2 : integer
+    server_id 3 : integer          #服务器id, 本服排行榜为nil
+    rank_score 4 : integer         #排行积分，不同排行榜表示意思不一样
+    dynasty_id 5 : string
+}
+
+.RandomTravelInfo {
+    area_id 0 : integer
+    event_id 1 : integer
+    meet_id 2 : integer
+    item_id 3 : integer
+    count 4 : integer
+}
+
+.ReinforcementsInfo {
+    hero_id 1 : integer
+}
+
+.AwardInfo{
+    award_id 0 : integer
+    time 1 : integer
+    user_name 2 : string
+}
+
+.ActivityItemList{
+    item_id 0 : integer
+    count 1 : integer
+}
+
+.LoverVideosInfo{
+    lover_id 0 : integer
+    video_id 1 : integer
+    video_name 2 : string
+    video_status 3 : integer
+    reward_status 4 : integer
+}
+
+.LoverActivityList{
+    id 0 : integer
+    activity_name_fir 1 : string
+    activity_name_sec 2 : string
+    lover_id 3 : integer
+    lover_type 4 : integer
+    lover_piece 5 : integer
+    lover_fashion 6 : integer
+    item_list 7 : *ActivityItemList
+    price 8 : integer
+    discount 9 : integer
+    icon 10 : string
+    face_time 11 : string
+    purchase_status 12 : integer
+    end_ts 13 : integer
+}
+
+.HeroActivityList{
+    id 0 : integer
+    activity_name_fir 1 : string
+    activity_name_sec 2 : string
+    hero_id 3 : integer
+    hero_left_id 4 : integer
+    hero_right_id 5 : integer
+    item_list 6 : *ActivityItemList
+    price 7 : integer
+    discount 8 : integer
+    icon 9 : string
+    end_ts 10 : integer
+}
+
+.GiftPackageList{
+     id 0 : integer
+     uuid 1 : string
+     residue_count 2 : integer
+ }

@@ -1,0 +1,38 @@
+# [bag index dispatch] ------ [800, 899] ------
+
+s_online_bag_item 800 {      #上线的时候发全部物品
+    request {
+        item_list 0 : *RoleItem
+    }
+}
+
+s_bag_item_add 801 {        #增加物品
+    request {
+        add_item 0 : RoleItem
+    }
+}
+
+s_bag_item_remove 802 {      #移除物品
+    request {
+        item_guid 0 : string
+    }
+}
+
+s_bag_item_update 803 {       #物品更新（如数量加减）
+    request {
+        update_item 0 : RoleItem
+    }
+}
+
+s_notify_add_item 805 {       #获得物品通知
+    request {
+        item_id 0 : integer
+        count 1 : integer
+    }
+}
+
+s_notify_add_item_congrats 806 { # 恭喜获得通知
+    request {
+        item_dict 0 : i$integer # item_id => item_count
+    }
+}

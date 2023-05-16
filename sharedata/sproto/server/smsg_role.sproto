@@ -1,0 +1,208 @@
+# [role index dispatch] ------ [100, 499] ------
+s_update_base_info 100 {
+    request {
+        uuid 0 : string
+        name 1 : string
+        role_id 2: integer
+        level 3 : integer
+        exp 4 : integer
+        score 5 : integer            #国力
+        currency 6 : i$integer
+        attr_dict 7 : s$float
+        fight_score 8 : integer      #战力
+        flag_id 9 : integer          #旗帜id
+        not_comment 10 : boolean     #不再评论
+    }
+}
+
+s_update_total_hall_info 101 {
+    request {
+        info 0 : Info
+        cmd_dict 1 : i$Cmd
+    }
+}
+
+s_update_prison_info 102 {          #更新监狱信息
+    request {
+        criminal_num 0 : integer
+        criminal_id 1 : integer
+        torture_remain_num 2 : integer
+    }
+}
+
+s_chat 103 {
+    request {
+        sender_uuid 0 : string
+        sender_name 1 : string
+        sender_vip 2 : integer
+        sender_role_id 3 : integer
+        sender_server_id 4 : integer
+        sender_title 5 : integer # 称号
+        chat_type 6 : integer
+        content 7 : string
+        private_name 8 : string             #私聊对象名字
+    }
+}
+
+# 指引步骤
+s_update_newbie_guide_info 104 {
+    request {
+        guide_dict 0 : i$integer  # 当前进行到的指引步骤(groupId,stepId)
+    }
+}
+
+# 锁定的系统
+s_level_event_trigger 121 {
+    request {
+        locked_dict 0 : i$boolean # 当前还没有解锁的功能(funcId,true)
+    }
+}
+
+s_update_travel_info 105 {
+    request {
+        luck 0 : Luck
+        strength_num 1 : integer
+        last_time 2 : integer
+        area_unlock_dict 3 : i$integer
+        assign_travel_num 4 : integer
+        lover_meet 5 : i$LoverMeet
+    }
+}
+
+s_update_salon_info 106 {
+    request {
+        attr_point_count 0 : integer
+        salon_dict 1 : i$SalonInfo
+        old_salon_dict 2 : i$SalonInfo
+        salon_integral 3 : integer
+        attr_point_buy_num 4 : integer
+    }
+}
+
+s_update_daily_dare_info 107 {
+    request {
+        dare_list 0 : *DailyDare
+    }
+}
+
+s_update_dare_tower_info 108 {
+    request {
+        dare_dict 0 : i$boolean
+        max_tower 1 : integer
+        treasure_dict 2 : i$boolean
+        pass_num 3 : integer
+    }
+}
+
+s_update_vitality 109 {           #更新活力
+    request {
+        vitality 0 : integer
+        vitality_ts 1 : integer
+    }
+}
+
+s_update_party_info 110 {
+    request {
+        party_info 0 : PartyInfo
+        not_receive_invite 1 : boolean
+        open_dict 2 : i$boolean
+        join_party_info 3 : PartyInfo
+        join_dict 4 : i$integer
+        invite_dict 5 : s$integer
+        new_invite 6 : PartyInviteInfo
+        new_refuse_invite 7 : PartyInviteInfo
+        free_ts 8 : integer                       # 0表示可以免费送礼
+        receive_invite_dict 9 : s$integer         #接受邀请dict, 键uuid，值party_id
+    }
+}
+
+s_update_action_point 112 {           #更新行动点
+    request {
+        action_point 0 : integer
+        action_point_ts 1 : integer
+    }
+}
+
+s_update_arena_info 113 {           #更新竞技场信息
+    request {
+        arena_history_rank 0 : integer    #历史最高排名
+        arena_shop 1 : i$integer          #商品id   购买次数
+    }
+}
+
+s_update_task_info 115 {         #更新任务信息
+    request {
+        group_id 0 : integer     #nil表示全部任务已做完
+        task_id 1 : integer      #nil表示当前组任务已做完，需要领取组奖励才开启下一任务
+        progress 2 : integer     #当前任务进度
+        is_finish 3 : boolean    #任务完成情况，true表示完成
+    }
+}
+
+s_update_achievement_info 116 {  #更新成就信息
+    request {
+        achievement_dict 0 : i$AchievementInfo        #键为成就类型
+    }
+}
+
+s_update_daily_active_info 120 {
+    request {
+        task_dict 0 : i$DailyActiveTaskInfo             #键为任务id
+        active_value 1 : integer                        #当前活跃度
+        chest_dict 2 : i$boolean                        #键为宝箱id，nil表示已领取
+        unlock_chest_num 3 : integer
+    }
+}
+
+s_update_salon_shop 122 {
+    request {
+        salon_shop 0 : i$integer
+        refresh_ts 1 : integer
+    }
+}
+
+s_update_party_shop 123 {
+    request {
+        party_shop 0 : i$integer
+        refresh_ts 1 : integer
+    }
+}
+
+s_update_vip_info 126 {
+    request {
+        vip_level 0 : integer
+        vip_exp 1 : integer
+        sell_gift 2 : i$boolean         #键为vip等级，值为领取状态
+        daily_gift 3 : boolean
+    }
+}
+
+s_update_vip_shop_info 127 {
+    request {
+        shop_info 0 : i$integer         #键为物品id，值为已购买次数
+        diff_time 1 : integer           #剩余时间倒计时时间戳
+    }
+}
+
+s_update_normal_shop_info 128 {
+    request {
+        shop_info 0 : i$integer         #键为物品id，值为已购买次数
+    }
+}
+
+s_update_crystal_shop_info 130 {
+    request {
+        daily_item 0 : i$integer
+        week_item 1 : i$integer
+    }
+}
+
+s_update_quetionnaire 131 {
+    request {
+        op_type 0 : integer                   #CSConst.OperateType
+        title 1 : string
+        activity_id 2 : integer
+        start_ts 3 : integer
+        end_ts 4 : integer
+    }
+}

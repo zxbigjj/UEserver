@@ -1,0 +1,542 @@
+# [role index dispatch] ------ [100, 499] ------
+c_gm 100 {
+    request {
+        cmd 0 : string
+    }
+}
+
+c_handle_info 101 {
+  request {
+    id 0 : integer
+  }
+  response {
+    errcode 0 : integer
+  }
+}
+
+c_publish_cmd 102 {
+  request {
+    id 0 : integer
+  }
+  response {
+    errcode 0 : integer
+  }
+}
+
+c_use_hall_item 103 {
+  request {
+    item_id 0 : integer
+    cmd_id 1 : integer
+    count 2 : integer
+  }
+  response {
+    errcode 0 : integer
+  }
+}
+
+c_prison_torture 104 {
+  request {
+    torture_type 0 : integer
+    torture_num 1 : integer
+  }
+  response {
+    errcode 0 : integer
+  }
+}
+
+c_send_chat_msg 105 {
+    request {
+        chat_type 0 : integer
+        content 1 : string
+        private_uuid 2 : string                  #私聊对象uuid
+        private_name 3 : string                  #私聊对象名字
+    }
+    response {
+        errcode 0 : integer
+        tips_id 1 : integer                      #意思看CSConst.ChatTips
+    }
+}
+
+c_complete_guide 106 {
+    request {
+        guide_group_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_travel_area_unlock 107 {
+    request {
+        area_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_random_travel 108 {
+    request {
+    }
+    response {
+        errcode 0 : integer
+        area_id 1 : integer
+        event_id 2 : integer
+        meet_id 3 : integer
+        item_id 4 : integer
+        count 5 : integer
+    }
+}
+
+c_assign_travel 109 {
+    request {
+        area_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+        event_id 1 : integer
+        meet_id 2 : integer
+        item_id 3 : integer
+        count 4 : integer
+    }
+}
+
+c_travel_use_item 110 {
+    request {
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_travel_luck_restore_set 111 {      #自动恢复设置
+    request {
+        set_value 0 : integer
+        set_item_id 1 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_travel_luck_restore 112 {         #手动恢复
+    request {
+        item_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_salon_dispatch_lover 113 {
+    request {
+        salon_id 0 : integer
+        lover_id 1 : integer
+        attr_point_dict 2 : s$integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_salon_buy_attr_point 114 {
+    request {
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_salon_receive_integral 115 {
+    request {
+        salon_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_salon_get_pvp 116 {
+    request {
+        salon_id 0 : integer
+        day 1 : integer
+        pvp_id 2 : integer
+    }
+    response {
+        errcode 0 : integer
+        pvp_info 1 : SalonPvPRecordInfo
+    }
+}
+
+c_daily_dare_fight 119 {
+    request {
+        dare_id 0 : integer
+        difficult_id 1 : integer
+    }
+    response {
+        errcode 0 : integer
+        fight_data 1 : FightData
+        is_win 2 : boolean
+    }
+}
+
+c_dare_tower_fight 120 {
+    request {
+        tower_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+        fight_data 1 : FightData
+        is_win 2 : boolean
+        item_list 4 : *RoleItem
+    }
+}
+
+c_dare_tower_treasure_reward 121 {
+    request {
+        tower_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_get_task_reward 122 {             #领取当前任务奖励
+    request {
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_get_task_group_reward 123 {         #领取任务组奖励
+    request {
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_get_achievement_reward 124 {           #领取成就奖励
+    request {
+        achievement_type 0 : integer     #成就类型
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_receive_active_task_reward 128 {
+    request {
+        task_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_receive_active_chest_reward 129 {
+    request {
+        chest_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_buy_salon_shop_item 130 {          #购买沙龙商店物品
+    request {
+        shop_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_refresh_salon_shop 131 {          #刷新沙龙商店
+    request {
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_buy_party_shop_item 132 {          #购买派对商店物品
+    request {
+        shop_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_refresh_party_shop 133 {          #刷新派对商店
+    request {
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_modify_role_image 134 {          #修改主角形象
+    request {
+        role_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_modify_role_name 135 {          #修改主角名字
+    request {
+        name 0 : string
+    }
+    response {
+        errcode 0 : integer
+        name_repeat 1 : boolean     #名字重复
+        mask 2 : boolean     #敏感字
+    }
+}
+
+c_get_rank_list 136 {         #排行榜
+    request {
+        rank_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+        rank_list 1 : *RankInfo
+        self_rank 2 : integer        #未上榜为nil
+        self_rank_score 3 : integer  #排行积分，不同排行榜表示意思不一样
+    }
+}
+
+c_receive_vip_daily_gift 138 {
+    request {
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_buy_vip_sell_gift 139 {
+    request {
+        buy_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_buy_vip_shop_item 142 {
+    request {
+        shop_id 0 : integer
+        shop_num 1 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_buy_normal_shop_item 143 {
+    request {
+        shop_id 0 : integer
+        shop_num 1 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_buy_crystal_shop_item 145 {
+    request {
+        shop_id 0 : integer
+        shop_num 1 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_publish_all_cmd 146 {         #一键征收
+    request {
+    }
+    response {
+        errcode 0 : integer
+        cmd_dict 1 : i$integer
+    }
+}
+
+c_total_random_travel 147 {         #一键随机出行
+    request {
+    }
+    response {
+        errcode 0 : integer
+        travel_info 1 : *RandomTravelInfo
+    }
+}
+
+c_set_language 158 {               #设置语言
+    request {
+        language 0 : string        #和翻译表保持一致
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_get_role_base_info 159 {         #获取玩家基础信息
+    request {
+        uuid 0 : string
+    }
+    response {
+        errcode 0 : integer
+        level 1 : integer # 等级
+        vip 2 : integer
+        role_id 3 : integer
+        name 4 : string
+        dynasty 5 : string        #王朝名字，没有王朝为nil
+        fight_score 6 : integer
+        server_id 7 : integer
+    }
+}
+
+c_can_use_gift_key 160 {           #是否能使用礼包码
+    request {
+    }
+    response {
+        can_use 0 : boolean
+    }
+}
+
+c_use_gift_key 161 {               #使用礼包码
+    request {
+        gift_key 0 : string
+    }
+    response {
+        success 0 : boolean        #是否使用成功
+        item_list 1 : *RoleItem
+        error_tips 2 : string
+    }
+}
+
+c_modify_role_flag 162 {          #修改主角旗帜
+    request {
+        flag_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_comment_setting 163 {          #评论设置
+    request {
+        not_comment 0 : boolean
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_save_comment 164 {             #保存评论
+    request {
+        comment_id 0 : integer
+        star_num 1 : integer     #评论星数
+        content 2 : string
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+# 领取vip礼包
+c_get_vip_gift 165 {
+    request {
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+
+c_get_cross_fight_score_rank_list 166 {         #跨服战力排行榜
+    request {
+    }
+    response {
+        errcode 0 : integer
+        rank_list 1 : *RankInfo
+        self_rank 2 : integer        #未上榜为nil
+        self_rank_score 3 : integer  #排行积分，不同排行榜表示意思不一样
+    }
+}
+
+c_get_cross_score_rank_list 167 {         #跨服帮力排行榜
+    request {
+    }
+    response {
+        errcode 0 : integer
+        rank_list 1 : *RankInfo
+        self_rank 2 : integer        #未上榜为nil
+        self_rank_score 3 : integer  #排行积分，不同排行榜表示意思不一样
+    }
+}
+
+c_get_cross_stage_start_rank_list 168 {         #跨服星星排行榜
+    request {
+    }
+    response {
+        errcode 0 : integer
+        rank_list 1 : *RankInfo
+        self_rank 2 : integer        #未上榜为nil
+        self_rank_score 3 : integer  #排行积分，不同排行榜表示意思不一样
+    }
+}
+
+c_get_stage_star_rank_list 169 {                # 本服星星排行榜
+    request {}
+    response {
+        errcode 0 : integer
+        rank_list 1 : *RankInfo
+        self_rank 2 : integer        #未上榜为nil
+        self_rank_score 3 : integer  #排行积分，不同排行榜表示意思不一样
+    }
+}
+
+c_get_score_rank_list 170 {                     # 本服帮力排行榜
+    request {}
+    response {
+        errcode 0 : integer
+        rank_list 1 : *RankInfo
+        self_rank 2 : integer        #未上榜为nil
+        self_rank_score 3 : integer  #排行积分，不同排行榜表示意思不一样
+    }
+}
+
+c_get_fight_score_rank_list 171 {               # 本服战力排行榜
+    request {}
+    response {
+        errcode 0 : integer
+        rank_list 1 : *RankInfo
+        self_rank 2 : integer        #未上榜为nil
+        self_rank_score 3 : integer  #排行积分，不同排行榜表示意思不一样
+    }
+}
+
+c_get_cross_hunt_rank_list 172 {                # 跨服伤害榜
+    request {}
+    response {
+        errcode 0 : integer
+        rank_list 1 : *RankInfo
+        self_rank 2 : integer        #未上榜为nil
+        self_rank_score 3 : integer  #排行积分，不同排行榜表示意思不一样
+    }
+}
+
+c_get_cross_train_rank_list 173 {               # 跨服叛军榜
+    request {}
+    response {
+        errcode 0 : integer
+        rank_list 1 : *RankInfo
+        self_rank 2 : integer        #未上榜为nil
+        self_rank_score 3 : integer  #排行积分，不同排行榜表示意思不一样
+    }
+}

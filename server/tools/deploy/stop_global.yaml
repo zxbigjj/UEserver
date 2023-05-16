@@ -1,0 +1,26 @@
+# 登录服
+- hosts: login
+  roles:
+    - stop_skynet
+
+# 全局唯一服务器
+- hosts: world:gm_router
+  roles:
+    - stop_skynet
+
+- hosts: cluster_router
+  tasks:
+    - name: 关闭客户端公告服务
+      shell: python tools/deploy/check_py_process.py stop tools/notice_http/main.py
+      args:
+        chdir: "{{zc_root}}"
+      register: result
+      changed_when: result.stdout != ""
+
+    - name: wait 3s
+      pause:
+        seconds: 3
+
+- hosts: cluster_router
+  roles:
+    - stop_skynet

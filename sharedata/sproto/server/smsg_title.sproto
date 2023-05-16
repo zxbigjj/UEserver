@@ -1,0 +1,38 @@
+# [title] 2000 ~ 2099
+
+# 称号数据(仅上线时)
+s_update_title_data 2000 {
+    request {
+        wearing_id 0 : integer   # 当前佩戴的title_id
+        title_dict 1 : i$integer # 已获得的称号, key:title_id, value:获得时间
+    }
+}
+
+# 更新佩戴的称号
+s_update_wearing_id 2001 {
+    request {
+        wearing_id 0 : integer # 当前佩戴的title_id
+    }
+}
+
+# 称号获得通知
+s_notify_add_title 2002 {
+    request {
+        title_id   0 : integer # 获得的称号id
+        getting_ts 1 : integer # 获得称号的时间
+    }
+}
+
+# 称号过期通知
+s_notify_del_title 2003 {
+    request {
+        title_id 0 : integer # 过期的称号id
+    }
+}
+
+# 教父殿堂(膜拜信息)
+s_update_worship_data 2004 {
+    request {
+        is_worship 0 : boolean # false:未膜拜, true:已膜拜
+    }
+}

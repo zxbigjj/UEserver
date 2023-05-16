@@ -1,0 +1,32 @@
+# [train index dispatch] ------ [1200, 1299] ------
+
+s_update_train_info 1200 {                     #更新试炼信息
+    request {
+        curr_stage 0 : integer                 #当前关卡
+        history_star_num 1 : integer           #历史星数
+        curr_star_num 2 : integer              #当前星数
+        can_use_star_num 3 : integer           #可用星数
+        add_attr_dict 4 : s$float              #属性加成
+        reset_num 5 : integer                  #已经重置的次数
+        add_attr_id_list 6 : *integer          #有值表示未选择属性加成
+        is_fail 7 : boolean                    #挑战失败
+        max_stage 8 : integer                  #最高三星关卡
+        has_buy_treasure 9 : boolean           #已经购买了秘宝
+        layer_star_num_list 10 : *integer      #当前层星数
+    }
+}
+
+s_update_train_war_info 1201 {           #更新试炼副本信息
+    request {
+        curr_war 0 : integer             #最高通关副本
+        fight_num 1 : integer            #剩余挑战次数
+        buy_fight_num 2 : integer        #购买次数
+        max_war 3 : integer              #最高副本
+    }
+}
+
+s_update_train_shop 1202 {           #更新试炼商店信息
+    request {
+        train_shop 0 : i$integer     #商品id   购买次数
+    }
+}

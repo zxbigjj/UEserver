@@ -1,0 +1,39 @@
+# [benefit index dispatch] ------ [1800, 1899] ------
+
+s_update_check_in_monthly_info 1800 {                    #更新月签到信息
+    request {
+        check_in_date_reward 0 : i$integer      #日期  物品状态
+        check_in_chest_reward 1 : *integer      #宝箱领取状态
+        check_in_count 2 : integer              #本月签到数量
+        replenish_num 3 : integer               #本月剩余补签总次数
+        replenish_remain_today 4 : integer      #今日剩余补签次数
+        chenck_in_integral 5 : integer          #充值积分
+    }
+}
+
+s_update_check_in_weekly_info 1801 {                     #更新周签到信息
+    request {
+        check_in_reward 0 : i$integer                   #日期  物品状态
+        luck_reward_count 1 : integer                   #幸运签到次数
+        luck_value 2 : integer                          #当前幸运值
+        start_day 3 : integer                           #本周开始日期
+        day_index 4 : integer                           #今日日期位置
+    }
+}
+
+s_update_first_week_info 1802 {
+    request {
+        start_time 0 : integer
+        task_dict 1 : i$integer                 #键为任务类型，值为任务进度
+        recive_dict 2 : i$boolean               #键为任务id
+        half_sell 3 : *boolean                  #每天半价限购购买状态
+        daily_sell 4 : *FirstWeekDailySellInfo  #每日限购状态
+    }
+}
+
+s_update_first_week_task 1803 {
+    request {
+        task_type 0 : integer
+        progress 1 : integer
+    }
+}

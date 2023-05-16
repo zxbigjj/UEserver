@@ -1,0 +1,56 @@
+# 准备机器环境，安装需要的库
+- hosts: all_host
+  become: yes
+  tasks:
+    - name: 安装telnet
+      yum:
+        name: telnet
+
+    # - name: 安装libunwind
+    #   yum:
+    #     name: libunwind
+
+    # - name: 安装tcmalloc
+    #   yum:
+    #     name: gperftools
+
+    # - name: 安装libasan
+    #   yum:
+    #     name: libasan
+
+    - name: 安装pip
+      easy_install:
+        name: pip
+
+    - name: 安装python库
+      pip: 
+        name: 
+          - jinja2
+          - gevent
+          # - pyinotify
+          - pyyaml
+
+    - name: 修改最大打开文件数
+      pam_limits:
+        domain: haojisheng
+        limit_type: soft
+        limit_item: nofile
+        value: 64000
+
+    - name: 修改最大打开文件数
+      pam_limits:
+        domain: haojisheng
+        limit_type: hard
+        limit_item: nofile
+        value: 64000
+
+    - name: 修改core文件大小
+      pam_limits:
+        domain: haojisheng
+        limit_type: soft
+        limit_item: core
+        value: unlimited
+    - name: set vm.max_map_count
+      sysctl: name={{ item.key }} value={{ item.value }}
+      with_items:
+        - { key: "vm.max_map_count", value: "5120000" }

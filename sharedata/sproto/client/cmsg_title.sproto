@@ -1,0 +1,39 @@
+# [title] 2000 ~ 2099
+
+# 佩戴称号
+c_wearing_title 2000 {
+    request {
+        title_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+# 卸下称号
+c_unwearing_title 2001 {
+    request {
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+# 膜拜教父
+c_worship_godfather 2002 {
+    request {
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+# 获取教父殿堂数据
+c_get_godfather_hall_data 2003 {
+    request {
+    }
+    response {
+        errcode 0 : integer # 错误代码
+        godfather_dict 1 : i$GodfatherData # key: 冲榜称号id, value: 获得者数据
+    }
+}

@@ -1,0 +1,74 @@
+# 日常活跃信息
+.DailyActiveTaskInfo{
+    progress 0 : integer
+    is_receive 1 : boolean
+    require_progress 2 : integer
+}
+
+# 首周每日热卖
+.FirstWeekDailySellInfo{
+    sell_info 0 : i$integer
+}
+
+# 教父殿堂数据
+.GodfatherData {
+    current_roleid 0 : integer       # 当前获得者的模型id
+    current_name   1 : string        # 当前获得者的名称
+    current_vip    2 : integer       # 当前获得者的vip等级
+    history_list   3 : *TitleHistory # 当前称号的历史获得者
+}
+
+# 冲榜称号历史获得者
+.TitleHistory {
+    name 0 : string  # 玩家名称
+    ts   1 : integer # 上榜时间
+}
+
+# 充值活动信息
+.RechargeActivityInfo{
+    receive_count_dict 0 : i$integer    #档位领取次数，键为档位，值为次数
+    reach_dict 1 : i$integer            #档位领取状态，键为档位，值为可领取次数
+}
+
+# 限时活动信息
+.ActivityInfo {
+    progress_dict 0 : i$integer # 活动进度 key:detail_id value:progress
+    reward_dict   1 : i$integer # 活动奖励 key:reward_id value:RewardState
+    state         2 : integer   # CSConst.ActivityState.started/stopped/invalid
+}
+
+# 冲榜活动信息
+.RushActivityInfo {
+    self_rank 0 : integer # 当前玩家的排行
+    start_ts  1 : integer # 活动开始时间戳
+    stop_ts   2 : integer # 活动结束时间戳
+    end_ts    3 : integer # 活动过期时间戳
+    state     4 : integer # CSConst.ActivityState.started/stopped/invalid
+}
+
+# 节日活动信息
+.FestivalActivityInfo {
+    # started: 小活动处于开始状态，此期间可更新活动数据
+    # stopped: 小活动处于停止状态，此期间仍保留活动数据
+    # reserve: 小活动处于保留状态，此期间仍可以兑换商品
+    # invalid: 小活动处于无效状态，此刻活动数据将被清空
+    state         0 : integer   # 活动状态 (CSConst.ActivityState.started/stopped/reserve/invalid), 上线时以及状态改变时会发送
+    reward_dict   1 : i$integer # 奖励dict, key: reward_id, value: CSConst.RewardState, 登录进度可以根据奖励状态来判断
+    progress_dict 2 : i$integer # 进度dict, key: CSConst.FestivalActivityType, value: 进度 (login|recharge 不在这里)
+    recharge_dict 3 : i$integer # 充值dict, key: 单笔充值id, value: 剩余充值次数
+    discount_dict 4 : i$integer # 折扣dict, key: 限时折扣id, value: 剩余购买次数
+    exchange_dict 5 : i$integer # 兑换dict, key: 商品兑换id, value: 剩余兑换次数
+}
+
+# 豪华签到
+.LuxuryCheckInData {
+    recharge_times 0 : integer # 剩余充值次数
+    reward_id      1 : integer # 奖励 id
+    reward_state   2 : integer # 奖励状态(CSConst.RewardState)
+}
+
+# 月卡信息
+.MonthlyCardInfo {
+    is_received    0 : boolean # 今日是否领过奖励, false:没领过, true:已领过
+    remaining_days 1 : integer # 月卡剩余有效期(天), 对于终身卡, 此字段值为nil
+}

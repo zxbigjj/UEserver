@@ -1,0 +1,215 @@
+# [friend index dispatch] ------ [1600, 1699] ------
+
+c_send_friend_gift 1600 {               #赠送好友礼物
+    request {
+        uuid 0 : string
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_send_all_friend_gift 1601 {               #赠送所有好友礼物
+    request {
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_get_all_friend_info 1602 {                #获取好友列表
+    request {
+    }
+    response {
+        friend_info_dict 0 : s$FriendBasicInfo
+    }
+}
+
+c_receive_friend_gift 1603 {            #接收好友礼物
+    request {
+        uuid 0 : string
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_receive_all_friend_gift 1604 {            #接收所有好友礼物
+    request {
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_get_receive_gift_info 1605 {          #获取礼物接收列表
+    request {
+    }
+    response {
+        receive_gift_dict 0 : s$FriendBasicInfo
+    }
+}
+
+c_confirm_friend_apply 1606 {           #确认好友申请
+    request {
+       uuid 0 : string
+    }
+    response {
+        errcode 0 : integer
+        tips 1 : integer
+    }
+}
+
+c_confirm_all_friend_apply 1607 {           #接收所有好友申请
+    request {
+    }
+    response {
+        errcode 0 : integer
+        tips 1 : integer
+    }
+}
+
+c_apply_friend 1608 {                  #申请添加好友
+    request {
+        uuid 0 : string
+    }
+    response {
+        errcode 0 : integer
+        tips 1 : integer
+    }
+}
+
+c_get_friend_apply_list 1609 {          #获取好友申请列表
+    request {
+    }
+    response {
+        friend_apply_dict 0 : s$FriendBasicInfo
+    }
+}
+
+c_delete_friend 1610 {                  #删除好友
+    request {
+        uuid 0 : string
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_add_friend_to_blacklist 1611 {          #添加玩家到黑名单
+    request {
+        uuid 0 : string
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_remove_friend_in_blacklist 1612 {          #解除黑名单好友
+    request {
+        uuid 0 : string
+    }
+    response {
+        errcode 0 : integer
+        tips 1 : integer
+    }
+}
+
+c_remove_all_friend_in_blacklist 1613 {          #解除所有黑名单好友
+    request {
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_delete_friend_in_blacklist 1614 {        #删除黑名单好友
+    request {
+        uuid 0 : string
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_delete_all_friend_in_blacklist 1615 {        #删除所有黑名单好友
+    request {
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_get_all_blacklist_friend 1616 {          #获取好友黑名单列表
+    request {
+    }
+    response {
+        blacklist_friend_dict 0 : s$FriendBasicInfo
+    }
+}
+
+c_refuse_friend_apply 1617 {                #拒绝单个好友申请
+    request {
+        uuid 0 : string
+    }
+    response {
+        errcode 0 : integer
+    }
+
+}
+c_refuse_all_friend_apply 1618 {            #拒绝所有好友申请
+    request {
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_get_recommend_friend 1619 {               #获取推荐好友列表
+    request {
+    }
+    response {
+        friend_info_dict 0 : s$FriendBasicInfo
+    }
+}
+
+c_get_lineup 1620 {               #获取阵容
+    request {
+        uuid 0 : string
+    }
+    response {
+        errcode 0 : integer
+        lineup_dict 1 : i$FriendLineupInfo  #键为英雄位置，值为英雄装备信息
+    }
+}
+
+c_fight_with_friend 1621 {              #好友切磋
+    request {
+        uuid 0 : string
+    }
+    response {
+        errcode 0 : integer
+        is_win 1 : boolean
+        fight_data 2 : FightData
+    }
+}
+
+c_send_mail_to_friend 1622 {
+    request {
+        uuid 0 : string
+        msg 1 : string
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_search_friend 1623 {                  #搜索好友
+    request {
+        uuid 0 : string
+    }
+    response {
+        errcode 0 : integer
+        friend_info 1 : FriendBasicInfo
+    }
+}

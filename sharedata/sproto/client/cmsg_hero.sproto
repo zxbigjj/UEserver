@@ -1,0 +1,203 @@
+# [hero index dispatch] ------ [500, 599] ------
+
+c_upgrade_hero_level 500 {           #升级英雄
+    request {
+        hero_id 0 : integer
+        ten_level 1 : boolean        #升十级
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_hero_breakthrough 501 {           #英雄突破
+    request {
+        hero_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_upgrade_hero_star_lv 502 {           #英雄升星
+    request {
+        hero_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_upgrade_hero_destiny_lv 503 {        #英雄天命升级
+    request {
+        hero_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_lineup_change_hero 504 {
+    request {
+        hero_id 0 : integer
+        lineup_id 1 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_hero_adjust_pos_lineup 505 {
+    request {
+        pos_dict 1 : i$integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_lineup_wear_equip 506 {         #穿戴装备
+    request {
+        lineup_id 0 : integer
+        part_index 1 : integer
+        item_guid 2 : string
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_lineup_unwear_equip 507 {         #卸下装备
+    request {
+        lineup_id 0 : integer
+        part_index 1 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_lineup_strengthen_equip 508 {         #强化装备
+    request {
+        item_guid 0 : string
+        cost_item_list 1 : *string     #消耗物品列表，item_guid列表（宝物需要）
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_strengthen_equip_five_times 509 {         #强化5次（只有装备有宝物没有）
+    request {
+        item_guid 0 : string
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_quick_strengthen_equip 510 {         #一键强化（只有装备有宝物没有）
+    request {
+        lineup_id 0 : integer          #阵容位置
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_lineup_refine_equip 511 {         #精炼装备
+    request {
+        item_guid 0 : string
+        cost_item_id 1 : integer            #消耗物品ID
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_quick_refine_equip 512 {         #一键精炼（只有装备有宝物没有）
+    request {
+        item_guid 0 : string
+        cost_item_dict 1 : i$integer            #消耗物品dict, 键为物品ID，值为物品数量
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_upgrade_equip_star_lv 513 {         #装备升星
+    request {
+        item_guid 0 : string                #存在代表升星的是背包装备
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_equip_smelt 514 {         #装备炼化
+    request {
+        item_guid 0 : string
+        cost_item_id 1 : integer            #消耗物品ID
+    }
+    response {
+        errcode 0 : integer
+        is_success 1: boolean
+        crit 2: float                     #暴击
+    }
+}
+
+c_equip_recover 515 {         #装备重生
+    request {
+        item_guid 0 : string
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_hero_recover 516 {         #英雄重生
+    request {
+        hero_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_give_hero_item 517 {         #赠送英雄物品（吃书）
+    request {
+        hero_id 0 : integer
+        item_id 1 : integer
+        item_count 2 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_reinforcements_change 518 {         #援军
+    request {
+        pos_id 0 : integer
+        hero_id 1 : integer           #nil表示卸下援军
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_buy_hero_shop_item 519 {          #购买英雄商店物品
+    request {
+        shop_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_refresh_hero_shop 520 {          #刷新英雄商店
+    request {
+    }
+    response {
+        errcode 0 : integer
+    }
+}

@@ -1,0 +1,32 @@
+# cluster_router
+- hosts: cluster_router
+  tasks:
+    - name: 启动客户端公告服务
+      shell: python tools/deploy/check_py_process.py start tools/notice_http/main.py
+      args:
+        chdir: "{{zc_root}}"
+      register: result
+      changed_when: result.stdout != ""
+    - name: 生成all_game
+      shell: python generator.py --all_game
+      args:
+        chdir: "{{zc_root}}/config.template"
+      changed_when: false
+
+- hosts: cluster_router
+  roles:
+    - lauch_skynet
+  tasks:
+    - name: wait 3s
+      pause:
+        seconds: 3
+
+# 全局唯一服务器
+- hosts: world:gm_router
+  roles:
+    - lauch_skynet
+
+# 登录服
+- hosts: login
+  roles:
+    - lauch_skynet

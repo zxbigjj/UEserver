@@ -1,0 +1,33 @@
+################################################
+mongodb
+1.
+Create a /etc/yum.repos.d/mongodb-org-3.4.repo file so that you can install MongoDB directly, using yum.
+[mongodb-org-3.4]
+name=MongoDB Repository
+baseurl=https://repo.mongodb.org/yum/redhat/$releasever/mongodb-org/3.4/x86_64/
+gpgcheck=1
+enabled=1
+gpgkey=https://www.mongodb.org/static/pgp/server-3.4.asc
+
+2.
+sudo yum install -y mongodb-org
+################################################
+rsync
+sudo yum install rsync
+################################################
+ftp
+sudo yum install ftp
+################################################
+mysql
+# wget https://dev.mysql.com/get/mysql57-community-release-el7-11.noarch.rpm
+# rpm -ivh mysql57-community-release-el7-11.noarch.rpm
+# yum install mysql-community-server
+################################################
+TiDB
+export GOPATH = xxx
+git clone https://github.com/pingcap/tidb.git $GOPATH/src/github.com/pingcap/tidb
+cd $GOPATH
+make
+cd ./src/github.com/pingcap/tidb/bin
+./tidb-server
+mysql -h 127.0.0.1 -P 4000 -u root -D test --prompt="tidb> "

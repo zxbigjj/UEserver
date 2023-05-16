@@ -1,0 +1,96 @@
+# [role index dispatch] ------ [1900, 1999] ------
+
+c_recharge 1900 {
+    request {
+        recharge_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+        first_recharge 1 : boolean
+    }
+}
+c_create_order 1999 {
+     request {
+         recharge_id 0 : integer
+     }
+     response {
+         errcode 0 : integer
+         call_back_url 1 : string
+         order_id 2 : integer
+     }
+ }
+
+ c_query_order 1998 {
+     request {
+         order_id 0 : integer
+     }
+     response {
+         errcode 0 : integer
+         order_status 1 : integer
+         order_id 2 : integer
+     }
+ }
+
+ c_create_yueka_order 1997 {
+      request {
+          card_id 0 : integer
+      }
+      response {
+          errcode 0 : integer
+          call_back_url 1 : string
+          order_id 2 : integer
+      }
+  }
+
+create_lover_order 1996 {
+     request {
+         package_id 0 : integer
+     }
+     response {
+         errcode 0 : integer
+         call_back_url 1 : string
+         order_id 2 : integer
+     }
+}
+
+create_hero_order 1995 {
+     request {
+         package_id 0 : integer
+     }
+     response {
+         errcode 0 : integer
+         call_back_url 1 : string
+         order_id 2 : integer
+     }
+}
+
+c_lover_recharge 1994 {
+    request {
+        package_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_hero_recharge 1993 {
+    request {
+        package_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+
+
+c_create_gift_order 1992 {
+     request {
+         gift_id 0 : integer
+     }
+     response {
+         errcode 0 : integer
+         call_back_url 1 : string
+         order_id 2 : integer
+     }
+}

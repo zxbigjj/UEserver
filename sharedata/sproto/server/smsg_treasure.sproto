@@ -1,0 +1,14 @@
+# [treasure index dispatch] ------ [1000, 1099] ------
+
+s_online_grab_treasure 1000 {      #夺宝上线消息
+    request {
+        treasure_dict 0 : i$GrabTreasure
+    }
+}
+
+s_update_grab_treasure 1001 {      #更新夺宝数据
+    request {
+        treasure_id 0 : integer
+        fragment_dict 1 : i$integer     #当一个碎片都没有时，可能为nil
+    }
+}

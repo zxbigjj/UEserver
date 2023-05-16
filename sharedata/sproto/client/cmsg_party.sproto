@@ -1,0 +1,144 @@
+# [party index dispatch] ------ [1400, 1499] ------
+
+c_party_start 1400 {
+    request {
+        lover_id 0 : integer
+        party_type_id 1 : integer
+        is_private 2 : boolean
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_party_invite_role 1401 {
+    request {
+        role_dict 0 : s$boolean
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_party_refuse_invite 1402 {
+    request {
+        uuid 0 : string             #nil表示全部拒绝
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_party_end 1403 {
+    request {
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_party_random 1404 {
+    request {
+    }
+    response {
+        errcode 0 : integer
+        party_list 1 : *PartyInfo
+    }
+}
+
+c_party_join 1405 {
+    request {
+        party_id 0 : integer
+        lover_id 1 : integer
+        gift_id 2 : integer
+    }
+    response {
+        errcode 0 : integer
+        end_type 1 : integer
+    }
+}
+
+c_party_interrupt 1406 {
+    request {
+        party_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+        reward_dict 1 : i$integer
+        end_type 2 : integer
+    }
+}
+
+c_party_games 1407 {
+    request {
+        score 0 : integer
+    }
+    response {
+        errcode 0 : integer
+        integral 1 : integer
+    }
+}
+
+c_party_receive_integral 1408 {
+    request {
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_get_party_info 1410 {
+    request {
+        party_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+        party_info 1 : PartyInfo
+    }
+}
+
+c_party_get_enemy_list 1411 {
+    request {
+    }
+    response {
+        errcode 0 : integer
+        enemy_list 1 : *PartyEnemyInfo
+    }
+}
+
+c_party_get_record_list 1412 {
+    request {
+    }
+    response {
+        errcode 0 : integer
+        record_list 1 : *PartyInfo
+    }
+}
+
+c_find_party 1414 {
+    request {
+        uuid 0 : string
+    }
+    response {
+        errcode 0 : integer
+        party_info 1 : PartyInfo
+    }
+}
+
+c_party_set_receive_invite 1415 {
+    request {
+        set_value 0 : boolean
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_party_get_invite_list 1416 {
+    request {
+    }
+    response {
+        errcode 0 : integer
+        invite_list 1 : *PartyInfo
+    }
+}

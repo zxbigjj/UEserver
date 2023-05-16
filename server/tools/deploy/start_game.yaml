@@ -1,0 +1,11 @@
+# cross
+- hosts: cross_*
+  roles:
+    - lauch_skynet
+
+# game
+- hosts: game_*
+  roles:
+    - lauch_skynet
+
+

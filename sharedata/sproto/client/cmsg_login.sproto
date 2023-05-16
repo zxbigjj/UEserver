@@ -1,0 +1,72 @@
+# [login index dispatch] ------ [1, 99] ------
+c_login 1 {
+    request {
+        urs 0 : string  # pc下用
+        info 1 : string
+    }
+    response {
+        errcode 0 : integer
+        urs 1 : string
+        token 2 : string    # 认证token
+        no_role 3 : boolean
+        is_guide_not_end 4 : boolean
+        is_not_flag 5 : boolean
+    }
+}
+
+c_client_ping 2 {
+    request {
+        ping_id 0 : integer
+    }
+}
+
+c_heartbeat 3 {
+    request {
+    }
+    response {
+        server_time 0 : integer
+    }
+}
+
+c_client_quit 6 {
+    request {
+        uuid 0 : string
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_reconnect 7 {
+    request {
+        uuid 0 : string
+        token 1 : string
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_new_role 8 {
+    request {
+        urs 0 : string
+        role_name 1 : string
+        role_id 2 : integer
+        flag_id 3 : integer      #旗帜id
+    }
+    response {
+        errcode 0 : integer
+        token 1 : string    # 认证token
+        name_repeat 2 : boolean   #名字重复
+        mask 3 : boolean   #敏感字
+    }
+}
+
+c_query_random_name 9 {
+    request {
+        sex 0 : integer   #男1女2
+    }
+    response {
+        role_name 0 : string
+    }
+}

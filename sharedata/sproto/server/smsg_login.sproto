@@ -1,0 +1,25 @@
+# [login index dispatch] ------ [1, 99] ------
+s_notify_msg 1 {
+    request {
+        errstr 0 : string
+        notify_type 1 : integer
+    }
+}
+
+s_client_ping 2 {
+    request {
+        ping_id 0 : integer
+    }
+}
+
+s_kick_out 3 {
+    request {
+        relogin 0 : boolean
+    }
+}
+
+s_online_server_time 4 {
+    request {
+        server_time 0 : integer
+    }
+}

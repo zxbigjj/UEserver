@@ -1,0 +1,31 @@
+# [friend index dispatch] ------ [1600, 1699] ------
+
+s_update_receive_gift_count 1600 {
+    request {
+        receive_gift_count 0 : integer
+        this_time_receive 1 : integer
+    }
+}
+
+s_update_operation_info 1601 {          #是否需要操作好友列表
+    request {
+        apply_bool 0 : boolean
+        gift_bool 1 : boolean
+    }
+}
+
+s_friend_send_gift 1602 {               #好友赠送礼物
+    request {
+    }
+}
+
+s_user_add_friend_apply 1603 {          #添加好友请求
+    request {
+    }
+}
+
+s_update_friend_info 1604 {
+    request {
+        friend_info_dict 0 : s$FriendBasicInfo
+    }
+}

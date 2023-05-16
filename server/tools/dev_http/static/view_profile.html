@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <script type="text/javascript" src="d3.js"></script>
+    <style type="text/css">
+      text {
+        font-family: "Helvetica Neue", Helvetica;
+      }
+
+      .label {
+        pointer-events: none;
+        user-select:none;
+      }
+
+      .focus {
+        pointer-events: none;
+        fill: red;
+        font-size: 12pt;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="body">
+      <svg id="con">
+        <defs>
+            <filter x="0" y="0" width="1" height="1" id="solid">
+               <feFlood flood-color="black"/>
+               <feComposite in="SourceGraphic"/>
+            </filter>
+        </defs>
+      </svg>
+    </div>
+    <script type="text/javascript">
+
+    var w = screen.width - 200;
+    var h = screen.height - 200;
+    var color = d3.scaleOrdinal(d3.schemeCategory20c);
+    var root;
+    var is_mouse_down = false;
+    var has_moved = false;
+    var last_x = 0, last_y = 0;
+    var partition = d3.partition()
+        .size([w, h])
+        .round(true);
+    var con = d3.select("#con")
+        .attr("width", screen.width-10)
+        .attr("height", h);
+    var view_rect = {
+      "x":0,
+      "y":0,
+      "width":w,
+      "height":h,
+    };
+
+    var draw_area = con.append("svg")
+        .attr("width", w)
+        .attr("height", h)
+        .attr("x", 100)
+        .style("border", "solid");
+    var focus = con.append("svg").append("text").attr("class", "focus")
+        .attr('filter', 'url(#solid)');
+    var node;
+
+    d3.json("profile.json?abc="+Math.random(), function(data) {
+      function walk(d) {
+        d.total = d.self[2];
+        d.value = d.self[2];  
+        for (var i = 0; i < d.children.length; i++) {
+          d.total += walk(d.children[i]);
+        }
+        d.name = d.self + "/" + d.total;
+        return d.total;
+      }
+      walk(data);
+
+      root = d3.hierarchy(data)
+          .sum(function(d) { return d.value; })
+          .sort(function(a, b) { return b.value - a.value; });
+
+      partition(root);
+
+      node = draw_area.selectAll("g").data(root.descendants()).enter().append("svg:g")
+      node.append("svg:rect")
+          .style("fill", function(d) {return color(d.data.name)})
+          .attr("x", function(d) { return d.x0})
+          .attr("y", function(d) { return d.y0})
+          .attr("width", function(d) { return d.x1 - d.x0})
+          .attr("height", function(d) { return d.y1 - d.y0});
+
+      node.append("svg:text")
+          .attr("x", function(d) { return d.x0})
+          .attr("y", function(d) { return d.y1 - 2})
+          .attr("class", "label")
+          .style("opacity", function(d) { return d.x1 - d.x0 > 50 ? 1 : 0; })
+          .text(function(d) {return d.data.name});
+
+      con.on("wheel", function() {
+          var rate = (1000 + d3.event.deltaY) / 1000.0;
+          var mx = view_rect.x + (d3.event.x - 100) * view_rect.width / w;
+          var my = view_rect.y + d3.event.y * view_rect.height / h;
+          view_rect.x = mx - (mx - view_rect.x) * rate;
+          view_rect.y = my - (my - view_rect.y) * rate;
+          view_rect.height *= rate;
+          view_rect.width *= rate;
+          zoom(0);
+      })
+      .on("mousedown", function() { 
+        is_mouse_down = true;
+        has_moved = false;
+        last_x = d3.event.x;
+        last_y = d3.event.y;
+        d3.event.stopPropagation();
+      })
+      .on("mouseup", function() {
+        is_mouse_down = false;
+        d3.event.stopPropagation();
+      })
+      .on("mousemove", function() {
+        if(is_mouse_down) {
+          var diffx = last_x - d3.event.x;
+          var diffy = last_y - d3.event.y;
+          if(Math.abs(diffx) + Math.abs(diffy) > 2) {
+            last_x = d3.event.x
+            last_y = d3.event.y
+            view_rect.x += 2*diffx * view_rect.width / w;
+            view_rect.y += 2*diffy * view_rect.height / h;
+            zoom(0);
+            has_moved = true;
+          }
+        }
+        d3.event.stopPropagation();
+      });
+
+      node.on("click", click)
+      .on("mousemove", function(d, i) {
+          if(!is_mouse_down) {
+            var x = d3.event.x
+            focus.attr("x", x > screen.width / 2 ? x - 10 : x + 10)
+              .attr("y", d3.event.y)
+              .style("text-anchor", x > screen.width / 2 ? "end" : "start")
+              .text(function() { return slice_name(d.data.name); });
+            d3.event.stopPropagation();
+          }
+      })
+      .on("mouseout", function(d, i) {
+          focus.text("")
+      });
+
+      d3.select(window).on("click", function() { click(root); })
+      
+      function slice_name(name) {
+        if(name.length < 100) { return name };
+        return name.slice(0, 50).concat(" ... ", name.slice(-50, -1));
+      }
+
+      function click(d){
+        if(!has_moved)
+        {
+          view_rect.x = d.x0;
+          view_rect.width = d.x1 - d.x0;
+          if(d.y0 < 50) {
+            view_rect.y = 0;
+            view_rect.height = h;
+          }
+          else {
+            view_rect.y = d.y0 - 50;
+            view_rect.height = h - d.y0 + 50;
+          }
+          zoom(500);
+          d3.event.stopPropagation();
+        }
+      }
+
+      function zoom(duration) {
+        var scale_x = d3.scaleLinear().domain([0, w]).range([0, w*w/view_rect.width]);
+        var scale_y = d3.scaleLinear().domain([0, h]).range([0, h*h/view_rect.height]);
+
+        var t = node.transition().duration(duration);
+
+        t.attr("transform", function() { return "translate(" + -scale_x(view_rect.x) + "," + -scale_y(view_rect.y) + ")"; });
+
+        t.select("rect")
+            .attr("x", function(d) { return scale_x(d.x0)})
+            .attr("y", function(d) { return scale_y(d.y0)})
+            .attr("width", function(d) { return scale_x(d.x1) - scale_x(d.x0);})
+            .attr("height", function(d) { return scale_y(d.y1) - scale_y(d.y0);});
+
+        t.select(".label")
+            .attr("x", function(d) { return scale_x(d.x0)})
+            .attr("y", function(d) { return scale_y(d.y1) - 2})
+            .style("opacity", function(d) { return scale_x(d.x1) - scale_x(d.x0) > 50 ? 1 : 0; })
+      }
+      zoom(300);
+    })
+
+    </script>
+  </body>
+</html>

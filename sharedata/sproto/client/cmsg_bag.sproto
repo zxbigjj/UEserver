@@ -1,0 +1,32 @@
+# [bag index dispatch] ------ [800, 899] ------
+
+c_use_bag_item 800 {           #使用物品
+    request {
+        item_guid 0 : string
+        item_count 1 : integer
+        index 2 : integer        #多选一道具下标
+    }
+    response {
+        errcode 0 : integer
+        item_dict 1 : i$integer
+    }
+}
+
+c_decompose_item 801 {           #分解物品
+    request {
+        decompose_item_list 0 : *DecomposeItem
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_item_compose 802 {           #物品合成
+    request {
+        item_id 0 : integer          #碎片id
+        compose_count 1 : integer   #合成数量
+    }
+    response {
+        errcode 0 : integer
+    }
+}

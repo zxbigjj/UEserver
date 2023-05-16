@@ -1,0 +1,20 @@
+- name: 生成配置
+  shell: python generator.py {{server_id}}
+  args:
+    chdir: "{{zc_root}}/config.template"
+  changed_when: false
+
+# 一个节点
+- name: 启动skynet
+  shell: python tools/deploy/check_skynet.py start config/{{config}}.lua
+  args:
+    chdir: "{{zc_root}}"
+  register: result
+  changed_when: result.stdout != ""
+
+# 等待启动完成
+- name: 检查启动是否结束
+  shell: sh tools/deploy/check_skynet_started.sh {{config}}
+  args:
+    chdir: "{{zc_root}}"
+

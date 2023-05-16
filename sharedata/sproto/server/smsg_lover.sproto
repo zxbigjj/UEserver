@@ -1,0 +1,79 @@
+# [lover index dispatch] ------ [600, 699] ------
+
+s_online_lover 600 {
+    request {
+        all_lover 0 : i$LoverInfo      #所有情人
+        discuss_num 1 : integer        #商谈剩余次数
+        discuss_ts 2 : integer         #商谈时间点
+    }
+}
+
+s_add_lover 601 {                      #增加情人
+    request {
+        lover_info 0 : LoverInfo
+    }
+}
+
+s_update_discuss_data 602 {            #更新商谈次数和时间
+    request {
+        discuss_num 0 : integer        #商谈剩余次数
+        discuss_ts 1 : integer         #商谈时间点
+    }
+}
+
+s_update_lover_info 603 {      #更新单个情人的信息
+    request {
+        lover_id 0 : integer
+        level 1 : integer
+        exp 2 : integer
+        grade 3 : integer                      # 品级
+        old_grade 4 : integer
+        power_value 5 : integer                # 势力值
+        attr_dict 6 : s$integer
+        spell_dict 7 : i$integer
+        fashion_id 8 : integer                 #当前时装id
+        fashion_dict 9 : i$boolean             #拥有的所有时装
+        other_fashion_dict 10 : i$boolean      #前世拥有的所有时装
+        children 11 : integer                  #孩子数
+        star_lv 12 : integer                   #升星等级
+    }
+}
+
+s_update_child_info 604 {
+    request {
+        grid_num 0 : integer
+        child 1 : i$ChildInfo
+        propose_object_list 2 : *ChildObject
+    }
+}
+
+s_update_lover_train_info 605 {             #更新情人培训信息
+    request {
+       event_dict 0 : i$LoverEventDict
+       quicken_num 1 : integer            #加速次数
+       grid_num 2 : integer               #事件格子数
+    }
+}
+
+s_lover_train_finish 606 {             #培训完成
+    request {
+       event_id 0 : integer
+    }
+}
+
+s_update_lover_shop 607 {             #更新情人商店
+    request {
+        refresh_ts 0 : integer          #刷新时间
+        free_refresh_num 1 : integer    #免费刷新次数
+        total_refresh_num 2 : integer   #每天总刷新次数
+        shop_dict 3 : i$integer         #键为商品id, 值为购买次数
+    }
+}
+
+s_update_lover_activity 608 {             #更新情人活动
+    request {
+        lover_activity_id 0 :  integer #活动id
+        times 1 : integer          #购买次数
+        status 2 : integer    #购买状态
+    }
+}

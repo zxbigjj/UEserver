@@ -1,0 +1,18 @@
+# [mail index dispatch] ------ [1300, 1399] ------
+
+s_online_mail 1300 {
+    request {
+        has_unread 0 : boolean      #true表示存在未读邮件
+    }
+}
+
+s_add_mail 1301 {
+    request {
+    }
+}
+
+s_update_deadline_mail 1302 {
+    request {
+        has_unread 0 : boolean      #true表示存在未读邮件
+    }
+}

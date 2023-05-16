@@ -1,0 +1,135 @@
+.DynastyBaseInfo {
+    dynasty_id 0 : string
+    dynasty_name 1 : string
+    dynasty_level 2 : integer
+    dynasty_exp 3 : integer
+    dynasty_badge 4 : integer            #徽章
+    dynasty_score 5 : integer            #战力
+    member_count 6 : integer
+    dynasty_notice 7 : string            #公告
+    dynasty_declaration 8 : string       #宣言
+    godfather_name 9 : string            #教父名字
+    is_init_badge 10 : boolean           #表示初始徽章
+}
+
+.DynastyMemberInfo {
+    uuid 0 : string
+    name 1 : string
+    level 2 :integer
+    fight_score 3 : integer
+    role_id 4 : integer
+    vip 5 : integer
+    offline_ts 6 : integer             #离线时间
+    job 7 : integer                    #职位
+    build_type 8 : integer             #建设类型
+    history_dedicate 9 : integer       #历史贡献
+    join_ts 10 : integer               #加入时间
+    score 11 : integer
+}
+
+.ChallengeJanitorReward {              #守卫奖励
+    value 0 : integer                  #奖励数量
+    role_name 1 : string               #玩家名字
+}
+
+.ChallengeJanitorInfo {                       #守卫信息
+    max_hp 0 : integer                        #守卫最大血量
+    hp_dict 1 : i$integer                     #守卫当前血量，客户端需要遍历把值加起来
+    reward_list 2 : *ChallengeJanitorReward   #守卫奖励
+}
+
+.ChallengeStageInfo {
+    janitor_dict 0 : i$ChallengeJanitorInfo    #守卫dict， 键为守卫id
+}
+
+.JanitorBox {
+    box_dict 0 : i$boolean                #键为守卫id，值为领取状态
+}
+
+.ChallengeInfo {
+    curr_stage 0 : integer                #当前关卡
+    max_victory_stage 1 : integer         #最大胜利关卡
+    stage_dict 2 : i$ChallengeStageInfo   #今日关卡（挑战未开启时为nil）
+    setting 3 : i$boolean                 #关卡回退设置
+    challenge_num 4 : integer             #挑战剩余次数
+    challenge_num_ts 5 : integer          #挑战次数恢复时间（不能回复时为nil）
+    buy_challenge_num 6 : integer         #购买挑战次数
+    challenge_reward 7 : i$boolean        #已领通关奖励
+    box_dict 8 : i$JanitorBox             #键为关卡id（挑战未开启时为nil）
+}
+
+.ChallengeRank {
+    name 0 : string
+    role_id 1 : integer
+    max_hurt 2 : integer         #最高伤害
+    challenge_num 3 : integer    #今日总挑战次数
+    rank 4 : integer             #排名
+}
+
+.DynastyTask {
+    progress 0 : integer             #任务进度
+    task_id 1 : integer              #任务id，nil表示该类型任务已全部做完
+    is_finish 2 : boolean            #true表示任务已完成
+}
+
+.DynastyDefendInfo {
+    building_dict 0 : i$integer      #键为建筑id，值为防守次数
+    dynasty_name 1 : string
+}
+
+.DynastyCompeteRoleInfo {
+    role_name 0 : string
+    fight_score 1 : integer
+    defend_num 2 : integer
+    role_id 3 : integer
+}
+
+.DynastyBuildingInfo {
+    building_hp 0 : integer
+    role_dict 1 : s$DynastyCompeteRoleInfo    #键为uuid
+}
+
+.DynastyCompeteInfo {
+    dynasty_name 0 : string
+    dynasty_score 1 : integer
+    server_id 2 : integer
+    building_dict 3 : i$DynastyBuildingInfo
+}
+
+.BuildingRoleInfo {
+    member_dict 0 : s$boolean
+}
+
+.DefendBuildingInfo {
+    role_num 0 : integer
+    defend_num 1 : integer
+}
+
+.CompeteDefendInfo {
+    dynasty_name 0 : string
+    building_dict 1 : i$DefendBuildingInfo
+}
+
+.MemberMarkInfo {
+    name 0 : string
+    role_id 1 : integer
+    total_mark 2 : integer
+    daily_mark 3 : integer
+}
+
+.CompeteDynastyRank {
+    dynasty_id 0 : string
+    dynasty_name 1 : string
+    dynasty_badge 2 : integer
+    server_id 3 : integer
+    mark 4 : integer
+}
+
+.CompeteRoleRank {
+    uuid 0 : string
+    role_id 1 : integer
+    name 2 : string
+    dynasty_name 3 : string
+    server_id 4 : integer
+    mark 5 : integer
+}

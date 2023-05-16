@@ -1,0 +1,465 @@
+# [dynasty index dispatch] ------ [1500, 1599] ------
+
+c_create_dynasty 1500 {             #创建王朝
+    request {
+        dynasty_name 0 : string
+    }
+    response {
+        errcode 0 : integer
+        name_repeat 1 : boolean
+        dynasty_base_info 2 : DynastyBaseInfo
+        mask 3 : boolean
+    }
+}
+
+c_get_dynasty_list 1501 {         #获取王朝列表
+    request {
+        page 0 : integer
+    }
+    response {
+        dynasty_list 0 : *DynastyBaseInfo
+    }
+}
+
+c_seek_dynasty 1502 {            #查找王朝
+    request {
+        dynasty_name 0 : string
+    }
+    response {
+        dynasty_list 0 : *DynastyBaseInfo
+    }
+}
+
+c_apply_dynasty 1503 {          #申请加入
+    request {
+        dynasty_id 0 : string
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_cancel_apply_dynasty 1504 {          #取消申请
+    request {
+        dynasty_id 0 : string
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_get_dynasty_base_info 1505 {        #获取王朝基础信息
+    request {
+    }
+    response {
+        errcode 0 : integer
+        dynasty_base_info 1 : DynastyBaseInfo
+    }
+}
+
+c_get_dynasty_member_info 1506 {        #获取王朝成员信息
+    request {
+    }
+    response {
+        errcode 0 : integer
+        member_dict 1 : s$DynastyMemberInfo
+    }
+}
+
+c_get_dynasty_apply_info 1507 {        #获取王朝申请信息
+    request {
+    }
+    response {
+        errcode 0 : integer
+        apply_dict 1 : s$DynastyMemberInfo
+    }
+}
+
+c_agree_apply_dynasty 1508 {          #同意申请
+    request {
+        member_uuid 0 : string
+    }
+    response {
+        errcode 0 : integer
+        tips_id 1 : integer           #意思看CSConst.AgreeApplyDynastyTips
+    }
+}
+
+c_ignore_apply_dynasty 1509 {          #忽略申请
+    request {
+        member_uuid 0 : string          #没有表示一键忽略
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_quit_dynasty 1510 {               #退出王朝
+    request {
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_get_dynasty_rank 1511 {               #获取王朝排行
+    request {
+    }
+    response {
+        dynasty_list 0 : *DynastyBaseInfo
+        self_rank 1 : integer
+        self_dynasty_info 2 : DynastyBaseInfo
+    }
+}
+
+c_modify_dynasty_badge 1512 {               #修改王朝徽章
+    request {
+        dynasty_badge 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_modify_dynasty_name 1513 {               #修改王朝名字
+    request {
+        dynasty_name 0 : string
+    }
+    response {
+        errcode 0 : integer
+        name_repeat 1 : boolean
+        mask 2 : boolean
+    }
+}
+
+c_modify_dynasty_notice 1514 {               #修改王朝公告
+    request {
+        dynasty_notice 0 : string
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_modify_dynasty_declaration 1515 {               #修改王朝宣言
+    request {
+        dynasty_declaration 0 : string
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_kick_out_dynasty 1516 {               #踢人
+    request {
+        member_uuid 0 : string
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_appoint_dynasty_member 1517 {       #任命成员职位
+    request {
+        member_uuid 0 : string
+        job 1 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_dissolve_dynasty 1518 {       #解散王朝
+    request {
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_get_dynasty_build_info 1519 {       #获取王朝建设信息
+    request {
+    }
+    response {
+        errcode 0 : integer
+        build_progress 1 : integer               #建设进度
+        build_num 2 : integer                    #建设人数
+    }
+}
+
+c_dynasty_build 1520 {       #王朝建设
+    request {
+        build_type 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_get_dynasty_build_reward 1521 {       #获取王朝建设进度奖励
+    request {
+        reward_index 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_get_dynasty_active_reward 1522 {       #获取王朝活跃奖励
+    request {
+        reward_index 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_get_dynasty_spell_info 1523 {       #获取王朝技能信息
+    request {
+    }
+    response {
+        errcode 0 : integer
+        spell_dict 1 : i$integer           #技能id对应技能等级
+    }
+}
+
+c_study_dynasty_spell 1524 {       #学习王朝技能
+    request {
+        spell_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_upgrade_dynasty_spell 1525 {       #升级王朝技能
+    request {
+        spell_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_get_dynasty_challenge_info 1526 {       #获取王朝挑战信息
+    request {
+    }
+    response {
+        errcode 0 : integer
+        challenge_info 1 : ChallengeInfo
+    }
+}
+
+c_dynasty_challenge_janitor 1527 {       #挑战守卫
+    request {
+        janitor_index 0 : integer         #挑战守卫编号，第几个，1~4
+    }
+    response {
+        errcode 0 : integer
+        fight_data 1 : FightData           #nil表示守卫已被击杀
+        is_win 2 : boolean
+        hurt 3 : integer                   #本次伤害
+        challenge_reward 4 : i$integer     #挑战奖励
+        kill_reward 5 : i$integer          #击杀个人奖励
+    }
+}
+
+c_dynasty_challenge_setting 1528 {         #挑战设置
+    request {
+        setting_type 0 : integer         #1重置到当前关卡，2回退到前一关
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_get_dynasty_challenge_rank 1529 {       #挑战排行（今日成员成绩）
+    request {
+    }
+    response {
+        errcode 0 : integer
+        rank_list 1 : *ChallengeRank      #没人为空表
+        self_rank 2 : ChallengeRank       #没打过为空表
+    }
+}
+
+c_get_challenge_janitor_box 1530 {       #领取守卫宝箱
+    request {
+        stage_id 0 : integer             #关卡id，第几关
+        janitor_index 1 : integer        #守卫编号
+        box_index 2 : integer            #宝箱编号
+    }
+    response {
+        errcode 0 : integer
+        box_reward 1 : i$integer         #宝箱奖励，nil表示该宝箱已被领取
+    }
+}
+
+c_get_challenge_stage_reward 1531 {       #领取通关奖励
+    request {
+        stage_id 0 : integer             #关卡id，第几关
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_get_challenge_all_reward 1532 {       #一键领取（包括守卫宝箱和通关奖励）
+    request {
+    }
+    response {
+        errcode 0 : integer
+        reward_dict 1 : i$integer
+    }
+}
+
+c_buy_dynasty_challenge_num 1533 {       #购买王朝挑战次数
+    request {
+        buy_num 0 : integer              #购买次数
+    }
+    response {
+        errcode 0 : integer
+        challenge_num 1 : integer
+        buy_challenge_num 2 : integer
+    }
+}
+
+c_get_dynasty_task_reward 1534 {       #领取王朝任务奖励
+    request {
+        task_type 0 : integer          #任务类型
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_get_dynasty_compete_info 1535 {            #获取王朝争霸信息
+    request {
+    }
+    response {
+        errcode 0 : integer
+        is_apply 1 : boolean                     #true表示已报名
+        dynasty_total_mark 2 : integer           #王朝总战绩
+        self_total_mark 3 : integer              #个人总战绩
+        self_daily_mark 4 : integer              #个人每日战绩
+        total_attack_num 5 : integer             #总攻城次数
+        compete_index 6 : integer                #当前场次
+        attack_mark 7 : integer                  #攻打战绩，战斗开始前为上场攻打战绩，开始后为本场攻打战绩
+        defend_mark 8 : integer                  #防守战绩，战斗开始前为上场防守战绩，开始后为本场防守战绩
+        defend_info 9 : s$DynastyDefendInfo      #键为王朝id，值为每个建筑防守数据
+        building_dict 10 : i$BuildingRoleInfo    #王朝建筑驻守信息
+        enemy_dict 11 : s$DynastyCompeteInfo     #键为王朝id，值为敌对王朝信息
+        attack_num 12 : integer                  #个人攻打次数
+        buy_attack_num 13 : integer              #已购买的攻打次数
+    }
+}
+
+c_dynasty_compete_apply 1536 {       #王朝争霸报名
+    request {
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_dynasty_building_defend 1537 {       #王朝争霸建筑驻守
+    request {
+        uuid 0 : string              #驻守成员uuid
+        building_id 1 : integer      #建筑id，没有表示取消驻守
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_dynasty_compete_fight 1538 {       #王朝争霸战斗
+    request {
+        dynasty_id 0 : string        #挑战王朝id
+        building_id 1 : integer      #挑战王朝建筑id
+        uuid 2 : string              #挑战玩家uuid
+    }
+    response {
+        errcode 0 : integer
+        fight_data 1 : FightData
+        is_win 2 : boolean
+        is_destroy_building 3 : boolean   #击破建筑
+        tips_id 4 : integer               #意思看CSConst.DynastyCompeteFightTips
+    }
+}
+
+c_buy_compete_attack_num 1539 {       #购买王朝争霸攻打次数
+    request {
+        buy_num 0 : integer            #购买次数
+    }
+    response {
+        errcode 0 : integer
+        attack_num 1 : integer
+        buy_attack_num 2 : integer
+    }
+}
+
+c_get_compete_defend_info 1540 {       #获取防守战况（查看战况里面的）
+    request {
+    }
+    response {
+        errcode 0 : integer
+        defend_dict 1 : s$CompeteDefendInfo  #键为王朝id
+    }
+}
+
+c_get_compete_member_mark_info 1541 {       #获取成员（查看战况里面的）
+    request {
+    }
+    response {
+        errcode 0 : integer
+        member_dict 1 : s$MemberMarkInfo
+    }
+}
+
+c_get_compete_reward_info 1542 {       #获取攻城奖励领取状态
+    request {
+    }
+    response {
+        errcode 0 : integer
+        compete_reward 1 : i$boolean   #键为奖励id，值为领取状态（true可领取，false不可领取，nil已领取）
+    }
+}
+
+c_get_compete_reward 1543 {       #领取攻城奖励
+    request {
+        reward_id 0 : integer     #奖励id
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_get_compete_dynasty_rank 1544 {                 #获取王朝争霸王朝排行
+    request {
+    }
+    response {
+        errcode 0 : integer
+        rank_list 1 : *CompeteDynastyRank
+        self_rank 2 : integer                     #nil表示未上榜
+    }
+}
+
+c_get_compete_role_rank 1545 {                    #获取王朝争霸个人排行
+    request {
+    }
+    response {
+        errcode 0 : integer
+        rank_list 1 : *CompeteRoleRank
+        self_rank 2 : integer                     #nil表示未上榜
+    }
+}
+
+c_buy_dynasty_shop_item 1546 {                    #购买商店物品
+    request {
+        shop_id 0 : integer
+        shop_num 1 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}

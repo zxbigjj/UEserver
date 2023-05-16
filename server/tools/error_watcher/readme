@@ -1,0 +1,4 @@
+安装升级mojo
+    cpanm Mojo::Webqq
+启动
+    nohup perl login_qq.pl > qq.log 2>&1 &

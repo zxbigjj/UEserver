@@ -1,0 +1,89 @@
+# [train index dispatch] ------ [1200, 1299] ------
+
+c_train_challenge_stage 1200 {           #挑战关卡
+    request {
+        difficulty 0 : integer
+    }
+    response {
+        errcode 0 : integer
+        fight_data 1 : FightData
+        is_win 2 : boolean
+        reward_dict 3 : i$TrainReward           #通关奖励
+        layer_reward 4 : integer              #每层奖励id
+    }
+}
+
+c_train_quick_challenge 1201 {           #一键三星
+    request {
+    }
+    response {
+        errcode 0 : integer
+        result 1 : *TrainResult
+        layer_reward 2 : integer        #每层奖励id
+    }
+}
+
+c_train_select_add_attr 1202 {               #选择属性加成
+    request {
+        index 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_train_reset_stage 1203 {               #重置关卡
+    request {
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_train_sweep_stage 1204 {               #三星扫荡
+    request {
+    }
+    response {
+        errcode 0 : integer
+        reward_list 1 : *RoleItem
+    }
+}
+
+c_train_buy_treasure 1205 {                 #购买秘宝
+    request {
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_train_war_challenge 1207 {           #挑战试炼副本
+    request {
+        war_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+        fight_data 1 : FightData
+        is_win 2 : boolean
+        is_first 3 : boolean            #存在表示首通
+    }
+}
+
+c_train_war_buy_fight_num 1208 {        #购买试炼副本挑战次数
+    request {
+        num 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_train_buy_shop_item 1209 {          #购买商店物品
+    request {
+        shop_id 0 : integer           #商品id
+        shop_num 1 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}

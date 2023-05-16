@@ -1,0 +1,306 @@
+# [traitor index dispatch] ------ [1700, 1799] ------
+
+c_challenge_traitor 1700 {           #挑战叛军
+    request {
+        traitor_guid 0 : string
+        attack_type 1 : integer      #1普通攻击 2全力一击
+    }
+    response {
+        errcode 0 : integer
+        tips 1 : integer                      #意思看CSConst.TraitorTips（主要用于挑战好友分享的叛军）
+        fight_data 2 : FightData
+        is_win 3 : boolean
+        traitor_info 4 : TraitorInfo          #叛军信息
+        hurt 5 : integer                      #伤害
+        feats 6 : integer                     #功勋
+        traitor_coin 7 : integer              #战功
+        old_hurt_rank 8 : integer             #旧伤害排名
+        new_hurt_rank 9 : integer             #新伤害排名
+        old_feats_rank 10 : integer           #旧功勋排名
+        new_feats_rank 11 : integer           #新功勋排名
+    }
+}
+
+c_share_traitor 1701 {           #分享叛军
+    request {
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_add_traitor_challenge_ticket 1702 {   #增加挑战次数
+    request {
+        item_count 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_get_traitor_list 1703 {             #获取叛军列表（只有好友的，不包括自己的）
+    request {
+    }
+    response {
+        errcode 0 : integer
+        traitor_list 1 : *TraitorInfo
+    }
+}
+
+c_get_feats_reward 1704 {             #领取功勋奖励
+    request {
+        reward_id 0 : integer         #没有表示领取所有
+    }
+    response {
+        errcode 0 : integer
+        reward_dict 1 : i$integer
+    }
+}
+
+c_buy_traitor_shop_item 1705 {          #购买商店物品
+    request {
+        shop_id 0 : integer
+        shop_num 1 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_traitor_set_auto_kill 1706 {          #自动击杀设置
+    request {
+        quality_dict 0 : i$integer      #键为品质，值为攻击类型（nil未设置，1普通攻击，2全力一击）
+        is_share 1 : boolean
+        is_cost 2 : boolean
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_get_traitor_info 1707 {             #获取叛军信息
+    request {
+        traitor_guid 0 : string
+    }
+    response {
+        errcode 0 : integer
+        traitor_info 1 : TraitorInfo  #死亡或逃跑为nil
+    }
+}
+
+c_get_traitor_max_hurt_rank 1708 {    #获取叛军最大伤害排行
+    request {
+    }
+    response {
+        errcode 0 : integer
+        rank_list 1 : *RankInfo
+        self_rank 2 : integer        #未上榜为nil
+        self_rank_score 3 : integer         #最大伤害
+    }
+}
+# ----------------------------------------- 叛军boss ---------------------------------
+
+c_enter_traitor_boss 1751 {         #进入本服叛军boss界面，通知服务端记录数据
+    request {
+    }
+}
+
+c_quit_traitor_boss 1752 {         #退出本服叛军boss界面，通知服务端清数据
+    request {
+    }
+}
+
+c_get_traitor_boss_data 1753 {         #获取本服叛军boss数据
+    request {
+    }
+    response {
+        errcode 0 : integer
+        is_open 1 : boolean               #活动是否开启
+        honour 2 : integer                #荣誉
+        honour_rank 3 : integer           #荣誉排名，未上榜为nil
+        max_hurt 4 : integer              #最高伤害
+        max_hurt_rank 5 : integer         #最高伤害排名，未上榜为nil
+        dynasty_rank 6 : integer          #王朝排名，未上榜或者没有王朝为nil
+        boss_level 7 : integer            #boss等级
+        three_honour_rank 8 : *RankInfo   #荣誉排行（三个人）
+        max_hp 9 : integer                #boss最大血量
+        hp_dict 10 : i$integer            #当前血量，客户端需要遍历加起来
+        challenge_num 11 : integer        #挑战次数
+        challenge_num_ts 12 : integer     #挑战次数恢复时间
+        buy_challenge_num 13 : integer    #购买挑战次数
+        revive_ts 14 : integer            #复活时间，存在表示boss已死亡
+        cross_boss_button 15 : integer    #跨服boss切换按钮，0可以切换，1服务器时间为满足，2战力或伤害未满足
+        reward_dict 16 : i$boolean        #boss奖励，false表示不可领取，true表示可领取，nil表示已领取
+        killed_role 17 : string           #击杀boss的玩家
+    }
+}
+
+c_challenge_traitor_boss 1754 {         #挑战叛军boss
+    request {
+    }
+    response {
+        errcode 0 : integer
+        fight_data 1 : FightData
+        is_win 2 : boolean
+        honour 3 : integer              #挑战获得的荣誉
+        crit_id 4 : integer             #战功暴击id，不暴击为nil
+        lucky_reward 5 : RoleItem       #幸运一击奖励，可能为nil
+        kill_reward 6 : RoleItem        #击杀奖励，可能为nil
+    }
+}
+
+c_get_traitor_boss_dynasty_rank 1755 {         #获取叛军boss王朝排行榜
+    request {
+        is_cross 0 : boolean                   #true为跨服排行榜
+    }
+    response {
+        errcode 0 : integer
+        rank_list 1 : *DynastyRank
+        self_rank 2 : integer        #无王朝为nil
+        self_rank_score 3 : integer  #无王朝为nil
+    }
+}
+
+c_get_traitor_boss_reward 1756 {             #领取叛军boss奖励
+    request {
+        reward_id 0 : integer             #没有表示一键领取
+    }
+    response {
+        errcode 0 : integer
+        reward_dict 1 : i$boolean         #boss奖励，false表示不可领取，true表示可领取，nil表示已领取
+        item_dict 2 : i$integer           #奖励物品
+    }
+}
+
+c_buy_traitor_boss_challenge_num 1757 {             #购买叛军boss挑战次数
+    request {
+        buy_num 0 : integer                         #购买数量
+    }
+    response {
+        errcode 0 : integer
+        challenge_num 1 : integer
+        buy_challenge_num 2 : integer
+    }
+}
+
+c_get_traitor_boss_record 1758 {                        #获取叛军boss战况
+    request {
+    }
+    response {
+        errcode 0 : integer
+        boss_record 1 : *TraitorBossRecord              #本服boss战况
+        cross_boss_record 2 : *CrossTraitorBossRecord   #跨服boss战况
+    }
+}
+
+c_enter_cross_traitor_boss 1759 {         #进入跨服叛军boss界面，通知服务端
+    request {
+    }
+}
+
+c_quit_cross_traitor_boss 1760 {          #退出跨服叛军boss界面，通知服务端
+    request {
+    }
+}
+
+c_get_cross_traitor_boss_data 1761 {            #获取跨服叛军boss数据
+    request {
+    }
+    response {
+        errcode 0 : integer
+        fight_ts 1 : integer                    #结算时间
+        pos_dict 2 : i$CrossTraitorBossPosInfo  #玩家占位信息
+        cooling_ts 3 : integer                  #挑战冷却时间，无冷却为nil
+    }
+}
+
+c_cross_traitor_boss_occupy_pos 1762 {         #跨服叛军boss占位
+    request {
+        pos_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+        fight_data 1 : FightData               #直接占位，则为nil
+        is_win 2 : boolean
+    }
+}
+
+c_get_feats_rank_list 1763 {                   
+    request {}
+    response {
+        errcode 0 : integer
+        rank_list 1 : *RankInfo
+        self_rank 2 : integer        #未上榜为nil
+        self_rank_score 3 : integer  #排行积分，不同排行榜表示意思不一样
+    }
+}
+
+c_get_cross_max_hurt_rank 1764 {               #获取跨服叛军最大伤害排行
+    request {}
+    response {
+        errcode 0 : integer
+        rank_list 1 : *RankInfo
+        self_rank 2 : integer        #未上榜为nil
+        self_rank_score 3 : integer  #排行积分，不同排行榜表示意思不一样
+    }
+}
+
+c_get_cross_feats_rank_list 1765 {
+    request {}
+    response {
+        errcode 0 : integer
+        rank_list 1 : *RankInfo
+        self_rank 2 : integer        #未上榜为nil
+        self_rank_score 3 : integer  #排行积分，不同排行榜表示意思不一样
+    }
+}
+
+c_get_hurt_rank_list 1766 {
+    request {}
+    response {
+        errcode 0 : integer
+        rank_list 1 : *RankInfo
+        self_rank 2 : integer        #未上榜为nil
+        self_rank_score 3 : integer  #排行积分，不同排行榜表示意思不一样
+    }
+}
+
+c_get_cross_hurt_rank_list 1767 {
+    request {}
+    response {
+        errcode 0 : integer
+        rank_list 1 : *RankInfo
+        self_rank 2 : integer        #未上榜为nil
+        self_rank_score 3 : integer  #排行积分，不同排行榜表示意思不一样
+    }
+}
+
+c_get_traitor_boss_honour_rank_list 1768 {
+    request {}
+    response {
+        errcode 0 : integer
+        rank_list 1 : *RankInfo
+        self_rank 2 : integer        #未上榜为nil
+        self_rank_score 3 : integer  #排行积分，不同排行榜表示意思不一样
+    }
+}
+
+c_get_cross_traitor_honour_rank_list 1769 {
+    request {}
+    response {
+        errcode 0 : integer
+        rank_list 1 : *RankInfo
+        self_rank 2 : integer        #未上榜为nil
+        self_rank_score 3 : integer  #排行积分，不同排行榜表示意思不一样
+    }
+}
+
+c_get_traitor_boss_hurt_rank_list 1770 {
+    request {}
+    response {
+        errcode 0 : integer
+        rank_list 1 : *RankInfo
+        self_rank 2 : integer        #未上榜为nil
+        self_rank_score 3 : integer  #排行积分，不同排行榜表示意思不一样
+    }
+}

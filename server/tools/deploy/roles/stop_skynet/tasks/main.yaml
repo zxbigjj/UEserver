@@ -1,0 +1,13 @@
+- name: 生成配置
+  shell: python generator.py {{server_id}}
+  args:
+    chdir: "{{zc_root}}/config.template"
+  changed_when: false
+
+# 一个节点
+- name: 停止skynet
+  shell: python tools/deploy/check_skynet.py stop config/{{config}}.lua
+  args:
+    chdir: "{{zc_root}}"
+  register: result
+  changed_when: result.stdout != ""

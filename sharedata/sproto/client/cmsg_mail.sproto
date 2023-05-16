@@ -1,0 +1,40 @@
+# [mail index dispatch] ------ [1300, 1399] ------
+
+c_delete_mail 1300 {           #一键删除邮件
+    request {
+        mail_type 0 : integer
+    }
+    response {
+        errcode 0 : integer
+        mail_guid_list 1 : *string
+    }
+}
+
+c_read_mail 1301 {           #读取邮件
+    request {
+        mail_guid 0 : string
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_get_mail_item 1302 {           #领取附件
+    request {
+        mail_guid 0 : string      #没有表示一键领取
+        mail_type 1: integer
+    }
+    response {
+        errcode 0 : integer
+        mail_guid_list 1 : *string
+    }
+}
+
+c_get_all_mail 1303 {              #获取所有邮件
+    request {
+    }
+    response {
+        errcode 0 : integer
+        all_mail 1 : s$MailInfo    #键为邮件guid
+    }
+}

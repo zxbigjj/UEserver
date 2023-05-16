@@ -1,0 +1,65 @@
+# [arena index dispatch] ------ [1100, 1199] ------
+
+c_get_arena_info 1100 {           #获取竞技场信息
+    request {
+    }
+    response {
+        role_list 0 : *ArenaRole
+        self_rank 1 : integer
+    }
+}
+
+c_arena_challenge 1101 {           #挑战玩家
+    request {
+        uuid 0 : string 
+    }
+    response {
+        errcode 0 : integer
+        rank_change 1 : boolean       #被挑战的玩家排名变化，需要重新刷新
+        fight_data 2 : FightData
+        is_win 3 : boolean
+        new_rank 4 : integer
+        reward_dict 5 : i$integer     #挑战奖励
+        rank_reward 6 : i$integer     #排名突破奖励
+    }
+}
+
+c_arena_select_reward 1102 {           #选择奖励（翻牌）
+    request {
+        reward_index 0 : integer
+    }
+    response {
+        errcode 0 : integer
+        reward_list 1 : *RoleItem
+    }
+}
+
+c_arena_quick_challenge 1103 {           #便捷挑战
+    request {
+        uuid 0 : string
+        challenge_count 1 : integer     #挑战次数
+        auto_use_item 2 : boolean       #自动使用活力丹
+    }
+    response {
+        errcode 0 : integer
+        reward_dict 1 : i$integer       #挑战奖励
+        random_reward 2 : i$integer     #随机奖励
+        cost_item_count 3 : integer     #消耗活力丹数量
+        real_challenge_count 4 : integer     #真正挑战次数
+    }
+}
+
+c_clear_arena_info 1105 {           #清除竞技场数据
+    request {
+    }
+}
+
+c_arena_buy_shop_item 1106 {          #购买商店物品
+    request {
+        shop_id 0 : integer           #商品id
+        shop_num 1 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}

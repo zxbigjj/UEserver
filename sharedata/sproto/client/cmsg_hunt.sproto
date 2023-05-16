@@ -1,0 +1,141 @@
+# [hunt index dispatch] ------ [700, 799] ------
+
+c_set_hunt_hero 702 {         #设置狩猎随行英雄
+    request {
+        ground_id 0 : integer
+        hero_list 1 : *integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_hunt_ground_animal 703 {         #狩猎猎场野兽
+    request {
+        ground_id 0 : integer
+        shoot_result 1 : integer       #射击结果，1未命中2命中3暴击
+    }
+    response {
+        errcode 0 : integer
+        hurt 1 : integer
+    }
+}
+
+c_hunt_hero_recover 704 {         #恢复英雄随行
+    request {
+        hero_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_get_first_reward 705 {         #获取首通奖励
+    request {
+        ground_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_add_hunt_num 706 {         #增加狩猎珍兽次数
+    request {
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_get_all_rare_animal_data 707 {         #获取全部珍兽数据
+    request {
+    }
+    response {
+        rare_animal 0 : *RareAnimal
+    }
+}
+
+c_start_hunt_rare_animal 708 {         #开始狩猎珍兽
+    request {
+        animal_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_get_rare_animal_data 709 {         #获取单个珍兽数据
+    request {
+        animal_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+        rare_animal 1 : HurtAnimal
+    }
+}
+
+c_hunt_rare_animal 710 {         #狩猎珍兽
+    request {
+        animal_id 0 : integer
+        shoot_result 1 : integer       #射击结果，1未命中2命中3暴击
+    }
+    response {
+        errcode 0 : integer
+        hurt 1 : integer
+    }
+}
+
+c_hunt_inspire 711 {         #狩猎珍兽中的鼓舞
+    request {
+        animal_id 0 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_listen_rare_animal 712 {         #监视珍兽
+    request {
+        animal_id 0 : integer      #没有表示取消
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_hunt_point_exchange 713 {         #狩猎积分兑换
+    request {
+        shop_id 0 : integer
+        shop_num 1 : integer
+    }
+    response {
+        errcode 0 : integer
+    }
+}
+
+c_give_up_hunt_ground 714 {         #放弃当前猎场
+    request {
+    }
+    response {
+        errcode 0 : integer
+        old_ground 1 : HuntGround
+    }
+}
+
+c_start_hunt_ground 715 {
+    request {
+    }
+}
+
+c_end_hunt_ground 716 {
+    request {
+    }
+}
+
+c_refresh_hunt_shop 717 {          #刷新狩猎商店
+    request {
+    }
+    response {
+        errcode 0 : integer
+    }
+}

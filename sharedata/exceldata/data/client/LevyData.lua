@@ -1,0 +1,33 @@
+return {
+    [ 1 ] = {
+        [ "id" ] = 1,
+        [ "ch_key" ] = "征收金币",
+        [ "name" ] = langexcel["获取盈利"],
+        [ "influence_attribute" ] = "business",
+        [ "levy_item_id" ] = 101002,
+        [ "trans_ratio" ] = 1,
+        [ "effect_id" ] = "1",
+        [ "sound_id" ] = "205",
+    },
+    [ 2 ] = {
+        [ "id" ] = 2,
+        [ "ch_key" ] = "征收食物",
+        [ "name" ] = langexcel["制造装备"],
+        [ "influence_attribute" ] = "management",
+        [ "levy_item_id" ] = 101003,
+        [ "trans_ratio" ] = 1,
+        [ "effect_id" ] = "2",
+        [ "sound_id" ] = "206",
+    },
+    [ 3 ] = {
+        [ "id" ] = 3,
+        [ "ch_key" ] = "征收帮众",
+        [ "name" ] = langexcel["招募帮众"],
+        [ "influence_attribute" ] = "renown",
+        [ "levy_item_id" ] = 101004,
+        [ "cast_item_id" ] = 101003,
+        [ "trans_ratio" ] = 1,
+        [ "effect_id" ] = "3",
+        [ "sound_id" ] = "207",
+    },
+}

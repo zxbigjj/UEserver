@@ -1,0 +1,61 @@
+# 限号外服
+global:
+  # dev是开发模式，每个服端口不同，online是上线模式，每个服固定端口
+  port_mode: online
+  log_path: "log/"
+  config_path: "config/"
+  reload_path: "status/"
+  global_port_offset: 50000
+  db_host: 127.0.0.1
+  db_port: 3306
+  db_user: root
+  db_passwd: cys123456
+  enable_ssl: false
+  # 分隔GameServer和CrossServer
+  min_cross_server_id: 70
+
+server_list:
+  - name: 限号测试服
+    type: game
+    server_id: 55
+    ip: 106.75.7.149
+    ssh_ip: 106.75.7.149
+    area_id: 2
+    area_name: "测试区"
+    open_time: "2019-03-01 00:00:00"
+    allow_login: 1
+    enable_ssl: false
+    state: free
+    recommend_status: 0
+    recommend_priority: 1
+    cross_server_id: 70
+
+  - name: 跨服
+    type: cross
+    server_id: 70
+    ip: 106.75.7.149
+    ssh_ip: 106.75.7.149
+
+  - name: cluster_router服
+    type: cluster_router
+    server_id: 2800
+    ip: 106.75.7.149
+    ssh_ip: 106.75.7.149
+
+  - name: 世界服
+    type: world
+    server_id: 2801
+    ip: 106.75.7.149
+    ssh_ip: 106.75.7.149
+
+  - name: gm服
+    type: gm_router
+    server_id: 2803
+    ip: 106.75.7.149
+    ssh_ip: 106.75.7.149
+
+  - name: 登录服
+    type: login
+    server_id: 2810
+    ip: 106.75.7.149
+    ssh_ip: 106.75.7.149

@@ -1,0 +1,98 @@
+# [dynasty index dispatch] ------ [1500, 1599] ------
+
+s_online_dynasty 1500 {        # -----------------已废弃，用1550更新
+    request {
+        apply_dict 0 : s$integer
+        dynasty_id 1 : string
+        quit_ts 2 : integer
+        daily_active 3 : integer       #活跃点
+        active_reward 4 : i$boolean    #活跃点奖励，这里只存已领取的奖励
+        task_dict 5 : i$DynastyTask    #王朝任务，键为任务类型，值为任务信息
+        spell_dict 6 : i$integer       #王朝技能，技能id对应技能等级
+        has_build 7 : boolean          #true表示今日已建设
+    }
+}
+
+s_update_dynasty_info 1550 {        # 新增协议
+    request {
+        apply_dict 0 : s$integer
+        dynasty_id 1 : string
+        daily_active 2 : integer                #活跃点
+        active_reward 3 : i$boolean             #活跃点奖励，这里只存已领取的奖励
+        task_dict 4 : i$DynastyTask             #王朝任务，键为任务类型，值为任务信息
+        spell_dict 5 : i$integer                #王朝技能，技能id对应技能等级
+        build_type 6 : integer                  #建设类型, 0表示未建设
+        build_progress_reward 7 : i$boolean     #建设进度奖励，（true可领取，false不可领取，nil已领取）
+    }
+}
+
+s_update_dynasty_apply_dict 1501 {   # --------------已废弃，用1550更新
+    request {
+        apply_dict 0 : s$integer
+    }
+}
+
+s_update_dynasty_quit_ts 1502 {
+    request {
+        quit_ts 0 : integer
+    }
+}
+
+s_join_dynasty 1503 {               #加入王朝
+    request {
+        dynasty_id 0 : string
+    }
+}
+
+s_kicked_out_dynasty 1504 {         #被踢出王朝
+    request {
+    }
+}
+
+s_update_dynasty_active_info 1505 {        # ----------已废弃，用1550更新
+    request {
+        daily_active 0 : integer       #活跃点
+        active_reward 1 : i$boolean    #活跃点奖励，这里只存已领取的奖励
+        task_dict 2 : i$DynastyTask    #王朝任务，键为任务类型，值为任务信息
+    }
+}
+
+s_update_dynasty_spell_dict 1506 {        #王朝技能更新
+    request {
+       spell_dict 0 : i$integer           #技能id对应技能等级
+    }
+}
+
+s_update_dynasty_build_info 1507 {       # -------------已废弃
+    request {
+        has_build 0 : boolean
+    }
+}
+
+s_update_dynasty_shop_info 1508 {        #更新王朝商店信息
+    request {
+        shop_dict 0 : i$integer
+    }
+}
+
+s_update_dynasty_member_apply_dict 1509 {        #更新王朝成员申请信息
+    request {
+        apply_dict 0 : s$DynastyMemberInfo
+    }
+}
+
+s_update_dynasty_member_job_info 1510 {        #更新王朝成员职位信息
+    request {
+        job 0 : integer
+    }
+}
+
+s_dynasty_challenge_refresh 1511 {       #王朝挑战刷新红点
+    request {
+    }
+}
+
+s_dynasty_compete_refresh 1512 {       #王朝争霸刷新红点
+    request {
+    }
+}
