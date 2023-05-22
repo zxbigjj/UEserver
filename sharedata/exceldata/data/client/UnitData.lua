@@ -778,7 +778,7 @@ return {
         [ "id" ] = 8013,
         [ "ch_key" ] = "男婴儿黄_1",
         [ "name" ] = "男婴儿黄_1",
-        [ "res_path" ] = "Unit/children/huangrennanbaobao/huangnan_baobao_pb",
+        [ "res_path" ] = "Unit/children/huangbaobaonan/huangnan_baobao_pb",
         [ "icon" ] = 140014,
         [ "dialog_pos" ] = {
             [ 1 ] = -138,
@@ -789,7 +789,7 @@ return {
         [ "id" ] = 8014,
         [ "ch_key" ] = "女婴儿黄_1",
         [ "name" ] = "女婴儿黄_1",
-        [ "res_path" ] = "Unit/children/huangrennvbaobao/huangnv_baobao_pb",
+        [ "res_path" ] = "Unit/children/huangbaobaonv/huangnv_baobao_pb",
         [ "icon" ] = 140015,
         [ "dialog_pos" ] = {
             [ 1 ] = -138,
@@ -800,7 +800,7 @@ return {
         [ "id" ] = 8015,
         [ "ch_key" ] = "男孩子黄_1",
         [ "name" ] = "男孩子黄_1",
-        [ "res_path" ] = "Unit/children/huangrenertongnan/huangnan_haizi_pb",
+        [ "res_path" ] = "Unit/children/huangertongnan/huangnan_haizi_pb",
         [ "icon" ] = 140020,
         [ "dialog_pos" ] = {
             [ 1 ] = -186,
@@ -811,7 +811,7 @@ return {
         [ "id" ] = 8016,
         [ "ch_key" ] = "女孩子黄_1",
         [ "name" ] = "女孩子黄_1",
-        [ "res_path" ] = "Unit/children/huangrenertongnv/huangnv_haizi_pb",
+        [ "res_path" ] = "Unit/children/huangertongnv/huangnv_haizi_pb",
         [ "icon" ] = 140018,
         [ "dialog_pos" ] = {
             [ 1 ] = -186,
@@ -822,7 +822,7 @@ return {
         [ "id" ] = 8017,
         [ "ch_key" ] = "男成年黄_1",
         [ "name" ] = "男成年黄_1",
-        [ "res_path" ] = "Unit/children/huangrenchengniannan/huangnan_chengnian_pb",
+        [ "res_path" ] = "Unit/children/huangchengniannan/huangnan_chengnian_pb",
         [ "icon" ] = 140011,
         [ "dialog_pos" ] = {
             [ 1 ] = -176,
@@ -833,7 +833,7 @@ return {
         [ "id" ] = 8018,
         [ "ch_key" ] = "女成年黄_1",
         [ "name" ] = "女成年黄_1",
-        [ "res_path" ] = "Unit/children/huangrenchengniannv/huangnv_chengnian_pb",
+        [ "res_path" ] = "Unit/children/chengniannv/nv_chengnian_pb",
         [ "icon" ] = 140013,
         [ "dialog_pos" ] = {
             [ 1 ] = -176,

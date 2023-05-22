@@ -1,0 +1,188 @@
+CreateThread: 1960, skynet_worker
+[2023-05-22 14:40:42][:00000002] LAUNCH snlua bootstrap
+CreateThread: 1962, skynet_worker
+CreateThread: 1961, skynet_worker
+CreateThread: 1957, skynet_worker
+CreateThread: 1953, thread_timer
+CreateThread: 1954, thread_socket
+CreateThread: 1955, skynet_worker
+CreateThread: 1959, skynet_worker
+CreateThread: 1956, skynet_worker
+CreateThread: 1958, skynet_worker
+CreateThread: 1952, thread_monitor
+[2023-05-22 14:40:42][:00000003] LAUNCH snlua launcher
+[2023-05-22 14:40:42][:00000004] LAUNCH snlua cdummy
+[2023-05-22 14:40:42][:00000005] LAUNCH harbor 0 4
+[2023-05-22 14:40:42][:00000006] LAUNCH snlua datacenterd
+[2023-05-22 14:40:42][:00000007] LAUNCH snlua service_mgr
+[2023-05-22 14:40:42][:00000008] LAUNCH snlua game_launcher
+[2023-05-22 14:40:42][game_launcher-8]	load sproto:./bin/c2s.spb
+[2023-05-22 14:40:42][game_launcher-8]	load sproto:./bin/s2c.spb
+[2023-05-22 14:40:42][game_launcher-8]	[warn][node s50_game]start begin
+[2023-05-22 14:40:42][:00000009] LAUNCH snlua gamelog
+[2023-05-22 14:40:42][gamelog-9]	true	exit	0
+[2023-05-22 14:40:42][gamelog-9]	true	exit	0
+[2023-05-22 14:40:42][gamelog-9]	true	exit	0
+[2023-05-22 14:40:42][:0000000a] LAUNCH snlua reload_watcher
+[2023-05-22 14:40:42][:0000000b] LAUNCH snlua debug_console 15017
+[2023-05-22 14:40:42][:0000000b] Start debug console at 127.0.0.1:15017
+[2023-05-22 14:40:42][:0000000c] LAUNCH snlua common_init
+header:<1E_1G_>, len:<6>
+[2023-05-22 14:40:42][:0000000d] LAUNCH snlua clusterd
+[2023-05-22 14:40:42][:0000000e] LAUNCH snlua sharedatad
+[2023-05-22 14:40:42][:0000000f] LAUNCH gate M :0000000d :::15016 3 65535 2
+CreateThread: 2003, socket_send_worker
+CreateThread: 2004, socket_send_worker
+[2023-05-22 14:40:42][game_launcher-8]	load excel begin:	185.638753717
+[2023-05-22 14:40:42][:0000000f] socket open: 5
+[2023-05-22 14:40:43][:00000008] Memory warning 32.00 M
+[2023-05-22 14:40:45][game_launcher-8]	=============no excel: MonsterBaseAttr.lua MonsterRateData.lua ExpData.lua LanguageData.lua SysUnlockData.lua
+[2023-05-22 14:40:45][:0000000f] socket open: 6
+[2023-05-22 14:40:45][game_launcher-8]	load excel end:	188.718552028
+[2023-05-22 14:40:45][:00000010] LAUNCH snlua game_database
+[2023-05-22 14:40:45][:0000000f] socket open: a
+[2023-05-22 14:40:45][:00000011] LAUNCH snlua agent
+[2023-05-22 14:40:46][agent-11]	node started:chat
+[2023-05-22 14:40:46][agent-11]	key..s50
+[2023-05-22 14:40:46][agent-11]	_VERSION :Lua 5.3
+[2023-05-22 14:40:46][agent-11]	pay router listen port:40550
+[2023-05-22 14:40:46][agent-11]	pay router listen id:14
+[2023-05-22 14:40:46][agent-11]	node started:dynasty
+[2023-05-22 14:40:46][agent-11]	key..fight_score_rank
+[2023-05-22 14:40:46][agent-11]	key..rush_activity_score_rank
+[2023-05-22 14:40:46][agent-11]	key..activity_score_rank
+[2023-05-22 14:40:46][agent-11]	key..rush_activity_ringleader_rank
+[2023-05-22 14:40:46][agent-11]	key..traitor_feats_rank
+[2023-05-22 14:40:46][agent-11]	key..rush_activity_intimacy_rank
+[2023-05-22 14:40:46][agent-11]	key..rush_activity_checkpoint_rank
+[2023-05-22 14:40:46][agent-11]	key..score_rank
+[2023-05-22 14:40:46][agent-11]	key..traitor_hurt_rank
+[2023-05-22 14:40:46][agent-11]	key..activity_banquet_rank
+[2023-05-22 14:40:46][agent-11]	key..hunt_rank
+[2023-05-22 14:40:46][agent-11]	key..activity_fight_score_rank
+[2023-05-22 14:40:46][agent-11]	key..traitor_boss_honour_rank
+[2023-05-22 14:40:46][agent-11]	key..rush_activity_soldier_rank
+[2023-05-22 14:40:46][agent-11]	key..activity_soldier_rank
+[2023-05-22 14:40:46][agent-11]	key..rush_activity_recharge_rank
+[2023-05-22 14:40:46][agent-11]	key..traitor_boss_hurt_rank
+[2023-05-22 14:40:46][agent-11]	key..activity_money_rank
+[2023-05-22 14:40:46][agent-11]	key..activity_diamond_rank
+[2023-05-22 14:40:46][agent-11]	key..train_rank
+[2023-05-22 14:40:46][agent-11]	key..level_rank
+[2023-05-22 14:40:46][agent-11]	key..activity_login_rank
+[2023-05-22 14:40:46][agent-11]	key..stage_star_rank
+[2023-05-22 14:40:46][agent-11]	key..rush_activity_money_rank
+[2023-05-22 14:40:46][agent-11]	key..rush_activity_party_rank
+[2023-05-22 14:40:46][agent-11]	key..activity_intimacy_rank
+[2023-05-22 14:40:46][agent-11]	key..traitor_max_hurt_rank
+[2023-05-22 14:40:46][agent-11]	key..activity_stamina_rank
+[2023-05-22 14:40:46][agent-11]	key..rush_activity_food_rank
+[2023-05-22 14:40:46][agent-11]	key..rush_activity_hunt_rank
+[2023-05-22 14:40:46][agent-11]	+++++++++++++++++++
+[2023-05-22 14:40:46][agent-11]	activity start
+[2023-05-22 14:40:46][agent-11]	+++++++++++++++++++
+[2023-05-22 14:40:46][agent-11]	++++ is nothing
+[2023-05-22 14:40:46][agent-11]	++++ is from_started_to_stopped 551954
+[2023-05-22 14:40:46][agent-11]	++++ is from_nostart_to_started 670754
+[2023-05-22 14:40:46][agent-11]	++++ is from_nostart_to_started 1361954
+[2023-05-22 14:40:46][agent-11]	=====================
+[2023-05-22 14:40:46][agent-11]	rush activity start
+[2023-05-22 14:40:46][agent-11]	=====================
+[2023-05-22 14:40:46][agent-11]	key..1
+[2023-05-22 14:40:46][agent-11]	===== is start_ts 1684425600
+[2023-05-22 14:40:46][agent-11]	===== is now_ts 1684737646
+[2023-05-22 14:40:46][agent-11]	===== is end_ts 1685030400
+[2023-05-22 14:40:46][agent-11]	===== is stop_ts 1684771200
+[2023-05-22 14:40:46][agent-11]	===== is from_started_to_stopped 33554
+[2023-05-22 14:40:46][agent-11]	key..2
+[2023-05-22 14:40:46][agent-11]	===== is start_ts 1684425600
+[2023-05-22 14:40:46][agent-11]	===== is now_ts 1684737646
+[2023-05-22 14:40:46][agent-11]	===== is end_ts 1685289600
+[2023-05-22 14:40:46][agent-11]	===== is stop_ts 1685030400
+[2023-05-22 14:40:46][agent-11]	===== is from_started_to_stopped 292754
+[2023-05-22 14:40:46][agent-11]	key..3
+[2023-05-22 14:40:46][agent-11]	===== is start_ts 1684857600
+[2023-05-22 14:40:46][agent-11]	===== is now_ts 1684737646
+[2023-05-22 14:40:46][agent-11]	===== is end_ts 1685376000
+[2023-05-22 14:40:46][agent-11]	===== is stop_ts 1685116800
+[2023-05-22 14:40:46][agent-11]	===== is from_nostart_to_started 119954
+[2023-05-22 14:40:46][agent-11]	key..4
+[2023-05-22 14:40:46][agent-11]	===== is start_ts 1685462400
+[2023-05-22 14:40:46][agent-11]	===== is now_ts 1684737646
+[2023-05-22 14:40:46][agent-11]	===== is end_ts 1685980800
+[2023-05-22 14:40:46][agent-11]	===== is stop_ts 1685721600
+[2023-05-22 14:40:46][agent-11]	===== is from_nostart_to_started 724754
+[2023-05-22 14:40:46][agent-11]	key..5
+[2023-05-22 14:40:46][agent-11]	===== is start_ts 1685116800
+[2023-05-22 14:40:46][agent-11]	===== is now_ts 1684737646
+[2023-05-22 14:40:46][agent-11]	===== is end_ts 1685721600
+[2023-05-22 14:40:46][agent-11]	===== is stop_ts 1685462400
+[2023-05-22 14:40:46][agent-11]	===== is from_nostart_to_started 379154
+[2023-05-22 14:40:46][agent-11]	key..6
+[2023-05-22 14:40:46][agent-11]	===== is start_ts 1685721600
+[2023-05-22 14:40:46][agent-11]	===== is now_ts 1684737646
+[2023-05-22 14:40:46][agent-11]	===== is end_ts 1686585600
+[2023-05-22 14:40:46][agent-11]	===== is stop_ts 1686326400
+[2023-05-22 14:40:46][agent-11]	===== is from_nostart_to_started 983954
+[2023-05-22 14:40:46][agent-11]	key..7
+[2023-05-22 14:40:46][agent-11]	===== is start_ts 1686326400
+[2023-05-22 14:40:46][agent-11]	===== is now_ts 1684737646
+[2023-05-22 14:40:46][agent-11]	===== is end_ts 1686931200
+[2023-05-22 14:40:46][agent-11]	===== is stop_ts 1686672000
+[2023-05-22 14:40:46][agent-11]	===== is from_nostart_to_started 1588754
+[2023-05-22 14:40:46][agent-11]	key..8
+[2023-05-22 14:40:46][agent-11]	===== is start_ts 1685116800
+[2023-05-22 14:40:46][agent-11]	===== is now_ts 1684737646
+[2023-05-22 14:40:46][agent-11]	===== is end_ts 1685980800
+[2023-05-22 14:40:46][agent-11]	===== is stop_ts 1685721600
+[2023-05-22 14:40:46][agent-11]	===== is from_nostart_to_started 379154
+[2023-05-22 14:40:46][agent-11]	key..9
+[2023-05-22 14:40:46][agent-11]	===== is start_ts 1686672000
+[2023-05-22 14:40:46][agent-11]	===== is now_ts 1684737646
+[2023-05-22 14:40:46][agent-11]	===== is end_ts 1687190400
+[2023-05-22 14:40:46][agent-11]	===== is stop_ts 1686931200
+[2023-05-22 14:40:46][agent-11]	===== is from_nostart_to_started 1934354
+[2023-05-22 14:40:46][agent-11]	key..10
+[2023-05-22 14:40:46][agent-11]	===== is start_ts 1686326400
+[2023-05-22 14:40:46][agent-11]	===== is now_ts 1684737646
+[2023-05-22 14:40:46][agent-11]	===== is end_ts 1687190400
+[2023-05-22 14:40:46][agent-11]	===== is stop_ts 1686931200
+[2023-05-22 14:40:46][agent-11]	===== is from_nostart_to_started 1588754
+[2023-05-22 14:40:46][agent-11]	key..11
+[2023-05-22 14:40:46][agent-11]	===== is start_ts 1685721600
+[2023-05-22 14:40:46][agent-11]	===== is now_ts 1684737646
+[2023-05-22 14:40:46][agent-11]	===== is end_ts 1686585600
+[2023-05-22 14:40:46][agent-11]	===== is stop_ts 1686326400
+[2023-05-22 14:40:46][agent-11]	===== is from_nostart_to_started 983954
+[2023-05-22 14:40:46][agent-11]	=====================
+[2023-05-22 14:40:46][agent-11]	充值 activity start
+[2023-05-22 14:40:46][agent-11]	=====================
+[2023-05-22 14:40:46][agent-11]	======= is from_started_to_end 465554
+[2023-05-22 14:40:46][agent-11]	======= is from_nostart_to_started 465554
+[2023-05-22 14:40:46][agent-11]	======= is from_nostart_to_started 1070354
+[2023-05-22 14:40:46][agent-11]	======= is from_nostart_to_started 1675154
+[2023-05-22 14:40:46][agent-11]	======= is from_nostart_to_started 2279954
+[2023-05-22 14:40:46][agent-11]	======= is from_nostart_to_started 465554
+[2023-05-22 14:40:46][agent-11]	-------------------
+[2023-05-22 14:40:46][agent-11]	festival activity start
+[2023-05-22 14:40:46][agent-11]	-------------------
+[2023-05-22 14:40:46][agent-11]	--- from_stopped_to_reserve 465553
+[2023-05-22 14:40:46][agent-11]	--- from_stopped_to_reserve 465553
+[2023-05-22 14:40:46][agent-11]	--- from_stopped_to_reserve 465553
+[2023-05-22 14:40:46][agent-11]	--- from_started_to_stopped 206353
+[2023-05-22 14:40:46][agent-11]	--- from_nostart_to_started 206354
+[2023-05-22 14:40:46][agent-11]	--- from_nostart_to_started 551954
+[2023-05-22 14:40:46][agent-11]	--- from_nostart_to_started 811154
+[2023-05-22 14:40:46][agent-11]	--- from_nostart_to_started 1070354
+[2023-05-22 14:40:46][agent-11]	--- from_nostart_to_started 1329554
+[2023-05-22 14:40:46][agent-11]	--- from_nostart_to_started 1588754
+[2023-05-22 14:40:46][agent-11]	key..1
+[2023-05-22 14:40:46][:00000012] LAUNCH snlua agent_gate
+CreateThread: 2025, socket_send_worker
+CreateThread: 2026, socket_send_worker
+CreateThread: 2027, socket_send_worker
+CreateThread: 2028, socket_send_worker
+[2023-05-22 14:40:46][:00000013] LAUNCH gate S :00000012 :::15015 3 102400 4
+[2023-05-22 14:40:46][:00000014] LAUNCH snlua child_marry
+[2023-05-22 14:40:46][game_launcher-8]	[warn][node s50_game]all service booted
+[2023-05-22 14:40:46][:00000002] KILL self

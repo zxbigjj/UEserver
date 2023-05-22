@@ -4,7 +4,7 @@ return {
         [ "failure_frag_num" ] = 1,
         [ "hero_id" ] = 11011,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-007,
+        [ "victory_hero_ratio" ] = 1e-07,
         [ "weight" ] = 10,
         [ "wrestle_angle" ] = {
             [ 1 ] = 1,
@@ -30,7 +30,7 @@ return {
         [ "failure_frag_num" ] = 1,
         [ "hero_id" ] = 11021,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-007,
+        [ "victory_hero_ratio" ] = 1e-07,
         [ "weight" ] = 10,
         [ "wrestle_angle" ] = {
             [ 1 ] = 1,
@@ -56,7 +56,7 @@ return {
         [ "failure_frag_num" ] = 1,
         [ "hero_id" ] = 11031,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-005,
+        [ "victory_hero_ratio" ] = 1e-05,
         [ "weight" ] = 50,
         [ "wrestle_angle" ] = {
             [ 1 ] = 2,
@@ -82,7 +82,7 @@ return {
         [ "failure_frag_num" ] = 1,
         [ "hero_id" ] = 11041,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-005,
+        [ "victory_hero_ratio" ] = 1e-05,
         [ "weight" ] = 50,
         [ "wrestle_angle" ] = {
             [ 1 ] = 2,
@@ -108,7 +108,7 @@ return {
         [ "failure_frag_num" ] = 1,
         [ "hero_id" ] = 11051,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-005,
+        [ "victory_hero_ratio" ] = 1e-05,
         [ "weight" ] = 50,
         [ "wrestle_angle" ] = {
             [ 1 ] = 2,
@@ -134,7 +134,7 @@ return {
         [ "failure_frag_num" ] = 1,
         [ "hero_id" ] = 11061,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-005,
+        [ "victory_hero_ratio" ] = 1e-05,
         [ "weight" ] = 50,
         [ "wrestle_angle" ] = {
             [ 1 ] = 2,
@@ -173,7 +173,7 @@ return {
         [ "failure_frag_num" ] = 1,
         [ "hero_id" ] = 12012,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-005,
+        [ "victory_hero_ratio" ] = 1e-05,
         [ "weight" ] = 50,
         [ "wrestle_angle" ] = {
             [ 1 ] = 2,
@@ -199,7 +199,7 @@ return {
         [ "failure_frag_num" ] = 1,
         [ "hero_id" ] = 12022,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-005,
+        [ "victory_hero_ratio" ] = 1e-05,
         [ "weight" ] = 50,
         [ "wrestle_angle" ] = {
             [ 1 ] = 2,
@@ -212,7 +212,7 @@ return {
         [ "failure_frag_num" ] = 1,
         [ "hero_id" ] = 12031,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-005,
+        [ "victory_hero_ratio" ] = 1e-05,
         [ "weight" ] = 50,
         [ "wrestle_angle" ] = {
             [ 1 ] = 2,
@@ -251,7 +251,7 @@ return {
         [ "failure_frag_num" ] = 1,
         [ "hero_id" ] = 12042,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-005,
+        [ "victory_hero_ratio" ] = 1e-05,
         [ "weight" ] = 50,
         [ "wrestle_angle" ] = {
             [ 1 ] = 2,
@@ -264,7 +264,7 @@ return {
         [ "failure_frag_num" ] = 1,
         [ "hero_id" ] = 12051,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-007,
+        [ "victory_hero_ratio" ] = 1e-07,
         [ "weight" ] = 10,
         [ "wrestle_angle" ] = {
             [ 1 ] = 1,
@@ -290,7 +290,7 @@ return {
         [ "failure_frag_num" ] = 1,
         [ "hero_id" ] = 12061,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-007,
+        [ "victory_hero_ratio" ] = 1e-07,
         [ "weight" ] = 10,
         [ "wrestle_angle" ] = {
             [ 1 ] = 1,
@@ -316,7 +316,7 @@ return {
         [ "failure_frag_num" ] = 1,
         [ "hero_id" ] = 13011,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-005,
+        [ "victory_hero_ratio" ] = 1e-05,
         [ "weight" ] = 50,
         [ "wrestle_angle" ] = {
             [ 1 ] = 2,
@@ -329,7 +329,7 @@ return {
         [ "failure_frag_num" ] = 1,
         [ "hero_id" ] = 13012,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-007,
+        [ "victory_hero_ratio" ] = 1e-07,
         [ "weight" ] = 10,
         [ "wrestle_angle" ] = {
             [ 1 ] = 1,
@@ -368,7 +368,7 @@ return {
         [ "failure_frag_num" ] = 1,
         [ "hero_id" ] = 13031,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-005,
+        [ "victory_hero_ratio" ] = 1e-05,
         [ "weight" ] = 50,
         [ "wrestle_angle" ] = {
             [ 1 ] = 2,
@@ -381,7 +381,7 @@ return {
         [ "failure_frag_num" ] = 1,
         [ "hero_id" ] = 13032,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-005,
+        [ "victory_hero_ratio" ] = 1e-05,
         [ "weight" ] = 50,
         [ "wrestle_angle" ] = {
             [ 1 ] = 2,
@@ -394,7 +394,7 @@ return {
         [ "failure_frag_num" ] = 1,
         [ "hero_id" ] = 13041,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-005,
+        [ "victory_hero_ratio" ] = 1e-05,
         [ "weight" ] = 50,
         [ "wrestle_angle" ] = {
             [ 1 ] = 2,
@@ -459,7 +459,7 @@ return {
         [ "failure_frag_num" ] = 1,
         [ "hero_id" ] = 13062,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-007,
+        [ "victory_hero_ratio" ] = 1e-07,
         [ "weight" ] = 10,
         [ "wrestle_angle" ] = {
             [ 1 ] = 1,
@@ -485,7 +485,7 @@ return {
         [ "failure_frag_num" ] = 1,
         [ "hero_id" ] = 14012,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-005,
+        [ "victory_hero_ratio" ] = 1e-05,
         [ "weight" ] = 50,
         [ "wrestle_angle" ] = {
             [ 1 ] = 2,
@@ -498,7 +498,7 @@ return {
         [ "failure_frag_num" ] = 1,
         [ "hero_id" ] = 14021,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-007,
+        [ "victory_hero_ratio" ] = 1e-07,
         [ "weight" ] = 10,
         [ "wrestle_angle" ] = {
             [ 1 ] = 1,
@@ -524,7 +524,7 @@ return {
         [ "failure_frag_num" ] = 1,
         [ "hero_id" ] = 14032,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-005,
+        [ "victory_hero_ratio" ] = 1e-05,
         [ "weight" ] = 50,
         [ "wrestle_angle" ] = {
             [ 1 ] = 2,
@@ -550,7 +550,7 @@ return {
         [ "failure_frag_num" ] = 1,
         [ "hero_id" ] = 14042,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-005,
+        [ "victory_hero_ratio" ] = 1e-05,
         [ "weight" ] = 50,
         [ "wrestle_angle" ] = {
             [ 1 ] = 2,
@@ -576,7 +576,7 @@ return {
         [ "failure_frag_num" ] = 1,
         [ "hero_id" ] = 14052,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-005,
+        [ "victory_hero_ratio" ] = 1e-05,
         [ "weight" ] = 50,
         [ "wrestle_angle" ] = {
             [ 1 ] = 2,
@@ -589,7 +589,7 @@ return {
         [ "failure_frag_num" ] = 1,
         [ "hero_id" ] = 14061,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-007,
+        [ "victory_hero_ratio" ] = 1e-07,
         [ "weight" ] = 10,
         [ "wrestle_angle" ] = {
             [ 1 ] = 1,

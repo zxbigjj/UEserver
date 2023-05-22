@@ -5,7 +5,7 @@ return {
         [ "challenge_num" ] = 3,
         [ "failure_frag_num" ] = 1,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-007,
+        [ "victory_hero_ratio" ] = 1e-07,
         [ "wrestle_interval" ] = 0.1,
         [ "wrestle_angle" ] = {
             [ 1 ] = 1,
@@ -31,7 +31,7 @@ return {
         [ "challenge_num" ] = 3,
         [ "failure_frag_num" ] = 1,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-007,
+        [ "victory_hero_ratio" ] = 1e-07,
         [ "wrestle_interval" ] = 0.1,
         [ "wrestle_angle" ] = {
             [ 1 ] = 1,
@@ -57,7 +57,7 @@ return {
         [ "challenge_num" ] = 3,
         [ "failure_frag_num" ] = 1,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-005,
+        [ "victory_hero_ratio" ] = 1e-05,
         [ "wrestle_interval" ] = 0.1,
         [ "wrestle_angle" ] = {
             [ 1 ] = 2,
@@ -83,7 +83,7 @@ return {
         [ "challenge_num" ] = 3,
         [ "failure_frag_num" ] = 1,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-005,
+        [ "victory_hero_ratio" ] = 1e-05,
         [ "wrestle_interval" ] = 0.1,
         [ "wrestle_angle" ] = {
             [ 1 ] = 2,
@@ -109,7 +109,7 @@ return {
         [ "challenge_num" ] = 3,
         [ "failure_frag_num" ] = 1,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-005,
+        [ "victory_hero_ratio" ] = 1e-05,
         [ "wrestle_interval" ] = 0.1,
         [ "wrestle_angle" ] = {
             [ 1 ] = 2,
@@ -135,7 +135,7 @@ return {
         [ "challenge_num" ] = 3,
         [ "failure_frag_num" ] = 1,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-005,
+        [ "victory_hero_ratio" ] = 1e-05,
         [ "wrestle_interval" ] = 0.1,
         [ "wrestle_angle" ] = {
             [ 1 ] = 2,
@@ -174,7 +174,7 @@ return {
         [ "challenge_num" ] = 3,
         [ "failure_frag_num" ] = 1,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-005,
+        [ "victory_hero_ratio" ] = 1e-05,
         [ "wrestle_interval" ] = 0.1,
         [ "wrestle_angle" ] = {
             [ 1 ] = 2,
@@ -200,7 +200,7 @@ return {
         [ "challenge_num" ] = 3,
         [ "failure_frag_num" ] = 1,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-005,
+        [ "victory_hero_ratio" ] = 1e-05,
         [ "wrestle_interval" ] = 0.1,
         [ "wrestle_angle" ] = {
             [ 1 ] = 2,
@@ -213,7 +213,7 @@ return {
         [ "challenge_num" ] = 3,
         [ "failure_frag_num" ] = 1,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-005,
+        [ "victory_hero_ratio" ] = 1e-05,
         [ "wrestle_interval" ] = 0.1,
         [ "wrestle_angle" ] = {
             [ 1 ] = 2,
@@ -252,7 +252,7 @@ return {
         [ "challenge_num" ] = 3,
         [ "failure_frag_num" ] = 1,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-005,
+        [ "victory_hero_ratio" ] = 1e-05,
         [ "wrestle_interval" ] = 0.1,
         [ "wrestle_angle" ] = {
             [ 1 ] = 2,
@@ -265,7 +265,7 @@ return {
         [ "challenge_num" ] = 3,
         [ "failure_frag_num" ] = 1,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-007,
+        [ "victory_hero_ratio" ] = 1e-07,
         [ "wrestle_interval" ] = 0.1,
         [ "wrestle_angle" ] = {
             [ 1 ] = 1,
@@ -291,7 +291,7 @@ return {
         [ "challenge_num" ] = 3,
         [ "failure_frag_num" ] = 1,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-007,
+        [ "victory_hero_ratio" ] = 1e-07,
         [ "wrestle_interval" ] = 0.1,
         [ "wrestle_angle" ] = {
             [ 1 ] = 1,
@@ -317,7 +317,7 @@ return {
         [ "challenge_num" ] = 3,
         [ "failure_frag_num" ] = 1,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-005,
+        [ "victory_hero_ratio" ] = 1e-05,
         [ "wrestle_interval" ] = 0.1,
         [ "wrestle_angle" ] = {
             [ 1 ] = 2,
@@ -330,7 +330,7 @@ return {
         [ "challenge_num" ] = 3,
         [ "failure_frag_num" ] = 1,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-007,
+        [ "victory_hero_ratio" ] = 1e-07,
         [ "wrestle_interval" ] = 0.1,
         [ "wrestle_angle" ] = {
             [ 1 ] = 1,
@@ -369,7 +369,7 @@ return {
         [ "challenge_num" ] = 3,
         [ "failure_frag_num" ] = 1,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-005,
+        [ "victory_hero_ratio" ] = 1e-05,
         [ "wrestle_interval" ] = 0.1,
         [ "wrestle_angle" ] = {
             [ 1 ] = 2,
@@ -382,7 +382,7 @@ return {
         [ "challenge_num" ] = 3,
         [ "failure_frag_num" ] = 1,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-005,
+        [ "victory_hero_ratio" ] = 1e-05,
         [ "wrestle_interval" ] = 0.1,
         [ "wrestle_angle" ] = {
             [ 1 ] = 2,
@@ -395,7 +395,7 @@ return {
         [ "challenge_num" ] = 3,
         [ "failure_frag_num" ] = 1,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-005,
+        [ "victory_hero_ratio" ] = 1e-05,
         [ "wrestle_interval" ] = 0.1,
         [ "wrestle_angle" ] = {
             [ 1 ] = 2,
@@ -460,7 +460,7 @@ return {
         [ "challenge_num" ] = 3,
         [ "failure_frag_num" ] = 1,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-007,
+        [ "victory_hero_ratio" ] = 1e-07,
         [ "wrestle_interval" ] = 0.1,
         [ "wrestle_angle" ] = {
             [ 1 ] = 1,
@@ -486,7 +486,7 @@ return {
         [ "challenge_num" ] = 3,
         [ "failure_frag_num" ] = 1,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-005,
+        [ "victory_hero_ratio" ] = 1e-05,
         [ "wrestle_interval" ] = 0.1,
         [ "wrestle_angle" ] = {
             [ 1 ] = 2,
@@ -499,7 +499,7 @@ return {
         [ "challenge_num" ] = 3,
         [ "failure_frag_num" ] = 1,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-007,
+        [ "victory_hero_ratio" ] = 1e-07,
         [ "wrestle_interval" ] = 0.1,
         [ "wrestle_angle" ] = {
             [ 1 ] = 1,
@@ -525,7 +525,7 @@ return {
         [ "challenge_num" ] = 3,
         [ "failure_frag_num" ] = 1,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-005,
+        [ "victory_hero_ratio" ] = 1e-05,
         [ "wrestle_interval" ] = 0.1,
         [ "wrestle_angle" ] = {
             [ 1 ] = 2,
@@ -551,7 +551,7 @@ return {
         [ "challenge_num" ] = 3,
         [ "failure_frag_num" ] = 1,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-005,
+        [ "victory_hero_ratio" ] = 1e-05,
         [ "wrestle_interval" ] = 0.1,
         [ "wrestle_angle" ] = {
             [ 1 ] = 2,
@@ -577,7 +577,7 @@ return {
         [ "challenge_num" ] = 3,
         [ "failure_frag_num" ] = 1,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-005,
+        [ "victory_hero_ratio" ] = 1e-05,
         [ "wrestle_interval" ] = 0.1,
         [ "wrestle_angle" ] = {
             [ 1 ] = 2,
@@ -590,7 +590,7 @@ return {
         [ "challenge_num" ] = 3,
         [ "failure_frag_num" ] = 1,
         [ "victory_frag_num" ] = 3,
-        [ "victory_hero_ratio" ] = 1e-007,
+        [ "victory_hero_ratio" ] = 1e-07,
         [ "wrestle_interval" ] = 0.1,
         [ "wrestle_angle" ] = {
             [ 1 ] = 1,

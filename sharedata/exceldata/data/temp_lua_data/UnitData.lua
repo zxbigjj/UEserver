@@ -763,7 +763,7 @@ return {
     [ 8013 ] = {
         name = [==[男婴儿黄_1]==],
         dialog_pos = {-138.0,-196.0,},
-        res_path = [==[Unit/children/huangrennanbaobao/huangnan_baobao_pb]==],
+        res_path = [==[Unit/children/huangbaobaonan/huangnan_baobao_pb]==],
         ch_key = [==[男婴儿黄_1]==],
         id = 8013,
         icon = 140014,
@@ -771,7 +771,7 @@ return {
     [ 8014 ] = {
         name = [==[女婴儿黄_1]==],
         dialog_pos = {-138.0,-196.0,},
-        res_path = [==[Unit/children/huangrennvbaobao/huangnv_baobao_pb]==],
+        res_path = [==[Unit/children/huangbaobaonv/huangnv_baobao_pb]==],
         ch_key = [==[女婴儿黄_1]==],
         id = 8014,
         icon = 140015,
@@ -779,7 +779,7 @@ return {
     [ 8015 ] = {
         name = [==[男孩子黄_1]==],
         dialog_pos = {-186.0,-50.5,},
-        res_path = [==[Unit/children/huangrenertongnan/huangnan_haizi_pb]==],
+        res_path = [==[Unit/children/huangertongnan/huangnan_haizi_pb]==],
         ch_key = [==[男孩子黄_1]==],
         id = 8015,
         icon = 140020,
@@ -787,7 +787,7 @@ return {
     [ 8016 ] = {
         name = [==[女孩子黄_1]==],
         dialog_pos = {-186.0,-50.5,},
-        res_path = [==[Unit/children/huangrenertongnv/huangnv_haizi_pb]==],
+        res_path = [==[Unit/children/huangertongnv/huangnv_haizi_pb]==],
         ch_key = [==[女孩子黄_1]==],
         id = 8016,
         icon = 140018,
@@ -795,7 +795,7 @@ return {
     [ 8017 ] = {
         name = [==[男成年黄_1]==],
         dialog_pos = {-176.0,-13.0,},
-        res_path = [==[Unit/children/huangrenchengniannan/huangnan_chengnian_pb]==],
+        res_path = [==[Unit/children/huangchengniannan/huangnan_chengnian_pb]==],
         ch_key = [==[男成年黄_1]==],
         id = 8017,
         icon = 140011,
@@ -803,7 +803,7 @@ return {
     [ 8018 ] = {
         name = [==[女成年黄_1]==],
         dialog_pos = {-176.0,-13.0,},
-        res_path = [==[Unit/children/huangrenchengniannv/huangnv_chengnian_pb]==],
+        res_path = [==[Unit/children/chengniannv/nv_chengnian_pb]==],
         ch_key = [==[女成年黄_1]==],
         id = 8018,
         icon = 140013,

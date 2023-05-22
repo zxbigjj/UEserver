@@ -783,7 +783,7 @@ return {
         [ "icon" ] = 140014,
         [ "id" ] = 8013,
         [ "name" ] = "男婴儿黄_1",
-        [ "res_path" ] = "Unit/children/huangrennanbaobao/huangnan_baobao_pb",
+        [ "res_path" ] = "Unit/children/huangbaobaonan/huangnan_baobao_pb",
     },
     [ 8014 ] = {
         [ "ch_key" ] = "女婴儿黄_1",
@@ -794,7 +794,7 @@ return {
         [ "icon" ] = 140015,
         [ "id" ] = 8014,
         [ "name" ] = "女婴儿黄_1",
-        [ "res_path" ] = "Unit/children/huangrennvbaobao/huangnv_baobao_pb",
+        [ "res_path" ] = "Unit/children/huangbaobaonv/huangnv_baobao_pb",
     },
     [ 8015 ] = {
         [ "ch_key" ] = "男孩子黄_1",
@@ -805,7 +805,7 @@ return {
         [ "icon" ] = 140020,
         [ "id" ] = 8015,
         [ "name" ] = "男孩子黄_1",
-        [ "res_path" ] = "Unit/children/huangrenertongnan/huangnan_haizi_pb",
+        [ "res_path" ] = "Unit/children/huangertongnan/huangnan_haizi_pb",
     },
     [ 8016 ] = {
         [ "ch_key" ] = "女孩子黄_1",
@@ -816,7 +816,7 @@ return {
         [ "icon" ] = 140018,
         [ "id" ] = 8016,
         [ "name" ] = "女孩子黄_1",
-        [ "res_path" ] = "Unit/children/huangrenertongnv/huangnv_haizi_pb",
+        [ "res_path" ] = "Unit/children/huangertongnv/huangnv_haizi_pb",
     },
     [ 8017 ] = {
         [ "ch_key" ] = "男成年黄_1",
@@ -827,7 +827,7 @@ return {
         [ "icon" ] = 140011,
         [ "id" ] = 8017,
         [ "name" ] = "男成年黄_1",
-        [ "res_path" ] = "Unit/children/huangrenchengniannan/huangnan_chengnian_pb",
+        [ "res_path" ] = "Unit/children/huangchengniannan/huangnan_chengnian_pb",
     },
     [ 8018 ] = {
         [ "ch_key" ] = "女成年黄_1",
@@ -838,7 +838,7 @@ return {
         [ "icon" ] = 140013,
         [ "id" ] = 8018,
         [ "name" ] = "女成年黄_1",
-        [ "res_path" ] = "Unit/children/huangrenchengniannv/huangnv_chengnian_pb",
+        [ "res_path" ] = "Unit/children/chengniannv/nv_chengnian_pb",
     },
     [ 9001 ] = {
         [ "ch_key" ] = "琳恩自慰",

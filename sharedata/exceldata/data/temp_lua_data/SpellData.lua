@@ -1840,6 +1840,7 @@ return {
         spell_unit = 13012,
         modify_attr = [==[[1]={attr_name = "crit", attr_value = 0.5},
 [2]={attr_name = "hit", attr_value = 0.5}]==],
+        buff_clear_ratio = 1.0,
         buff_clear_level = 1,
         cost_anger = 4,
         add_buff_list = {20000048,20000054,},

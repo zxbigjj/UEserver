@@ -132,14 +132,4 @@ return {
         [ "type" ] = 7,
         [ "recharge_activity" ] = 12,
     },
-    [ "daily_recharge_activity_list" ] = {
-        [ 1 ] = 4,
-        [ 2 ] = 5,
-        [ 3 ] = 6,
-        [ 4 ] = 7,
-        [ 5 ] = 11,
-        [ 6 ] = 12,
-    },
-    [ "first_recharge_activity" ] = 1,
-    [ "recharge_draw_activity" ] = 10,
 }

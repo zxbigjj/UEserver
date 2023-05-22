@@ -3110,6 +3110,7 @@ return {
             [ 2 ] = 1,
         },
         [ "buff_clear_level" ] = 1,
+        [ "buff_clear_ratio" ] = 1,
         [ "modify_attr_dict" ] = {
             [ "crit" ] = 0.5,
             [ "hit" ] = 0.5,
