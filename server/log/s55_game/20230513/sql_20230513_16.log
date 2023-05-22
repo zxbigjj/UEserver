@@ -1,0 +1,424 @@
+[2023-05-13 16:00:01][[game_database-10]][SqlQuery] {"query":"update t_ServerCore set last_hour_ts=1683964800 where server_name='s55'","use_time":0,"size":71}
+[2023-05-13 16:01:05][[game_database-10]][SqlQuery] {"query":"select * from t_Player where urs='b1001'","use_time":0,"size":40}
+[2023-05-13 16:01:05][[game_database-10]][SqlQuery] {"query":"select * from t_LoverActivities where status='activate'","use_time":0.0099999904632568,"size":55}
+[2023-05-13 16:01:05][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedLoverActivities where uuid='55000034'","use_time":0,"size":66}
+[2023-05-13 16:01:05][[game_database-10]][SqlQuery] {"query":"select * from t_LoverActivitiesDealInfo where uuid='55000034'","use_time":0,"size":61}
+[2023-05-13 16:01:05][[game_database-10]][SqlQuery] {"query":"update t_LoverActivities set end_ts=1683965215 where id=4","use_time":0,"size":57}
+[2023-05-13 16:01:05][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivities where status='activate'","use_time":0,"size":54}
+[2023-05-13 16:01:05][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivitiesDealInfo where uuid='55000034'","use_time":0,"size":60}
+[2023-05-13 16:01:05][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedHeroActivities where uuid='55000034'","use_time":0,"size":65}
+[2023-05-13 16:01:05][[game_database-10]][SqlQuery] {"query":"update t_HeroActivities set end_ts=1683964936 where id=1","use_time":0,"size":56}
+[2023-05-13 16:01:05][[game_database-10]][SqlQuery] {"query":"update t_HeroActivities set end_ts=1683964872 where id=2","use_time":0,"size":56}
+[2023-05-13 16:01:05][[game_database-10]][SqlQuery] {"query":"select * from t_OfflineCmd where uuid='55000034'","use_time":0,"size":48}
+[2023-05-13 16:01:12][[game_database-10]][SqlQuery] {"query":"delete from t_HeroActivitiesDealInfo where uuid='55000034'","use_time":0,"size":58}
+[2023-05-13 16:01:12][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivities where status='activate'","use_time":0,"size":54}
+[2023-05-13 16:01:12][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivitiesDealInfo where uuid='55000034'","use_time":0,"size":60}
+[2023-05-13 16:01:12][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedHeroActivities where uuid='55000034'","use_time":0,"size":65}
+[2023-05-13 16:01:12][[game_database-10]][SqlQuery] {"query":"update t_HeroActivities set end_ts=1683964932 where id=2","use_time":0,"size":56}
+[2023-05-13 16:02:12][[game_database-10]][SqlQuery] {"query":"delete from t_HeroActivitiesDealInfo where uuid='55000034'","use_time":0,"size":58}
+[2023-05-13 16:02:12][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivities where status='activate'","use_time":0,"size":54}
+[2023-05-13 16:02:12][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivitiesDealInfo where uuid='55000034'","use_time":0,"size":60}
+[2023-05-13 16:02:12][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedHeroActivities where uuid='55000034'","use_time":0,"size":65}
+[2023-05-13 16:02:12][[game_database-10]][SqlQuery] {"query":"update t_HeroActivities set end_ts=1683964992 where id=2","use_time":0,"size":56}
+[2023-05-13 16:02:16][[game_database-10]][SqlQuery] {"query":"delete from t_HeroActivitiesDealInfo where uuid='55000034'","use_time":0,"size":58}
+[2023-05-13 16:02:16][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivities where status='activate'","use_time":0,"size":54}
+[2023-05-13 16:02:16][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivitiesDealInfo where uuid='55000034'","use_time":0,"size":60}
+[2023-05-13 16:02:16][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedHeroActivities where uuid='55000034'","use_time":0,"size":65}
+[2023-05-13 16:02:16][[game_database-10]][SqlQuery] {"query":"update t_HeroActivities set end_ts=1683965536 where id=1","use_time":0,"size":56}
+[2023-05-13 16:03:12][[game_database-10]][SqlQuery] {"query":"delete from t_HeroActivitiesDealInfo where uuid='55000034'","use_time":0,"size":58}
+[2023-05-13 16:03:12][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivities where status='activate'","use_time":0,"size":54}
+[2023-05-13 16:03:12][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivitiesDealInfo where uuid='55000034'","use_time":0,"size":60}
+[2023-05-13 16:03:12][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedHeroActivities where uuid='55000034'","use_time":0,"size":65}
+[2023-05-13 16:03:12][[game_database-10]][SqlQuery] {"query":"update t_HeroActivities set end_ts=1683965052 where id=2","use_time":0,"size":56}
+[2023-05-13 16:03:13][[game_database-10]][SqlQuery] {"query":"delete from t_LoverActivitiesDealInfo where uuid='55000034'","use_time":0,"size":59}
+[2023-05-13 16:03:13][[game_database-10]][SqlQuery] {"query":"select * from t_LoverActivities where status='activate'","use_time":0,"size":55}
+[2023-05-13 16:03:13][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedLoverActivities where uuid='55000034'","use_time":0,"size":66}
+[2023-05-13 16:03:13][[game_database-10]][SqlQuery] {"query":"select * from t_LoverActivitiesDealInfo where uuid='55000034'","use_time":0,"size":61}
+[2023-05-13 16:03:13][[game_database-10]][SqlQuery] {"query":"update t_LoverActivities set end_ts=1683965893 where id=3","use_time":0,"size":57}
+[2023-05-13 16:04:12][[game_database-10]][SqlQuery] {"query":"delete from t_HeroActivitiesDealInfo where uuid='55000034'","use_time":0,"size":58}
+[2023-05-13 16:04:12][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivities where status='activate'","use_time":0,"size":54}
+[2023-05-13 16:04:12][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivitiesDealInfo where uuid='55000034'","use_time":0,"size":60}
+[2023-05-13 16:04:12][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedHeroActivities where uuid='55000034'","use_time":0,"size":65}
+[2023-05-13 16:04:12][[game_database-10]][SqlQuery] {"query":"update t_HeroActivities set end_ts=1683965112 where id=2","use_time":0,"size":56}
+[2023-05-13 16:04:41][[game_database-10]][SqlQuery] {"query":"select * from t_Player where urs='b1001'","use_time":0.0099999904632568,"size":40}
+[2023-05-13 16:04:41][[game_database-10]][SqlQuery] {"query":"select * from t_LoverActivities where status='activate'","use_time":0,"size":55}
+[2023-05-13 16:04:41][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedLoverActivities where uuid='55000034'","use_time":0,"size":66}
+[2023-05-13 16:04:41][[game_database-10]][SqlQuery] {"query":"select * from t_LoverActivitiesDealInfo where uuid='55000034'","use_time":0,"size":61}
+[2023-05-13 16:04:41][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivities where status='activate'","use_time":0,"size":54}
+[2023-05-13 16:04:41][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivitiesDealInfo where uuid='55000034'","use_time":0,"size":60}
+[2023-05-13 16:04:41][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedHeroActivities where uuid='55000034'","use_time":0,"size":65}
+[2023-05-13 16:04:41][[game_database-10]][SqlQuery] {"query":"select * from t_OfflineCmd where uuid='55000034'","use_time":0,"size":48}
+[2023-05-13 16:05:13][[game_database-10]][SqlQuery] {"query":"delete from t_HeroActivitiesDealInfo where uuid='55000034'","use_time":0,"size":58}
+[2023-05-13 16:06:18][[game_database-10]][SqlQuery] {"query":"select * from t_Player where urs='b1001'","use_time":0,"size":40}
+[2023-05-13 16:06:18][[game_database-10]][SqlQuery] {"query":"select * from t_LoverActivities where status='activate'","use_time":0.0099999904632568,"size":55}
+[2023-05-13 16:06:18][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedLoverActivities where uuid='55000034'","use_time":0,"size":66}
+[2023-05-13 16:06:18][[game_database-10]][SqlQuery] {"query":"select * from t_LoverActivitiesDealInfo where uuid='55000034'","use_time":0,"size":61}
+[2023-05-13 16:06:18][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivities where status='activate'","use_time":0,"size":54}
+[2023-05-13 16:06:18][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivitiesDealInfo where uuid='55000034'","use_time":0,"size":60}
+[2023-05-13 16:06:18][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedHeroActivities where uuid='55000034'","use_time":0,"size":65}
+[2023-05-13 16:06:18][[game_database-10]][SqlQuery] {"query":"update t_HeroActivities set end_ts=1683965232 where id=2","use_time":0,"size":56}
+[2023-05-13 16:06:18][[game_database-10]][SqlQuery] {"query":"select * from t_OfflineCmd where uuid='55000034'","use_time":0,"size":48}
+[2023-05-13 16:06:34][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivities where status='activate'","use_time":0,"size":54}
+[2023-05-13 16:06:34][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivitiesDealInfo where uuid='55000034'","use_time":0,"size":60}
+[2023-05-13 16:06:34][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedHeroActivities where uuid='55000034'","use_time":0,"size":65}
+[2023-05-13 16:06:54][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivities where status='activate'","use_time":0,"size":54}
+[2023-05-13 16:06:54][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivitiesDealInfo where uuid='55000034'","use_time":0.0099999904632568,"size":60}
+[2023-05-13 16:06:54][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedHeroActivities where uuid='55000034'","use_time":0,"size":65}
+[2023-05-13 16:06:56][[game_database-10]][SqlQuery] {"query":"delete from t_LoverActivitiesDealInfo where uuid='55000034'","use_time":0,"size":59}
+[2023-05-13 16:06:56][[game_database-10]][SqlQuery] {"query":"select * from t_LoverActivities where status='activate'","use_time":0,"size":55}
+[2023-05-13 16:06:56][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedLoverActivities where uuid='55000034'","use_time":0,"size":66}
+[2023-05-13 16:06:56][[game_database-10]][SqlQuery] {"query":"select * from t_LoverActivitiesDealInfo where uuid='55000034'","use_time":0,"size":61}
+[2023-05-13 16:06:56][[game_database-10]][SqlQuery] {"query":"update t_LoverActivities set end_ts=1683966115 where id=4","use_time":0,"size":57}
+[2023-05-13 16:07:13][[game_database-10]][SqlQuery] {"query":"delete from t_HeroActivitiesDealInfo where uuid='55000034'","use_time":0,"size":58}
+[2023-05-13 16:07:13][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivities where status='activate'","use_time":0,"size":54}
+[2023-05-13 16:07:13][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivitiesDealInfo where uuid='55000034'","use_time":0,"size":60}
+[2023-05-13 16:07:13][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedHeroActivities where uuid='55000034'","use_time":0,"size":65}
+[2023-05-13 16:07:13][[game_database-10]][SqlQuery] {"query":"update t_HeroActivities set end_ts=1683965292 where id=2","use_time":0,"size":56}
+[2023-05-13 16:08:13][[game_database-10]][SqlQuery] {"query":"delete from t_HeroActivitiesDealInfo where uuid='55000034'","use_time":0,"size":58}
+[2023-05-13 16:08:27][[game_database-10]][SqlQuery] {"query":"select * from t_Player where urs='b1001'","use_time":0,"size":40}
+[2023-05-13 16:08:27][[game_database-10]][SqlQuery] {"query":"select * from t_LoverActivities where status='activate'","use_time":0,"size":55}
+[2023-05-13 16:08:27][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedLoverActivities where uuid='55000034'","use_time":0,"size":66}
+[2023-05-13 16:08:27][[game_database-10]][SqlQuery] {"query":"select * from t_LoverActivitiesDealInfo where uuid='55000034'","use_time":0,"size":61}
+[2023-05-13 16:08:27][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivities where status='activate'","use_time":0,"size":54}
+[2023-05-13 16:08:27][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivitiesDealInfo where uuid='55000034'","use_time":0,"size":60}
+[2023-05-13 16:08:27][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedHeroActivities where uuid='55000034'","use_time":0,"size":65}
+[2023-05-13 16:08:27][[game_database-10]][SqlQuery] {"query":"update t_HeroActivities set end_ts=1683965352 where id=2","use_time":0,"size":56}
+[2023-05-13 16:08:27][[game_database-10]][SqlQuery] {"query":"select * from t_OfflineCmd where uuid='55000034'","use_time":0.0099999904632568,"size":48}
+[2023-05-13 16:08:36][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivities where status='activate'","use_time":0,"size":54}
+[2023-05-13 16:08:36][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivitiesDealInfo where uuid='55000034'","use_time":0,"size":60}
+[2023-05-13 16:08:36][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedHeroActivities where uuid='55000034'","use_time":0,"size":65}
+[2023-05-13 16:09:13][[game_database-10]][SqlQuery] {"query":"delete from t_HeroActivitiesDealInfo where uuid='55000034'","use_time":0,"size":58}
+[2023-05-13 16:09:13][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivities where status='activate'","use_time":0,"size":54}
+[2023-05-13 16:09:13][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivitiesDealInfo where uuid='55000034'","use_time":0,"size":60}
+[2023-05-13 16:09:13][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedHeroActivities where uuid='55000034'","use_time":0,"size":65}
+[2023-05-13 16:09:13][[game_database-10]][SqlQuery] {"query":"update t_HeroActivities set end_ts=1683965412 where id=2","use_time":0,"size":56}
+[2023-05-13 16:09:23][[game_database-10]][SqlQuery] {"query":"update t_DynastyRank set dynasty_list='{ ... k_name='traitor_boss_honour_dynasty_rank'","use_time":0,"size":93}
+[2023-05-13 16:09:23][[game_database-10]][SqlQuery] {"query":"update t_DynastyRank set dynasty_list='{ ... re rank_name='rush_activity_dynasty_rank'","use_time":0,"size":87}
+[2023-05-13 16:09:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ere rank_name='activity_fight_score_rank'","use_time":0,"size":93}
+[2023-05-13 16:09:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... rank\\\":10}}' where rank_name='score_rank'","use_time":0,"size":4488}
+[2023-05-13 16:09:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... re rank_name='rush_activity_soldier_rank'","use_time":0,"size":94}
+[2023-05-13 16:09:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... {}' where rank_name='activity_score_rank'","use_time":0,"size":87}
+[2023-05-13 16:09:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ...  where rank_name='traitor_boss_hurt_rank'","use_time":0.0099999904632568,"size":90}
+[2023-05-13 16:09:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... rank_name='rush_activity_checkpoint_rank'","use_time":0,"size":97}
+[2023-05-13 16:09:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... rank_name='rush_activity_ringleader_rank'","use_time":0,"size":97}
+[2023-05-13 16:09:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... \\\"rank\\\":6}}' where rank_name='hunt_rank'","use_time":0,"size":1082}
+[2023-05-13 16:09:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... here rank_name='rush_activity_party_rank'","use_time":0,"size":245}
+[2023-05-13 16:09:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... e rank_name='rush_activity_intimacy_rank'","use_time":0,"size":95}
+[2023-05-13 16:09:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ' where rank_name='traitor_max_hurt_rank'","use_time":0,"size":646}
+[2023-05-13 16:09:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... {}' where rank_name='activity_money_rank'","use_time":0,"size":87}
+[2023-05-13 16:09:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... \":10}}' where rank_name='stage_star_rank'","use_time":0,"size":2560}
+[2023-05-13 16:09:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... }}' where rank_name='activity_login_rank'","use_time":0,"size":328}
+[2023-05-13 16:09:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ' where rank_name='activity_banquet_rank'","use_time":0,"size":89}
+[2023-05-13 16:09:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... rank\\\":10}}' where rank_name='level_rank'","use_time":0,"size":3050}
+[2023-05-13 16:09:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ' where rank_name='activity_stamina_rank'","use_time":0.0099999904632568,"size":89}
+[2023-05-13 16:09:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... here rank_name='traitor_boss_honour_rank'","use_time":0,"size":92}
+[2023-05-13 16:09:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... where rank_name='rush_activity_food_rank'","use_time":0,"size":91}
+[2023-05-13 16:09:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... e rank_name='rush_activity_recharge_rank'","use_time":0,"size":95}
+[2023-05-13 16:09:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ...  where rank_name='activity_intimacy_rank'","use_time":0,"size":90}
+[2023-05-13 16:09:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ='{}' where rank_name='traitor_hurt_rank'","use_time":0,"size":85}
+[2023-05-13 16:09:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... here rank_name='rush_activity_money_rank'","use_time":0,"size":92}
+[2023-05-13 16:09:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... \"rank\\\":6}}' where rank_name='train_rank'","use_time":0,"size":997}
+[2023-05-13 16:09:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ' where rank_name='activity_soldier_rank'","use_time":0,"size":89}
+[2023-05-13 16:09:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... here rank_name='rush_activity_score_rank'","use_time":0,"size":92}
+[2023-05-13 16:09:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ' where rank_name='activity_diamond_rank'","use_time":0,"size":89}
+[2023-05-13 16:09:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... '{}' where rank_name='traitor_feats_rank'","use_time":0,"size":86}
+[2023-05-13 16:09:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... :10}}' where rank_name='fight_score_rank'","use_time":0,"size":4707}
+[2023-05-13 16:09:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... where rank_name='rush_activity_hunt_rank'","use_time":0,"size":361}
+[2023-05-13 16:09:35][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivities","use_time":0,"size":30}
+[2023-05-13 16:09:47][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivities where status='activate'","use_time":0,"size":54}
+[2023-05-13 16:09:47][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivitiesDealInfo where uuid='55000034'","use_time":0,"size":60}
+[2023-05-13 16:09:47][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedHeroActivities where uuid='55000034'","use_time":0,"size":65}
+[2023-05-13 16:10:05][[game_database-10]][SqlQuery] {"query":"update t_HeroActivities set server_id=55 ... =1683965464,icon='330017',id=2 where id=2","use_time":0.0099999904632568,"size":476}
+[2023-05-13 16:10:05][[game_database-10]][SqlQuery] {"query":"select * from t_LoverActivities where status='activate'","use_time":0,"size":55}
+[2023-05-13 16:10:05][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedLoverActivities where uuid='55000021'","use_time":0,"size":66}
+[2023-05-13 16:10:05][[game_database-10]][SqlQuery] {"query":"select * from t_LoverActivitiesDealInfo where uuid='55000021'","use_time":0,"size":61}
+[2023-05-13 16:10:05][[game_database-10]][SqlQuery] {"query":"select * from t_LoverActivities where status='activate'","use_time":0,"size":55}
+[2023-05-13 16:10:05][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedLoverActivities where uuid='55000034'","use_time":0,"size":66}
+[2023-05-13 16:10:05][[game_database-10]][SqlQuery] {"query":"select * from t_LoverActivitiesDealInfo where uuid='55000034'","use_time":0,"size":61}
+[2023-05-13 16:10:05][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivities","use_time":0,"size":30}
+[2023-05-13 16:10:07][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivities where status='activate'","use_time":0,"size":54}
+[2023-05-13 16:10:07][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivitiesDealInfo where uuid='55000034'","use_time":0,"size":60}
+[2023-05-13 16:10:07][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedHeroActivities where uuid='55000034'","use_time":0,"size":65}
+[2023-05-13 16:10:09][[game_database-10]][SqlQuery] {"query":"update t_Role set first_week='{\\\"half_se ... 83963563,flag_id=25 where uuid='55000021'","use_time":0.0099999904632568,"size":80289}
+[2023-05-13 16:10:13][[game_database-10]][SqlQuery] {"query":"delete from t_HeroActivitiesDealInfo where uuid='55000034'","use_time":0,"size":58}
+[2023-05-13 16:10:13][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivities where status='activate'","use_time":0,"size":54}
+[2023-05-13 16:10:13][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivitiesDealInfo where uuid='55000034'","use_time":0,"size":60}
+[2023-05-13 16:10:13][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedHeroActivities where uuid='55000034'","use_time":0,"size":65}
+[2023-05-13 16:10:34][[game_database-10]][SqlQuery] {"query":"select * from t_Player where urs='b1001'","use_time":0,"size":40}
+[2023-05-13 16:10:34][[game_database-10]][SqlQuery] {"query":"select * from t_LoverActivities where status='activate'","use_time":0,"size":55}
+[2023-05-13 16:10:34][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedLoverActivities where uuid='55000034'","use_time":0,"size":66}
+[2023-05-13 16:10:34][[game_database-10]][SqlQuery] {"query":"select * from t_LoverActivitiesDealInfo where uuid='55000034'","use_time":0,"size":61}
+[2023-05-13 16:10:34][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivities where status='activate'","use_time":0,"size":54}
+[2023-05-13 16:10:34][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivitiesDealInfo where uuid='55000034'","use_time":0,"size":60}
+[2023-05-13 16:10:34][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedHeroActivities where uuid='55000034'","use_time":0,"size":65}
+[2023-05-13 16:10:34][[game_database-10]][SqlQuery] {"query":"select * from t_OfflineCmd where uuid='55000034'","use_time":0.0099999904632568,"size":48}
+[2023-05-13 16:10:39][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivities where status='activate'","use_time":0,"size":54}
+[2023-05-13 16:10:39][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivitiesDealInfo where uuid='55000034'","use_time":0,"size":60}
+[2023-05-13 16:10:39][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedHeroActivities where uuid='55000034'","use_time":0,"size":65}
+[2023-05-13 16:11:03][[game_database-10]][SqlQuery] {"query":"select * from t_Player where urs='b1001'","use_time":0,"size":40}
+[2023-05-13 16:11:03][[game_database-10]][SqlQuery] {"query":"select * from t_LoverActivities where status='activate'","use_time":0.0099999904632568,"size":55}
+[2023-05-13 16:11:03][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedLoverActivities where uuid='55000034'","use_time":0,"size":66}
+[2023-05-13 16:11:03][[game_database-10]][SqlQuery] {"query":"select * from t_LoverActivitiesDealInfo where uuid='55000034'","use_time":0,"size":61}
+[2023-05-13 16:11:03][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivities where status='activate'","use_time":0,"size":54}
+[2023-05-13 16:11:03][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivitiesDealInfo where uuid='55000034'","use_time":0,"size":60}
+[2023-05-13 16:11:03][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedHeroActivities where uuid='55000034'","use_time":0,"size":65}
+[2023-05-13 16:11:03][[game_database-10]][SqlQuery] {"query":"select * from t_OfflineCmd where uuid='55000034'","use_time":0,"size":48}
+[2023-05-13 16:11:05][[game_database-10]][SqlQuery] {"query":"delete from t_HeroActivitiesDealInfo where uuid='55000034'","use_time":0,"size":58}
+[2023-05-13 16:11:05][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivities where status='activate'","use_time":0,"size":54}
+[2023-05-13 16:11:05][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivitiesDealInfo where uuid='55000034'","use_time":0,"size":60}
+[2023-05-13 16:11:05][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedHeroActivities where uuid='55000034'","use_time":0,"size":65}
+[2023-05-13 16:11:05][[game_database-10]][SqlQuery] {"query":"update t_HeroActivities set end_ts=1683965524 where id=2","use_time":0,"size":56}
+[2023-05-13 16:12:05][[game_database-10]][SqlQuery] {"query":"delete from t_HeroActivitiesDealInfo where uuid='55000034'","use_time":0,"size":58}
+[2023-05-13 16:12:05][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivities where status='activate'","use_time":0,"size":54}
+[2023-05-13 16:12:05][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivitiesDealInfo where uuid='55000034'","use_time":0,"size":60}
+[2023-05-13 16:12:05][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedHeroActivities where uuid='55000034'","use_time":0,"size":65}
+[2023-05-13 16:12:05][[game_database-10]][SqlQuery] {"query":"update t_HeroActivities set end_ts=1683965584 where id=2","use_time":0,"size":56}
+[2023-05-13 16:12:17][[game_database-10]][SqlQuery] {"query":"delete from t_HeroActivitiesDealInfo where uuid='55000034'","use_time":0,"size":58}
+[2023-05-13 16:12:17][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivities where status='activate'","use_time":0,"size":54}
+[2023-05-13 16:12:17][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivitiesDealInfo where uuid='55000034'","use_time":0,"size":60}
+[2023-05-13 16:12:17][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedHeroActivities where uuid='55000034'","use_time":0,"size":65}
+[2023-05-13 16:12:17][[game_database-10]][SqlQuery] {"query":"update t_HeroActivities set end_ts=1683966136 where id=1","use_time":0,"size":56}
+[2023-05-13 16:12:55][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivities where status='activate'","use_time":0,"size":54}
+[2023-05-13 16:12:55][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivitiesDealInfo where uuid='55000034'","use_time":0,"size":60}
+[2023-05-13 16:12:55][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedHeroActivities where uuid='55000034'","use_time":0,"size":65}
+[2023-05-13 16:13:05][[game_database-10]][SqlQuery] {"query":"delete from t_HeroActivitiesDealInfo where uuid='55000034'","use_time":0,"size":58}
+[2023-05-13 16:13:05][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivities where status='activate'","use_time":0,"size":54}
+[2023-05-13 16:13:05][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivitiesDealInfo where uuid='55000034'","use_time":0,"size":60}
+[2023-05-13 16:13:05][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedHeroActivities where uuid='55000034'","use_time":0,"size":65}
+[2023-05-13 16:13:05][[game_database-10]][SqlQuery] {"query":"update t_HeroActivities set end_ts=1683965644 where id=2","use_time":0,"size":56}
+[2023-05-13 16:13:30][[game_database-10]][SqlQuery] {"query":"select * from t_Player where urs='b1001'","use_time":0,"size":40}
+[2023-05-13 16:13:30][[game_database-10]][SqlQuery] {"query":"select * from t_LoverActivities where status='activate'","use_time":0,"size":55}
+[2023-05-13 16:13:30][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedLoverActivities where uuid='55000034'","use_time":0,"size":66}
+[2023-05-13 16:13:30][[game_database-10]][SqlQuery] {"query":"select * from t_LoverActivitiesDealInfo where uuid='55000034'","use_time":0.0099999904632568,"size":61}
+[2023-05-13 16:13:30][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivities where status='activate'","use_time":0,"size":54}
+[2023-05-13 16:13:30][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivitiesDealInfo where uuid='55000034'","use_time":0,"size":60}
+[2023-05-13 16:13:30][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedHeroActivities where uuid='55000034'","use_time":0,"size":65}
+[2023-05-13 16:13:30][[game_database-10]][SqlQuery] {"query":"select * from t_OfflineCmd where uuid='55000034'","use_time":0,"size":48}
+[2023-05-13 16:13:38][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivities where status='activate'","use_time":0,"size":54}
+[2023-05-13 16:13:38][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivitiesDealInfo where uuid='55000034'","use_time":0,"size":60}
+[2023-05-13 16:13:38][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedHeroActivities where uuid='55000034'","use_time":0,"size":65}
+[2023-05-13 16:14:05][[game_database-10]][SqlQuery] {"query":"delete from t_HeroActivitiesDealInfo where uuid='55000034'","use_time":0,"size":58}
+[2023-05-13 16:14:05][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivities where status='activate'","use_time":0,"size":54}
+[2023-05-13 16:14:05][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivitiesDealInfo where uuid='55000034'","use_time":0,"size":60}
+[2023-05-13 16:14:05][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedHeroActivities where uuid='55000034'","use_time":0,"size":65}
+[2023-05-13 16:14:05][[game_database-10]][SqlQuery] {"query":"update t_HeroActivities set end_ts=1683965704 where id=2","use_time":0,"size":56}
+[2023-05-13 16:15:05][[game_database-10]][SqlQuery] {"query":"delete from t_HeroActivitiesDealInfo where uuid='55000034'","use_time":0,"size":58}
+[2023-05-13 16:18:14][[game_database-10]][SqlQuery] {"query":"delete from t_LoverActivitiesDealInfo where uuid='55000034'","use_time":0,"size":59}
+[2023-05-13 16:19:23][[game_database-10]][SqlQuery] {"query":"update t_DynastyRank set dynasty_list='{ ... k_name='traitor_boss_honour_dynasty_rank'","use_time":0.0099999904632568,"size":93}
+[2023-05-13 16:19:23][[game_database-10]][SqlQuery] {"query":"update t_DynastyRank set dynasty_list='{ ... re rank_name='rush_activity_dynasty_rank'","use_time":0,"size":87}
+[2023-05-13 16:19:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ere rank_name='activity_fight_score_rank'","use_time":0,"size":93}
+[2023-05-13 16:19:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... rank\\\":10}}' where rank_name='score_rank'","use_time":0,"size":4488}
+[2023-05-13 16:19:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... re rank_name='rush_activity_soldier_rank'","use_time":0,"size":94}
+[2023-05-13 16:19:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... {}' where rank_name='activity_score_rank'","use_time":0,"size":87}
+[2023-05-13 16:19:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ...  where rank_name='traitor_boss_hurt_rank'","use_time":0,"size":90}
+[2023-05-13 16:19:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... rank_name='rush_activity_checkpoint_rank'","use_time":0,"size":97}
+[2023-05-13 16:19:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... rank_name='rush_activity_ringleader_rank'","use_time":0,"size":97}
+[2023-05-13 16:19:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... \\\"rank\\\":6}}' where rank_name='hunt_rank'","use_time":0,"size":1082}
+[2023-05-13 16:19:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... here rank_name='rush_activity_party_rank'","use_time":0,"size":245}
+[2023-05-13 16:19:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... e rank_name='rush_activity_intimacy_rank'","use_time":0,"size":95}
+[2023-05-13 16:19:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ' where rank_name='traitor_max_hurt_rank'","use_time":0,"size":646}
+[2023-05-13 16:19:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... {}' where rank_name='activity_money_rank'","use_time":0.0099999904632568,"size":87}
+[2023-05-13 16:19:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... \":10}}' where rank_name='stage_star_rank'","use_time":0,"size":2560}
+[2023-05-13 16:19:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... }}' where rank_name='activity_login_rank'","use_time":0,"size":328}
+[2023-05-13 16:19:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ' where rank_name='activity_banquet_rank'","use_time":0,"size":89}
+[2023-05-13 16:19:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... rank\\\":10}}' where rank_name='level_rank'","use_time":0,"size":3050}
+[2023-05-13 16:19:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ' where rank_name='activity_stamina_rank'","use_time":0,"size":89}
+[2023-05-13 16:19:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... here rank_name='traitor_boss_honour_rank'","use_time":0,"size":92}
+[2023-05-13 16:19:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... where rank_name='rush_activity_food_rank'","use_time":0,"size":91}
+[2023-05-13 16:19:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... e rank_name='rush_activity_recharge_rank'","use_time":0,"size":95}
+[2023-05-13 16:19:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ...  where rank_name='activity_intimacy_rank'","use_time":0,"size":90}
+[2023-05-13 16:19:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ='{}' where rank_name='traitor_hurt_rank'","use_time":0,"size":85}
+[2023-05-13 16:19:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... here rank_name='rush_activity_money_rank'","use_time":0,"size":92}
+[2023-05-13 16:19:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... \"rank\\\":6}}' where rank_name='train_rank'","use_time":0,"size":997}
+[2023-05-13 16:19:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ' where rank_name='activity_soldier_rank'","use_time":0.0099999904632568,"size":89}
+[2023-05-13 16:19:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... here rank_name='rush_activity_score_rank'","use_time":0,"size":92}
+[2023-05-13 16:19:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ' where rank_name='activity_diamond_rank'","use_time":0,"size":89}
+[2023-05-13 16:19:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... '{}' where rank_name='traitor_feats_rank'","use_time":0,"size":86}
+[2023-05-13 16:19:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... :10}}' where rank_name='fight_score_rank'","use_time":0,"size":4707}
+[2023-05-13 16:19:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... where rank_name='rush_activity_hunt_rank'","use_time":0,"size":361}
+[2023-05-13 16:21:56][[game_database-10]][SqlQuery] {"query":"delete from t_LoverActivitiesDealInfo where uuid='55000034'","use_time":0,"size":59}
+[2023-05-13 16:22:17][[game_database-10]][SqlQuery] {"query":"delete from t_HeroActivitiesDealInfo where uuid='55000034'","use_time":0,"size":58}
+[2023-05-13 16:29:23][[game_database-10]][SqlQuery] {"query":"update t_DynastyRank set dynasty_list='{ ... k_name='traitor_boss_honour_dynasty_rank'","use_time":0,"size":93}
+[2023-05-13 16:29:23][[game_database-10]][SqlQuery] {"query":"update t_DynastyRank set dynasty_list='{ ... re rank_name='rush_activity_dynasty_rank'","use_time":0,"size":87}
+[2023-05-13 16:29:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ere rank_name='activity_fight_score_rank'","use_time":0,"size":93}
+[2023-05-13 16:29:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... rank\\\":10}}' where rank_name='score_rank'","use_time":0,"size":4488}
+[2023-05-13 16:29:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... re rank_name='rush_activity_soldier_rank'","use_time":0,"size":94}
+[2023-05-13 16:29:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... {}' where rank_name='activity_score_rank'","use_time":0,"size":87}
+[2023-05-13 16:29:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ...  where rank_name='traitor_boss_hurt_rank'","use_time":0,"size":90}
+[2023-05-13 16:29:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... rank_name='rush_activity_checkpoint_rank'","use_time":0,"size":97}
+[2023-05-13 16:29:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... rank_name='rush_activity_ringleader_rank'","use_time":0,"size":97}
+[2023-05-13 16:29:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... \\\"rank\\\":6}}' where rank_name='hunt_rank'","use_time":0,"size":1082}
+[2023-05-13 16:29:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... here rank_name='rush_activity_party_rank'","use_time":0,"size":245}
+[2023-05-13 16:29:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... e rank_name='rush_activity_intimacy_rank'","use_time":0,"size":95}
+[2023-05-13 16:29:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ' where rank_name='traitor_max_hurt_rank'","use_time":0.0099999904632568,"size":646}
+[2023-05-13 16:29:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... {}' where rank_name='activity_money_rank'","use_time":0,"size":87}
+[2023-05-13 16:29:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... \":10}}' where rank_name='stage_star_rank'","use_time":0,"size":2560}
+[2023-05-13 16:29:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... }}' where rank_name='activity_login_rank'","use_time":0,"size":328}
+[2023-05-13 16:29:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ' where rank_name='activity_banquet_rank'","use_time":0,"size":89}
+[2023-05-13 16:29:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... rank\\\":10}}' where rank_name='level_rank'","use_time":0,"size":3050}
+[2023-05-13 16:29:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ' where rank_name='activity_stamina_rank'","use_time":0,"size":89}
+[2023-05-13 16:29:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... here rank_name='traitor_boss_honour_rank'","use_time":0,"size":92}
+[2023-05-13 16:29:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... where rank_name='rush_activity_food_rank'","use_time":0,"size":91}
+[2023-05-13 16:29:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... e rank_name='rush_activity_recharge_rank'","use_time":0,"size":95}
+[2023-05-13 16:29:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ...  where rank_name='activity_intimacy_rank'","use_time":0.0099999904632568,"size":90}
+[2023-05-13 16:29:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ='{}' where rank_name='traitor_hurt_rank'","use_time":0,"size":85}
+[2023-05-13 16:29:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... here rank_name='rush_activity_money_rank'","use_time":0,"size":92}
+[2023-05-13 16:29:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... \"rank\\\":6}}' where rank_name='train_rank'","use_time":0,"size":997}
+[2023-05-13 16:29:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ' where rank_name='activity_soldier_rank'","use_time":0,"size":89}
+[2023-05-13 16:29:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... here rank_name='rush_activity_score_rank'","use_time":0,"size":92}
+[2023-05-13 16:29:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ' where rank_name='activity_diamond_rank'","use_time":0,"size":89}
+[2023-05-13 16:29:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... '{}' where rank_name='traitor_feats_rank'","use_time":0,"size":86}
+[2023-05-13 16:29:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... :10}}' where rank_name='fight_score_rank'","use_time":0,"size":4707}
+[2023-05-13 16:29:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... where rank_name='rush_activity_hunt_rank'","use_time":0,"size":361}
+[2023-05-13 16:34:04][[game_database-10]][SqlQuery] {"query":"select * from t_Player where urs='9999'","use_time":0,"size":39}
+[2023-05-13 16:34:04][[game_database-10]][SqlQuery] {"query":"select * from t_Role where uuid='55000013'","use_time":0,"size":42}
+[2023-05-13 16:34:04][[game_database-10]][SqlQuery] {"query":"select * from t_DailyGiftPackage where r ... 05-13'&&reset_cycle=1&&user_id='55000013'","use_time":0.0099999904632568,"size":98}
+[2023-05-13 16:34:08][[game_database-10]][SqlQuery] {"query":"select * from t_Player where urs='9999'","use_time":0.0099999904632568,"size":39}
+[2023-05-13 16:34:08][[game_database-10]][SqlQuery] {"query":"select * from t_LoverActivities where status='activate'","use_time":0,"size":55}
+[2023-05-13 16:34:08][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedLoverActivities where uuid='55000013'","use_time":0,"size":66}
+[2023-05-13 16:34:08][[game_database-10]][SqlQuery] {"query":"select * from t_LoverActivitiesDealInfo where uuid='55000013'","use_time":0,"size":61}
+[2023-05-13 16:34:08][[game_database-10]][SqlQuery] {"query":"update t_LoverActivities set end_ts=1683967693 where id=3","use_time":0,"size":57}
+[2023-05-13 16:34:08][[game_database-10]][SqlQuery] {"query":"update t_LoverActivities set end_ts=1683967015 where id=4","use_time":0,"size":57}
+[2023-05-13 16:34:08][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivities where status='activate'","use_time":0,"size":54}
+[2023-05-13 16:34:08][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivitiesDealInfo where uuid='55000013'","use_time":0,"size":60}
+[2023-05-13 16:34:08][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedHeroActivities where uuid='55000013'","use_time":0,"size":65}
+[2023-05-13 16:34:08][[game_database-10]][SqlQuery] {"query":"update t_HeroActivities set end_ts=1683967336 where id=1","use_time":0.0099999904632568,"size":56}
+[2023-05-13 16:34:08][[game_database-10]][SqlQuery] {"query":"update t_HeroActivities set end_ts=1683966904 where id=2","use_time":0,"size":56}
+[2023-05-13 16:34:08][[game_database-10]][SqlQuery] {"query":"select * from t_OfflineCmd where uuid='55000013'","use_time":0,"size":48}
+[2023-05-13 16:34:26][[game_database-10]][SqlQuery] {"query":"insert into t_DailyGiftPackage (reward_i ... le,reward_date) values (1,1,'2023-05-13')","use_time":0,"size":92}
+[2023-05-13 16:34:26][[game_database-10]][SqlQuery] {"query":"select * from t_DailyGiftPackage where r ... 05-13'&&reset_cycle=1&&user_id='55000013'","use_time":0.019999980926514,"size":98}
+[2023-05-13 16:34:38][[game_database-10]][SqlQuery] {"query":"insert into t_DailyGiftPackage (reward_i ... le,reward_date) values (1,1,'2023-05-13')","use_time":0,"size":92}
+[2023-05-13 16:34:38][[game_database-10]][SqlQuery] {"query":"select * from t_DailyGiftPackage where r ... 05-13'&&reset_cycle=1&&user_id='55000013'","use_time":0.019999980926514,"size":98}
+[2023-05-13 16:35:05][[game_database-10]][SqlQuery] {"query":"delete from t_HeroActivitiesDealInfo where uuid='55000013'","use_time":0,"size":58}
+[2023-05-13 16:35:55][[game_database-10]][SqlQuery] {"query":"select * from t_Player where urs='9999'","use_time":0,"size":39}
+[2023-05-13 16:35:55][[game_database-10]][SqlQuery] {"query":"select * from t_LoverActivities where status='activate'","use_time":0.010000228881836,"size":55}
+[2023-05-13 16:35:55][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedLoverActivities where uuid='55000013'","use_time":0,"size":66}
+[2023-05-13 16:35:55][[game_database-10]][SqlQuery] {"query":"select * from t_LoverActivitiesDealInfo where uuid='55000013'","use_time":0,"size":61}
+[2023-05-13 16:35:55][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivities where status='activate'","use_time":0,"size":54}
+[2023-05-13 16:35:55][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivitiesDealInfo where uuid='55000013'","use_time":0,"size":60}
+[2023-05-13 16:35:55][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedHeroActivities where uuid='55000013'","use_time":0,"size":65}
+[2023-05-13 16:35:55][[game_database-10]][SqlQuery] {"query":"update t_HeroActivities set end_ts=1683966964 where id=2","use_time":0,"size":56}
+[2023-05-13 16:35:55][[game_database-10]][SqlQuery] {"query":"select * from t_OfflineCmd where uuid='55000013'","use_time":0,"size":48}
+[2023-05-13 16:36:04][[game_database-10]][SqlQuery] {"query":"insert into t_DailyGiftPackage (reward_i ... le,reward_date) values (1,1,'2023-05-13')","use_time":0,"size":92}
+[2023-05-13 16:36:04][[game_database-10]][SqlQuery] {"query":"select * from t_DailyGiftPackage where r ... 05-13'&&reset_cycle=1&&user_id='55000013'","use_time":0.0099999904632568,"size":98}
+[2023-05-13 16:36:05][[game_database-10]][SqlQuery] {"query":"delete from t_HeroActivitiesDealInfo where uuid='55000013'","use_time":0,"size":58}
+[2023-05-13 16:36:05][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivities where status='activate'","use_time":0,"size":54}
+[2023-05-13 16:36:05][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivitiesDealInfo where uuid='55000013'","use_time":0,"size":60}
+[2023-05-13 16:36:05][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedHeroActivities where uuid='55000013'","use_time":0,"size":65}
+[2023-05-13 16:36:05][[game_database-10]][SqlQuery] {"query":"update t_HeroActivities set end_ts=1683967024 where id=2","use_time":0,"size":56}
+[2023-05-13 16:36:56][[game_database-10]][SqlQuery] {"query":"delete from t_LoverActivitiesDealInfo where uuid='55000013'","use_time":0,"size":59}
+[2023-05-13 16:37:05][[game_database-10]][SqlQuery] {"query":"delete from t_HeroActivitiesDealInfo where uuid='55000013'","use_time":0,"size":58}
+[2023-05-13 16:39:23][[game_database-10]][SqlQuery] {"query":"update t_DynastyRank set dynasty_list='{ ... k_name='traitor_boss_honour_dynasty_rank'","use_time":0,"size":93}
+[2023-05-13 16:39:23][[game_database-10]][SqlQuery] {"query":"update t_DynastyRank set dynasty_list='{ ... re rank_name='rush_activity_dynasty_rank'","use_time":0,"size":87}
+[2023-05-13 16:39:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ere rank_name='activity_fight_score_rank'","use_time":0,"size":93}
+[2023-05-13 16:39:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... rank\\\":10}}' where rank_name='score_rank'","use_time":0,"size":4488}
+[2023-05-13 16:39:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... re rank_name='rush_activity_soldier_rank'","use_time":0,"size":94}
+[2023-05-13 16:39:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... {}' where rank_name='activity_score_rank'","use_time":0,"size":87}
+[2023-05-13 16:39:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ...  where rank_name='traitor_boss_hurt_rank'","use_time":0,"size":90}
+[2023-05-13 16:39:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... rank_name='rush_activity_checkpoint_rank'","use_time":0,"size":97}
+[2023-05-13 16:39:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... rank_name='rush_activity_ringleader_rank'","use_time":0,"size":97}
+[2023-05-13 16:39:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... \\\"rank\\\":6}}' where rank_name='hunt_rank'","use_time":0,"size":1082}
+[2023-05-13 16:39:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... here rank_name='rush_activity_party_rank'","use_time":0,"size":245}
+[2023-05-13 16:39:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... e rank_name='rush_activity_intimacy_rank'","use_time":0,"size":95}
+[2023-05-13 16:39:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ' where rank_name='traitor_max_hurt_rank'","use_time":0,"size":646}
+[2023-05-13 16:39:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... {}' where rank_name='activity_money_rank'","use_time":0.0099999904632568,"size":87}
+[2023-05-13 16:39:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... \":10}}' where rank_name='stage_star_rank'","use_time":0,"size":2560}
+[2023-05-13 16:39:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... }}' where rank_name='activity_login_rank'","use_time":0,"size":448}
+[2023-05-13 16:39:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ' where rank_name='activity_banquet_rank'","use_time":0,"size":89}
+[2023-05-13 16:39:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... rank\\\":10}}' where rank_name='level_rank'","use_time":0,"size":3050}
+[2023-05-13 16:39:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ' where rank_name='activity_stamina_rank'","use_time":0,"size":89}
+[2023-05-13 16:39:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... here rank_name='traitor_boss_honour_rank'","use_time":0,"size":92}
+[2023-05-13 16:39:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... where rank_name='rush_activity_food_rank'","use_time":0.0099999904632568,"size":91}
+[2023-05-13 16:39:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... e rank_name='rush_activity_recharge_rank'","use_time":0,"size":95}
+[2023-05-13 16:39:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ...  where rank_name='activity_intimacy_rank'","use_time":0,"size":90}
+[2023-05-13 16:39:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ='{}' where rank_name='traitor_hurt_rank'","use_time":0,"size":85}
+[2023-05-13 16:39:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... here rank_name='rush_activity_money_rank'","use_time":0,"size":92}
+[2023-05-13 16:39:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... \"rank\\\":6}}' where rank_name='train_rank'","use_time":0,"size":997}
+[2023-05-13 16:39:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ' where rank_name='activity_soldier_rank'","use_time":0,"size":89}
+[2023-05-13 16:39:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... here rank_name='rush_activity_score_rank'","use_time":0,"size":92}
+[2023-05-13 16:39:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ' where rank_name='activity_diamond_rank'","use_time":0,"size":89}
+[2023-05-13 16:39:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... '{}' where rank_name='traitor_feats_rank'","use_time":0,"size":86}
+[2023-05-13 16:39:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... :10}}' where rank_name='fight_score_rank'","use_time":0.0099999904632568,"size":4707}
+[2023-05-13 16:39:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... where rank_name='rush_activity_hunt_rank'","use_time":0.0099999904632568,"size":361}
+[2023-05-13 16:41:31][[game_database-10]][SqlQuery] {"query":"select * from t_Player where urs='9999'","use_time":0,"size":39}
+[2023-05-13 16:41:31][[game_database-10]][SqlQuery] {"query":"select * from t_LoverActivities where status='activate'","use_time":0.0099999904632568,"size":55}
+[2023-05-13 16:41:31][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedLoverActivities where uuid='55000013'","use_time":0,"size":66}
+[2023-05-13 16:41:31][[game_database-10]][SqlQuery] {"query":"select * from t_LoverActivitiesDealInfo where uuid='55000013'","use_time":0,"size":61}
+[2023-05-13 16:41:31][[game_database-10]][SqlQuery] {"query":"update t_LoverActivities set end_ts=1683967915 where id=4","use_time":0,"size":57}
+[2023-05-13 16:41:31][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivities where status='activate'","use_time":0,"size":54}
+[2023-05-13 16:41:31][[game_database-10]][SqlQuery] {"query":"select * from t_HeroActivitiesDealInfo where uuid='55000013'","use_time":0,"size":60}
+[2023-05-13 16:41:31][[game_database-10]][SqlQuery] {"query":"select * from t_RolePurchasedHeroActivities where uuid='55000013'","use_time":0,"size":65}
+[2023-05-13 16:41:31][[game_database-10]][SqlQuery] {"query":"update t_HeroActivities set end_ts=1683967324 where id=2","use_time":0,"size":56}
+[2023-05-13 16:41:31][[game_database-10]][SqlQuery] {"query":"select * from t_OfflineCmd where uuid='55000013'","use_time":0,"size":48}
+[2023-05-13 16:41:46][[game_database-10]][SqlQuery] {"query":"insert into t_DailyGiftPackage (reward_i ... le,reward_date) values (1,1,'2023-05-13')","use_time":0,"size":92}
+[2023-05-13 16:41:46][[game_database-10]][SqlQuery] {"query":"select * from t_DailyGiftPackage where r ... 05-13'&&reset_cycle=1&&user_id='55000013'","use_time":0.0099999904632568,"size":98}
+[2023-05-13 16:41:59][[game_database-10]][SqlQuery] {"query":"update t_Role set first_week='{\\\"half_se ... 83963651,flag_id=25 where uuid='55000034'","use_time":0,"size":25243}
+[2023-05-13 16:42:05][[game_database-10]][SqlQuery] {"query":"delete from t_HeroActivitiesDealInfo where uuid='55000013'","use_time":0,"size":58}
+[2023-05-13 16:42:17][[game_database-10]][SqlQuery] {"query":"delete from t_HeroActivitiesDealInfo where uuid='55000013'","use_time":0,"size":58}
+[2023-05-13 16:44:19][[game_database-10]][SqlQuery] {"query":"update t_Role set first_week='{\\\"half_se ... 83963651,flag_id=25 where uuid='55000034'","use_time":0.0099999904632568,"size":25243}
+[2023-05-13 16:48:14][[game_database-10]][SqlQuery] {"query":"delete from t_LoverActivitiesDealInfo where uuid='55000013'","use_time":0,"size":59}
+[2023-05-13 16:49:23][[game_database-10]][SqlQuery] {"query":"update t_DynastyRank set dynasty_list='{ ... k_name='traitor_boss_honour_dynasty_rank'","use_time":0,"size":93}
+[2023-05-13 16:49:23][[game_database-10]][SqlQuery] {"query":"update t_DynastyRank set dynasty_list='{ ... re rank_name='rush_activity_dynasty_rank'","use_time":0,"size":87}
+[2023-05-13 16:49:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ere rank_name='activity_fight_score_rank'","use_time":0,"size":93}
+[2023-05-13 16:49:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... rank\\\":10}}' where rank_name='score_rank'","use_time":0,"size":4488}
+[2023-05-13 16:49:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... re rank_name='rush_activity_soldier_rank'","use_time":0,"size":94}
+[2023-05-13 16:49:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... {}' where rank_name='activity_score_rank'","use_time":0,"size":87}
+[2023-05-13 16:49:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ...  where rank_name='traitor_boss_hurt_rank'","use_time":0,"size":90}
+[2023-05-13 16:49:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... rank_name='rush_activity_checkpoint_rank'","use_time":0,"size":97}
+[2023-05-13 16:49:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... rank_name='rush_activity_ringleader_rank'","use_time":0,"size":97}
+[2023-05-13 16:49:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... \\\"rank\\\":6}}' where rank_name='hunt_rank'","use_time":0,"size":1082}
+[2023-05-13 16:49:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... here rank_name='rush_activity_party_rank'","use_time":0,"size":245}
+[2023-05-13 16:49:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... e rank_name='rush_activity_intimacy_rank'","use_time":0,"size":95}
+[2023-05-13 16:49:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ' where rank_name='traitor_max_hurt_rank'","use_time":0,"size":646}
+[2023-05-13 16:49:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... {}' where rank_name='activity_money_rank'","use_time":0,"size":87}
+[2023-05-13 16:49:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... \":10}}' where rank_name='stage_star_rank'","use_time":0.0099999904632568,"size":2560}
+[2023-05-13 16:49:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... }}' where rank_name='activity_login_rank'","use_time":0,"size":448}
+[2023-05-13 16:49:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ' where rank_name='activity_banquet_rank'","use_time":0,"size":89}
+[2023-05-13 16:49:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... rank\\\":10}}' where rank_name='level_rank'","use_time":0,"size":3050}
+[2023-05-13 16:49:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ' where rank_name='activity_stamina_rank'","use_time":0,"size":89}
+[2023-05-13 16:49:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... here rank_name='traitor_boss_honour_rank'","use_time":0,"size":92}
+[2023-05-13 16:49:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... where rank_name='rush_activity_food_rank'","use_time":0,"size":91}
+[2023-05-13 16:49:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... e rank_name='rush_activity_recharge_rank'","use_time":0,"size":95}
+[2023-05-13 16:49:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ...  where rank_name='activity_intimacy_rank'","use_time":0,"size":90}
+[2023-05-13 16:49:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ='{}' where rank_name='traitor_hurt_rank'","use_time":0,"size":85}
+[2023-05-13 16:49:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... here rank_name='rush_activity_money_rank'","use_time":0,"size":92}
+[2023-05-13 16:49:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... \"rank\\\":6}}' where rank_name='train_rank'","use_time":0,"size":997}
+[2023-05-13 16:49:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ' where rank_name='activity_soldier_rank'","use_time":0.0099999904632568,"size":89}
+[2023-05-13 16:49:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... here rank_name='rush_activity_score_rank'","use_time":0,"size":92}
+[2023-05-13 16:49:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ' where rank_name='activity_diamond_rank'","use_time":0,"size":89}
+[2023-05-13 16:49:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... '{}' where rank_name='traitor_feats_rank'","use_time":0,"size":86}
+[2023-05-13 16:49:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... :10}}' where rank_name='fight_score_rank'","use_time":0,"size":4707}
+[2023-05-13 16:49:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... where rank_name='rush_activity_hunt_rank'","use_time":0,"size":361}
+[2023-05-13 16:51:56][[game_database-10]][SqlQuery] {"query":"delete from t_LoverActivitiesDealInfo where uuid='55000013'","use_time":0,"size":59}
+[2023-05-13 16:59:23][[game_database-10]][SqlQuery] {"query":"update t_DynastyRank set dynasty_list='{ ... k_name='traitor_boss_honour_dynasty_rank'","use_time":0,"size":93}
+[2023-05-13 16:59:23][[game_database-10]][SqlQuery] {"query":"update t_DynastyRank set dynasty_list='{ ... re rank_name='rush_activity_dynasty_rank'","use_time":0,"size":87}
+[2023-05-13 16:59:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ere rank_name='activity_fight_score_rank'","use_time":0,"size":93}
+[2023-05-13 16:59:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... rank\\\":10}}' where rank_name='score_rank'","use_time":0,"size":4488}
+[2023-05-13 16:59:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... re rank_name='rush_activity_soldier_rank'","use_time":0,"size":94}
+[2023-05-13 16:59:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... {}' where rank_name='activity_score_rank'","use_time":0,"size":87}
+[2023-05-13 16:59:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ...  where rank_name='traitor_boss_hurt_rank'","use_time":0,"size":90}
+[2023-05-13 16:59:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... rank_name='rush_activity_checkpoint_rank'","use_time":0,"size":97}
+[2023-05-13 16:59:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... rank_name='rush_activity_ringleader_rank'","use_time":0,"size":97}
+[2023-05-13 16:59:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... \\\"rank\\\":6}}' where rank_name='hunt_rank'","use_time":0,"size":1082}
+[2023-05-13 16:59:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... here rank_name='rush_activity_party_rank'","use_time":0,"size":245}
+[2023-05-13 16:59:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... e rank_name='rush_activity_intimacy_rank'","use_time":0,"size":95}
+[2023-05-13 16:59:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ' where rank_name='traitor_max_hurt_rank'","use_time":0,"size":646}
+[2023-05-13 16:59:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... {}' where rank_name='activity_money_rank'","use_time":0,"size":87}
+[2023-05-13 16:59:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... \":10}}' where rank_name='stage_star_rank'","use_time":0.0099999904632568,"size":2560}
+[2023-05-13 16:59:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... }}' where rank_name='activity_login_rank'","use_time":0,"size":448}
+[2023-05-13 16:59:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ' where rank_name='activity_banquet_rank'","use_time":0,"size":89}
+[2023-05-13 16:59:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... rank\\\":10}}' where rank_name='level_rank'","use_time":0,"size":3050}
+[2023-05-13 16:59:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ' where rank_name='activity_stamina_rank'","use_time":0,"size":89}
+[2023-05-13 16:59:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... here rank_name='traitor_boss_honour_rank'","use_time":0,"size":92}
+[2023-05-13 16:59:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... where rank_name='rush_activity_food_rank'","use_time":0,"size":91}
+[2023-05-13 16:59:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... e rank_name='rush_activity_recharge_rank'","use_time":0,"size":95}
+[2023-05-13 16:59:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ...  where rank_name='activity_intimacy_rank'","use_time":0,"size":90}
+[2023-05-13 16:59:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ='{}' where rank_name='traitor_hurt_rank'","use_time":0,"size":85}
+[2023-05-13 16:59:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... here rank_name='rush_activity_money_rank'","use_time":0,"size":92}
+[2023-05-13 16:59:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... \"rank\\\":6}}' where rank_name='train_rank'","use_time":0,"size":997}
+[2023-05-13 16:59:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ' where rank_name='activity_soldier_rank'","use_time":0,"size":89}
+[2023-05-13 16:59:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... here rank_name='rush_activity_score_rank'","use_time":0,"size":92}
+[2023-05-13 16:59:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ' where rank_name='activity_diamond_rank'","use_time":0,"size":89}
+[2023-05-13 16:59:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... '{}' where rank_name='traitor_feats_rank'","use_time":0,"size":86}
+[2023-05-13 16:59:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... :10}}' where rank_name='fight_score_rank'","use_time":0.0099999904632568,"size":4707}
+[2023-05-13 16:59:23][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... where rank_name='rush_activity_hunt_rank'","use_time":0,"size":361}

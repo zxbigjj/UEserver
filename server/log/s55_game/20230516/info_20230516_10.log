@@ -1,0 +1,20 @@
+[2023-05-16 10:30:16][[reload_watcher-a]][info] ["reload_watcher:",10]
+[2023-05-16 10:30:16][[common_init-c]][info] uuid init<55|188>, tag<1J_58_>
+[2023-05-16 10:30:16][[clusterd-d]][info] connect s2800_cluster_router 117.50.192.198:40301
+[2023-05-16 10:30:16][[clusterd-d]][info] ["clusterd start:",13]
+[2023-05-16 10:30:16][[clusterd-d]][info] socket accept from ::ffff:117.50.192.198:20160, 5
+[2023-05-16 10:30:16][[clusterd-d]][info] clusterd show_self s2800_cluster_router
+[2023-05-16 10:30:17][[common_init-c]][info] SqlQueryCount: 5
+[2023-05-16 10:30:19][[gamelog-9]][info] ["gamelog start:",9]
+[2023-05-16 10:30:19][[clusterd-d]][info] socket accept from ::ffff:117.50.192.198:20178, 9
+[2023-05-16 10:30:19][[clusterd-d]][info] clusterd show_self s55_chat
+[2023-05-16 10:30:19][[clusterd-d]][info] connect s55_chat 117.50.192.198:15518
+[2023-05-16 10:30:19][[clusterd-d]][info] socket accept from ::ffff:117.50.192.198:20184, 12
+[2023-05-16 10:30:19][[clusterd-d]][info] clusterd show_self s55_dynasty
+[2023-05-16 10:30:19][[clusterd-d]][info] connect s55_dynasty 117.50.192.198:15520
+[2023-05-16 10:30:19][[game_database-10]][info] gamedb service boot success!
+[2023-05-16 10:30:19][[agent-11]][info] refresh schema:schema_game
+[2023-05-16 10:30:19][[agent_gate-12]][info] ["agent_gate start:",18]
+[2023-05-16 10:30:19][[agent-11]][info] ["agent_start:",17]
+[2023-05-16 10:30:19][[child_marry-14]][info] ["child_marry start:",20]
+[2023-05-16 10:30:20][[game_database-10]][info] SqlQueryCount: 137

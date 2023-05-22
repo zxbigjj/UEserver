@@ -1,0 +1,20 @@
+[2023-05-16 10:29:43][[common_init-c]][SqlConnect] {"host":"127.0.0.1","user":"root"}
+[2023-05-16 10:29:43][[common_init-c]][SqlQuery] {"query":"use hd_game2801","use_time":0,"size":15}
+[2023-05-16 10:29:43][[common_init-c]][SqlQuery] {"query":"SET NAMES utf8mb4","use_time":0,"size":17}
+[2023-05-16 10:29:43][[common_init-c]][SqlQuery] {"query":"select count(*) from t_uuid_alloc","use_time":0.0099999904632568,"size":33}
+[2023-05-16 10:29:43][[common_init-c]][SqlQuery] {"query":"insert t_uuid_alloc (rand_key) values (\"A0iNmI1gfYUh9fuW\")","use_time":0.0099999904632568,"size":58}
+[2023-05-16 10:29:43][[common_init-c]][SqlQuery] {"query":"select * from t_uuid_alloc where rand_key='A0iNmI1gfYUh9fuW'","use_time":0,"size":60}
+[2023-05-16 10:29:43][[common_init-c]][SqlClose] {"host":"127.0.0.1","user":"root"}
+[2023-05-16 10:29:47][[game_database-10]][SqlConnect] {"host":"127.0.0.1","user":"root"}
+[2023-05-16 10:29:47][[game_database-10]][SqlQuery] {"query":"use hd_world","use_time":0.0099999904632568,"size":12}
+[2023-05-16 10:29:47][[game_database-10]][SqlQuery] {"query":"SET NAMES utf8mb4","use_time":0,"size":17}
+[2023-05-16 10:29:47][[game_database-10]][SqlQuery] {"query":"select count(*) from t_lua_schema","use_time":0,"size":33}
+[2023-05-16 10:29:47][[game_database-10]][SqlQuery] {"query":"select * from t_lua_schema where name='t_WorldConf'","use_time":0.0099999904632568,"size":51}
+[2023-05-16 10:29:47][[game_database-10]][SqlQuery] {"query":"select count(*) from t_lua_schema","use_time":0,"size":33}
+[2023-05-16 10:29:47][[game_database-10]][SqlQuery] {"query":"select * from t_lua_schema where name='t_PayOrder'","use_time":0.0099999904632568,"size":50}
+[2023-05-16 10:29:47][[game_database-10]][SqlQuery] {"query":"select count(*) from t_lua_schema","use_time":0,"size":33}
+[2023-05-16 10:29:47][[game_database-10]][SqlQuery] {"query":"select * from t_lua_schema where name='t_GiftKey'","use_time":0.0099999904632568,"size":49}
+[2023-05-16 10:29:47][[game_database-10]][SqlQuery] {"query":"select count(*) from t_lua_schema","use_time":0,"size":33}
+[2023-05-16 10:29:47][[game_database-10]][SqlQuery] {"query":"select * from t_lua_schema where name='t_GiftKeyBatch'","use_time":0.0099999904632568,"size":54}
+[2023-05-16 10:29:47][[game_database-10]][SqlQuery] {"query":"select * from t_GiftKeyBatch","use_time":0,"size":28}
+[2023-05-16 10:29:47][[game_database-10]][SqlQuery] {"query":"select * from t_WorldConf where conf_name='gift_key'","use_time":0.0099999904632568,"size":52}

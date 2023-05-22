@@ -1,0 +1,17 @@
+[2023-05-16 10:29:43][[common_init-c]][SqlConnect] {"host":"127.0.0.1","user":"root"}
+[2023-05-16 10:29:43][[common_init-c]][SqlQuery] {"query":"use hd_game2810","use_time":0.0099999904632568,"size":15}
+[2023-05-16 10:29:43][[common_init-c]][SqlQuery] {"query":"SET NAMES utf8mb4","use_time":0,"size":17}
+[2023-05-16 10:29:43][[common_init-c]][SqlQuery] {"query":"select count(*) from t_uuid_alloc","use_time":0.0099999904632568,"size":33}
+[2023-05-16 10:29:43][[common_init-c]][SqlQuery] {"query":"insert t_uuid_alloc (rand_key) values (\"lXMQp1PZOTSFrgav\")","use_time":0.0099999904632568,"size":58}
+[2023-05-16 10:29:43][[common_init-c]][SqlQuery] {"query":"select * from t_uuid_alloc where rand_key='lXMQp1PZOTSFrgav'","use_time":0,"size":60}
+[2023-05-16 10:29:43][[common_init-c]][SqlClose] {"host":"127.0.0.1","user":"root"}
+[2023-05-16 10:29:47][[game_database-10]][SqlConnect] {"host":"127.0.0.1","user":"root"}
+[2023-05-16 10:29:47][[game_database-10]][SqlQuery] {"query":"use hd_login","use_time":0.0099999904632568,"size":12}
+[2023-05-16 10:29:47][[game_database-10]][SqlQuery] {"query":"SET NAMES utf8mb4","use_time":0,"size":17}
+[2023-05-16 10:29:47][[game_database-10]][SqlQuery] {"query":"select count(*) from t_lua_schema","use_time":0,"size":33}
+[2023-05-16 10:29:47][[game_database-10]][SqlQuery] {"query":"select * from t_lua_schema where name='t_LoginRolesInfo'","use_time":0.0099999904632568,"size":56}
+[2023-05-16 10:30:13][[game_database-10]][SqlQuery] {"query":"select * from t_LoginRolesInfo where urs='trgfrr111'","use_time":0,"size":52}
+[2023-05-16 10:30:13][[game_database-10]][SqlQuery] {"query":"select * from t_LoginRolesInfo where urs='123'","use_time":0,"size":46}
+[2023-05-16 10:30:14][[game_database-10]][SqlQuery] {"query":"select * from t_LoginRolesInfo where urs='123123'","use_time":0,"size":49}
+[2023-05-16 10:30:14][[game_database-10]][SqlQuery] {"query":"select * from t_LoginRolesInfo where urs='123'","use_time":0,"size":46}
+[2023-05-16 10:30:14][[game_database-10]][SqlQuery] {"query":"select * from t_LoginRolesInfo where urs='trgfrr111'","use_time":0,"size":52}

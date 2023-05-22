@@ -1,0 +1,12 @@
+[2023-05-13 19:00:01][[agent-11]][HourlyRefresh] [{"urs":"9999","uuid":"55000013"}]
+[2023-05-13 19:15:45][[agent-11]][RoleLogin] {"urs":"9999","uuid":"55000013"}
+[2023-05-13 19:15:45][[agent-11]][RoleLogin] {"loginType":1,"roleRace":1,"urs":"9999","duration":0,"roleName":"越智紫爱","uuid":"55000013"}
+[2023-05-13 19:15:50][[agent-11]][BagItemAddCount] [{"urs":"9999","uuid":"55000013"},{"add_count":10,"item":{"item_id":201002,"count":471763,"guid":"8gl_201002"},"reason":"每日礼包购买"}]
+[2023-05-13 19:15:50][[agent-11]][BagItemAddCount] [{"urs":"9999","uuid":"55000013"},{"add_count":10,"item":{"item_id":201001,"count":471763,"guid":"7B6_201001"},"reason":"每日礼包购买"}]
+[2023-05-13 19:15:53][[agent-11]][SaveRole] {"uuid":"55000013","use":0}
+[2023-05-13 19:17:47][[agent-11]][RoleDisconnect] {"urs":"9999"}
+[2023-05-13 19:18:01][[agent-11]][RoleLogin] {"urs":"9999","uuid":"55000013"}
+[2023-05-13 19:18:01][[agent-11]][RoleLogin] {"loginType":1,"roleRace":1,"urs":"9999","duration":0,"roleName":"越智紫爱","uuid":"55000013"}
+[2023-05-13 19:18:08][[agent-11]][BagItemAddCount] [{"urs":"9999","uuid":"55000013"},{"add_count":10,"item":{"item_id":201002,"count":471773,"guid":"8gl_201002"},"reason":"每日礼包购买"}]
+[2023-05-13 19:18:08][[agent-11]][BagItemAddCount] [{"urs":"9999","uuid":"55000013"},{"add_count":10,"item":{"item_id":201001,"count":471773,"guid":"7B6_201001"},"reason":"每日礼包购买"}]
+[2023-05-13 19:21:48][[agent-11]][RoleDisconnect] {"urs":"9999"}

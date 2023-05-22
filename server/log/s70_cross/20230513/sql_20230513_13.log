@@ -1,0 +1,106 @@
+[2023-05-13 13:19:03][[common_init-c]][SqlConnect] {"host":"127.0.0.1","user":"root"}
+[2023-05-13 13:19:03][[common_init-c]][SqlQuery] {"query":"use hd_game70","use_time":0.0099999904632568,"size":13}
+[2023-05-13 13:19:03][[common_init-c]][SqlQuery] {"query":"SET NAMES utf8mb4","use_time":0,"size":17}
+[2023-05-13 13:19:03][[common_init-c]][SqlQuery] {"query":"select count(*) from t_uuid_alloc","use_time":0.0099999904632568,"size":33}
+[2023-05-13 13:19:03][[common_init-c]][SqlQuery] {"query":"insert t_uuid_alloc (rand_key) values (\"8Bq0uQeYiPfY3qsl\")","use_time":0.0099999904632568,"size":58}
+[2023-05-13 13:19:03][[common_init-c]][SqlQuery] {"query":"select * from t_uuid_alloc where rand_key='8Bq0uQeYiPfY3qsl'","use_time":0,"size":60}
+[2023-05-13 13:19:03][[common_init-c]][SqlClose] {"host":"127.0.0.1","user":"root"}
+[2023-05-13 13:19:07][[game_database-10]][SqlConnect] {"host":"127.0.0.1","user":"root"}
+[2023-05-13 13:19:07][[game_database-10]][SqlQuery] {"query":"use hd_game70","use_time":0,"size":13}
+[2023-05-13 13:19:07][[game_database-10]][SqlQuery] {"query":"SET NAMES utf8mb4","use_time":0,"size":17}
+[2023-05-13 13:19:07][[game_database-10]][SqlQuery] {"query":"select count(*) from t_lua_schema","use_time":0,"size":33}
+[2023-05-13 13:19:07][[game_database-10]][SqlQuery] {"query":"select * from t_lua_schema where name='t_Party'","use_time":0,"size":47}
+[2023-05-13 13:19:07][[game_database-10]][SqlQuery] {"query":"select count(*) from t_lua_schema","use_time":0,"size":33}
+[2023-05-13 13:19:07][[game_database-10]][SqlQuery] {"query":"select * from t_lua_schema where name='t_Salon'","use_time":0,"size":47}
+[2023-05-13 13:19:07][[game_database-10]][SqlQuery] {"query":"select count(*) from t_lua_schema","use_time":0,"size":33}
+[2023-05-13 13:19:07][[game_database-10]][SqlQuery] {"query":"select * from t_lua_schema where name='t_ServerCore'","use_time":0,"size":52}
+[2023-05-13 13:19:07][[game_database-10]][SqlQuery] {"query":"select count(*) from t_lua_schema","use_time":0,"size":33}
+[2023-05-13 13:19:07][[game_database-10]][SqlQuery] {"query":"select * from t_lua_schema where name='t_DynastyCompete'","use_time":0.0099999904632568,"size":56}
+[2023-05-13 13:19:07][[game_database-10]][SqlQuery] {"query":"select count(*) from t_lua_schema","use_time":0,"size":33}
+[2023-05-13 13:19:07][[game_database-10]][SqlQuery] {"query":"select * from t_lua_schema where name='t_ChildPropose'","use_time":0,"size":54}
+[2023-05-13 13:19:07][[game_database-10]][SqlQuery] {"query":"select count(*) from t_lua_schema","use_time":0,"size":33}
+[2023-05-13 13:19:07][[game_database-10]][SqlQuery] {"query":"select * from t_lua_schema where name='t_Rank'","use_time":0,"size":46}
+[2023-05-13 13:19:07][[game_database-10]][SqlQuery] {"query":"select * from t_ChildPropose","use_time":0,"size":28}
+[2023-05-13 13:19:07][[game_database-10]][SqlQuery] {"query":"select * from t_Salon","use_time":0,"size":21}
+[2023-05-13 13:19:07][[game_database-10]][SqlQuery] {"query":"select * from t_Party","use_time":0,"size":21}
+[2023-05-13 13:19:07][[game_database-10]][SqlQuery] {"query":"select * from t_ServerCore where server_name='s70'","use_time":0,"size":50}
+[2023-05-13 13:19:07][[game_database-10]][SqlQuery] {"query":"select count(*) from t_lua_schema","use_time":0,"size":33}
+[2023-05-13 13:19:07][[game_database-10]][SqlQuery] {"query":"select * from t_lua_schema where name='t_DynastyRank'","use_time":0,"size":53}
+[2023-05-13 13:19:07][[game_database-10]][SqlQuery] {"query":"select count(*) from t_lua_schema","use_time":0,"size":33}
+[2023-05-13 13:19:07][[game_database-10]][SqlQuery] {"query":"select * from t_lua_schema where name='t_Dynasty'","use_time":0,"size":49}
+[2023-05-13 13:19:07][[game_database-10]][SqlQuery] {"query":"select * from t_DynastyRank where rank_name='compete_mark_dynasty_rank'","use_time":0,"size":71}
+[2023-05-13 13:19:07][[game_database-10]][SqlQuery] {"query":"select * from t_DynastyRank where rank_name='cross_boss_honour_dynasty_rank'","use_time":0,"size":76}
+[2023-05-13 13:19:07][[game_database-10]][SqlQuery] {"query":"select * from t_Rank where rank_name='cross_train_rank'","use_time":0,"size":55}
+[2023-05-13 13:19:07][[game_database-10]][SqlQuery] {"query":"select * from t_Rank where rank_name='compete_mark_role_rank'","use_time":0,"size":61}
+[2023-05-13 13:19:07][[game_database-10]][SqlQuery] {"query":"select * from t_Rank where rank_name='cross_traitor_hurt_rank'","use_time":0,"size":62}
+[2023-05-13 13:19:07][[game_database-10]][SqlQuery] {"query":"select * from t_Rank where rank_name='cross_stage_start_rank'","use_time":0.0099999904632568,"size":61}
+[2023-05-13 13:19:07][[game_database-10]][SqlQuery] {"query":"select * from t_Rank where rank_name='cross_traitor_honour_rank'","use_time":0,"size":64}
+[2023-05-13 13:19:07][[game_database-10]][SqlQuery] {"query":"select * from t_Rank where rank_name='salon_rank'","use_time":0,"size":49}
+[2023-05-13 13:19:07][[game_database-10]][SqlQuery] {"query":"select * from t_Rank where rank_name='cross_fight_score_rank'","use_time":0,"size":61}
+[2023-05-13 13:19:07][[game_database-10]][SqlQuery] {"query":"select * from t_Rank where rank_name='party_rank'","use_time":0,"size":49}
+[2023-05-13 13:19:07][[game_database-10]][SqlQuery] {"query":"select * from t_Rank where rank_name='cross_score_rank'","use_time":0,"size":55}
+[2023-05-13 13:19:07][[game_database-10]][SqlQuery] {"query":"select * from t_Rank where rank_name='cross_hunt_rank'","use_time":0,"size":54}
+[2023-05-13 13:19:07][[game_database-10]][SqlQuery] {"query":"select * from t_Rank where rank_name='cross_traitor_feats_rank'","use_time":0,"size":63}
+[2023-05-13 13:19:07][[game_database-10]][SqlQuery] {"query":"select * from t_Rank where rank_name='cross_traitor_max_hurt_rank'","use_time":0,"size":66}
+[2023-05-13 13:24:07][[game_database-10]][SqlQuery] {"query":"update t_Party set party_info='{\\\"end_ti ... ount\\\":2877}',party_id=1 where party_id=1","use_time":0,"size":574}
+[2023-05-13 13:24:07][[game_database-10]][SqlQuery] {"query":"update t_Party set party_info='{\\\"end_ti ... count\\\":486}',party_id=2 where party_id=2","use_time":0,"size":398}
+[2023-05-13 13:29:07][[game_database-10]][SqlQuery] {"query":"update t_ServerCore set party_id=3 where server_name='s70'","use_time":0,"size":58}
+[2023-05-13 13:29:07][[game_database-10]][SqlQuery] {"query":"update t_DynastyRank set dynasty_list='{ ... ere rank_name='compete_mark_dynasty_rank'","use_time":0,"size":86}
+[2023-05-13 13:29:07][[game_database-10]][SqlQuery] {"query":"update t_DynastyRank set dynasty_list='{ ... ank_name='cross_boss_honour_dynasty_rank'","use_time":0,"size":91}
+[2023-05-13 13:29:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ...  where rank_name='cross_stage_start_rank'","use_time":0,"size":2567}
+[2023-05-13 13:29:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ere rank_name='cross_traitor_honour_rank'","use_time":0,"size":93}
+[2023-05-13 13:29:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... \"rank\\\":2}}' where rank_name='salon_rank'","use_time":0,"size":443}
+[2023-05-13 13:29:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ...  where rank_name='cross_fight_score_rank'","use_time":0,"size":4713}
+[2023-05-13 13:29:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... \"rank\\\":1}}' where rank_name='party_rank'","use_time":0,"size":200}
+[2023-05-13 13:29:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... :10}}' where rank_name='cross_score_rank'","use_time":0,"size":4494}
+[2023-05-13 13:29:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... here rank_name='cross_traitor_feats_rank'","use_time":0,"size":652}
+[2023-05-13 13:29:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... e rank_name='cross_traitor_max_hurt_rank'","use_time":0,"size":652}
+[2023-05-13 13:29:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... \\\":6}}' where rank_name='cross_hunt_rank'","use_time":0.0099999904632568,"size":1088}
+[2023-05-13 13:29:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ...  where rank_name='compete_mark_role_rank'","use_time":0,"size":90}
+[2023-05-13 13:29:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... where rank_name='cross_traitor_hurt_rank'","use_time":0,"size":91}
+[2023-05-13 13:29:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... t='{}' where rank_name='cross_train_rank'","use_time":0,"size":84}
+[2023-05-13 13:39:07][[game_database-10]][SqlQuery] {"query":"update t_ServerCore set party_id=3 where server_name='s70'","use_time":0,"size":58}
+[2023-05-13 13:39:07][[game_database-10]][SqlQuery] {"query":"update t_DynastyRank set dynasty_list='{ ... ere rank_name='compete_mark_dynasty_rank'","use_time":0,"size":86}
+[2023-05-13 13:39:07][[game_database-10]][SqlQuery] {"query":"update t_DynastyRank set dynasty_list='{ ... ank_name='cross_boss_honour_dynasty_rank'","use_time":0,"size":91}
+[2023-05-13 13:39:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ...  where rank_name='cross_stage_start_rank'","use_time":0,"size":2567}
+[2023-05-13 13:39:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ere rank_name='cross_traitor_honour_rank'","use_time":0,"size":93}
+[2023-05-13 13:39:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... \"rank\\\":2}}' where rank_name='salon_rank'","use_time":0,"size":443}
+[2023-05-13 13:39:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ...  where rank_name='cross_fight_score_rank'","use_time":0,"size":4713}
+[2023-05-13 13:39:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... \"rank\\\":1}}' where rank_name='party_rank'","use_time":0,"size":200}
+[2023-05-13 13:39:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... :10}}' where rank_name='cross_score_rank'","use_time":0.0099999904632568,"size":4494}
+[2023-05-13 13:39:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... here rank_name='cross_traitor_feats_rank'","use_time":0,"size":652}
+[2023-05-13 13:39:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... e rank_name='cross_traitor_max_hurt_rank'","use_time":0,"size":652}
+[2023-05-13 13:39:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... \\\":6}}' where rank_name='cross_hunt_rank'","use_time":0,"size":1088}
+[2023-05-13 13:39:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ...  where rank_name='compete_mark_role_rank'","use_time":0,"size":90}
+[2023-05-13 13:39:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... where rank_name='cross_traitor_hurt_rank'","use_time":0,"size":91}
+[2023-05-13 13:39:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... t='{}' where rank_name='cross_train_rank'","use_time":0,"size":84}
+[2023-05-13 13:49:07][[game_database-10]][SqlQuery] {"query":"update t_ServerCore set party_id=3 where server_name='s70'","use_time":0,"size":58}
+[2023-05-13 13:49:07][[game_database-10]][SqlQuery] {"query":"update t_DynastyRank set dynasty_list='{ ... ere rank_name='compete_mark_dynasty_rank'","use_time":0,"size":86}
+[2023-05-13 13:49:07][[game_database-10]][SqlQuery] {"query":"update t_DynastyRank set dynasty_list='{ ... ank_name='cross_boss_honour_dynasty_rank'","use_time":0,"size":91}
+[2023-05-13 13:49:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ...  where rank_name='cross_stage_start_rank'","use_time":0,"size":2567}
+[2023-05-13 13:49:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ere rank_name='cross_traitor_honour_rank'","use_time":0,"size":93}
+[2023-05-13 13:49:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... \"rank\\\":2}}' where rank_name='salon_rank'","use_time":0,"size":443}
+[2023-05-13 13:49:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ...  where rank_name='cross_fight_score_rank'","use_time":0,"size":4713}
+[2023-05-13 13:49:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... \"rank\\\":1}}' where rank_name='party_rank'","use_time":0,"size":200}
+[2023-05-13 13:49:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... :10}}' where rank_name='cross_score_rank'","use_time":0,"size":4494}
+[2023-05-13 13:49:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... here rank_name='cross_traitor_feats_rank'","use_time":0,"size":652}
+[2023-05-13 13:49:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... e rank_name='cross_traitor_max_hurt_rank'","use_time":0,"size":652}
+[2023-05-13 13:49:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... \\\":6}}' where rank_name='cross_hunt_rank'","use_time":0.0099999904632568,"size":1088}
+[2023-05-13 13:49:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ...  where rank_name='compete_mark_role_rank'","use_time":0,"size":90}
+[2023-05-13 13:49:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... where rank_name='cross_traitor_hurt_rank'","use_time":0,"size":91}
+[2023-05-13 13:49:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... t='{}' where rank_name='cross_train_rank'","use_time":0,"size":84}
+[2023-05-13 13:59:07][[game_database-10]][SqlQuery] {"query":"update t_ServerCore set party_id=3 where server_name='s70'","use_time":0,"size":58}
+[2023-05-13 13:59:07][[game_database-10]][SqlQuery] {"query":"update t_DynastyRank set dynasty_list='{ ... ere rank_name='compete_mark_dynasty_rank'","use_time":0,"size":86}
+[2023-05-13 13:59:07][[game_database-10]][SqlQuery] {"query":"update t_DynastyRank set dynasty_list='{ ... ank_name='cross_boss_honour_dynasty_rank'","use_time":0,"size":91}
+[2023-05-13 13:59:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ...  where rank_name='cross_stage_start_rank'","use_time":0,"size":2567}
+[2023-05-13 13:59:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ere rank_name='cross_traitor_honour_rank'","use_time":0,"size":93}
+[2023-05-13 13:59:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... \"rank\\\":2}}' where rank_name='salon_rank'","use_time":0,"size":443}
+[2023-05-13 13:59:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ...  where rank_name='cross_fight_score_rank'","use_time":0,"size":4713}
+[2023-05-13 13:59:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... \"rank\\\":1}}' where rank_name='party_rank'","use_time":0,"size":200}
+[2023-05-13 13:59:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... :10}}' where rank_name='cross_score_rank'","use_time":0,"size":4494}
+[2023-05-13 13:59:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... here rank_name='cross_traitor_feats_rank'","use_time":0,"size":652}
+[2023-05-13 13:59:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... e rank_name='cross_traitor_max_hurt_rank'","use_time":0,"size":652}
+[2023-05-13 13:59:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... \\\":6}}' where rank_name='cross_hunt_rank'","use_time":0,"size":1088}
+[2023-05-13 13:59:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ...  where rank_name='compete_mark_role_rank'","use_time":0.0099999904632568,"size":90}
+[2023-05-13 13:59:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... where rank_name='cross_traitor_hurt_rank'","use_time":0,"size":91}
+[2023-05-13 13:59:07][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... t='{}' where rank_name='cross_train_rank'","use_time":0,"size":84}

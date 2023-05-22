@@ -1,11 +1,6 @@
 [data]
-./exceldata/DailyGiftData.lua
+./exceldata/GotoUIData.lua
 ./exceldata/IconData.lua
 ./exceldata/ItemData.lua
-./exceldata/RewardData.lua
 ./exceldata/RoleLookData.lua
-./exceldata/ParamData.lua
-./exceldata/TranslationData.lua
-./exceldata/RechargeActivityData.lua
 ./exceldata/UnitData.lua
-./exceldata/UIContentData.lua

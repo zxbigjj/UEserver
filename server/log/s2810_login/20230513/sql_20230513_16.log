@@ -1,0 +1,12 @@
+[2023-05-13 16:01:02][[game_database-10]][SqlQuery] {"query":"select * from t_LoginRolesInfo where urs='b1001'","use_time":0.0099999904632568,"size":48}
+[2023-05-13 16:04:39][[game_database-10]][SqlQuery] {"query":"select * from t_LoginRolesInfo where urs='b1001'","use_time":0,"size":48}
+[2023-05-13 16:06:01][[game_database-10]][SqlQuery] {"query":"select * from t_LoginRolesInfo where urs='b1001'","use_time":0,"size":48}
+[2023-05-13 16:06:16][[game_database-10]][SqlQuery] {"query":"select * from t_LoginRolesInfo where urs='b1001'","use_time":0,"size":48}
+[2023-05-13 16:08:25][[game_database-10]][SqlQuery] {"query":"select * from t_LoginRolesInfo where urs='b1001'","use_time":0,"size":48}
+[2023-05-13 16:10:32][[game_database-10]][SqlQuery] {"query":"select * from t_LoginRolesInfo where urs='b1001'","use_time":0,"size":48}
+[2023-05-13 16:11:01][[game_database-10]][SqlQuery] {"query":"select * from t_LoginRolesInfo where urs='b1001'","use_time":0,"size":48}
+[2023-05-13 16:13:25][[game_database-10]][SqlQuery] {"query":"select * from t_LoginRolesInfo where urs='b1001'","use_time":0.0099999904632568,"size":48}
+[2023-05-13 16:33:42][[game_database-10]][SqlQuery] {"query":"select * from t_LoginRolesInfo where urs='9999'","use_time":0,"size":47}
+[2023-05-13 16:34:07][[game_database-10]][SqlQuery] {"query":"select * from t_LoginRolesInfo where urs='9999'","use_time":0,"size":47}
+[2023-05-13 16:35:52][[game_database-10]][SqlQuery] {"query":"select * from t_LoginRolesInfo where urs='9999'","use_time":0.0099999904632568,"size":47}
+[2023-05-13 16:41:28][[game_database-10]][SqlQuery] {"query":"select * from t_LoginRolesInfo where urs='9999'","use_time":0.0099999904632568,"size":47}

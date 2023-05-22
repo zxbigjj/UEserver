@@ -1,0 +1,16 @@
+[2023-05-13 17:00:02][[game_database-10]][info] SqlQueryCount: 1
+[2023-05-13 17:05:04][[game_database-10]][info] SqlQueryCount: 1
+[2023-05-13 17:09:24][[game_database-10]][info] SqlQueryCount: 32
+[2023-05-13 17:11:52][[game_database-10]][info] SqlQueryCount: 1
+[2023-05-13 17:19:24][[game_database-10]][info] SqlQueryCount: 32
+[2023-05-13 17:29:24][[game_database-10]][info] SqlQueryCount: 32
+[2023-05-13 17:39:24][[game_database-10]][info] SqlQueryCount: 32
+[2023-05-13 17:46:04][[reload_watcher-a]][info] excel to reload:
+
+[2023-05-13 17:46:04][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/agent/meta_table/recharge.lua
+./gamelogic/service/agent/daily_gift_package_activities_utils.lua
+[2023-05-13 17:46:04][[agent-11]][info] reload_mod begin: daily_gift_package_activities_utils <==> ./gamelogic/service/agent/daily_gift_package_activities_utils.lua
+[2023-05-13 17:46:04][[agent-11]][info] reload_mod begin: meta_table.recharge <==> ./gamelogic/service/agent/meta_table/recharge.lua
+[2023-05-13 17:49:24][[game_database-10]][info] SqlQueryCount: 32
+[2023-05-13 17:59:24][[game_database-10]][info] SqlQueryCount: 32

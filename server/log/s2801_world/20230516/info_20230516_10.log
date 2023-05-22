@@ -1,0 +1,12 @@
+[2023-05-16 10:29:43][[reload_watcher-a]][info] ["reload_watcher:",10]
+[2023-05-16 10:29:43][[common_init-c]][info] uuid init<2801|39>, tag<25T_13_>
+[2023-05-16 10:29:43][[clusterd-d]][info] connect s2800_cluster_router 117.50.192.198:40301
+[2023-05-16 10:29:43][[clusterd-d]][info] ["clusterd start:",13]
+[2023-05-16 10:29:43][[clusterd-d]][info] socket accept from ::ffff:117.50.192.198:47308, 5
+[2023-05-16 10:29:43][[clusterd-d]][info] clusterd show_self s2800_cluster_router
+[2023-05-16 10:29:44][[common_init-c]][info] SqlQueryCount: 5
+[2023-05-16 10:29:46][[gamelog-9]][info] ["gamelog start:",9]
+[2023-05-16 10:29:47][[game_database-10]][info] gamedb service boot success!
+[2023-05-16 10:29:47][[world-11]][info] refresh schema:schema_world
+[2023-05-16 10:29:47][[world-11]][info] ["world start:",17]
+[2023-05-16 10:29:48][[game_database-10]][info] SqlQueryCount: 12

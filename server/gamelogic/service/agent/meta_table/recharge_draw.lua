@@ -97,7 +97,7 @@ function recharge_draw:random_award(activity_id)
             table.insert(id_list[data.award_type], id)
         end
     end
-    local normal_award_num = excel_data.ParamData["normal_reward_count"].f_value
+    local normal_award_num = excel_data.ParamData.normal_reward_count.f_value
     for i = 1, normal_award_num do
         local random_id = math.random(1, #id_list[AwardType.Normal])
         table.insert(award_list, id_list[AwardType.Normal][random_id])
@@ -159,7 +159,14 @@ function recharge_draw:start_free_draw_timer(is_init_activity)
             dbdata.last_refresh = last_refresh_ts
             dbdata.free_num = dbdata.free_num + 1
         end
+
+        --陈永帅：处理转盘最大数量20230519
+        local max_free_num = excel_data.ParamData.max_free_draw.f_value
         local add_count = (now_ts - last_refresh_ts) // duration_sec
+        if add_count >= max_free_num then
+            add_count = max_free_num
+        end
+
         dbdata.free_num = dbdata.free_num + add_count
         local delay_sec = (last_refresh_ts + duration_sec * (add_count + 1)) - now_ts
         self.timer = self.role:timer_loop(duration_sec, function() self:add_free_draw_count() end, delay_sec)
@@ -169,8 +176,13 @@ end
 -- 给与免费抽奖次数
 function recharge_draw:add_free_draw_count()
     print("-- add free draw count uuid: " .. self.role.uuid)
+    local max_free_num = excel_data.ParamData.max_free_draw.f_value
     local draw_info = self.db.recharge_draw
-    draw_info.free_num = draw_info.free_num + 1
+    if  draw_info.free_num >= max_free_num then
+        draw_info.free_num = max_free_num
+    else
+        draw_info.free_num = draw_info.free_num + 1
+    end
     draw_info.last_refresh = date.time_second()
     print("-- count is: " .. draw_info.free_num + draw_info.addition_num)
     self.role:send_client("s_update_recharge_draw_info", {draw_count = draw_info.free_num + draw_info.addition_num})

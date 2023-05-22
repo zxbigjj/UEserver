@@ -1,0 +1,48 @@
+CreateThread: 22052, skynet_worker
+[2023-05-17 22:14:32][:00000002] LAUNCH snlua bootstrap
+CreateThread: 22054, skynet_worker
+CreateThread: 22055, skynet_worker
+CreateThread: 22057, skynet_worker
+CreateThread: 22053, skynet_worker
+CreateThread: 22049, thread_timer
+CreateThread: 22048, thread_monitor
+CreateThread: 22051, skynet_worker
+CreateThread: 22056, skynet_worker
+CreateThread: 22058, skynet_worker
+CreateThread: 22050, thread_socket
+[2023-05-17 22:14:32][:00000003] LAUNCH snlua launcher
+[2023-05-17 22:14:32][:00000004] LAUNCH snlua cdummy
+[2023-05-17 22:14:32][:00000005] LAUNCH harbor 0 4
+[2023-05-17 22:14:32][:00000006] LAUNCH snlua datacenterd
+[2023-05-17 22:14:32][:00000007] LAUNCH snlua service_mgr
+[2023-05-17 22:14:32][:00000008] LAUNCH snlua dynasty_launcher
+[2023-05-17 22:14:32][dynasty_launcher-8]	load sproto:./bin/c2s.spb
+[2023-05-17 22:14:32][dynasty_launcher-8]	load sproto:./bin/s2c.spb
+[2023-05-17 22:14:32][dynasty_launcher-8]	[warn][node s55_dynasty]start begin
+[2023-05-17 22:14:32][:00000009] LAUNCH snlua gamelog
+[2023-05-17 22:14:32][gamelog-9]	true	exit	0
+[2023-05-17 22:14:32][gamelog-9]	true	exit	0
+[2023-05-17 22:14:32][gamelog-9]	true	exit	0
+[2023-05-17 22:14:32][:0000000a] LAUNCH snlua reload_watcher
+[2023-05-17 22:14:32][:0000000b] LAUNCH snlua debug_console 15521
+[2023-05-17 22:14:32][:0000000b] Start debug console at 127.0.0.1:15521
+[2023-05-17 22:14:32][:0000000c] LAUNCH snlua common_init
+header:<1J_5G_>, len:<6>
+[2023-05-17 22:14:32][:0000000d] LAUNCH snlua clusterd
+[2023-05-17 22:14:32][:0000000e] LAUNCH snlua sharedatad
+[2023-05-17 22:14:32][:0000000f] LAUNCH gate M :0000000d :::15520 3 65535 2
+[2023-05-17 22:14:32][dynasty_launcher-8]	load excel begin:	4393780.2099624
+CreateThread: 22072, socket_send_worker
+CreateThread: 22071, socket_send_worker
+[2023-05-17 22:14:32][:0000000f] socket open: 5
+[2023-05-17 22:14:33][:00000008] Memory warning 32.00 M
+[2023-05-17 22:14:35][dynasty_launcher-8]	=============no excel: MonsterBaseAttr.lua MonsterRateData.lua ExpData.lua LanguageData.lua SysUnlockData.lua
+[2023-05-17 22:14:35][dynasty_launcher-8]	load excel end:	4393783.0706999
+[2023-05-17 22:14:35][:0000000f] socket open: 7
+[2023-05-17 22:14:35][:00000010] LAUNCH snlua dynasty
+[2023-05-17 22:14:35][dynasty-10]	key..traitor_boss_honour_dynasty_rank
+[2023-05-17 22:14:35][dynasty-10]	key..rush_activity_dynasty_rank
+[2023-05-17 22:14:35][dynasty-10]	---- 5500002
+[2023-05-17 22:14:35][dynasty-10]	=816031
+[2023-05-17 22:14:35][dynasty_launcher-8]	[warn][node s55_dynasty]all service booted
+[2023-05-17 22:14:35][:00000002] KILL self

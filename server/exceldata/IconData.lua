@@ -407,6 +407,12 @@ return {
         [ "res_name" ] = "zhujuenv5_icon",
         [ "res_path" ] = "UIRes/Common/Icon/JlbIcon/zhujuenv5_icon",
     },
+    [ 10050 ] = {
+        [ "ch_key" ] = "男主角5",
+        [ "id" ] = 10050,
+        [ "res_name" ] = "zhujuenan5_icon",
+        [ "res_path" ] = "UIRes/Common/Icon/JlbIcon/zhujuenan5_icon",
+    },
     [ 40001 ] = {
         [ "ch_key" ] = "商业",
         [ "id" ] = 40001,
@@ -4750,6 +4756,42 @@ return {
         [ "id" ] = 300073,
         [ "res_name" ] = "zuzhiduomo",
         [ "res_path" ] = "UIResLanguage/RankActivity/zuzhiduomo",
+    },
+    [ 300074 ] = {
+        [ "ch_key" ] = "霸道总裁图标",
+        [ "id" ] = 300074,
+        [ "res_name" ] = "shangyebazhu_icon",
+        [ "res_path" ] = "UIResLanguage/RankActivity/shangyebazhu_icon",
+    },
+    [ 300075 ] = {
+        [ "ch_key" ] = "才高八斗图标",
+        [ "id" ] = 300075,
+        [ "res_name" ] = "xinggannannv_icon",
+        [ "res_path" ] = "UIResLanguage/RankActivity/xinggannannv_icon",
+    },
+    [ 300076 ] = {
+        [ "ch_key" ] = "产业大亨图标",
+        [ "id" ] = 300076,
+        [ "res_name" ] = "shangyedaheng_icon",
+        [ "res_path" ] = "UIResLanguage/RankActivity/shangyedaheng_icon",
+    },
+    [ 300077 ] = {
+        [ "ch_key" ] = "风华绝代图标",
+        [ "id" ] = 300077,
+        [ "res_name" ] = "seqingkuangmo_icon",
+        [ "res_path" ] = "UIResLanguage/RankActivity/seqingkuangmo_icon",
+    },
+    [ 300078 ] = {
+        [ "ch_key" ] = "风月常新图标",
+        [ "id" ] = 300078,
+        [ "res_name" ] = "yinmotiantang_icon",
+        [ "res_path" ] = "UIResLanguage/RankActivity/yinmotiantang_icon",
+    },
+    [ 300079 ] = {
+        [ "ch_key" ] = "社会名流图标",
+        [ "id" ] = 300079,
+        [ "res_name" ] = "Y_paidcb_icon_icon",
+        [ "res_path" ] = "UIResLanguage/RankActivity/Y_paidcb_icon_icon",
     },
     [ 310001 ] = {
         [ "ch_key" ] = "活动一",

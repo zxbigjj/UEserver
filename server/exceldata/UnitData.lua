@@ -91,6 +91,16 @@ return {
         [ "res_path" ] = "Unit/Lead/Lead_nvkongjie/nvkongjie_pb",
         [ "unlock_icon" ] = 10049,
     },
+    [ 10 ] = {
+        [ "back_icon" ] = 10043,
+        [ "ch_key" ] = "男主角5",
+        [ "default_anim" ] = "idle",
+        [ "icon" ] = 10050,
+        [ "id" ] = 10,
+        [ "name" ] = "男主角5",
+        [ "res_path" ] = "Unit/Lead/Lead_nanmo/nanmo_pb",
+        [ "unlock_icon" ] = 10050,
+    },
     [ 3000 ] = {
         [ "ch_key" ] = "弗兰克",
         [ "default_anim" ] = "idle",

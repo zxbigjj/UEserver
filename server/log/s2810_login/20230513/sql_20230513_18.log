@@ -1,0 +1,1 @@
+[2023-05-13 18:57:32][[game_database-10]][SqlQuery] {"query":"select * from t_LoginRolesInfo where urs='9999'","use_time":0,"size":47}

@@ -1,0 +1,8 @@
+[2023-05-13 17:09:25][[clusterd-d]][info] close socket 8
+[2023-05-13 17:40:11][[clusterd-d]][info] socket accept from ::ffff:31.43.185.32:64184, 9
+[2023-05-13 17:42:37][[clusterd-d]][info] close socket 9
+[2023-05-13 17:46:04][[reload_watcher-a]][info] excel to reload:
+
+[2023-05-13 17:46:04][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/agent/meta_table/recharge.lua
+./gamelogic/service/agent/daily_gift_package_activities_utils.lua

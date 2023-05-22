@@ -1,0 +1,7 @@
+Bottle v0.13-dev server starting up (using GeventServer())...
+Listening on http://0.0.0.0:10115/
+Hit Ctrl-C to quit.
+
+112.41.62.31 - - [2023-05-17 22:14:30] "GET /static/notices/test_android HTTP/1.0" 200 778 0.001106
+112.41.62.31 - - [2023-05-17 22:14:31] "GET /static/notices/test_android HTTP/1.0" 200 778 0.000542
+112.41.62.31 - - [2023-05-17 22:14:34] "GET /static/notices/test_android HTTP/1.0" 200 778 0.000521

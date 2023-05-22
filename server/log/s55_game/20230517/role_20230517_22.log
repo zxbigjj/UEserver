@@ -1,0 +1,4 @@
+[2023-05-17 22:14:36][[agent-11]][RoleLoad] {"urs":"1232445","uuid":"55000049"}
+[2023-05-17 22:14:36][[agent-11]][ModifyAttr] [{"urs":"1232445","uuid":"55000049"},{"result":{"management":2355,"max_hp":707.3,"renown":2290,"business":2428,"att":21.55,"fight":2155},"attr_diff_dict":{"def_pct":30,"renown":2290,"max_hp":20491.3,"att":1130.7835,"att_pct":30,"management":2355,"fight":2155,"def":216.45,"hit":300,"miss":15,"business":2428,"crit":60,"crit_def":15}}]
+[2023-05-17 22:14:37][[agent-11]][RoleLogin] {"urs":"1232445","uuid":"55000049"}
+[2023-05-17 22:14:37][[agent-11]][RoleLogin] {"loginType":1,"roleRace":10,"urs":"1232445","duration":0,"roleName":"丘冰淋","uuid":"55000049"}

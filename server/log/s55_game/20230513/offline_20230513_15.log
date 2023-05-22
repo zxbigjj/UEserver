@@ -1,0 +1,1 @@
+[2023-05-13 15:39:28][[agent-11]][DoCmd] {"uuid":"55000021","obj":{"cmd":"add_mail","uuid":"55000021","version":1,"args":{"mail_id":3,"item_list":[{"count":1000,"item_id":101010},{"count":10,"item_id":301010},{"count":10000,"item_id":101002}],"mail_args":{"rank":301}},"id":153,"ts":1683900000}}

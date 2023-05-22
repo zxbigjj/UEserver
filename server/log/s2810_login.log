@@ -1,0 +1,45 @@
+CreateThread: 21730, thread_monitor
+CreateThread: 21731, thread_timer
+CreateThread: 21732, thread_socket
+CreateThread: 21733, skynet_worker
+[2023-05-17 22:14:14][:00000002] LAUNCH snlua bootstrap
+CreateThread: 21734, skynet_worker
+CreateThread: 21735, skynet_worker
+CreateThread: 21738, skynet_worker
+CreateThread: 21740, skynet_worker
+CreateThread: 21739, skynet_worker
+CreateThread: 21737, skynet_worker
+CreateThread: 21736, skynet_worker
+[2023-05-17 22:14:14][:00000003] LAUNCH snlua launcher
+[2023-05-17 22:14:14][:00000004] LAUNCH snlua cdummy
+[2023-05-17 22:14:14][:00000005] LAUNCH harbor 0 4
+[2023-05-17 22:14:14][:00000006] LAUNCH snlua datacenterd
+[2023-05-17 22:14:14][:00000007] LAUNCH snlua service_mgr
+[2023-05-17 22:14:14][:00000008] LAUNCH snlua login_launcher
+[2023-05-17 22:14:14][login_launcher-8]	load sproto:./bin/c2s.spb
+[2023-05-17 22:14:14][login_launcher-8]	load sproto:./bin/s2c.spb
+[2023-05-17 22:14:14][login_launcher-8]	[warn][node s2810_login]start begin
+[2023-05-17 22:14:14][:00000009] LAUNCH snlua gamelog
+[2023-05-17 22:14:14][gamelog-9]	true	exit	0
+[2023-05-17 22:14:14][gamelog-9]	true	exit	0
+[2023-05-17 22:14:14][gamelog-9]	true	exit	0
+[2023-05-17 22:14:14][:0000000a] LAUNCH snlua reload_watcher
+[2023-05-17 22:14:14][:0000000b] LAUNCH snlua debug_console 38102
+[2023-05-17 22:14:14][:0000000b] Start debug console at 127.0.0.1:38102
+[2023-05-17 22:14:14][:0000000c] LAUNCH snlua common_init
+header:<262_15_>, len:<7>
+[2023-05-17 22:14:14][:0000000d] LAUNCH snlua clusterd
+[2023-05-17 22:14:14][:0000000e] LAUNCH snlua sharedatad
+[2023-05-17 22:14:14][:0000000f] LAUNCH gate M :0000000d :::38101 3 65535 2
+[2023-05-17 22:14:14][login_launcher-8]	load excel begin:	4393761.7777976
+CreateThread: 21769, socket_send_worker
+CreateThread: 21770, socket_send_worker
+[2023-05-17 22:14:14][:0000000f] socket open: 5
+[2023-05-17 22:14:14][:00000008] Memory warning 32.00 M
+[2023-05-17 22:14:18][login_launcher-8]	=============no excel: MonsterBaseAttr.lua MonsterRateData.lua ExpData.lua LanguageData.lua SysUnlockData.lua
+[2023-05-17 22:14:18][login_launcher-8]	load excel end:	4393765.6573909
+[2023-05-17 22:14:18][:00000010] LAUNCH snlua game_database
+[2023-05-17 22:14:18][:00000011] LAUNCH snlua login
+[2023-05-17 22:14:18][:00000011] Listen web port:38103
+[2023-05-17 22:14:18][login_launcher-8]	[warn][node s2810_login]all service booted
+[2023-05-17 22:14:18][:00000002] KILL self

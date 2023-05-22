@@ -38,11 +38,11 @@ return {
         [ "unlocked" ] = true,
     },
     [ 5 ] = {
-        [ "head_icon_id" ] = 10042,
+        [ "head_icon_id" ] = 10050,
         [ "role_look_id" ] = 5,
         [ "sex" ] = 1,
         [ "skin_id" ] = 1,
-        [ "unit_id" ] = 3019,
+        [ "unit_id" ] = 10,
         [ "unlock_icon" ] = 10017,
         [ "unlocked" ] = true,
     },

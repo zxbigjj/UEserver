@@ -36,6 +36,7 @@ function luxury_check_in:online()
             data.reward_state = data.recharge_times > 0 and CSConst.RewardState.unpick or CSConst.RewardState.picked
         end
     end
+    print("====luxury_check_in datas :==="..json.encode(datas))
     self:send(datas)
 end
 
@@ -53,7 +54,9 @@ function luxury_check_in:init_data(id, obj)
     dbdata.recharge_times = exldata.rechargeable_times
     dbdata.reward_times = 0
     local mylevel = self.role:get_level()
+    print("===luxury_check_in mylevel==="..mylevel)
     for i, level in ipairs(exldata.level_list) do
+        print("===luxury_check_in level==="..level)
         if mylevel <= level then
             dbdata.reward_id = exldata.reward_list[i]
             break

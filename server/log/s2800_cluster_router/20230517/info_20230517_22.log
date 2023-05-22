@@ -1,0 +1,49 @@
+[2023-05-17 22:14:12][[reload_watcher-a]][info] ["reload_watcher:",10]
+[2023-05-17 22:14:12][[common_init-c]][info] uuid init<2800|41>, tag<25S_15_>
+[2023-05-17 22:14:12][[clusterd-d]][info] ["clusterd start:",13]
+[2023-05-17 22:14:12][[cluster_router-10]][info] ["cluster_router start:",16]
+[2023-05-17 22:14:12][[clusterd-d]][info] socket accept from ::ffff:117.50.192.198:37650, 4
+[2023-05-17 22:14:12][[clusterd-d]][info] clusterd show_self s55_chat
+[2023-05-17 22:14:12][[cluster_router-10]][info] ["NodeUp","s55_chat","117.50.192.198:15518"]
+[2023-05-17 22:14:12][[clusterd-d]][info] connect s55_chat 117.50.192.198:15518
+[2023-05-17 22:14:12][[clusterd-d]][info] socket accept from ::ffff:117.50.192.198:37654, 6
+[2023-05-17 22:14:12][[clusterd-d]][info] clusterd show_self s55_dynasty
+[2023-05-17 22:14:12][[cluster_router-10]][info] ["NodeUp","s55_dynasty","117.50.192.198:15520"]
+[2023-05-17 22:14:12][[clusterd-d]][info] connect s55_dynasty 117.50.192.198:15520
+[2023-05-17 22:14:12][[clusterd-d]][info] socket accept from ::ffff:117.50.192.198:37658, 8
+[2023-05-17 22:14:12][[clusterd-d]][info] clusterd show_self s55_game
+[2023-05-17 22:14:12][[cluster_router-10]][info] ["NodeUp","s55_game","117.50.192.198:15516"]
+[2023-05-17 22:14:12][[clusterd-d]][info] connect s55_game 117.50.192.198:15516
+[2023-05-17 22:14:13][[common_init-c]][info] SqlQueryCount: 5
+[2023-05-17 22:14:15][[gamelog-9]][info] ["gamelog start:",9]
+[2023-05-17 22:14:15][[clusterd-d]][info] socket accept from ::ffff:117.50.192.198:37666, 10
+[2023-05-17 22:14:15][[clusterd-d]][info] clusterd show_self s2801_world
+[2023-05-17 22:14:15][[cluster_router-10]][info] ["NodeUp","s2801_world","117.50.192.198:40001"]
+[2023-05-17 22:14:15][[clusterd-d]][info] connect s2801_world 117.50.192.198:40001
+[2023-05-17 22:14:15][[clusterd-d]][info] socket accept from ::ffff:117.50.192.198:37672, 12
+[2023-05-17 22:14:15][[clusterd-d]][info] clusterd show_self s2803_gm_router
+[2023-05-17 22:14:15][[cluster_router-10]][info] ["NodeUp","s2803_gm_router","117.50.192.198:40201"]
+[2023-05-17 22:14:15][[clusterd-d]][info] connect s2803_gm_router 117.50.192.198:40201
+[2023-05-17 22:14:15][[clusterd-d]][info] socket accept from ::ffff:117.50.192.198:37678, 14
+[2023-05-17 22:14:15][[clusterd-d]][info] socket accept from ::ffff:117.50.192.198:37680, 15
+[2023-05-17 22:14:15][[clusterd-d]][info] clusterd show_self s2810_login
+[2023-05-17 22:14:15][[cluster_router-10]][info] ["NodeUp","s2810_login","117.50.192.198:38101"]
+[2023-05-17 22:14:15][[clusterd-d]][info] connect s2810_login 117.50.192.198:38101
+[2023-05-17 22:14:15][[clusterd-d]][info] clusterd show_self s70_cross
+[2023-05-17 22:14:15][[cluster_router-10]][info] ["NodeUp","s70_cross","117.50.192.198:17015"]
+[2023-05-17 22:14:15][[clusterd-d]][info] connect s70_cross 117.50.192.198:17015
+[2023-05-17 22:14:32][[clusterd-d]][info] close socket 9
+[2023-05-17 22:14:32][[clusterd-d]][info] close socket 8
+[2023-05-17 22:14:32][[clusterd-d]][info] close socket 6
+[2023-05-17 22:14:32][[clusterd-d]][info] close socket 7
+[2023-05-17 22:14:32][[clusterd-d]][info] close socket 4
+[2023-05-17 22:14:32][[clusterd-d]][info] close socket 5
+[2023-05-17 22:14:33][[clusterd-d]][info] socket accept from ::ffff:117.50.192.198:37698, 18
+[2023-05-17 22:14:33][[clusterd-d]][info] clusterd show_self s55_game
+[2023-05-17 22:14:33][[clusterd-d]][info] connect s55_game 117.50.192.198:15516
+[2023-05-17 22:14:33][[clusterd-d]][info] socket accept from ::ffff:117.50.192.198:37704, 20
+[2023-05-17 22:14:33][[clusterd-d]][info] clusterd show_self s55_chat
+[2023-05-17 22:14:33][[clusterd-d]][info] connect s55_chat 117.50.192.198:15518
+[2023-05-17 22:14:33][[clusterd-d]][info] socket accept from ::ffff:117.50.192.198:37708, 22
+[2023-05-17 22:14:33][[clusterd-d]][info] clusterd show_self s55_dynasty
+[2023-05-17 22:14:33][[clusterd-d]][info] connect s55_dynasty 117.50.192.198:15520

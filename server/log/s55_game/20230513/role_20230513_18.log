@@ -1,0 +1,9 @@
+[2023-05-13 18:57:35][[agent-11]][RoleLoad] {"urs":"9999","uuid":"55000013"}
+[2023-05-13 18:57:35][[agent-11]][ModifyAttr] [{"urs":"9999","uuid":"55000013"},{"result":{"management":168,"max_hp":48,"renown":160,"business":152,"att":1.6,"fight":160},"attr_diff_dict":{"max_hp":1248,"renown":160,"att":41.6,"management":168,"fight":160,"crit_def":10,"hit":200,"business":152,"crit":40,"miss":10}}]
+[2023-05-13 18:57:35][[agent-11]][ModifyAttr] [{"urs":"9999","uuid":"55000013"},{"result":{"management":488,"fight":610,"renown":490,"business":552,"att":6.1,"max_hp":153},"attr_diff_dict":{"management":320,"fight":450,"business":400,"renown":330}}]
+[2023-05-13 18:57:35][[agent-11]][HourlyRefresh] [{"urs":"9999","uuid":"55000013"}]
+[2023-05-13 18:57:35][[agent-11]][RoleLogin] {"urs":"9999","uuid":"55000013"}
+[2023-05-13 18:57:35][[agent-11]][RoleLogin] {"loginType":1,"roleRace":1,"urs":"9999","duration":0,"roleName":"越智紫爱","uuid":"55000013"}
+[2023-05-13 18:57:46][[agent-11]][BagItemAddCount] [{"urs":"9999","uuid":"55000013"},{"add_count":10,"item":{"item_id":201002,"count":471753,"guid":"8gl_201002"},"reason":"每日礼包购买"}]
+[2023-05-13 18:57:46][[agent-11]][BagItemAddCount] [{"urs":"9999","uuid":"55000013"},{"add_count":10,"item":{"item_id":201001,"count":471753,"guid":"7B6_201001"},"reason":"每日礼包购买"}]
+[2023-05-13 18:57:49][[agent-11]][RoleDisconnect] {"urs":"9999"}
