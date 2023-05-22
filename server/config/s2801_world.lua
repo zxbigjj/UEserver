@@ -14,15 +14,15 @@ config_path = 'config/'
 db_host = '127.0.0.1'
 db_port = 3306
 db_user = 'root'
-db_passwd = 'cys123456'
+db_passwd = '123456'
 
 server_id = 2801
 server_name = 's2801' -- 服务器ID
 server_type = 'world'
 
 cluster_nodename = 's2801_world' -- 集群节点名
-cluster_nodeaddr = '117.50.192.198:40001' -- 地址
-cluster_router = '117.50.192.198:40301'
+cluster_nodeaddr = '117.50.193.85:40001' -- 地址
+cluster_router = '117.50.193.85:40301'
 cluster_router_name = 's2800_cluster_router'
 cluster_port = 40001
 debug_console_port = 40002

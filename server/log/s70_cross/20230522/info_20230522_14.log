@@ -1,0 +1,19 @@
+[2023-05-22 14:40:25][[reload_watcher-a]][info] ["reload_watcher:",10]
+[2023-05-22 14:40:25][[common_init-c]][info] uuid init<70|6>, tag<1Y_6_>
+[2023-05-22 14:40:25][[clusterd-d]][info] connect s2800_cluster_router 117.50.193.85:40301
+[2023-05-22 14:40:25][[clusterd-d]][info] ["clusterd start:",13]
+[2023-05-22 14:40:25][[clusterd-d]][info] socket accept from ::ffff:117.50.193.85:48654, 5
+[2023-05-22 14:40:25][[clusterd-d]][info] clusterd show_self s2800_cluster_router
+[2023-05-22 14:40:26][[common_init-c]][info] SqlQueryCount: 5
+[2023-05-22 14:40:28][[gamelog-9]][info] ["gamelog start:",9]
+[2023-05-22 14:40:28][[game_database-10]][info] gamedb service boot success!
+[2023-05-22 14:40:28][[chat-11]][info] ["chat start:",17]
+[2023-05-22 14:40:28][[child_marry-12]][info] refresh schema:schema_cross
+[2023-05-22 14:40:28][[child_marry-12]][info] ["child_marry start:",18]
+[2023-05-22 14:40:28][[salon-13]][info] ["salon start:",19]
+[2023-05-22 14:40:28][[party-14]][info] ["party start:",20]
+[2023-05-22 14:40:28][[dynasty-15]][info] refresh schema:schema_dynasty
+[2023-05-22 14:40:28][[dynasty-15]][info] ["dynasty_mgr_start start:",21]
+[2023-05-22 14:40:28][[traitor-16]][info] ["traitor start:",22]
+[2023-05-22 14:40:28][[rank-17]][info] ["rank start:",23]
+[2023-05-22 14:40:29][[game_database-10]][info] SqlQueryCount: 36

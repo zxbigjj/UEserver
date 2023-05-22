@@ -1,128 +1,119 @@
-CreateThread: 21749, skynet_worker
-[2023-05-17 22:14:14][:00000002] LAUNCH snlua bootstrap
-CreateThread: 21751, skynet_worker
-CreateThread: 21752, skynet_worker
-CreateThread: 21754, skynet_worker
-CreateThread: 21750, skynet_worker
-CreateThread: 21746, thread_socket
-CreateThread: 21744, thread_monitor
-CreateThread: 21745, thread_timer
-CreateThread: 21748, skynet_worker
-CreateThread: 21753, skynet_worker
-CreateThread: 21747, skynet_worker
-[2023-05-17 22:14:14][:00000003] LAUNCH snlua launcher
-[2023-05-17 22:14:14][:00000004] LAUNCH snlua cdummy
-[2023-05-17 22:14:14][:00000005] LAUNCH harbor 0 4
-[2023-05-17 22:14:14][:00000006] LAUNCH snlua datacenterd
-[2023-05-17 22:14:14][:00000007] LAUNCH snlua service_mgr
-[2023-05-17 22:14:14][:00000008] LAUNCH snlua cross_launcher
-[2023-05-17 22:14:14][cross_launcher-8]	load sproto:./bin/c2s.spb
-[2023-05-17 22:14:14][cross_launcher-8]	load sproto:./bin/s2c.spb
-[2023-05-17 22:14:14][cross_launcher-8]	[warn][node s70_cross]start begin
-[2023-05-17 22:14:14][:00000009] LAUNCH snlua gamelog
-[2023-05-17 22:14:14][gamelog-9]	true	exit	0
-[2023-05-17 22:14:14][gamelog-9]	true	exit	0
-[2023-05-17 22:14:14][gamelog-9]	true	exit	0
-[2023-05-17 22:14:14][:0000000a] LAUNCH snlua reload_watcher
-[2023-05-17 22:14:14][:0000000b] LAUNCH snlua debug_console 17016
-[2023-05-17 22:14:14][:0000000b] Start debug console at 127.0.0.1:17016
-[2023-05-17 22:14:14][:0000000c] LAUNCH snlua common_init
-header:<1Y_R_>, len:<5>
-[2023-05-17 22:14:14][:0000000d] LAUNCH snlua clusterd
-[2023-05-17 22:14:14][:0000000e] LAUNCH snlua sharedatad
-[2023-05-17 22:14:14][:0000000f] LAUNCH gate M :0000000d :::17015 3 65535 2
-[2023-05-17 22:14:14][cross_launcher-8]	load excel begin:	4393761.8135485
-CreateThread: 21771, socket_send_worker
-CreateThread: 21772, socket_send_worker
-[2023-05-17 22:14:14][:0000000f] socket open: 5
-[2023-05-17 22:14:15][:00000008] Memory warning 32.00 M
-[2023-05-17 22:14:18][cross_launcher-8]	=============no excel: MonsterBaseAttr.lua MonsterRateData.lua ExpData.lua LanguageData.lua SysUnlockData.lua
-[2023-05-17 22:14:18][cross_launcher-8]	load excel end:	4393765.6659154
-[2023-05-17 22:14:18][:00000010] LAUNCH snlua game_database
-[2023-05-17 22:14:18][:00000011] LAUNCH snlua chat
-[2023-05-17 22:14:18][:00000012] LAUNCH snlua child_marry
-[2023-05-17 22:14:18][:00000013] LAUNCH snlua salon
-[2023-05-17 22:14:18][:00000014] LAUNCH snlua party
-[2023-05-17 22:14:18][party-14]	key..s70
-[2023-05-17 22:14:18][:00000015] LAUNCH snlua dynasty
-[2023-05-17 22:14:18][dynasty-15]	key..compete_mark_dynasty_rank
-[2023-05-17 22:14:18][dynasty-15]	key..cross_boss_honour_dynasty_rank
-[2023-05-17 22:14:18][:00000016] LAUNCH snlua traitor
-[2023-05-17 22:14:18][:00000017] LAUNCH snlua rank
-[2023-05-17 22:14:18][rank-17]	rank_namestart : rush_activity_checkpoint_rank
-[2023-05-17 22:14:18][rank-17]	rank_namestart : cross_score_rank
-[2023-05-17 22:14:18][rank-17]	key..cross_score_rank
-[2023-05-17 22:14:18][rank-17]	rank name : cross_score_rank
-[2023-05-17 22:14:18][rank-17]	rank_namestart : level_rank
-[2023-05-17 22:14:18][rank-17]	rank_namestart : fight_score_rank
-[2023-05-17 22:14:18][rank-17]	rank_namestart : compete_mark_role_rank
-[2023-05-17 22:14:18][rank-17]	key..compete_mark_role_rank
-[2023-05-17 22:14:18][rank-17]	rank name : compete_mark_role_rank
-[2023-05-17 22:14:18][rank-17]	rank_namestart : activity_banquet_rank
-[2023-05-17 22:14:18][rank-17]	rank_namestart : cross_fight_score_rank
-[2023-05-17 22:14:18][rank-17]	key..cross_fight_score_rank
-[2023-05-17 22:14:18][rank-17]	rank name : cross_fight_score_rank
-[2023-05-17 22:14:18][rank-17]	rank_namestart : rush_activity_money_rank
-[2023-05-17 22:14:18][rank-17]	rank_namestart : cross_hunt_rank
-[2023-05-17 22:14:18][rank-17]	key..cross_hunt_rank
-[2023-05-17 22:14:18][rank-17]	rank name : cross_hunt_rank
-[2023-05-17 22:14:18][rank-17]	rank_namestart : rush_activity_party_rank
-[2023-05-17 22:14:18][rank-17]	rank_namestart : cross_train_rank
-[2023-05-17 22:14:18][rank-17]	key..cross_train_rank
-[2023-05-17 22:14:18][rank-17]	rank name : cross_train_rank
-[2023-05-17 22:14:18][rank-17]	rank_namestart : score_rank
-[2023-05-17 22:14:18][rank-17]	rank_namestart : traitor_boss_honour_rank
-[2023-05-17 22:14:18][rank-17]	rank_namestart : rush_activity_intimacy_rank
-[2023-05-17 22:14:18][rank-17]	rank_namestart : activity_stamina_rank
-[2023-05-17 22:14:18][rank-17]	rank_namestart : activity_fight_score_rank
-[2023-05-17 22:14:18][rank-17]	rank_namestart : activity_soldier_rank
-[2023-05-17 22:14:18][rank-17]	rank_namestart : cross_traitor_honour_rank
-[2023-05-17 22:14:18][rank-17]	key..cross_traitor_honour_rank
-[2023-05-17 22:14:18][rank-17]	rank name : cross_traitor_honour_rank
-[2023-05-17 22:14:18][rank-17]	rank_namestart : rush_activity_recharge_rank
-[2023-05-17 22:14:18][rank-17]	rank_namestart : activity_diamond_rank
-[2023-05-17 22:14:18][rank-17]	rank_namestart : traitor_feats_rank
-[2023-05-17 22:14:18][rank-17]	rank_namestart : salon_rank
-[2023-05-17 22:14:18][rank-17]	key..salon_rank
-[2023-05-17 22:14:18][rank-17]	rank name : salon_rank
-[2023-05-17 22:14:18][rank-17]	rank_namestart : rush_activity_hunt_rank
-[2023-05-17 22:14:18][rank-17]	rank_namestart : cross_traitor_max_hurt_rank
-[2023-05-17 22:14:18][rank-17]	key..cross_traitor_max_hurt_rank
-[2023-05-17 22:14:18][rank-17]	rank name : cross_traitor_max_hurt_rank
-[2023-05-17 22:14:18][rank-17]	rank_namestart : hunt_rank
-[2023-05-17 22:14:18][rank-17]	rank_namestart : rush_activity_soldier_rank
-[2023-05-17 22:14:18][rank-17]	rank_namestart : rush_activity_ringleader_rank
-[2023-05-17 22:14:18][rank-17]	rank_namestart : rush_activity_score_rank
-[2023-05-17 22:14:18][rank-17]	rank_namestart : train_rank
-[2023-05-17 22:14:18][rank-17]	rank_namestart : activity_money_rank
-[2023-05-17 22:14:18][rank-17]	rank_namestart : party_rank
-[2023-05-17 22:14:18][rank-17]	key..party_rank
-[2023-05-17 22:14:18][rank-17]	rank name : party_rank
-[2023-05-17 22:14:18][rank-17]	rank_namestart : stage_star_rank
-[2023-05-17 22:14:18][rank-17]	rank_namestart : traitor_boss_hurt_rank
-[2023-05-17 22:14:18][rank-17]	rank_namestart : activity_intimacy_rank
-[2023-05-17 22:14:18][rank-17]	rank_namestart : traitor_hurt_rank
-[2023-05-17 22:14:18][rank-17]	rank_namestart : activity_login_rank
-[2023-05-17 22:14:18][rank-17]	rank_namestart : cross_traitor_feats_rank
-[2023-05-17 22:14:18][rank-17]	key..cross_traitor_feats_rank
-[2023-05-17 22:14:18][rank-17]	rank name : cross_traitor_feats_rank
-[2023-05-17 22:14:18][rank-17]	rank_namestart : cross_stage_start_rank
-[2023-05-17 22:14:18][rank-17]	key..cross_stage_start_rank
-[2023-05-17 22:14:18][rank-17]	rank name : cross_stage_start_rank
-[2023-05-17 22:14:18][rank-17]	rank_namestart : activity_score_rank
-[2023-05-17 22:14:18][rank-17]	rank_namestart : cross_traitor_hurt_rank
-[2023-05-17 22:14:18][rank-17]	key..cross_traitor_hurt_rank
-[2023-05-17 22:14:18][rank-17]	rank name : cross_traitor_hurt_rank
-[2023-05-17 22:14:18][rank-17]	rank_namestart : rush_activity_food_rank
-[2023-05-17 22:14:18][rank-17]	rank_namestart : traitor_max_hurt_rank
-[2023-05-17 22:14:18][cross_launcher-8]	[warn][node s70_cross]all service booted
-[2023-05-17 22:14:18][:00000002] KILL self
-[2023-05-17 22:14:29][:0000000f] socket open: 7
-[2023-05-17 22:14:35][:0000000f] socket open: 8
-[2023-05-17 22:14:36][:0000000f] socket open: 9
-[2023-05-17 22:14:36][rank-17]	rank_name :cross_fight_score_rank
-[2023-05-17 22:14:36][rank-17]	rank_score role_data.uuid: 20214
-[2023-05-17 22:14:36][rank-17]	rank_score 1: 20214
-[2023-05-17 22:14:36][rank-17]	rank_name :cross_score_rank
-[2023-05-17 22:14:36][rank-17]	rank_score role_data.uuid: 9228
-[2023-05-17 22:14:36][rank-17]	rank_score 1: 9228
+CreateThread: 1849, skynet_worker
+[2023-05-22 14:40:24][:00000002] LAUNCH snlua bootstrap
+CreateThread: 1851, skynet_worker
+CreateThread: 1852, skynet_worker
+CreateThread: 1850, skynet_worker
+CreateThread: 1846, skynet_worker
+CreateThread: 1842, thread_monitor
+CreateThread: 1843, thread_timer
+CreateThread: 1844, thread_socket
+CreateThread: 1845, skynet_worker
+CreateThread: 1848, skynet_worker
+CreateThread: 1847, skynet_worker
+[2023-05-22 14:40:24][:00000003] LAUNCH snlua launcher
+[2023-05-22 14:40:24][:00000004] LAUNCH snlua cdummy
+[2023-05-22 14:40:24][:00000005] LAUNCH harbor 0 4
+[2023-05-22 14:40:24][:00000006] LAUNCH snlua datacenterd
+[2023-05-22 14:40:24][:00000007] LAUNCH snlua service_mgr
+[2023-05-22 14:40:24][:00000008] LAUNCH snlua cross_launcher
+[2023-05-22 14:40:24][cross_launcher-8]	load sproto:./bin/c2s.spb
+[2023-05-22 14:40:24][cross_launcher-8]	load sproto:./bin/s2c.spb
+[2023-05-22 14:40:24][cross_launcher-8]	[warn][node s70_cross]start begin
+[2023-05-22 14:40:24][:00000009] LAUNCH snlua gamelog
+[2023-05-22 14:40:24][gamelog-9]	true	exit	0
+[2023-05-22 14:40:24][gamelog-9]	true	exit	0
+[2023-05-22 14:40:24][gamelog-9]	true	exit	0
+[2023-05-22 14:40:24][:0000000a] LAUNCH snlua reload_watcher
+[2023-05-22 14:40:24][:0000000b] LAUNCH snlua debug_console 17016
+[2023-05-22 14:40:24][:0000000b] Start debug console at 127.0.0.1:17016
+[2023-05-22 14:40:24][:0000000c] LAUNCH snlua common_init
+header:<1Y_6_>, len:<5>
+[2023-05-22 14:40:24][:0000000d] LAUNCH snlua clusterd
+[2023-05-22 14:40:24][:0000000e] LAUNCH snlua sharedatad
+[2023-05-22 14:40:24][:0000000f] LAUNCH gate M :0000000d :::17015 3 65535 2
+[2023-05-22 14:40:24][cross_launcher-8]	load excel begin:	167.211852313
+CreateThread: 1865, socket_send_worker
+CreateThread: 1866, socket_send_worker
+[2023-05-22 14:40:24][:0000000f] socket open: 5
+[2023-05-22 14:40:24][:00000008] Memory warning 32.00 M
+[2023-05-22 14:40:28][cross_launcher-8]	=============no excel: MonsterRateData.lua MonsterBaseAttr.lua ExpData.lua LanguageData.lua SysUnlockData.lua
+[2023-05-22 14:40:28][cross_launcher-8]	load excel end:	170.862966418
+[2023-05-22 14:40:28][:00000010] LAUNCH snlua game_database
+[2023-05-22 14:40:28][:00000011] LAUNCH snlua chat
+[2023-05-22 14:40:28][:00000012] LAUNCH snlua child_marry
+[2023-05-22 14:40:28][:00000013] LAUNCH snlua salon
+[2023-05-22 14:40:28][:00000014] LAUNCH snlua party
+[2023-05-22 14:40:28][party-14]	key..s70
+[2023-05-22 14:40:28][:00000015] LAUNCH snlua dynasty
+[2023-05-22 14:40:28][dynasty-15]	key..cross_boss_honour_dynasty_rank
+[2023-05-22 14:40:28][dynasty-15]	key..compete_mark_dynasty_rank
+[2023-05-22 14:40:28][:00000016] LAUNCH snlua traitor
+[2023-05-22 14:40:28][:00000017] LAUNCH snlua rank
+[2023-05-22 14:40:28][rank-17]	rank_namestart : rush_activity_party_rank
+[2023-05-22 14:40:28][rank-17]	rank_namestart : activity_diamond_rank
+[2023-05-22 14:40:28][rank-17]	rank_namestart : rush_activity_score_rank
+[2023-05-22 14:40:28][rank-17]	rank_namestart : rush_activity_intimacy_rank
+[2023-05-22 14:40:28][rank-17]	rank_namestart : rush_activity_recharge_rank
+[2023-05-22 14:40:28][rank-17]	rank_namestart : compete_mark_role_rank
+[2023-05-22 14:40:28][rank-17]	key..compete_mark_role_rank
+[2023-05-22 14:40:28][rank-17]	rank name : compete_mark_role_rank
+[2023-05-22 14:40:28][rank-17]	rank_namestart : cross_traitor_hurt_rank
+[2023-05-22 14:40:28][rank-17]	key..cross_traitor_hurt_rank
+[2023-05-22 14:40:28][rank-17]	rank name : cross_traitor_hurt_rank
+[2023-05-22 14:40:28][rank-17]	rank_namestart : traitor_boss_hurt_rank
+[2023-05-22 14:40:28][rank-17]	rank_namestart : activity_banquet_rank
+[2023-05-22 14:40:28][rank-17]	rank_namestart : hunt_rank
+[2023-05-22 14:40:28][rank-17]	rank_namestart : traitor_hurt_rank
+[2023-05-22 14:40:28][rank-17]	rank_namestart : train_rank
+[2023-05-22 14:40:28][rank-17]	rank_namestart : rush_activity_checkpoint_rank
+[2023-05-22 14:40:28][rank-17]	rank_namestart : activity_money_rank
+[2023-05-22 14:40:28][rank-17]	rank_namestart : rush_activity_soldier_rank
+[2023-05-22 14:40:28][rank-17]	rank_namestart : traitor_max_hurt_rank
+[2023-05-22 14:40:28][rank-17]	rank_namestart : cross_traitor_honour_rank
+[2023-05-22 14:40:28][rank-17]	key..cross_traitor_honour_rank
+[2023-05-22 14:40:28][rank-17]	rank name : cross_traitor_honour_rank
+[2023-05-22 14:40:28][rank-17]	rank_namestart : rush_activity_money_rank
+[2023-05-22 14:40:28][rank-17]	rank_namestart : score_rank
+[2023-05-22 14:40:28][rank-17]	rank_namestart : cross_traitor_feats_rank
+[2023-05-22 14:40:28][rank-17]	key..cross_traitor_feats_rank
+[2023-05-22 14:40:28][rank-17]	rank name : cross_traitor_feats_rank
+[2023-05-22 14:40:28][rank-17]	rank_namestart : activity_login_rank
+[2023-05-22 14:40:28][rank-17]	rank_namestart : cross_traitor_max_hurt_rank
+[2023-05-22 14:40:28][rank-17]	key..cross_traitor_max_hurt_rank
+[2023-05-22 14:40:28][rank-17]	rank name : cross_traitor_max_hurt_rank
+[2023-05-22 14:40:28][rank-17]	rank_namestart : activity_stamina_rank
+[2023-05-22 14:40:28][rank-17]	rank_namestart : cross_fight_score_rank
+[2023-05-22 14:40:28][rank-17]	key..cross_fight_score_rank
+[2023-05-22 14:40:28][rank-17]	rank name : cross_fight_score_rank
+[2023-05-22 14:40:28][rank-17]	rank_namestart : cross_stage_start_rank
+[2023-05-22 14:40:28][rank-17]	key..cross_stage_start_rank
+[2023-05-22 14:40:28][rank-17]	rank name : cross_stage_start_rank
+[2023-05-22 14:40:28][rank-17]	rank_namestart : party_rank
+[2023-05-22 14:40:28][rank-17]	key..party_rank
+[2023-05-22 14:40:28][rank-17]	rank name : party_rank
+[2023-05-22 14:40:28][rank-17]	rank_namestart : cross_score_rank
+[2023-05-22 14:40:28][rank-17]	key..cross_score_rank
+[2023-05-22 14:40:28][rank-17]	rank name : cross_score_rank
+[2023-05-22 14:40:28][rank-17]	rank_namestart : stage_star_rank
+[2023-05-22 14:40:28][rank-17]	rank_namestart : rush_activity_hunt_rank
+[2023-05-22 14:40:28][rank-17]	rank_namestart : rush_activity_food_rank
+[2023-05-22 14:40:28][rank-17]	rank_namestart : traitor_feats_rank
+[2023-05-22 14:40:28][rank-17]	rank_namestart : cross_hunt_rank
+[2023-05-22 14:40:28][rank-17]	key..cross_hunt_rank
+[2023-05-22 14:40:28][rank-17]	rank name : cross_hunt_rank
+[2023-05-22 14:40:28][rank-17]	rank_namestart : salon_rank
+[2023-05-22 14:40:28][rank-17]	key..salon_rank
+[2023-05-22 14:40:28][rank-17]	rank name : salon_rank
+[2023-05-22 14:40:28][rank-17]	rank_namestart : activity_fight_score_rank
+[2023-05-22 14:40:28][rank-17]	rank_namestart : fight_score_rank
+[2023-05-22 14:40:28][rank-17]	rank_namestart : rush_activity_ringleader_rank
+[2023-05-22 14:40:28][rank-17]	rank_namestart : traitor_boss_honour_rank
+[2023-05-22 14:40:28][rank-17]	rank_namestart : activity_intimacy_rank
+[2023-05-22 14:40:28][rank-17]	rank_namestart : cross_train_rank
+[2023-05-22 14:40:28][rank-17]	key..cross_train_rank
+[2023-05-22 14:40:28][rank-17]	rank name : cross_train_rank
+[2023-05-22 14:40:28][rank-17]	rank_namestart : activity_soldier_rank
+[2023-05-22 14:40:28][rank-17]	rank_namestart : activity_score_rank
+[2023-05-22 14:40:28][rank-17]	rank_namestart : level_rank
+[2023-05-22 14:40:28][cross_launcher-8]	[warn][node s70_cross]all service booted
+[2023-05-22 14:40:28][:00000002] KILL self

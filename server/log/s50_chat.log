@@ -1,0 +1,44 @@
+CreateThread: 1976, skynet_worker
+[2023-05-22 14:40:42][:00000002] LAUNCH snlua bootstrap
+CreateThread: 1971, skynet_worker
+CreateThread: 1972, skynet_worker
+CreateThread: 1967, thread_monitor
+CreateThread: 1968, thread_timer
+CreateThread: 1969, thread_socket
+CreateThread: 1973, skynet_worker
+CreateThread: 1974, skynet_worker
+CreateThread: 1975, skynet_worker
+CreateThread: 1970, skynet_worker
+CreateThread: 1977, skynet_worker
+[2023-05-22 14:40:42][:00000003] LAUNCH snlua launcher
+[2023-05-22 14:40:42][:00000004] LAUNCH snlua cdummy
+[2023-05-22 14:40:42][:00000005] LAUNCH harbor 0 4
+[2023-05-22 14:40:42][:00000006] LAUNCH snlua datacenterd
+[2023-05-22 14:40:42][:00000007] LAUNCH snlua service_mgr
+[2023-05-22 14:40:42][:00000008] LAUNCH snlua chat_launcher
+[2023-05-22 14:40:42][chat_launcher-8]	load sproto:./bin/c2s.spb
+[2023-05-22 14:40:42][chat_launcher-8]	load sproto:./bin/s2c.spb
+[2023-05-22 14:40:42][chat_launcher-8]	[warn][node s50_chat]start begin
+[2023-05-22 14:40:42][:00000009] LAUNCH snlua gamelog
+[2023-05-22 14:40:42][gamelog-9]	true	exit	0
+[2023-05-22 14:40:42][gamelog-9]	true	exit	0
+[2023-05-22 14:40:42][gamelog-9]	true	exit	0
+[2023-05-22 14:40:42][:0000000a] LAUNCH snlua reload_watcher
+[2023-05-22 14:40:42][:0000000b] LAUNCH snlua debug_console 15019
+[2023-05-22 14:40:42][:0000000b] Start debug console at 127.0.0.1:15019
+[2023-05-22 14:40:42][:0000000c] LAUNCH snlua common_init
+header:<1E_1H_>, len:<6>
+[2023-05-22 14:40:42][:0000000d] LAUNCH snlua clusterd
+[2023-05-22 14:40:42][:0000000e] LAUNCH snlua sharedatad
+[2023-05-22 14:40:42][:0000000f] LAUNCH gate M :0000000d :::15018 3 65535 2
+CreateThread: 2006, socket_send_worker
+CreateThread: 2005, socket_send_worker
+[2023-05-22 14:40:42][chat_launcher-8]	load excel begin:	185.676421973
+[2023-05-22 14:40:42][:0000000f] socket open: 5
+[2023-05-22 14:40:43][:00000008] Memory warning 32.00 M
+[2023-05-22 14:40:45][chat_launcher-8]	=============no excel: MonsterBaseAttr.lua MonsterRateData.lua ExpData.lua LanguageData.lua SysUnlockData.lua
+[2023-05-22 14:40:45][chat_launcher-8]	load excel end:	188.6901612
+[2023-05-22 14:40:45][:0000000f] socket open: 7
+[2023-05-22 14:40:46][:00000010] LAUNCH snlua chat
+[2023-05-22 14:40:46][chat_launcher-8]	[warn][node s50_chat]all service booted
+[2023-05-22 14:40:46][:00000002] KILL self

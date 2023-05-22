@@ -57,7 +57,7 @@ return {
     [ "2" ] = {
         [ "id" ] = "2",
         [ "ch_key" ] = "登录音乐",
-        [ "res_path" ] = "Sound/Bgm/login_bgm",
+        [ "res_path" ] = "Sound/Bgm/yulezhongxin_bgm",
     },
     [ "2000001" ] = {
         [ "id" ] = "2000001",

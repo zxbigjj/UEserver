@@ -1,271 +1,188 @@
-CreateThread: 22027, skynet_worker
-[2023-05-17 22:14:32][:00000002] LAUNCH snlua bootstrap
-CreateThread: 22029, skynet_worker
-CreateThread: 22028, skynet_worker
-CreateThread: 22024, skynet_worker
-CreateThread: 22019, thread_monitor
-CreateThread: 22020, thread_timer
-CreateThread: 22021, thread_socket
-CreateThread: 22022, skynet_worker
-CreateThread: 22023, skynet_worker
-CreateThread: 22026, skynet_worker
-CreateThread: 22025, skynet_worker
-[2023-05-17 22:14:32][:00000003] LAUNCH snlua launcher
-[2023-05-17 22:14:32][:00000004] LAUNCH snlua cdummy
-[2023-05-17 22:14:32][:00000005] LAUNCH harbor 0 4
-[2023-05-17 22:14:32][:00000006] LAUNCH snlua datacenterd
-[2023-05-17 22:14:32][:00000007] LAUNCH snlua service_mgr
-[2023-05-17 22:14:32][:00000008] LAUNCH snlua game_launcher
-[2023-05-17 22:14:32][game_launcher-8]	load sproto:./bin/c2s.spb
-[2023-05-17 22:14:32][game_launcher-8]	load sproto:./bin/s2c.spb
-[2023-05-17 22:14:32][game_launcher-8]	[warn][node s55_game]start begin
-[2023-05-17 22:14:32][:00000009] LAUNCH snlua gamelog
-[2023-05-17 22:14:32][gamelog-9]	true	exit	0
-[2023-05-17 22:14:32][gamelog-9]	true	exit	0
-[2023-05-17 22:14:32][gamelog-9]	true	exit	0
-[2023-05-17 22:14:32][:0000000a] LAUNCH snlua reload_watcher
-[2023-05-17 22:14:32][:0000000b] LAUNCH snlua debug_console 15517
-[2023-05-17 22:14:32][:0000000b] Start debug console at 127.0.0.1:15517
-[2023-05-17 22:14:32][:0000000c] LAUNCH snlua common_init
-header:<1J_5E_>, len:<6>
-[2023-05-17 22:14:32][:0000000d] LAUNCH snlua clusterd
-[2023-05-17 22:14:32][:0000000e] LAUNCH snlua sharedatad
-CreateThread: 22067, socket_send_worker
-CreateThread: 22068, socket_send_worker
-[2023-05-17 22:14:32][:0000000f] LAUNCH gate M :0000000d :::15516 3 65535 2
-[2023-05-17 22:14:32][game_launcher-8]	load excel begin:	4393780.0921697
-[2023-05-17 22:14:32][:0000000f] socket open: 5
-[2023-05-17 22:14:33][:00000008] Memory warning 32.00 M
-[2023-05-17 22:14:35][game_launcher-8]	=============no excel: MonsterBaseAttr.lua MonsterRateData.lua ExpData.lua LanguageData.lua SysUnlockData.lua
-[2023-05-17 22:14:35][game_launcher-8]	load excel end:	4393783.0073311
-[2023-05-17 22:14:35][:00000010] LAUNCH snlua game_database
-[2023-05-17 22:14:35][:0000000f] socket open: 9
-[2023-05-17 22:14:35][:0000000f] socket open: b
-[2023-05-17 22:14:35][:00000011] LAUNCH snlua agent
-[2023-05-17 22:14:35][agent-11]	key..s55
-[2023-05-17 22:14:35][agent-11]	_VERSION :Lua 5.3
-[2023-05-17 22:14:35][agent-11]	pay router listen port:40555
-[2023-05-17 22:14:35][agent-11]	pay router listen id:14
-[2023-05-17 22:14:35][agent-11]	node started:chat
-[2023-05-17 22:14:35][agent-11]	node started:dynasty
-[2023-05-17 22:14:35][agent-11]	key..traitor_hurt_rank
-[2023-05-17 22:14:35][agent-11]	key..activity_intimacy_rank
-[2023-05-17 22:14:35][agent-11]	key..traitor_feats_rank
-[2023-05-17 22:14:35][agent-11]	key..activity_login_rank
-[2023-05-17 22:14:35][agent-11]	key..train_rank
-[2023-05-17 22:14:35][agent-11]	key..hunt_rank
-[2023-05-17 22:14:35][agent-11]	key..activity_diamond_rank
-[2023-05-17 22:14:35][agent-11]	key..traitor_max_hurt_rank
-[2023-05-17 22:14:35][agent-11]	key..activity_banquet_rank
-[2023-05-17 22:14:35][agent-11]	key..activity_fight_score_rank
-[2023-05-17 22:14:35][agent-11]	key..rush_activity_soldier_rank
-[2023-05-17 22:14:35][agent-11]	key..score_rank
-[2023-05-17 22:14:35][agent-11]	key..traitor_boss_honour_rank
-[2023-05-17 22:14:35][agent-11]	key..rush_activity_ringleader_rank
-[2023-05-17 22:14:35][agent-11]	key..rush_activity_hunt_rank
-[2023-05-17 22:14:35][agent-11]	key..rush_activity_intimacy_rank
-[2023-05-17 22:14:35][agent-11]	key..activity_stamina_rank
-[2023-05-17 22:14:35][agent-11]	key..rush_activity_money_rank
-[2023-05-17 22:14:35][agent-11]	key..rush_activity_party_rank
-[2023-05-17 22:14:35][agent-11]	key..rush_activity_recharge_rank
-[2023-05-17 22:14:35][agent-11]	key..activity_money_rank
-[2023-05-17 22:14:35][agent-11]	key..traitor_boss_hurt_rank
-[2023-05-17 22:14:35][agent-11]	key..stage_star_rank
-[2023-05-17 22:14:35][agent-11]	key..level_rank
-[2023-05-17 22:14:35][agent-11]	key..rush_activity_score_rank
-[2023-05-17 22:14:35][agent-11]	key..fight_score_rank
-[2023-05-17 22:14:35][agent-11]	key..rush_activity_checkpoint_rank
-[2023-05-17 22:14:35][agent-11]	key..rush_activity_food_rank
-[2023-05-17 22:14:35][agent-11]	key..activity_score_rank
-[2023-05-17 22:14:35][agent-11]	key..activity_soldier_rank
-[2023-05-17 22:14:35][agent-11]	+++++++++++++++++++
-[2023-05-17 22:14:35][agent-11]	activity start
-[2023-05-17 22:14:35][agent-11]	+++++++++++++++++++
-[2023-05-17 22:14:35][agent-11]	++++ is from_started_to_stopped 265525
-[2023-05-17 22:14:35][agent-11]	++++ is from_nostart_to_started 384325
-[2023-05-17 22:14:35][agent-11]	++++ is from_nostart_to_started 1075525
-[2023-05-17 22:14:35][agent-11]	++++ is from_nostart_to_started 1766725
-[2023-05-17 22:14:35][agent-11]	=====================
-[2023-05-17 22:14:35][agent-11]	rush activity start
-[2023-05-17 22:14:35][agent-11]	=====================
-[2023-05-17 22:14:35][agent-11]	key..1
-[2023-05-17 22:14:35][agent-11]	===== is start_ts 1684166400
-[2023-05-17 22:14:35][agent-11]	===== is now_ts 1684332875
-[2023-05-17 22:14:35][agent-11]	===== is end_ts 1684771200
-[2023-05-17 22:14:35][agent-11]	===== is stop_ts 1684512000
-[2023-05-17 22:14:35][agent-11]	===== is from_started_to_stopped 179125
-[2023-05-17 22:14:35][agent-11]	key..2
-[2023-05-17 22:14:35][agent-11]	===== is start_ts 1684425600
-[2023-05-17 22:14:35][agent-11]	===== is now_ts 1684332875
-[2023-05-17 22:14:35][agent-11]	===== is end_ts 1685289600
-[2023-05-17 22:14:35][agent-11]	===== is stop_ts 1685030400
-[2023-05-17 22:14:35][agent-11]	===== is from_nostart_to_started 92725
-[2023-05-17 22:14:35][agent-11]	key..3
-[2023-05-17 22:14:35][agent-11]	===== is start_ts 1684512000
-[2023-05-17 22:14:35][agent-11]	===== is now_ts 1684332875
-[2023-05-17 22:14:35][agent-11]	===== is end_ts 1685030400
-[2023-05-17 22:14:35][agent-11]	===== is stop_ts 1684771200
-[2023-05-17 22:14:35][agent-11]	===== is from_nostart_to_started 179125
-[2023-05-17 22:14:35][agent-11]	key..4
-[2023-05-17 22:14:35][agent-11]	===== is start_ts 1685116800
-[2023-05-17 22:14:35][agent-11]	===== is now_ts 1684332875
-[2023-05-17 22:14:35][agent-11]	===== is end_ts 1685635200
-[2023-05-17 22:14:35][agent-11]	===== is stop_ts 1685376000
-[2023-05-17 22:14:35][agent-11]	===== is from_nostart_to_started 783925
-[2023-05-17 22:14:35][agent-11]	key..5
-[2023-05-17 22:14:35][agent-11]	===== is start_ts 1684857600
-[2023-05-17 22:14:35][agent-11]	===== is now_ts 1684332875
-[2023-05-17 22:14:35][agent-11]	===== is end_ts 1685462400
-[2023-05-17 22:14:35][agent-11]	===== is stop_ts 1685203200
-[2023-05-17 22:14:35][agent-11]	===== is from_nostart_to_started 524725
-[2023-05-17 22:14:35][agent-11]	key..6
-[2023-05-17 22:14:35][agent-11]	===== is start_ts 1682697600
-[2023-05-17 22:14:35][agent-11]	===== is now_ts 1684332875
-[2023-05-17 22:14:35][agent-11]	===== is end_ts 1683561600
-[2023-05-17 22:14:35][agent-11]	===== is stop_ts 1683302400
-[2023-05-17 22:14:35][agent-11]	===== is from_stopped_to_nostart 771275
-[2023-05-17 22:14:35][agent-11]	key..7
-[2023-05-17 22:14:35][agent-11]	===== is start_ts 1686067200
-[2023-05-17 22:14:35][agent-11]	===== is now_ts 1684332875
-[2023-05-17 22:14:35][agent-11]	===== is end_ts 1686672000
-[2023-05-17 22:14:35][agent-11]	===== is stop_ts 1686412800
-[2023-05-17 22:14:35][agent-11]	===== is from_nostart_to_started 1734325
-[2023-05-17 22:14:35][agent-11]	key..8
-[2023-05-17 22:14:35][agent-11]	===== is start_ts 1685116800
-[2023-05-17 22:14:35][agent-11]	===== is now_ts 1684332875
-[2023-05-17 22:14:35][agent-11]	===== is end_ts 1685980800
-[2023-05-17 22:14:35][agent-11]	===== is stop_ts 1685721600
-[2023-05-17 22:14:35][agent-11]	===== is from_nostart_to_started 783925
-[2023-05-17 22:14:35][agent-11]	key..9
-[2023-05-17 22:14:35][agent-11]	===== is start_ts 1686326400
-[2023-05-17 22:14:35][agent-11]	===== is now_ts 1684332875
-[2023-05-17 22:14:35][agent-11]	===== is end_ts 1686844800
-[2023-05-17 22:14:35][agent-11]	===== is stop_ts 1686585600
-[2023-05-17 22:14:35][agent-11]	===== is from_nostart_to_started 1993525
-[2023-05-17 22:14:35][agent-11]	key..10
-[2023-05-17 22:14:35][agent-11]	===== is start_ts 1686326400
-[2023-05-17 22:14:35][agent-11]	===== is now_ts 1684332875
-[2023-05-17 22:14:35][agent-11]	===== is end_ts 1687190400
-[2023-05-17 22:14:35][agent-11]	===== is stop_ts 1686931200
-[2023-05-17 22:14:35][agent-11]	===== is from_nostart_to_started 1993525
-[2023-05-17 22:14:35][agent-11]	key..11
-[2023-05-17 22:14:35][agent-11]	===== is start_ts 1682697600
-[2023-05-17 22:14:35][agent-11]	===== is now_ts 1684332875
-[2023-05-17 22:14:35][agent-11]	===== is end_ts 1683561600
-[2023-05-17 22:14:35][agent-11]	===== is stop_ts 1683302400
-[2023-05-17 22:14:35][agent-11]	===== is from_stopped_to_nostart 771275
-[2023-05-17 22:14:35][agent-11]	=====================
-[2023-05-17 22:14:35][agent-11]	充值 activity start
-[2023-05-17 22:14:35][agent-11]	=====================
-[2023-05-17 22:14:35][agent-11]	======= is from_started_to_end 265525
-[2023-05-17 22:14:35][agent-11]	======= is from_nostart_to_started 265525
-[2023-05-17 22:14:35][agent-11]	======= is from_nostart_to_started 870325
-[2023-05-17 22:14:35][agent-11]	======= is from_nostart_to_started 1475125
-[2023-05-17 22:14:35][agent-11]	======= is from_nostart_to_started 2079925
-[2023-05-17 22:14:35][agent-11]	======= is from_nostart_to_started 2684725
-[2023-05-17 22:14:35][agent-11]	======= is from_started_to_end 265525
-[2023-05-17 22:14:35][agent-11]	======= is from_nostart_to_started 870325
-[2023-05-17 22:14:35][agent-11]	-------------------
-[2023-05-17 22:14:35][agent-11]	festival activity start
-[2023-05-17 22:14:35][agent-11]	-------------------
-[2023-05-17 22:14:35][agent-11]	--- from_stopped_to_reserve 870324
-[2023-05-17 22:14:35][agent-11]	--- from_started_to_stopped 92724
-[2023-05-17 22:14:35][agent-11]	--- from_nostart_to_started 92725
-[2023-05-17 22:14:35][agent-11]	--- from_nostart_to_started 351925
-[2023-05-17 22:14:35][agent-11]	--- from_nostart_to_started 611125
-[2023-05-17 22:14:35][agent-11]	--- from_nostart_to_started 956725
-[2023-05-17 22:14:35][agent-11]	--- from_nostart_to_started 1215925
-[2023-05-17 22:14:35][agent-11]	--- from_nostart_to_started 1475125
-[2023-05-17 22:14:35][agent-11]	--- from_nostart_to_started 1734325
-[2023-05-17 22:14:35][agent-11]	--- from_nostart_to_started 1993525
-[2023-05-17 22:14:35][agent-11]	key..1
-[2023-05-17 22:14:35][:00000012] LAUNCH snlua agent_gate
-[2023-05-17 22:14:35][:00000013] LAUNCH gate S :00000012 :::15515 3 102400 4
-[2023-05-17 22:14:35][:00000014] LAUNCH snlua child_marry
-CreateThread: 22087, socket_send_worker
-CreateThread: 22088, socket_send_worker
-CreateThread: 22089, socket_send_worker
-CreateThread: 22090, socket_send_worker
-[2023-05-17 22:14:36][game_launcher-8]	[warn][node s55_game]all service booted
-[2023-05-17 22:14:36][:00000002] KILL self
-[2023-05-17 22:14:36][:00000013] socket open: 10
-[2023-05-17 22:14:36][agent-11]	key..1232445
-[2023-05-17 22:14:36][agent-11]	key..55000049
-[2023-05-17 22:14:36][agent-11]	---- daily_gift_package_activities new  ====55000049
-[2023-05-17 22:14:36][agent-11]	---- daily_gift_package_activities new  ====55000049
-[2023-05-17 22:14:36][agent-11]	tianjiazhanli:20214
-[2023-05-17 22:14:36][agent-11]	cross_score_rank9228
-[2023-05-17 22:14:36][agent-11]	====luxury_check_in datas :==={"1001":{"reward_times":0,"recharge_times":2,"init_ts":1684252800,"reward_state":0,"reward_id":3001},"1002":{"reward_times":0,"recharge_times":2,"init_ts":1684252800,"reward_state":0,"reward_id":3002},"1003":{"reward_times":0,"recharge_times":2,"init_ts":1684252800,"reward_state":0,"reward_id":3003},"1014":{"reward_times":0,"recharge_times":1,"init_ts":1684080000,"reward_state":0,"reward_id":3014},"1015":{"reward_times":0,"recharge_times":1,"init_ts":1684080000,"reward_state":0,"reward_id":3015}}
-[2023-05-17 22:14:36][agent-11]	======豪华签到数据=============={"1001":{"reward_times":0,"recharge_times":2,"init_ts":1684252800,"reward_state":0,"reward_id":3001},"1002":{"reward_times":0,"recharge_times":2,"init_ts":1684252800,"reward_state":0,"reward_id":3002},"1003":{"reward_times":0,"recharge_times":2,"init_ts":1684252800,"reward_state":0,"reward_id":3003},"1014":{"reward_times":0,"recharge_times":1,"init_ts":1684080000,"reward_state":0,"reward_id":3014},"1015":{"reward_times":0,"recharge_times":1,"init_ts":1684080000,"reward_state":0,"reward_id":3015}}
-[2023-05-17 22:14:36][agent-11]	-*-----* daily recharge send *-----*-
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_online_server_time	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_base_info	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_total_hall_info	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_online_hero	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_hero_shop	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_online_lover	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_lover_shop	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_lover_train_info	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_child_info	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_hunt_data	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_curr_ground	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_stage_info	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_city_info	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_country_info	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_action_point	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_online_bag_item	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_prison_info	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_online_mail	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_travel_info	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_lineup_info	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_reinforcements	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_daily_dare_info	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_salon_info	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_salon_shop	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_vitality	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_arena_info	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_online_grab_treasure	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_dare_tower_info	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_train_info	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_train_shop	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_train_war_info	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_party_info	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_party_shop	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_dynasty_info	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_dynasty_quit_ts	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_dynasty_shop_info	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_task_info	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_achievement_info	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_check_in_monthly_info	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_check_in_weekly_info	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_daily_active_info	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_traitor_info	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_first_week_info	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_receive_gift_count	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_friend_info	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_operation_info	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_normal_shop_info	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_crystal_shop_info	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_recharge_info	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_first_recharge_info	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_vip_info	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_vip_shop_info	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_single_recharge_info	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_recharge_draw_info	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_newbie_guide_info	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_level_event_trigger	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_activity_data_update	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_rush_activity_data_update	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_festival_activity_info	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_fixed_action_point_info	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_openservice_fund_data	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_luxurycheckin_data	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_daily_recharge_data	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_title_data	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_worship_data	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_monthly_card_data	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_accum_recharge_data	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_bar_unit_data	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_bar_count_data	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_ongoing_lover_activities	55000049
-[2023-05-17 22:14:36][agent_gate-12]	role send: s_update_ongoing_hero_activities	55000049
+CreateThread: 2049, skynet_worker
+[2023-05-22 14:40:47][:00000002] LAUNCH snlua bootstrap
+CreateThread: 2051, skynet_worker
+CreateThread: 2052, skynet_worker
+CreateThread: 2054, skynet_worker
+CreateThread: 2050, skynet_worker
+CreateThread: 2046, thread_socket
+CreateThread: 2044, thread_monitor
+CreateThread: 2045, thread_timer
+CreateThread: 2048, skynet_worker
+CreateThread: 2053, skynet_worker
+CreateThread: 2047, skynet_worker
+[2023-05-22 14:40:47][:00000003] LAUNCH snlua launcher
+[2023-05-22 14:40:47][:00000004] LAUNCH snlua cdummy
+[2023-05-22 14:40:47][:00000005] LAUNCH harbor 0 4
+[2023-05-22 14:40:47][:00000006] LAUNCH snlua datacenterd
+[2023-05-22 14:40:47][:00000007] LAUNCH snlua service_mgr
+[2023-05-22 14:40:47][:00000008] LAUNCH snlua game_launcher
+[2023-05-22 14:40:47][game_launcher-8]	load sproto:./bin/c2s.spb
+[2023-05-22 14:40:47][game_launcher-8]	load sproto:./bin/s2c.spb
+[2023-05-22 14:40:47][game_launcher-8]	[warn][node s55_game]start begin
+[2023-05-22 14:40:47][:00000009] LAUNCH snlua gamelog
+[2023-05-22 14:40:47][gamelog-9]	true	exit	0
+[2023-05-22 14:40:47][gamelog-9]	true	exit	0
+[2023-05-22 14:40:47][gamelog-9]	true	exit	0
+[2023-05-22 14:40:47][:0000000a] LAUNCH snlua reload_watcher
+[2023-05-22 14:40:47][:0000000b] LAUNCH snlua debug_console 15517
+[2023-05-22 14:40:47][:0000000b] Start debug console at 127.0.0.1:15517
+[2023-05-22 14:40:47][:0000000c] LAUNCH snlua common_init
+header:<1J_1D_>, len:<6>
+[2023-05-22 14:40:47][:0000000d] LAUNCH snlua clusterd
+[2023-05-22 14:40:47][:0000000e] LAUNCH snlua sharedatad
+[2023-05-22 14:40:47][:0000000f] LAUNCH gate M :0000000d :::15516 3 65535 2
+[2023-05-22 14:40:47][game_launcher-8]	load excel begin:	190.67877063
+CreateThread: 2096, socket_send_worker
+CreateThread: 2095, socket_send_worker
+[2023-05-22 14:40:47][:0000000f] socket open: 5
+[2023-05-22 14:40:48][:00000008] Memory warning 32.00 M
+[2023-05-22 14:40:50][game_launcher-8]	=============no excel: MonsterBaseAttr.lua MonsterRateData.lua ExpData.lua LanguageData.lua SysUnlockData.lua
+[2023-05-22 14:40:50][game_launcher-8]	load excel end:	192.977072115
+[2023-05-22 14:40:50][:00000010] LAUNCH snlua game_database
+[2023-05-22 14:40:50][:0000000f] socket open: 7
+[2023-05-22 14:40:50][:0000000f] socket open: b
+[2023-05-22 14:40:50][:00000011] LAUNCH snlua agent
+[2023-05-22 14:40:50][agent-11]	key..s55
+[2023-05-22 14:40:50][agent-11]	_VERSION :Lua 5.3
+[2023-05-22 14:40:50][agent-11]	pay router listen port:40555
+[2023-05-22 14:40:50][agent-11]	pay router listen id:14
+[2023-05-22 14:40:50][agent-11]	node started:chat
+[2023-05-22 14:40:50][agent-11]	node started:dynasty
+[2023-05-22 14:40:50][agent-11]	key..activity_score_rank
+[2023-05-22 14:40:50][agent-11]	key..traitor_hurt_rank
+[2023-05-22 14:40:50][agent-11]	key..rush_activity_score_rank
+[2023-05-22 14:40:50][agent-11]	key..stage_star_rank
+[2023-05-22 14:40:50][agent-11]	key..activity_money_rank
+[2023-05-22 14:40:50][agent-11]	key..rush_activity_intimacy_rank
+[2023-05-22 14:40:50][agent-11]	key..score_rank
+[2023-05-22 14:40:50][agent-11]	key..hunt_rank
+[2023-05-22 14:40:50][agent-11]	key..traitor_max_hurt_rank
+[2023-05-22 14:40:50][agent-11]	key..rush_activity_money_rank
+[2023-05-22 14:40:50][agent-11]	key..level_rank
+[2023-05-22 14:40:50][agent-11]	key..activity_banquet_rank
+[2023-05-22 14:40:50][agent-11]	key..activity_stamina_rank
+[2023-05-22 14:40:50][agent-11]	key..rush_activity_hunt_rank
+[2023-05-22 14:40:50][agent-11]	key..rush_activity_checkpoint_rank
+[2023-05-22 14:40:50][agent-11]	key..activity_login_rank
+[2023-05-22 14:40:50][agent-11]	key..activity_intimacy_rank
+[2023-05-22 14:40:50][agent-11]	key..traitor_boss_honour_rank
+[2023-05-22 14:40:50][agent-11]	key..activity_soldier_rank
+[2023-05-22 14:40:50][agent-11]	key..fight_score_rank
+[2023-05-22 14:40:50][agent-11]	key..rush_activity_food_rank
+[2023-05-22 14:40:50][agent-11]	key..train_rank
+[2023-05-22 14:40:50][agent-11]	key..activity_diamond_rank
+[2023-05-22 14:40:50][agent-11]	key..traitor_feats_rank
+[2023-05-22 14:40:50][agent-11]	key..rush_activity_party_rank
+[2023-05-22 14:40:50][agent-11]	key..rush_activity_recharge_rank
+[2023-05-22 14:40:50][agent-11]	key..activity_fight_score_rank
+[2023-05-22 14:40:50][agent-11]	key..rush_activity_ringleader_rank
+[2023-05-22 14:40:50][agent-11]	key..rush_activity_soldier_rank
+[2023-05-22 14:40:50][agent-11]	key..traitor_boss_hurt_rank
+[2023-05-22 14:40:50][agent-11]	+++++++++++++++++++
+[2023-05-22 14:40:50][agent-11]	activity start
+[2023-05-22 14:40:50][agent-11]	+++++++++++++++++++
+[2023-05-22 14:40:50][agent-11]	++++ is nothing
+[2023-05-22 14:40:50][agent-11]	++++ is from_started_to_stopped 551950
+[2023-05-22 14:40:50][agent-11]	++++ is from_nostart_to_started 670750
+[2023-05-22 14:40:50][agent-11]	++++ is from_nostart_to_started 1361950
+[2023-05-22 14:40:50][agent-11]	=====================
+[2023-05-22 14:40:50][agent-11]	rush activity start
+[2023-05-22 14:40:50][agent-11]	=====================
+[2023-05-22 14:40:50][agent-11]	key..1
+[2023-05-22 14:40:50][agent-11]	===== is start_ts 1684425600
+[2023-05-22 14:40:50][agent-11]	===== is now_ts 1684737650
+[2023-05-22 14:40:50][agent-11]	===== is end_ts 1685030400
+[2023-05-22 14:40:50][agent-11]	===== is stop_ts 1684771200
+[2023-05-22 14:40:50][agent-11]	===== is from_started_to_stopped 33550
+[2023-05-22 14:40:50][agent-11]	key..2
+[2023-05-22 14:40:50][agent-11]	===== is start_ts 1684425600
+[2023-05-22 14:40:50][agent-11]	===== is now_ts 1684737650
+[2023-05-22 14:40:50][agent-11]	===== is end_ts 1685289600
+[2023-05-22 14:40:50][agent-11]	===== is stop_ts 1685030400
+[2023-05-22 14:40:50][agent-11]	===== is from_started_to_stopped 292750
+[2023-05-22 14:40:50][agent-11]	key..3
+[2023-05-22 14:40:50][agent-11]	===== is start_ts 1684857600
+[2023-05-22 14:40:50][agent-11]	===== is now_ts 1684737650
+[2023-05-22 14:40:50][agent-11]	===== is end_ts 1685376000
+[2023-05-22 14:40:50][agent-11]	===== is stop_ts 1685116800
+[2023-05-22 14:40:50][agent-11]	===== is from_nostart_to_started 119950
+[2023-05-22 14:40:50][agent-11]	key..4
+[2023-05-22 14:40:50][agent-11]	===== is start_ts 1685462400
+[2023-05-22 14:40:50][agent-11]	===== is now_ts 1684737650
+[2023-05-22 14:40:50][agent-11]	===== is end_ts 1685980800
+[2023-05-22 14:40:50][agent-11]	===== is stop_ts 1685721600
+[2023-05-22 14:40:50][agent-11]	===== is from_nostart_to_started 724750
+[2023-05-22 14:40:50][agent-11]	key..5
+[2023-05-22 14:40:50][agent-11]	===== is start_ts 1685116800
+[2023-05-22 14:40:50][agent-11]	===== is now_ts 1684737650
+[2023-05-22 14:40:50][agent-11]	===== is end_ts 1685721600
+[2023-05-22 14:40:50][agent-11]	===== is stop_ts 1685462400
+[2023-05-22 14:40:50][agent-11]	===== is from_nostart_to_started 379150
+[2023-05-22 14:40:50][agent-11]	key..6
+[2023-05-22 14:40:50][agent-11]	===== is start_ts 1685721600
+[2023-05-22 14:40:50][agent-11]	===== is now_ts 1684737650
+[2023-05-22 14:40:50][agent-11]	===== is end_ts 1686585600
+[2023-05-22 14:40:50][agent-11]	===== is stop_ts 1686326400
+[2023-05-22 14:40:50][agent-11]	===== is from_nostart_to_started 983950
+[2023-05-22 14:40:50][agent-11]	key..7
+[2023-05-22 14:40:50][agent-11]	===== is start_ts 1686326400
+[2023-05-22 14:40:50][agent-11]	===== is now_ts 1684737650
+[2023-05-22 14:40:50][agent-11]	===== is end_ts 1686931200
+[2023-05-22 14:40:50][agent-11]	===== is stop_ts 1686672000
+[2023-05-22 14:40:50][agent-11]	===== is from_nostart_to_started 1588750
+[2023-05-22 14:40:50][agent-11]	key..8
+[2023-05-22 14:40:50][agent-11]	===== is start_ts 1685116800
+[2023-05-22 14:40:50][agent-11]	===== is now_ts 1684737650
+[2023-05-22 14:40:50][agent-11]	===== is end_ts 1685980800
+[2023-05-22 14:40:50][agent-11]	===== is stop_ts 1685721600
+[2023-05-22 14:40:50][agent-11]	===== is from_nostart_to_started 379150
+[2023-05-22 14:40:50][agent-11]	key..9
+[2023-05-22 14:40:50][agent-11]	===== is start_ts 1686672000
+[2023-05-22 14:40:50][agent-11]	===== is now_ts 1684737650
+[2023-05-22 14:40:50][agent-11]	===== is end_ts 1687190400
+[2023-05-22 14:40:50][agent-11]	===== is stop_ts 1686931200
+[2023-05-22 14:40:50][agent-11]	===== is from_nostart_to_started 1934350
+[2023-05-22 14:40:50][agent-11]	key..10
+[2023-05-22 14:40:50][agent-11]	===== is start_ts 1686326400
+[2023-05-22 14:40:50][agent-11]	===== is now_ts 1684737650
+[2023-05-22 14:40:50][agent-11]	===== is end_ts 1687190400
+[2023-05-22 14:40:50][agent-11]	===== is stop_ts 1686931200
+[2023-05-22 14:40:50][agent-11]	===== is from_nostart_to_started 1588750
+[2023-05-22 14:40:50][agent-11]	key..11
+[2023-05-22 14:40:50][agent-11]	===== is start_ts 1685721600
+[2023-05-22 14:40:50][agent-11]	===== is now_ts 1684737650
+[2023-05-22 14:40:50][agent-11]	===== is end_ts 1686585600
+[2023-05-22 14:40:50][agent-11]	===== is stop_ts 1686326400
+[2023-05-22 14:40:50][agent-11]	===== is from_nostart_to_started 983950
+[2023-05-22 14:40:50][agent-11]	=====================
+[2023-05-22 14:40:50][agent-11]	充值 activity start
+[2023-05-22 14:40:50][agent-11]	=====================
+[2023-05-22 14:40:50][agent-11]	======= is from_started_to_end 465550
+[2023-05-22 14:40:50][agent-11]	======= is from_nostart_to_started 465550
+[2023-05-22 14:40:50][agent-11]	======= is from_nostart_to_started 1070350
+[2023-05-22 14:40:50][agent-11]	======= is from_nostart_to_started 1675150
+[2023-05-22 14:40:50][agent-11]	======= is from_nostart_to_started 2279950
+[2023-05-22 14:40:50][agent-11]	======= is from_nostart_to_started 465550
+[2023-05-22 14:40:50][agent-11]	-------------------
+[2023-05-22 14:40:50][agent-11]	festival activity start
+[2023-05-22 14:40:50][agent-11]	-------------------
+[2023-05-22 14:40:50][agent-11]	--- from_stopped_to_reserve 465549
+[2023-05-22 14:40:50][agent-11]	--- from_stopped_to_reserve 465549
+[2023-05-22 14:40:50][agent-11]	--- from_stopped_to_reserve 465549
+[2023-05-22 14:40:50][agent-11]	--- from_started_to_stopped 206349
+[2023-05-22 14:40:50][agent-11]	--- from_nostart_to_started 206350
+[2023-05-22 14:40:50][agent-11]	--- from_nostart_to_started 551950
+[2023-05-22 14:40:50][agent-11]	--- from_nostart_to_started 811150
+[2023-05-22 14:40:50][agent-11]	--- from_nostart_to_started 1070350
+[2023-05-22 14:40:50][agent-11]	--- from_nostart_to_started 1329550
+[2023-05-22 14:40:50][agent-11]	--- from_nostart_to_started 1588750
+[2023-05-22 14:40:50][agent-11]	key..1
+[2023-05-22 14:40:50][:00000012] LAUNCH snlua agent_gate
+[2023-05-22 14:40:50][:00000013] LAUNCH gate S :00000012 :::15515 3 102400 4
+[2023-05-22 14:40:50][:00000014] LAUNCH snlua child_marry
+CreateThread: 2116, socket_send_worker
+CreateThread: 2117, socket_send_worker
+CreateThread: 2118, socket_send_worker
+CreateThread: 2119, socket_send_worker
+[2023-05-22 14:40:50][game_launcher-8]	[warn][node s55_game]all service booted
+[2023-05-22 14:40:50][:00000002] KILL self
