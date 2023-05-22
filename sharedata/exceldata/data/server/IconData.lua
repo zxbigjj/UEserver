@@ -401,6 +401,18 @@ return {
         [ "res_name" ] = "zhujuenv4_icon",
         [ "res_path" ] = "UIRes/Common/Icon/JlbIcon/zhujuenv4_icon",
     },
+    [ 10049 ] = {
+        [ "ch_key" ] = "女主角5",
+        [ "id" ] = 10049,
+        [ "res_name" ] = "zhujuenv5_icon",
+        [ "res_path" ] = "UIRes/Common/Icon/JlbIcon/zhujuenv5_icon",
+    },
+    [ 10050 ] = {
+        [ "ch_key" ] = "男主角5",
+        [ "id" ] = 10050,
+        [ "res_name" ] = "zhujuenan5_icon",
+        [ "res_path" ] = "UIRes/Common/Icon/JlbIcon/zhujuenan5_icon",
+    },
     [ 40001 ] = {
         [ "ch_key" ] = "商业",
         [ "id" ] = 40001,
@@ -4745,6 +4757,42 @@ return {
         [ "res_name" ] = "zuzhiduomo",
         [ "res_path" ] = "UIResLanguage/RankActivity/zuzhiduomo",
     },
+    [ 300074 ] = {
+        [ "ch_key" ] = "霸道总裁图标",
+        [ "id" ] = 300074,
+        [ "res_name" ] = "shangyebazhu_icon",
+        [ "res_path" ] = "UIResLanguage/RankActivity/shangyebazhu_icon",
+    },
+    [ 300075 ] = {
+        [ "ch_key" ] = "才高八斗图标",
+        [ "id" ] = 300075,
+        [ "res_name" ] = "xinggannannv_icon",
+        [ "res_path" ] = "UIResLanguage/RankActivity/xinggannannv_icon",
+    },
+    [ 300076 ] = {
+        [ "ch_key" ] = "产业大亨图标",
+        [ "id" ] = 300076,
+        [ "res_name" ] = "shangyedaheng_icon",
+        [ "res_path" ] = "UIResLanguage/RankActivity/shangyedaheng_icon",
+    },
+    [ 300077 ] = {
+        [ "ch_key" ] = "风华绝代图标",
+        [ "id" ] = 300077,
+        [ "res_name" ] = "seqingkuangmo_icon",
+        [ "res_path" ] = "UIResLanguage/RankActivity/seqingkuangmo_icon",
+    },
+    [ 300078 ] = {
+        [ "ch_key" ] = "风月常新图标",
+        [ "id" ] = 300078,
+        [ "res_name" ] = "yinmotiantang_icon",
+        [ "res_path" ] = "UIResLanguage/RankActivity/yinmotiantang_icon",
+    },
+    [ 300079 ] = {
+        [ "ch_key" ] = "社会名流图标",
+        [ "id" ] = 300079,
+        [ "res_name" ] = "Y_paidcb_icon_icon",
+        [ "res_path" ] = "UIResLanguage/RankActivity/Y_paidcb_icon_icon",
+    },
     [ 310001 ] = {
         [ "ch_key" ] = "活动一",
         [ "id" ] = 310001,
@@ -4800,110 +4848,116 @@ return {
         [ "res_path" ] = "UIResBG/Welfare/huodongbj_07",
     },
     [ 330002 ] = {
-        [ "ch_key" ] = "情人礼包背景1",
+        [ "ch_key" ] = "限时活动背景2",
         [ "id" ] = 330002,
+        [ "res_name" ] = "huodongbj_14",
+        [ "res_path" ] = "UIResBG/Welfare/huodongbj_14",
+    },
+    [ 330003 ] = {
+        [ "ch_key" ] = "情人礼包背景1",
+        [ "id" ] = 330003,
         [ "res_name" ] = "LoverBg_1",
         [ "res_path" ] = "UIRes/LoverGift/LoverBg_1",
     },
-    [ 330003 ] = {
+    [ 330004 ] = {
         [ "ch_key" ] = "情人视频背景1",
-        [ "id" ] = 330003,
+        [ "id" ] = 330004,
         [ "res_name" ] = "LoverFrameBig_1",
         [ "res_path" ] = "UIRes/LoverGift/LoverFrameBig_1",
     },
-    [ 330004 ] = {
+    [ 330005 ] = {
         [ "ch_key" ] = "情人礼包背景2",
-        [ "id" ] = 330004,
+        [ "id" ] = 330005,
         [ "res_name" ] = "Loverqiuchang",
         [ "res_path" ] = "UIRes/LoverGift/Loverqiuchang",
     },
-    [ 330005 ] = {
+    [ 330006 ] = {
         [ "ch_key" ] = "情人礼包背景3",
-        [ "id" ] = 330005,
+        [ "id" ] = 330006,
         [ "res_name" ] = "Loverdongche",
         [ "res_path" ] = "UIRes/LoverGift/Loverdongche",
     },
-    [ 330006 ] = {
+    [ 330007 ] = {
         [ "ch_key" ] = "情人礼包背景4",
-        [ "id" ] = 330006,
+        [ "id" ] = 330007,
         [ "res_name" ] = "Loverhuitang",
         [ "res_path" ] = "UIRes/LoverGift/Loverhuitang",
     },
-    [ 330007 ] = {
+    [ 330008 ] = {
         [ "ch_key" ] = "情人礼包背景5",
-        [ "id" ] = 330007,
+        [ "id" ] = 330008,
         [ "res_name" ] = "Loverfeiji",
         [ "res_path" ] = "UIRes/LoverGift/Loverfeiji",
     },
-    [ 330008 ] = {
+    [ 330009 ] = {
         [ "ch_key" ] = "情人礼包背景6",
-        [ "id" ] = 330008,
+        [ "id" ] = 330009,
         [ "res_name" ] = "duchang1",
         [ "res_path" ] = "UIRes/LoverGift/duchang1",
     },
-    [ 330009 ] = {
+    [ 330010 ] = {
         [ "ch_key" ] = "情人礼包背景7",
-        [ "id" ] = 330009,
+        [ "id" ] = 330010,
         [ "res_name" ] = "duchang2",
         [ "res_path" ] = "UIRes/LoverGift/duchang2",
     },
-    [ 330010 ] = {
+    [ 330011 ] = {
         [ "ch_key" ] = "情人礼包背景8",
-        [ "id" ] = 330010,
+        [ "id" ] = 330011,
         [ "res_name" ] = "duchang3",
         [ "res_path" ] = "UIRes/LoverGift/duchang3",
     },
-    [ 330011 ] = {
+    [ 330012 ] = {
         [ "ch_key" ] = "情人礼包背景9",
-        [ "id" ] = 330011,
+        [ "id" ] = 330012,
         [ "res_name" ] = "heibang1",
         [ "res_path" ] = "UIRes/LoverGift/heibang1",
     },
-    [ 330012 ] = {
+    [ 330013 ] = {
         [ "ch_key" ] = "情人礼包背景10",
-        [ "id" ] = 330012,
+        [ "id" ] = 330013,
         [ "res_name" ] = "heibang2",
         [ "res_path" ] = "UIRes/LoverGift/heibang2",
     },
-    [ 330013 ] = {
+    [ 330014 ] = {
         [ "ch_key" ] = "情人礼包背景11",
-        [ "id" ] = 330013,
+        [ "id" ] = 330014,
         [ "res_name" ] = "heibang3",
         [ "res_path" ] = "UIRes/LoverGift/heibang3",
     },
-    [ 330014 ] = {
+    [ 330015 ] = {
         [ "ch_key" ] = "情人礼包背景12",
-        [ "id" ] = 330014,
+        [ "id" ] = 330015,
         [ "res_name" ] = "jiyuan1",
         [ "res_path" ] = "UIRes/LoverGift/jiyuan1",
     },
-    [ 330015 ] = {
+    [ 330016 ] = {
         [ "ch_key" ] = "情人礼包背景13",
-        [ "id" ] = 330015,
+        [ "id" ] = 330016,
         [ "res_name" ] = "jiyuan2",
         [ "res_path" ] = "UIRes/LoverGift/jiyuan2",
     },
-    [ 330016 ] = {
+    [ 330017 ] = {
         [ "ch_key" ] = "情人礼包背景14",
-        [ "id" ] = 330016,
+        [ "id" ] = 330017,
         [ "res_name" ] = "jiyuan3",
         [ "res_path" ] = "UIRes/LoverGift/jiyuan3",
     },
-    [ 330017 ] = {
+    [ 330018 ] = {
         [ "ch_key" ] = "情人礼包背景15",
-        [ "id" ] = 330017,
+        [ "id" ] = 330018,
         [ "res_name" ] = "KTV1",
         [ "res_path" ] = "UIRes/LoverGift/KTV1",
     },
-    [ 330018 ] = {
+    [ 330019 ] = {
         [ "ch_key" ] = "情人礼包背景16",
-        [ "id" ] = 330018,
+        [ "id" ] = 330019,
         [ "res_name" ] = "KTV2",
         [ "res_path" ] = "UIRes/LoverGift/KTV2",
     },
-    [ 330019 ] = {
+    [ 330020 ] = {
         [ "ch_key" ] = "情人礼包背景17",
-        [ "id" ] = 330019,
+        [ "id" ] = 330020,
         [ "res_name" ] = "KTV3",
         [ "res_path" ] = "UIRes/LoverGift/KTV3",
     },

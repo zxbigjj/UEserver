@@ -52,12 +52,12 @@ return {
     },
     [ 5 ] = {
         unlocked = true,
-        unit_id = 3019,
+        unit_id = 10,
         sex = 1,
         skin_id = 1,
         role_look_id = 5,
         unlock_icon = 10017,
-        head_icon_id = 10042,
+        head_icon_id = 10050,
     },
     [ 6 ] = {
         unlocked = true,
@@ -99,11 +99,11 @@ return {
     },
     [ 10 ] = {
         unlocked = true,
-        unit_id = 3029,
+        unit_id = 9,
         sex = 2,
         skin_id = 1,
         role_look_id = 10,
         unlock_icon = 10018,
-        head_icon_id = 10029,
+        head_icon_id = 10049,
     },
 }

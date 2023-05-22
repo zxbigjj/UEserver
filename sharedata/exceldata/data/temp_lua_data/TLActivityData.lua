@@ -141,7 +141,7 @@ return {
     [ 13 ] = {
         system_name = [==[RechargeActivity8]==],
         recharge_activity = 12,
-        is_show_in_mainscence = true,
+        is_show_in_mainscence = false,
         ch_key = [==[每日礼包]==],
         activity_name = [==[每日礼包]==],
         type = 7,

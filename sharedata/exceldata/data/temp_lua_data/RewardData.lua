@@ -8828,7 +8828,7 @@ return {
     },
     [ 9613 ] = {
         reward_item_list = {301023,301026,301029,301032,},
-        reward_num_list = {10,10,10,10,},
+        reward_num_list = {3,3,3,3,},
         id = 9613,
         is_select = true,
         ch_key = [==[30元单充1]==],
@@ -8961,21 +8961,21 @@ return {
     },
     [ 9632 ] = {
         reward_item_list = {206101,206102,206103,206104,},
-        reward_num_list = {3,2,2,2,},
+        reward_num_list = {10,10,10,10,},
         id = 9632,
         is_select = false,
         ch_key = [==[198元单充2]==],
     },
     [ 9633 ] = {
         reward_item_list = {206101,206102,206103,206104,},
-        reward_num_list = {3,2,2,2,},
+        reward_num_list = {10,10,10,10,},
         id = 9633,
         is_select = false,
         ch_key = [==[198元单充3]==],
     },
     [ 9634 ] = {
         reward_item_list = {206101,206102,206103,206104,},
-        reward_num_list = {3,2,2,2,},
+        reward_num_list = {10,10,10,10,},
         id = 9634,
         is_select = false,
         ch_key = [==[198元单充4]==],
@@ -8989,7 +8989,7 @@ return {
     },
     [ 9636 ] = {
         reward_item_list = {206101,206102,206103,206104,},
-        reward_num_list = {3,2,2,2,},
+        reward_num_list = {10,10,10,10,},
         id = 9636,
         is_select = false,
         ch_key = [==[198元单充6]==],
@@ -9024,7 +9024,7 @@ return {
     },
     [ 9641 ] = {
         reward_item_list = {206101,206102,206103,206104,},
-        reward_num_list = {3,2,2,2,},
+        reward_num_list = {10,10,10,10,},
         id = 9641,
         is_select = false,
         ch_key = [==[198元单充5]==],

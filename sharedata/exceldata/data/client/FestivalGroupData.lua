@@ -3,7 +3,7 @@ return {
         [ "id" ] = 1,
         [ "ch_key" ] = "欢庆佳节",
         [ "name" ] = "欢庆佳节",
-        [ "open_time" ] = "2023-04-13 00:00:00",
+        [ "open_time" ] = "2023-05-13 00:00:00",
         [ "activity_duration" ] = 3,
         [ "activity_list" ] = {
             [ 1 ] = 1,
@@ -25,13 +25,13 @@ return {
             [ 2 ] = "活动兑换",
         },
         [ "exchange_bg" ] = 330001,
-        [ "open_timestamp" ] = 1681315200,
+        [ "open_timestamp" ] = 1683907200,
     },
     [ 2 ] = {
         [ "id" ] = 2,
         [ "ch_key" ] = "节日庆典",
         [ "name" ] = "节日庆典",
-        [ "open_time" ] = "2023-04-29 00:00:00",
+        [ "open_time" ] = "2023-05-29 00:00:00",
         [ "activity_duration" ] = 3,
         [ "activity_list" ] = {
             [ 1 ] = 1,
@@ -53,6 +53,6 @@ return {
             [ 2 ] = "活动兑换",
         },
         [ "exchange_bg" ] = 330001,
-        [ "open_timestamp" ] = 1682697600,
+        [ "open_timestamp" ] = 1685289600,
     },
 }

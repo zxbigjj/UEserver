@@ -103,7 +103,7 @@ return {
     },
     [ "ChildCenterUI" ] = {
         [ "id" ] = "ChildCenterUI",
-        [ "title" ] = langexcel["子嗣"],
+        [ "title" ] = langexcel["育儿所"],
         [ "help_type" ] = 1,
         [ "param1" ] = {
             [ 1 ] = langexcel["儿女的天资由出生时母亲的亲密度决定，亲密度越高，获得的高天资儿女的几率越高"],
@@ -523,7 +523,7 @@ return {
     },
     [ "GrowUpUI" ] = {
         [ "id" ] = "GrowUpUI",
-        [ "title" ] = langexcel["子嗣"],
+        [ "title" ] = langexcel["育儿所"],
     },
     [ "HandleCmdPanel" ] = {
         [ "id" ] = "HandleCmdPanel",
@@ -1009,11 +1009,11 @@ return {
         },
         [ "param2" ] = {
             [ 1 ] = {
-                [ 1 ] = "花艺室：14：00",
-                [ 2 ] = "画展：16：00",
-                [ 3 ] = "剧场：18：00",
-                [ 4 ] = "舞会：19：00",
-                [ 5 ] = "音乐会：20：00",
+                [ 1 ] = "画展：14：00",
+                [ 2 ] = "花艺室：16：00",
+                [ 3 ] = "音乐会：18：00",
+                [ 4 ] = "剧场：19：00",
+                [ 5 ] = "舞会：20：00",
                 [ "title" ] = "游园时间",
             },
             [ 2 ] = {

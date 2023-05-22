@@ -366,25 +366,3 @@ c_get_lover_video_reward 2125 {
         reward_status 1 : integer
     }
 }
-
-c_get_detail_gift_package_list 2127 {
-    request {}
-    response {
-        errcode 0 : integer
-        day_residue_time 1 : integer
-        week_residue_time 2 : integer
-        detail_gift_package_list 3 : *GiftPackageList
-    }
-}
-
-c_daily_zero_gift 2128 {
-    request {
-        gift_id 0 : integer
-    }
-    response {
-        errcode 0 : integer
-        day_residue_time 1 : integer
-        week_residue_time 2 : integer
-        detail_gift_package_list 3 : *GiftPackageList
-    }
-}

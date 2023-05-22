@@ -9242,6 +9242,18 @@ return {
         id = 101539,
         eng = [==[%mM/%dD]==],
     },
+    [ 101540 ] = {
+        count = 1,
+        raw = [==[金币最大可以恢复运势到90]==],
+        id = 101540,
+        eng = [==[Gold coins can restore their fortune to a maximum of 90]==],
+    },
+    [ 101541 ] = {
+        count = 1,
+        raw = [==[物资最大可以恢复运势到90]==],
+        id = 101541,
+        eng = [==[Materials can restore their fortune to a maximum of 90]==],
+    },
     [ 300001 ] = {
         count = 3,
         raw = [==[商业]==],

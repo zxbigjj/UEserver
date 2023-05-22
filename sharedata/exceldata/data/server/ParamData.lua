@@ -1354,7 +1354,7 @@ return {
         [ "name" ] = "spoil_interval",
     },
     [ "spoil_lover_size" ] = {
-        [ "f_value" ] = 1.2,
+        [ "f_value" ] = 1.3,
         [ "name" ] = "spoil_lover_size",
     },
     [ "stage_action_point_item" ] = {

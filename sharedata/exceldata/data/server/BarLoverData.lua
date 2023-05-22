@@ -14,7 +14,7 @@ return {
         },
         [ "lover_id" ] = 21011,
         [ "victory_frag_num" ] = 3,
-        [ "victory_lover_ratio" ] = 1e-07,
+        [ "victory_lover_ratio" ] = 1e-007,
         [ "weight" ] = 10,
     },
     [ 21021 ] = {
@@ -32,7 +32,7 @@ return {
         },
         [ "lover_id" ] = 21021,
         [ "victory_frag_num" ] = 3,
-        [ "victory_lover_ratio" ] = 1e-07,
+        [ "victory_lover_ratio" ] = 1e-007,
         [ "weight" ] = 10,
     },
     [ 21031 ] = {
@@ -50,7 +50,7 @@ return {
         },
         [ "lover_id" ] = 21031,
         [ "victory_frag_num" ] = 3,
-        [ "victory_lover_ratio" ] = 1e-05,
+        [ "victory_lover_ratio" ] = 1e-005,
         [ "weight" ] = 50,
     },
     [ 21041 ] = {
@@ -68,7 +68,7 @@ return {
         },
         [ "lover_id" ] = 21041,
         [ "victory_frag_num" ] = 3,
-        [ "victory_lover_ratio" ] = 1e-05,
+        [ "victory_lover_ratio" ] = 1e-005,
         [ "weight" ] = 50,
     },
     [ 21051 ] = {
@@ -158,7 +158,7 @@ return {
         },
         [ "lover_id" ] = 22031,
         [ "victory_frag_num" ] = 3,
-        [ "victory_lover_ratio" ] = 1e-05,
+        [ "victory_lover_ratio" ] = 1e-005,
         [ "weight" ] = 50,
     },
     [ 22041 ] = {
@@ -176,7 +176,7 @@ return {
         },
         [ "lover_id" ] = 22041,
         [ "victory_frag_num" ] = 3,
-        [ "victory_lover_ratio" ] = 1e-05,
+        [ "victory_lover_ratio" ] = 1e-005,
         [ "weight" ] = 50,
     },
     [ 22051 ] = {
@@ -194,7 +194,7 @@ return {
         },
         [ "lover_id" ] = 22051,
         [ "victory_frag_num" ] = 3,
-        [ "victory_lover_ratio" ] = 1e-07,
+        [ "victory_lover_ratio" ] = 1e-007,
         [ "weight" ] = 10,
     },
     [ 22061 ] = {
@@ -212,7 +212,7 @@ return {
         },
         [ "lover_id" ] = 22061,
         [ "victory_frag_num" ] = 3,
-        [ "victory_lover_ratio" ] = 1e-07,
+        [ "victory_lover_ratio" ] = 1e-007,
         [ "weight" ] = 10,
     },
     [ 23011 ] = {
@@ -230,7 +230,7 @@ return {
         },
         [ "lover_id" ] = 23011,
         [ "victory_frag_num" ] = 3,
-        [ "victory_lover_ratio" ] = 1e-07,
+        [ "victory_lover_ratio" ] = 1e-007,
         [ "weight" ] = 10,
     },
     [ 23021 ] = {
@@ -266,7 +266,7 @@ return {
         },
         [ "lover_id" ] = 23031,
         [ "victory_frag_num" ] = 3,
-        [ "victory_lover_ratio" ] = 1e-05,
+        [ "victory_lover_ratio" ] = 1e-005,
         [ "weight" ] = 50,
     },
     [ 23041 ] = {
@@ -284,7 +284,7 @@ return {
         },
         [ "lover_id" ] = 23041,
         [ "victory_frag_num" ] = 3,
-        [ "victory_lover_ratio" ] = 1e-05,
+        [ "victory_lover_ratio" ] = 1e-005,
         [ "weight" ] = 50,
     },
     [ 23051 ] = {
@@ -320,7 +320,7 @@ return {
         },
         [ "lover_id" ] = 23061,
         [ "victory_frag_num" ] = 3,
-        [ "victory_lover_ratio" ] = 1e-07,
+        [ "victory_lover_ratio" ] = 1e-007,
         [ "weight" ] = 10,
     },
     [ 24011 ] = {
@@ -356,7 +356,7 @@ return {
         },
         [ "lover_id" ] = 24021,
         [ "victory_frag_num" ] = 3,
-        [ "victory_lover_ratio" ] = 1e-07,
+        [ "victory_lover_ratio" ] = 1e-007,
         [ "weight" ] = 10,
     },
     [ 24031 ] = {
@@ -374,7 +374,7 @@ return {
         },
         [ "lover_id" ] = 24031,
         [ "victory_frag_num" ] = 3,
-        [ "victory_lover_ratio" ] = 1e-05,
+        [ "victory_lover_ratio" ] = 1e-005,
         [ "weight" ] = 50,
     },
     [ 24041 ] = {
@@ -392,7 +392,7 @@ return {
         },
         [ "lover_id" ] = 24041,
         [ "victory_frag_num" ] = 3,
-        [ "victory_lover_ratio" ] = 1e-05,
+        [ "victory_lover_ratio" ] = 1e-005,
         [ "weight" ] = 50,
     },
     [ 24051 ] = {
@@ -428,7 +428,7 @@ return {
         },
         [ "lover_id" ] = 24061,
         [ "victory_frag_num" ] = 3,
-        [ "victory_lover_ratio" ] = 1e-07,
+        [ "victory_lover_ratio" ] = 1e-007,
         [ "weight" ] = 10,
     },
     [ "total_weight" ] = 1280,

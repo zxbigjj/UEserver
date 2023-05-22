@@ -1339,7 +1339,7 @@ return {
     },
     [ "spoil_lover_size" ] = {
         [ "name" ] = "spoil_lover_size",
-        [ "f_value" ] = 1.2,
+        [ "f_value" ] = 1.3,
     },
     [ "stage_action_point_item" ] = {
         [ "name" ] = "stage_action_point_item",

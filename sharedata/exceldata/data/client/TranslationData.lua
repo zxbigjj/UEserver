@@ -7982,6 +7982,9 @@ return {
         [ "物资捐赠" ] = {
             [ "eng" ] = "Donate Supply",
         },
+        [ "物资最大可以恢复运势到90" ] = {
+            [ "eng" ] = "Materials can restore their fortune to a maximum of 90",
+        },
         [ "特殊活动" ] = {
             [ "eng" ] = "Special Event",
         },
@@ -9265,6 +9268,9 @@ return {
         },
         [ "重置次数已达上限" ] = {
             [ "eng" ] = "Max Reset Reached",
+        },
+        [ "金币最大可以恢复运势到90" ] = {
+            [ "eng" ] = "Gold coins can restore their fortune to a maximum of 90",
         },
         [ "金钱:" ] = {
             [ "eng" ] = "Money:",

@@ -5,7 +5,7 @@ return {
         [ "challenge_num" ] = 3,
         [ "failure_frag_num" ] = 1,
         [ "victory_frag_num" ] = 3,
-        [ "victory_lover_ratio" ] = 1e-07,
+        [ "victory_lover_ratio" ] = 1e-007,
         [ "capacity" ] = {
             [ 1 ] = 100,
             [ 2 ] = 150,
@@ -23,7 +23,7 @@ return {
         [ "challenge_num" ] = 3,
         [ "failure_frag_num" ] = 1,
         [ "victory_frag_num" ] = 3,
-        [ "victory_lover_ratio" ] = 1e-07,
+        [ "victory_lover_ratio" ] = 1e-007,
         [ "capacity" ] = {
             [ 1 ] = 100,
             [ 2 ] = 150,
@@ -41,7 +41,7 @@ return {
         [ "challenge_num" ] = 3,
         [ "failure_frag_num" ] = 1,
         [ "victory_frag_num" ] = 3,
-        [ "victory_lover_ratio" ] = 1e-05,
+        [ "victory_lover_ratio" ] = 1e-005,
         [ "capacity" ] = {
             [ 1 ] = 70,
             [ 2 ] = 120,
@@ -59,7 +59,7 @@ return {
         [ "challenge_num" ] = 3,
         [ "failure_frag_num" ] = 1,
         [ "victory_frag_num" ] = 3,
-        [ "victory_lover_ratio" ] = 1e-05,
+        [ "victory_lover_ratio" ] = 1e-005,
         [ "capacity" ] = {
             [ 1 ] = 70,
             [ 2 ] = 120,
@@ -149,7 +149,7 @@ return {
         [ "challenge_num" ] = 3,
         [ "failure_frag_num" ] = 1,
         [ "victory_frag_num" ] = 3,
-        [ "victory_lover_ratio" ] = 1e-05,
+        [ "victory_lover_ratio" ] = 1e-005,
         [ "capacity" ] = {
             [ 1 ] = 70,
             [ 2 ] = 120,
@@ -167,7 +167,7 @@ return {
         [ "challenge_num" ] = 3,
         [ "failure_frag_num" ] = 1,
         [ "victory_frag_num" ] = 3,
-        [ "victory_lover_ratio" ] = 1e-05,
+        [ "victory_lover_ratio" ] = 1e-005,
         [ "capacity" ] = {
             [ 1 ] = 70,
             [ 2 ] = 120,
@@ -185,7 +185,7 @@ return {
         [ "challenge_num" ] = 3,
         [ "failure_frag_num" ] = 1,
         [ "victory_frag_num" ] = 3,
-        [ "victory_lover_ratio" ] = 1e-07,
+        [ "victory_lover_ratio" ] = 1e-007,
         [ "capacity" ] = {
             [ 1 ] = 100,
             [ 2 ] = 150,
@@ -203,7 +203,7 @@ return {
         [ "challenge_num" ] = 3,
         [ "failure_frag_num" ] = 1,
         [ "victory_frag_num" ] = 3,
-        [ "victory_lover_ratio" ] = 1e-07,
+        [ "victory_lover_ratio" ] = 1e-007,
         [ "capacity" ] = {
             [ 1 ] = 100,
             [ 2 ] = 150,
@@ -221,7 +221,7 @@ return {
         [ "challenge_num" ] = 3,
         [ "failure_frag_num" ] = 1,
         [ "victory_frag_num" ] = 3,
-        [ "victory_lover_ratio" ] = 1e-07,
+        [ "victory_lover_ratio" ] = 1e-007,
         [ "capacity" ] = {
             [ 1 ] = 100,
             [ 2 ] = 150,
@@ -257,7 +257,7 @@ return {
         [ "challenge_num" ] = 3,
         [ "failure_frag_num" ] = 1,
         [ "victory_frag_num" ] = 3,
-        [ "victory_lover_ratio" ] = 1e-05,
+        [ "victory_lover_ratio" ] = 1e-005,
         [ "capacity" ] = {
             [ 1 ] = 70,
             [ 2 ] = 120,
@@ -275,7 +275,7 @@ return {
         [ "challenge_num" ] = 3,
         [ "failure_frag_num" ] = 1,
         [ "victory_frag_num" ] = 3,
-        [ "victory_lover_ratio" ] = 1e-05,
+        [ "victory_lover_ratio" ] = 1e-005,
         [ "capacity" ] = {
             [ 1 ] = 70,
             [ 2 ] = 120,
@@ -311,7 +311,7 @@ return {
         [ "challenge_num" ] = 3,
         [ "failure_frag_num" ] = 1,
         [ "victory_frag_num" ] = 3,
-        [ "victory_lover_ratio" ] = 1e-07,
+        [ "victory_lover_ratio" ] = 1e-007,
         [ "capacity" ] = {
             [ 1 ] = 100,
             [ 2 ] = 150,
@@ -347,7 +347,7 @@ return {
         [ "challenge_num" ] = 3,
         [ "failure_frag_num" ] = 1,
         [ "victory_frag_num" ] = 3,
-        [ "victory_lover_ratio" ] = 1e-07,
+        [ "victory_lover_ratio" ] = 1e-007,
         [ "capacity" ] = {
             [ 1 ] = 100,
             [ 2 ] = 150,
@@ -365,7 +365,7 @@ return {
         [ "challenge_num" ] = 3,
         [ "failure_frag_num" ] = 1,
         [ "victory_frag_num" ] = 3,
-        [ "victory_lover_ratio" ] = 1e-05,
+        [ "victory_lover_ratio" ] = 1e-005,
         [ "capacity" ] = {
             [ 1 ] = 70,
             [ 2 ] = 120,
@@ -383,7 +383,7 @@ return {
         [ "challenge_num" ] = 3,
         [ "failure_frag_num" ] = 1,
         [ "victory_frag_num" ] = 3,
-        [ "victory_lover_ratio" ] = 1e-05,
+        [ "victory_lover_ratio" ] = 1e-005,
         [ "capacity" ] = {
             [ 1 ] = 70,
             [ 2 ] = 120,
@@ -419,7 +419,7 @@ return {
         [ "challenge_num" ] = 3,
         [ "failure_frag_num" ] = 1,
         [ "victory_frag_num" ] = 3,
-        [ "victory_lover_ratio" ] = 1e-07,
+        [ "victory_lover_ratio" ] = 1e-007,
         [ "capacity" ] = {
             [ 1 ] = 100,
             [ 2 ] = 150,

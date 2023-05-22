@@ -69,7 +69,6 @@ return {
         ch_key = [==[管理中心]==],
     },
     [ 13 ] = {
-        lock_id = 13,
         ui = [==[ArenaUI]==],
         id = 13,
         ch_key = [==[竞技场]==],
