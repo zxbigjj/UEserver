@@ -81,3 +81,16 @@ c_hero_recharge 1993 {
         errcode 0 : integer
     }
 }
+
+
+
+c_create_gift_order 1992 {
+     request {
+         gift_id 0 : integer
+     }
+     response {
+         errcode 0 : integer
+         call_back_url 1 : string
+         order_id 2 : integer
+     }
+}

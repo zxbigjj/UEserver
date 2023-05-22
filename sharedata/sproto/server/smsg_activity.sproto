@@ -171,3 +171,12 @@ s_update_ongoing_hero_activities 2114 {
         activity_list 0 : *HeroActivityList
     }
 }
+
+# 更新每日礼包
+s_update_daily_gift 2115 {             #更新每日礼包
+    request {
+        day_residue_time 0 : integer
+        week_residue_time 1 : integer
+        detail_gift_package_list 2 : *GiftPackageList
+    }
+}

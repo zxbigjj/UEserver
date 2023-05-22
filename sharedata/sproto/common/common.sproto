@@ -487,3 +487,9 @@
     icon 9 : string
     end_ts 10 : integer
 }
+
+.GiftPackageList{
+     id 0 : integer
+     uuid 1 : string
+     residue_count 2 : integer
+ }
