@@ -173,6 +173,7 @@ function role_train:train_challenge_victory(db_train, difficulty, item_list, aut
         local add_progress = db_train.curr_star_num - db_train.history_star_num
         db_train.history_star_num = db_train.curr_star_num
         self.role:update_role_rank("train_rank", db_train.history_star_num)
+        self.role:update_cross_role_rank("cross_train_rank",db_train.history_star_num)--陈永帅
         self.role:update_task(CSConst.TaskType.TrainStar, {progress = add_progress})
         self.role:update_achievement(CSConst.AchievementType.TrainStar, add_progress)
     end

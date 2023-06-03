@@ -18,7 +18,7 @@ def view_event_config(curr_user):
 
 
 ############################################################################################
-@route("/query_lover_activities")
+@route("/query_lover_activities" , method="post")
 @check_user("lover_activities")
 def query_lover_activities(curr_user):
     result = common_utils.call_gm(55, None, "query_lover_activities", None)
@@ -32,9 +32,10 @@ def query_lover_activities(curr_user):
 @check_user("lover_activities")
 def add_lover_activities(curr_user):
     try:
+        goods_name = request.params.get("goods_name")
         server_id = int(request.params.get("server_id"))
         reward = json.loads(request.params.get("reward"))
-        price = int(request.params.get("price")[:-3])
+        price = int(request.params.get("price"))
         discount = int(request.params.get("discount"))
         icon = request.params.get("icon")
         face_time = request.params.get("face_time")
@@ -72,7 +73,7 @@ def update_lover_activities(curr_user):
         id = int(request.params.get("id"))
         server_id = int(request.params.get("server_id"))
         reward = json.loads(request.params.get("reward"))
-        price = int(request.params.get("price")[:-3])
+        price = int(request.params.get("price"))
         discount = int(request.params.get("discount"))
         icon = request.params.get("icon")
         face_time = request.params.get("face_time")

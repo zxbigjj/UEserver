@@ -60,11 +60,12 @@
                         <p class="col-sm-2">Price</p>
                         <div class="col-sm-10 " id="price">
                             <select class="form-control">
-                                <option value="399">399 JG</option>
-                                <option value="599">599 JG</option>
-                                <option value="899">899 JG</option>
-                                <option value="1299">1299 JG</option>
-                                <option value="3299">3299 JG</option>
+                                <option value="38">38</option>
+                                <option value="68">68</option>
+                                <option value="98">98</option>
+                                <option value="128">128</option>
+                                <option value="328">328</option>
+                                <option value="648">648</option>
                             </select>
                         </div>
                     </div>
@@ -173,11 +174,12 @@
                         <p class="col-sm-2">Price</p>
                         <div class="col-sm-10 " id="price">
                             <select class="form-control">
-                                <option value="399">399 JG</option>
-                                <option value="599">599 JG</option>
-                                <option value="899">899 JG</option>
-                                <option value="1299">1299 JG</option>
-                                <option value="3299">3299 JG</option>
+                                <option value="38">38</option>
+                                <option value="68">68</option>
+                                <option value="98">98</option>
+                                <option value="128">128</option>
+                                <option value="328">328</option>
+                                <option value="648">648</option>
                             </select>
                         </div>
                     </div>
@@ -383,7 +385,7 @@
                         field: 'price',
                         title: 'Price   ',
                         formatter: function (value, row, index) {
-                            return value.toString() + "JG"
+                            return value.toString()
                         }
                     }, {
                         field: 'discount',

@@ -15,7 +15,7 @@ return {
     [ 1 ] = {
         reset_cycle = 1,
         activity_id = 12,
-        gift_des = [==[每日免费礼包]==],
+        gift_des = [==[每日礼包描述1]==],
         limit_num = 1,
         item_count = {50000,50000,50000,},
         tag = [==[每日礼包]==],
@@ -25,7 +25,7 @@ return {
     [ 2 ] = {
         reset_cycle = 1,
         activity_id = 12,
-        gift_des = [==[情人折扣礼包]==],
+        gift_des = [==[每日礼包描述2]==],
         limit_num = 3,
         item_count = {10,10,80000,},
         tag = [==[每日礼包]==],
@@ -36,7 +36,7 @@ return {
     [ 3 ] = {
         reset_cycle = 1,
         activity_id = 12,
-        gift_des = [==[超值成长礼包]==],
+        gift_des = [==[每日礼包描述3]==],
         limit_num = 3,
         item_count = {15,5,100000,},
         tag = [==[每日礼包]==],
@@ -47,7 +47,7 @@ return {
     [ 4 ] = {
         reset_cycle = 1,
         activity_id = 12,
-        gift_des = [==[情人养成礼包]==],
+        gift_des = [==[每日礼包描述4]==],
         limit_num = 3,
         item_count = {10,10,10,10,},
         tag = [==[每日礼包]==],
@@ -58,7 +58,7 @@ return {
     [ 5 ] = {
         reset_cycle = 1,
         activity_id = 12,
-        gift_des = [==[强化助力礼包]==],
+        gift_des = [==[每日礼包描述5]==],
         limit_num = 3,
         item_count = {3,2,2,2,},
         tag = [==[每日礼包]==],
@@ -69,9 +69,9 @@ return {
     [ 6 ] = {
         reset_cycle = 1,
         activity_id = 12,
-        gift_des = [==[豪华书籍大礼包]==],
+        gift_des = [==[每日礼包描述6]==],
         limit_num = 3,
-        item_count = {12,12,12,12,},
+        item_count = {8,8,8,8,},
         tag = [==[每日礼包]==],
         recharge_rank = [==[128]==],
         item_id = {301023,301026,301029,301032,},
@@ -80,7 +80,7 @@ return {
     [ 7 ] = {
         reset_cycle = 1,
         activity_id = 12,
-        gift_des = [==[随机资源钜惠]==],
+        gift_des = [==[每日礼包描述7]==],
         limit_num = 3,
         item_count = {10,10,10,10,},
         tag = [==[每日礼包]==],
@@ -91,7 +91,7 @@ return {
     [ 8 ] = {
         reset_cycle = 1,
         activity_id = 12,
-        gift_des = [==[橙色宝物大礼包]==],
+        gift_des = [==[每日礼包描述8]==],
         limit_num = 3,
         item_count = {10,10,10,3000000,},
         tag = [==[每日礼包]==],
@@ -102,7 +102,7 @@ return {
     [ 9 ] = {
         reset_cycle = 7,
         activity_id = 12,
-        gift_des = [==[每周免费礼包]==],
+        gift_des = [==[每周礼包描述1]==],
         limit_num = 1,
         item_count = {5,5,},
         tag = [==[每周礼包]==],
@@ -112,9 +112,9 @@ return {
     [ 10 ] = {
         reset_cycle = 7,
         activity_id = 12,
-        gift_des = [==[书籍大放送]==],
+        gift_des = [==[每周礼包描述2]==],
         limit_num = 3,
-        item_count = {2,2,2,2,},
+        item_count = {3,3,3,3,},
         tag = [==[每周礼包]==],
         recharge_rank = [==[6]==],
         item_id = {301023,301026,301029,301032,},
@@ -123,7 +123,7 @@ return {
     [ 11 ] = {
         reset_cycle = 7,
         activity_id = 12,
-        gift_des = [==[随机资源礼包]==],
+        gift_des = [==[每周礼包描述3]==],
         limit_num = 3,
         item_count = {3,2,2,2,},
         tag = [==[每周礼包]==],
@@ -134,7 +134,7 @@ return {
     [ 12 ] = {
         reset_cycle = 7,
         activity_id = 12,
-        gift_des = [==[行动大派送]==],
+        gift_des = [==[每周礼包描述4]==],
         limit_num = 3,
         item_count = {10,10,10,10,},
         tag = [==[每周礼包]==],
@@ -145,9 +145,9 @@ return {
     [ 13 ] = {
         reset_cycle = 7,
         activity_id = 12,
-        gift_des = [==[情人养成大放送]==],
+        gift_des = [==[每周礼包描述5]==],
         limit_num = 3,
-        item_count = {25,25,25,25,},
+        item_count = {10,10,10,10,},
         tag = [==[每周礼包]==],
         recharge_rank = [==[68]==],
         item_id = {302006,302009,302012,302015,},
@@ -156,9 +156,9 @@ return {
     [ 14 ] = {
         reset_cycle = 7,
         activity_id = 12,
-        gift_des = [==[豪华书籍周钜惠]==],
+        gift_des = [==[每周礼包描述6]==],
         limit_num = 3,
-        item_count = {15,15,15,15,},
+        item_count = {8,8,8,8,},
         tag = [==[每周礼包]==],
         recharge_rank = [==[128]==],
         item_id = {301023,301026,301029,301032,},
@@ -167,7 +167,7 @@ return {
     [ 15 ] = {
         reset_cycle = 7,
         activity_id = 12,
-        gift_des = [==[橙色装包限时购]==],
+        gift_des = [==[每周礼包描述7]==],
         limit_num = 3,
         item_count = {30,10,10,10,10,},
         tag = [==[每周礼包]==],
@@ -178,7 +178,7 @@ return {
     [ 16 ] = {
         reset_cycle = 7,
         activity_id = 12,
-        gift_des = [==[橙色宝物周礼包]==],
+        gift_des = [==[每周礼包描述8]==],
         limit_num = 3,
         item_count = {30,20,20,5000000,},
         tag = [==[每周礼包]==],
@@ -189,7 +189,7 @@ return {
     [ 17 ] = {
         reset_cycle = 7,
         activity_id = 12,
-        gift_des = [==[超值特惠周礼包]==],
+        gift_des = [==[每周礼包描述9]==],
         limit_num = 3,
         item_count = {20,4,},
         tag = [==[每周礼包]==],
@@ -200,9 +200,9 @@ return {
     [ 18 ] = {
         reset_cycle = 36500,
         activity_id = 12,
-        gift_des = [==[夺宝助力]==],
+        gift_des = [==[终身限购礼包描述1]==],
         limit_num = 1,
-        item_count = {450,10,},
+        item_count = {300,10,},
         tag = [==[终身限购]==],
         recharge_rank = [==[30]==],
         item_id = {101005,201002,},
@@ -211,9 +211,9 @@ return {
     [ 19 ] = {
         reset_cycle = 36500,
         activity_id = 12,
-        gift_des = [==[终身限购]==],
+        gift_des = [==[终身限购礼包描述2]==],
         limit_num = 1,
-        item_count = {1020,5,10,},
+        item_count = {680,5,10,},
         tag = [==[终身限购]==],
         recharge_rank = [==[68]==],
         item_id = {101005,250009,201001,},
@@ -222,7 +222,7 @@ return {
     [ 20 ] = {
         reset_cycle = 36500,
         activity_id = 12,
-        gift_des = [==[书籍终极礼包]==],
+        gift_des = [==[终身限购礼包描述3]==],
         limit_num = 1,
         item_count = {30,30,30,30,},
         tag = [==[终身限购]==],
@@ -233,9 +233,9 @@ return {
     [ 21 ] = {
         reset_cycle = 36500,
         activity_id = 12,
-        gift_des = [==[橙宝助力礼包]==],
+        gift_des = [==[终身限购礼包描述4]==],
         limit_num = 1,
-        item_count = {3000,10,10,10,},
+        item_count = {1980,10,10,10,},
         tag = [==[终身限购]==],
         recharge_rank = [==[198]==],
         item_id = {101005,205108,201001,201002,},
@@ -244,7 +244,7 @@ return {
     [ 22 ] = {
         reset_cycle = 36500,
         activity_id = 12,
-        gift_des = [==[橙色装备助力礼包]==],
+        gift_des = [==[终身限购礼包描述5]==],
         limit_num = 1,
         item_count = {30,10,10,10,10,},
         tag = [==[终身限购]==],
@@ -255,12 +255,12 @@ return {
     [ 23 ] = {
         reset_cycle = 36500,
         activity_id = 12,
-        gift_des = [==[超值钜惠大礼包]==],
+        gift_des = [==[终身限购礼包描述6]==],
         limit_num = 1,
-        item_count = {10000,20,4,},
+        item_count = {20,4,},
         tag = [==[终身限购]==],
         recharge_rank = [==[648]==],
-        item_id = {101005,250009,250010,},
+        item_id = {250009,250010,},
         id = 23,
     },
 }

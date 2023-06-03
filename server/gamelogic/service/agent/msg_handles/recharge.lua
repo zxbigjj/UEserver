@@ -24,7 +24,7 @@ end
 
 --下单逻辑
 function M.c_create_order(role, args)
-    local ret = role.recharge:create_order(args.recharge_id)
+    local ret = role.recharge:create_order(args.recharge_id,args.channel)
     if ret then
         return ret
     end
@@ -33,7 +33,7 @@ end
 
 --下单逻辑
 function M.c_create_yueka_order(role, args)
-    local ret = role.recharge:create_yueka_order(args.card_id)
+    local ret = role.recharge:create_yueka_order(args.card_id,args.channel)
     if ret then
         return ret
     end
@@ -42,7 +42,7 @@ end
 
 --情人礼包下单逻辑
 function M.create_lover_order(role, args)
-    local ret = role.recharge:create_lover_order(args.package_id)
+    local ret = role.recharge:create_lover_order(args.package_id,args.channel)
     if ret then
         return ret
     end
@@ -51,7 +51,7 @@ end
 
 --英雄礼包下单逻辑
 function M.create_hero_order(role, args)
-    local ret = role.recharge:create_hero_order(args.package_id)
+    local ret = role.recharge:create_hero_order(args.package_id,args.channel)
     if ret then
         return ret
     end
@@ -60,7 +60,7 @@ end
 
 -- 创建礼包订单（每日礼包 ， 每周礼包 ， 终身礼包）
 function M.c_create_gift_order(role, args)
-    local ret = role.recharge:create_gift_order(args.gift_id)
+    local ret = role.recharge:create_gift_order(args.gift_id,args.channel)
     if ret then
         print( " c_create_gift_order data :"..json.encode(ret))
         return ret

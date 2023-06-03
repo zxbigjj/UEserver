@@ -12,6 +12,7 @@ c_recharge 1900 {
 c_create_order 1999 {
      request {
          recharge_id 0 : integer
+         channel 1 : string
      }
      response {
          errcode 0 : integer
@@ -34,6 +35,7 @@ c_create_order 1999 {
  c_create_yueka_order 1997 {
       request {
           card_id 0 : integer
+          channel 1 : string
       }
       response {
           errcode 0 : integer
@@ -45,22 +47,28 @@ c_create_order 1999 {
 create_lover_order 1996 {
      request {
          package_id 0 : integer
+         channel 1 : string
      }
      response {
          errcode 0 : integer
          call_back_url 1 : string
          order_id 2 : integer
+         goods_id 3 : string
+         goods_name 4 : string
      }
 }
 
 create_hero_order 1995 {
      request {
          package_id 0 : integer
+         channel 1 : string
      }
      response {
          errcode 0 : integer
          call_back_url 1 : string
          order_id 2 : integer
+         goods_id 3 : string
+         goods_name 4 : string
      }
 }
 
@@ -87,6 +95,7 @@ c_hero_recharge 1993 {
 c_create_gift_order 1992 {
      request {
          gift_id 0 : integer
+         channel 1 : string
      }
      response {
          errcode 0 : integer

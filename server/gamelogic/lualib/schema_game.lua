@@ -1071,6 +1071,7 @@ COLLECTION("LoverActivities",{
         lover_type = INT,               -- 0,视频; 1,图片
         activity_name_fir = STR,
         activity_name_sec = STR,
+        goods_name = STR,               --商品名字
         status = STR(nil,'varchar(20)'),
         item_list = LIST(OBJ({
             item_id=INT,
@@ -1098,6 +1099,7 @@ COLLECTION("HeroActivities",{
         hero_right_id = INT(-1),
         activity_name_fir = STR,
         activity_name_sec = STR,
+        goods_name = STR,               --商品名字
         status = STR(nil, 'varchar(20)'),
         item_list = LIST(OBJ({
             item_id = INT,

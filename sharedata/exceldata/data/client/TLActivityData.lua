@@ -127,7 +127,7 @@ return {
         [ "ch_key" ] = "每日礼包",
         [ "activity_name" ] = "每日礼包",
         [ "icon" ] = 2800037,
-        [ "is_show_in_mainscence" ] = false,
+        [ "is_show_in_mainscence" ] = true,
         [ "system_name" ] = "RechargeActivity8",
         [ "type" ] = 7,
         [ "recharge_activity" ] = 12,

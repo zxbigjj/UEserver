@@ -3061,7 +3061,6 @@ return {
         },
         [ "attack_type" ] = 1,
         [ "buff_clear_level" ] = 1,
-        [ "buff_clear_ratio" ] = 1,
         [ "buff_object_list" ] = {
             [ 1 ] = 1,
             [ 2 ] = 1,

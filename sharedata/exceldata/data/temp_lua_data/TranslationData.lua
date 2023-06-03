@@ -9254,36 +9254,6 @@ return {
         id = 101541,
         eng = [==[Materials can restore their fortune to a maximum of 90]==],
     },
-    [ 101542 ] = {
-        count = 1,
-        raw = [==[流畅]==],
-        id = 101542,
-        eng = [==[SMOOTH]==],
-    },
-    [ 101543 ] = {
-        count = 1,
-        raw = [==[正常]==],
-        id = 101543,
-        eng = [==[GOOD]==],
-    },
-    [ 101544 ] = {
-        count = 1,
-        raw = [==[火爆]==],
-        id = 101544,
-        eng = [==[HOT]==],
-    },
-    [ 101545 ] = {
-        count = 1,
-        raw = [==[公告]==],
-        id = 101545,
-        eng = [==[Notice]==],
-    },
-    [ 101546 ] = {
-        count = 1,
-        raw = [==[未完成]==],
-        id = 101546,
-        eng = [==[Unfinished]==],
-    },
     [ 300001 ] = {
         count = 3,
         raw = [==[商业]==],

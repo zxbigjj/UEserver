@@ -144,7 +144,7 @@ function role_recharge:hero_recharge(package_id)
     return true
 end
 
-function role_recharge:create_order(recharge_id)
+function role_recharge:create_order(recharge_id,channel)
     if not recharge_id then return end
     print("order recharge id : "..recharge_id)
     print("order recharge id : "..tostring(recharge_id))
@@ -155,7 +155,7 @@ function role_recharge:create_order(recharge_id)
         uuid = self.uuid,
         recharge_id = tostring(recharge_id),
         status = 0,
-        pay_channel = "Gjj",
+        pay_channel = channel,
         local_price = recharge_info.recharge_count,
         product_number = 1,
         start_ts = tostring(date.time_second()),
@@ -179,7 +179,7 @@ function role_recharge:create_order(recharge_id)
     }
 end
 
-function role_recharge:create_yueka_order(card_id)
+function role_recharge:create_yueka_order(card_id,channel)
     if not card_id then return end
     print("order recharge id : "..card_id)
     print("order recharge id : "..tostring(card_id))
@@ -190,7 +190,7 @@ function role_recharge:create_yueka_order(card_id)
         uuid = self.uuid,
         card_id = tostring(card_id),
         status = 0,
-        pay_channel = "Gjj",
+        pay_channel = channel,
         local_price = exldata.price,
         product_number = 1,
         start_ts = tostring(date.time_second()),
@@ -213,7 +213,7 @@ function role_recharge:create_yueka_order(card_id)
     }
 end
 
-function role_recharge:create_lover_order(package_id)
+function role_recharge:create_lover_order(package_id,channel)
     if not package_id then return end
     print("order recharge id : "..tostring(package_id))
     local  loverpackage = schema_game.LoverActivities:get_db_client():query_one("select  * from t_loveractivities where id = "..package_id)
@@ -225,7 +225,7 @@ function role_recharge:create_lover_order(package_id)
         uuid = self.uuid,
         package_id = tostring(package_id),
         status = 0,
-        pay_channel = "Gjj",
+        pay_channel = channel,
         local_price = loverpackage.discount,
         product_number = 1,
         start_ts = tostring(date.time_second()),
@@ -243,15 +243,18 @@ function role_recharge:create_lover_order(package_id)
    -- local url = skynet.getenv("call_back_url")
    -- print("call_back_url : "..url)
     g_log:info("call_back_url = order_id="..order_id.."&uuid="..uuid.."&server_id="..server_id.."&type=3")
+    
     return {
         errcode = g_tips.ok,
         order_id =  order_id,
         --call_back_url = "https://server.jgg-tianyou-zuiecheng.com:404"..server_id.."/do_pay?order_id="..order_id.."&uuid="..uuid.."&server_id="..server_id.."&type=3"
         call_back_url = "order_id="..order_id.."&uuid="..uuid.."&server_id="..server_id.."&type=3",
+        goods_id = "lover_ios_daheng_" .. loverpackage.price, --ios传个商品ID,
+        goods_name = loverpackage.goods_name,
     }
 end
 
-function role_recharge:create_hero_order(package_id)
+function role_recharge:create_hero_order(package_id,channel)
     if not package_id then return end
     print("order recharge id : "..tostring(package_id))
     local  heropackage = schema_game.HeroActivities:get_db_client():query_one("select  * from t_heroactivities where id = "..package_id)
@@ -263,7 +266,7 @@ function role_recharge:create_hero_order(package_id)
         uuid = self.uuid,
         package_id = tostring(package_id),
         status = 0,
-        pay_channel = "Gjj",
+        pay_channel = channel,
         local_price = heropackage.discount,
         product_number = 1,
         start_ts = tostring(date.time_second()),
@@ -280,18 +283,22 @@ function role_recharge:create_hero_order(package_id)
    -- print("call_back_url : "..url)
     g_log:info("call_back_url = order_id="..order_id.."&uuid="..self.uuid.."&server_id="..server_id.."&type=4")
     local uuid = self.uuid
+
     local returnData = {
         errcode = g_tips.ok,
         order_id =  order_id,
        -- call_back_url = "https://server.jgg-tianyou-zuiecheng.com:404"..server_id.."/do_pay?order_id="..order_id.."&uuid="..uuid.."&server_id="..server_id.."&type=4"
-       call_back_url = "order_id="..order_id.."&uuid="..uuid.."&server_id="..server_id.."&type=4",
+        call_back_url = "order_id="..order_id.."&uuid="..uuid.."&server_id="..server_id.."&type=4",
+        goods_id = "hero_ios_daheng_" .. heropackage.price, --ios传个商品ID,
+        goods_name = heropackage.goods_name,
     }
+
     print( " data :"..json.encode(returnData))
     return returnData
 end
 
 -- 创建礼包订单
-function role_recharge:create_gift_order(gift_id)
+function role_recharge:create_gift_order(gift_id,channel)
     if not gift_id then return end
     print("order recharge id : "..tostring(gift_id))
     local gift_info = daily_gift_package_activities_utils.get_excel_info_by_id(gift_id)
@@ -330,7 +337,7 @@ function role_recharge:create_gift_order(gift_id)
         uuid = self.uuid,
         gift_id = tostring(gift_id),
         status = 0,
-        pay_channel = "quik",
+        pay_channel = channel,
         local_price = tonumber(gift_info.recharge_rank),
         product_number = 1,
         start_ts = tostring(date.time_second()),

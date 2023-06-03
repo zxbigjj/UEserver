@@ -39,6 +39,7 @@ function role_treasure:online_treasure()
     for item_id, fragment_dict in pairs(self.db.treasure_dict) do
         treasure_dict[item_id] = {fragment_dict = fragment_dict}
     end
+    print('=====online_treasure======' .. json.encode(treasure_dict))
     self.role:send_client("s_online_grab_treasure", {treasure_dict = treasure_dict})
 end
 

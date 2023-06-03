@@ -73,6 +73,7 @@ end
 -- 获得正在进行的礼包活动
 function lover_activities_utils.get_ongoing_lover_activities(role)
     local now = date.time_second()
+    print("get_ongoing_lover_activities time"..json.encode(os.date("%Y-%m-%d %H:%M:%S", math.floor(now))))
     local activity_list = {}
     local lover_activities = schema_game.LoverActivities:load_many({status = "activate"})
     local role_purchased_lover_activities = schema_game.RolePurchasedLoverActivities:load_many({uuid = role.uuid})

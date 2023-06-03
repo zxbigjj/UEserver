@@ -37,11 +37,21 @@
             <div class="modal-body">
                 <form class="form-horizontal">
                     <div class="form-group">
-                        <p class="col-sm-3">Server</p>
+                        <p class="col-sm-3">Goods_Name</p>
                         <div class="col-sm-9">
-                            <input type="text" class="form-control" id="server_id">
+                            <input type="text" class="form-control" id="goods_name" maxlength="16">
                         </div>
                     </div>
+
+                    <div class="form-group" >
+                        <p class="col-sm-3">Server</p>
+                        <div class="col-sm-9" id="lover_type">
+                            <select class="form-control" id="server_id">
+                                
+                            </select>
+                        </div>
+                    </div>
+
 
                     <div class="form-group">
                         <p class="col-sm-3">Title</p>
@@ -61,11 +71,12 @@
                         <p class="col-sm-3">Price</p>
                         <div class="col-sm-9" id="price">
                             <select class="form-control">
-                                <option value="399">399 JG</option>
-                                <option value="599">599 JG</option>
-                                <option value="899">899 JG</option>
-                                <option value="1299">1299 JG</option>
-                                <option value="3299">3299 JG</option>
+                                <option value="38">38</option>
+                                <option value="68">68</option>
+                                <option value="98">98</option>
+                                <option value="128">128</option>
+                                <option value="328">328</option>
+                                <option value="648">648</option>
                             </select>
                         </div>
                     </div>
@@ -160,131 +171,7 @@
     </div><!-- /.modal -->
 </div>
 
-<div class="modal fade" id="edit_lover_activities_modal" data-backdrop tabindex="-1" role="dialog">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title">Edit Lover Activity</h4>
-            </div>
 
-            <div class="modal-body">
-                <form class="form-horizontal">
-                    <div class="form-group">
-                        <p class="col-sm-3">Server</p>
-                        <div class="col-sm-9">
-                            <input type="text" class="form-control" id="server_id">
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <p class="col-sm-3">Title</p>
-                        <div class="col-sm-9">
-                            <input type="text" class="form-control" id="activity_name_fir" maxlength="16">
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <p class="col-sm-3">Subhead</p>
-                        <div class="col-sm-9">
-                            <input type="text" class="form-control" id="activity_name_sec" maxlength="16">
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <p class="col-sm-3">Price</p>
-                        <div class="col-sm-9" id="price">
-                            <select class="form-control">
-                                <option value="399">399 JG</option>
-                                <option value="599">599 JG</option>
-                                <option value="899">899 JG</option>
-                                <option value="1299">1299 JG</option>
-                                <option value="3299">3299 JG</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <p class="col-sm-3">Discount</p>
-                        <div class="col-sm-9">
-                            <input type="text" class="form-control" id="discount">
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <p class="col-sm-3">Back Image</p>
-                        <div class="col-sm-9">
-                            <input type="text" class="form-control" id="icon">
-                        </div>
-                    </div>
-
-                    <div class="form-group" id="lover_id_form_div">
-                        <p class="col-sm-3">Unit ID</p>
-                        <div class="col-sm-9">
-                            <input type="text" class="form-control" id="lover_id" required="required">
-                        </div>
-                    </div>
-
-                    <div class="form-group" id="lover_fashion_form_div">
-                        <p class="col-sm-3">Fashion<br>(情人时装)</p>
-                        <div class="col-sm-9">
-                            <input type="text" class="form-control" id="lover_fashion">
-                        </div>
-                    </div>
-
-                    <div class="form-group" id="lover_piece_form_div">
-                        <p class="col-sm-3">Piece<br>(情人碎片)</p>
-                        <div class="col-sm-9">
-                            <input type="text" class="form-control" id="lover_piece">
-                        </div>
-                    </div>
-
-                    <div class="form-group" id="lover_type_form_div">
-                        <p class="col-sm-3">Lover Type</p>
-                        <div class="col-sm-9" id="lover_type">
-                            <select class="form-control"
-                                onchange="lover_type_on_change('#edit_lover_activities_modal')">
-                                <option value="1">lover</option>
-                                <option value="0">video</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <div class="form-group" id="face_time_form_div">
-                        <p class="col-sm-3">Face Time</p>
-                        <div class="col-sm-9" id="face_time">
-                            <p class="col-sm-4"><input type="radio" name="face_time" value="60019">occlude_1</p>
-                            <p class="col-sm-4"><input type="radio" name="face_time" value="60020">occlude_2</p>
-                            <p class="col-sm-4"><input type="radio" name="face_time" value="60021">occlude_3</p>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <p class="col-sm-3">Refresh Interval</p>
-                        <div class="col-sm-9">
-                            <input type="text" class="form-control" id="refresh_interval" placeholder="Minute">
-                        </div>
-                    </div>
-                </form>
-            </div>
-
-            <div class="modal-footer">
-                <form class="form-horizontal" id="edit_lover_activities">
-                    <div class="form-group">
-                        <button type="button" class="btn btn-default" onclick="add_rewards('#edit_lover_activities');">
-                            Add Rewards</button>
-                    </div>
-                    <div class="form-group" id="reward_list"></div>
-
-                    <div class="form-group">
-                        <button class="btn btn-lg btn-primary btn-block" type="submit">
-                            Lover Activities</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div><!-- /.modal -->
-</div>
 
 
 <!-- 时间组件初始化 -->
@@ -299,6 +186,7 @@
 
 <!-- 表格组件 -->
 <script type="text/javascript">
+    
     function addFunctionAlty(value, row, index) {
         return [
             '<button id="delete" type="button" class="btn btn-default" style="width:90px;margin:auto">Delete</button>',
@@ -403,10 +291,10 @@
             })
         }
     };
-
+    
     $(document).ready(function () {
         $.ajax({
-            type: "get",
+            type: "POST",
             url: "/query_lover_activities",
             dataType: 'json',
             success: function (msg) {
@@ -444,7 +332,7 @@
                             field: 'price',
                             title: 'Price   ',
                             formatter: function (value, row, index) {
-                                return value.toString() + "JG"
+                                return value.toString()
                             }
                         }, {
                             field: 'discount',
@@ -494,6 +382,21 @@
 
 <!-- 其他控制组件 -->
 <script>
+    $(document).ready(function () {
+        $.ajax({
+      type: "POST",
+      url: "/query_zone",
+      dataType: 'json',
+      success: function (msg) {
+        console.log(msg)
+        $.each(msg.info, function (key, values) {
+          if (values.running_state) {
+          $("#server_id").append("<option>" + values.server_id + "</option>");
+          }
+        })
+      }
+    });
+    })
     function set_rewards(reward_info) {
         for (var index = 0; index < reward_info.length; index++) {
             var info = '<div name="item_group"><div class="col-sm-6"><input type="text" class="form-control" name="id" value=' + reward_info[index].item_id + '></div ><div class="col-sm-6"><input type="text" class="form-control" name="count" value=' + reward_info[index].count + '></div></div>'
@@ -522,6 +425,7 @@
         $('#add_lover_activities_modal').unbind('submit')
         $("#add_lover_activities").submit(function () {
             event.preventDefault()
+            var goods_name = $("#add_lover_activities_modal").find("#goods_name").val();
             var server_id = $("#add_lover_activities_modal").find("#server_id").val();
             var reward = JSON.stringify(get_reward_list("#add_lover_activities_modal"));
             var price = $("#add_lover_activities_modal").find("#price").find(":selected").html();
@@ -585,4 +489,8 @@
             $(pos).find("#lover_id_form_div").find("p").html('Unit ID');
         }
     }
+    
+ 
+
+
 </script>

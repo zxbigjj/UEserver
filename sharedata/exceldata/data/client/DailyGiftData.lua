@@ -2,7 +2,7 @@ return {
     [ 1 ] = {
         [ "id" ] = 1,
         [ "reset_cycle" ] = 1,
-        [ "gift_des" ] = "每日免费礼包",
+        [ "gift_des" ] = "每日礼包描述1",
         [ "limit_num" ] = 1,
         [ "item_id" ] = {
             [ 1 ] = 101002,
@@ -20,7 +20,7 @@ return {
     [ 2 ] = {
         [ "id" ] = 2,
         [ "reset_cycle" ] = 1,
-        [ "gift_des" ] = "情人折扣礼包",
+        [ "gift_des" ] = "每日礼包描述2",
         [ "recharge_rank" ] = "6",
         [ "limit_num" ] = 3,
         [ "item_id" ] = {
@@ -39,7 +39,7 @@ return {
     [ 3 ] = {
         [ "id" ] = 3,
         [ "reset_cycle" ] = 1,
-        [ "gift_des" ] = "超值成长礼包",
+        [ "gift_des" ] = "每日礼包描述3",
         [ "recharge_rank" ] = "18",
         [ "limit_num" ] = 3,
         [ "item_id" ] = {
@@ -58,7 +58,7 @@ return {
     [ 4 ] = {
         [ "id" ] = 4,
         [ "reset_cycle" ] = 1,
-        [ "gift_des" ] = "情人养成礼包",
+        [ "gift_des" ] = "每日礼包描述4",
         [ "recharge_rank" ] = "30",
         [ "limit_num" ] = 3,
         [ "item_id" ] = {
@@ -79,7 +79,7 @@ return {
     [ 5 ] = {
         [ "id" ] = 5,
         [ "reset_cycle" ] = 1,
-        [ "gift_des" ] = "强化助力礼包",
+        [ "gift_des" ] = "每日礼包描述5",
         [ "recharge_rank" ] = "68",
         [ "limit_num" ] = 3,
         [ "item_id" ] = {
@@ -100,7 +100,7 @@ return {
     [ 6 ] = {
         [ "id" ] = 6,
         [ "reset_cycle" ] = 1,
-        [ "gift_des" ] = "豪华书籍大礼包",
+        [ "gift_des" ] = "每日礼包描述6",
         [ "recharge_rank" ] = "128",
         [ "limit_num" ] = 3,
         [ "item_id" ] = {
@@ -110,10 +110,10 @@ return {
             [ 4 ] = 301032,
         },
         [ "item_count" ] = {
-            [ 1 ] = 12,
-            [ 2 ] = 12,
-            [ 3 ] = 12,
-            [ 4 ] = 12,
+            [ 1 ] = 8,
+            [ 2 ] = 8,
+            [ 3 ] = 8,
+            [ 4 ] = 8,
         },
         [ "activity_id" ] = 12,
         [ "tag" ] = "每日礼包",
@@ -121,7 +121,7 @@ return {
     [ 7 ] = {
         [ "id" ] = 7,
         [ "reset_cycle" ] = 1,
-        [ "gift_des" ] = "随机资源钜惠",
+        [ "gift_des" ] = "每日礼包描述7",
         [ "recharge_rank" ] = "198",
         [ "limit_num" ] = 3,
         [ "item_id" ] = {
@@ -142,7 +142,7 @@ return {
     [ 8 ] = {
         [ "id" ] = 8,
         [ "reset_cycle" ] = 1,
-        [ "gift_des" ] = "橙色宝物大礼包",
+        [ "gift_des" ] = "每日礼包描述8",
         [ "recharge_rank" ] = "328",
         [ "limit_num" ] = 3,
         [ "item_id" ] = {
@@ -163,7 +163,7 @@ return {
     [ 9 ] = {
         [ "id" ] = 9,
         [ "reset_cycle" ] = 7,
-        [ "gift_des" ] = "每周免费礼包",
+        [ "gift_des" ] = "每周礼包描述1",
         [ "limit_num" ] = 1,
         [ "item_id" ] = {
             [ 1 ] = 201003,
@@ -179,7 +179,7 @@ return {
     [ 10 ] = {
         [ "id" ] = 10,
         [ "reset_cycle" ] = 7,
-        [ "gift_des" ] = "书籍大放送",
+        [ "gift_des" ] = "每周礼包描述2",
         [ "recharge_rank" ] = "6",
         [ "limit_num" ] = 3,
         [ "item_id" ] = {
@@ -189,10 +189,10 @@ return {
             [ 4 ] = 301032,
         },
         [ "item_count" ] = {
-            [ 1 ] = 2,
-            [ 2 ] = 2,
-            [ 3 ] = 2,
-            [ 4 ] = 2,
+            [ 1 ] = 3,
+            [ 2 ] = 3,
+            [ 3 ] = 3,
+            [ 4 ] = 3,
         },
         [ "activity_id" ] = 12,
         [ "tag" ] = "每周礼包",
@@ -200,7 +200,7 @@ return {
     [ 11 ] = {
         [ "id" ] = 11,
         [ "reset_cycle" ] = 7,
-        [ "gift_des" ] = "随机资源礼包",
+        [ "gift_des" ] = "每周礼包描述3",
         [ "recharge_rank" ] = "18",
         [ "limit_num" ] = 3,
         [ "item_id" ] = {
@@ -221,7 +221,7 @@ return {
     [ 12 ] = {
         [ "id" ] = 12,
         [ "reset_cycle" ] = 7,
-        [ "gift_des" ] = "行动大派送",
+        [ "gift_des" ] = "每周礼包描述4",
         [ "recharge_rank" ] = "30",
         [ "limit_num" ] = 3,
         [ "item_id" ] = {
@@ -242,7 +242,7 @@ return {
     [ 13 ] = {
         [ "id" ] = 13,
         [ "reset_cycle" ] = 7,
-        [ "gift_des" ] = "情人养成大放送",
+        [ "gift_des" ] = "每周礼包描述5",
         [ "recharge_rank" ] = "68",
         [ "limit_num" ] = 3,
         [ "item_id" ] = {
@@ -252,10 +252,10 @@ return {
             [ 4 ] = 302015,
         },
         [ "item_count" ] = {
-            [ 1 ] = 25,
-            [ 2 ] = 25,
-            [ 3 ] = 25,
-            [ 4 ] = 25,
+            [ 1 ] = 10,
+            [ 2 ] = 10,
+            [ 3 ] = 10,
+            [ 4 ] = 10,
         },
         [ "activity_id" ] = 12,
         [ "tag" ] = "每周礼包",
@@ -263,7 +263,7 @@ return {
     [ 14 ] = {
         [ "id" ] = 14,
         [ "reset_cycle" ] = 7,
-        [ "gift_des" ] = "豪华书籍周钜惠",
+        [ "gift_des" ] = "每周礼包描述6",
         [ "recharge_rank" ] = "128",
         [ "limit_num" ] = 3,
         [ "item_id" ] = {
@@ -273,10 +273,10 @@ return {
             [ 4 ] = 301032,
         },
         [ "item_count" ] = {
-            [ 1 ] = 15,
-            [ 2 ] = 15,
-            [ 3 ] = 15,
-            [ 4 ] = 15,
+            [ 1 ] = 8,
+            [ 2 ] = 8,
+            [ 3 ] = 8,
+            [ 4 ] = 8,
         },
         [ "activity_id" ] = 12,
         [ "tag" ] = "每周礼包",
@@ -284,7 +284,7 @@ return {
     [ 15 ] = {
         [ "id" ] = 15,
         [ "reset_cycle" ] = 7,
-        [ "gift_des" ] = "橙色装包限时购",
+        [ "gift_des" ] = "每周礼包描述7",
         [ "recharge_rank" ] = "198",
         [ "limit_num" ] = 3,
         [ "item_id" ] = {
@@ -307,7 +307,7 @@ return {
     [ 16 ] = {
         [ "id" ] = 16,
         [ "reset_cycle" ] = 7,
-        [ "gift_des" ] = "橙色宝物周礼包",
+        [ "gift_des" ] = "每周礼包描述8",
         [ "recharge_rank" ] = "328",
         [ "limit_num" ] = 3,
         [ "item_id" ] = {
@@ -328,7 +328,7 @@ return {
     [ 17 ] = {
         [ "id" ] = 17,
         [ "reset_cycle" ] = 7,
-        [ "gift_des" ] = "超值特惠周礼包",
+        [ "gift_des" ] = "每周礼包描述9",
         [ "recharge_rank" ] = "648",
         [ "limit_num" ] = 3,
         [ "item_id" ] = {
@@ -345,7 +345,7 @@ return {
     [ 18 ] = {
         [ "id" ] = 18,
         [ "reset_cycle" ] = 36500,
-        [ "gift_des" ] = "夺宝助力",
+        [ "gift_des" ] = "终身限购礼包描述1",
         [ "recharge_rank" ] = "30",
         [ "limit_num" ] = 1,
         [ "item_id" ] = {
@@ -353,7 +353,7 @@ return {
             [ 2 ] = 201002,
         },
         [ "item_count" ] = {
-            [ 1 ] = 450,
+            [ 1 ] = 300,
             [ 2 ] = 10,
         },
         [ "activity_id" ] = 12,
@@ -362,7 +362,7 @@ return {
     [ 19 ] = {
         [ "id" ] = 19,
         [ "reset_cycle" ] = 36500,
-        [ "gift_des" ] = "终身限购",
+        [ "gift_des" ] = "终身限购礼包描述2",
         [ "recharge_rank" ] = "68",
         [ "limit_num" ] = 1,
         [ "item_id" ] = {
@@ -371,7 +371,7 @@ return {
             [ 3 ] = 201001,
         },
         [ "item_count" ] = {
-            [ 1 ] = 1020,
+            [ 1 ] = 680,
             [ 2 ] = 5,
             [ 3 ] = 10,
         },
@@ -381,7 +381,7 @@ return {
     [ 20 ] = {
         [ "id" ] = 20,
         [ "reset_cycle" ] = 36500,
-        [ "gift_des" ] = "书籍终极礼包",
+        [ "gift_des" ] = "终身限购礼包描述3",
         [ "recharge_rank" ] = "128",
         [ "limit_num" ] = 1,
         [ "item_id" ] = {
@@ -402,7 +402,7 @@ return {
     [ 21 ] = {
         [ "id" ] = 21,
         [ "reset_cycle" ] = 36500,
-        [ "gift_des" ] = "橙宝助力礼包",
+        [ "gift_des" ] = "终身限购礼包描述4",
         [ "recharge_rank" ] = "198",
         [ "limit_num" ] = 1,
         [ "item_id" ] = {
@@ -412,7 +412,7 @@ return {
             [ 4 ] = 201002,
         },
         [ "item_count" ] = {
-            [ 1 ] = 3000,
+            [ 1 ] = 1980,
             [ 2 ] = 10,
             [ 3 ] = 10,
             [ 4 ] = 10,
@@ -423,7 +423,7 @@ return {
     [ 22 ] = {
         [ "id" ] = 22,
         [ "reset_cycle" ] = 36500,
-        [ "gift_des" ] = "橙色装备助力礼包",
+        [ "gift_des" ] = "终身限购礼包描述5",
         [ "recharge_rank" ] = "328",
         [ "limit_num" ] = 1,
         [ "item_id" ] = {
@@ -446,18 +446,16 @@ return {
     [ 23 ] = {
         [ "id" ] = 23,
         [ "reset_cycle" ] = 36500,
-        [ "gift_des" ] = "超值钜惠大礼包",
+        [ "gift_des" ] = "终身限购礼包描述6",
         [ "recharge_rank" ] = "648",
         [ "limit_num" ] = 1,
         [ "item_id" ] = {
-            [ 1 ] = 101005,
-            [ 2 ] = 250009,
-            [ 3 ] = 250010,
+            [ 1 ] = 250009,
+            [ 2 ] = 250010,
         },
         [ "item_count" ] = {
-            [ 1 ] = 10000,
-            [ 2 ] = 20,
-            [ 3 ] = 4,
+            [ 1 ] = 20,
+            [ 2 ] = 4,
         },
         [ "activity_id" ] = 12,
         [ "tag" ] = "终身限购",

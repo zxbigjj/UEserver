@@ -1,0 +1,6 @@
+[data]
+./exceldata/GotoUIData.lua
+./exceldata/IconData.lua
+./exceldata/ItemData.lua
+./exceldata/RoleLookData.lua
+./exceldata/UnitData.lua

@@ -72,7 +72,7 @@ function MOD.add_gift_batch(tag, total_use_count, key_count, start_ts, end_ts, i
     MOD.last_batch_id = batch_id
     local batch_key = pack_batch_id(batch_id)
 
-    assert(string.len(tag) == 3)
+    --assert(string.len(tag) == 3)
     assert(batch_id < CHAR_COUNT * CHAR_COUNT * CHAR_COUNT)
 
     local info = {
@@ -128,8 +128,8 @@ function MOD.add_gift_batch(tag, total_use_count, key_count, start_ts, end_ts, i
 end
 
 function MOD.query_gift_key(gift_key)
-    local tag = string.sub(gift_key, 1, 3)
-    local batch_key = string.sub(gift_key, 4, 6)
+    --local tag = string.sub(gift_key, 1, 3)
+    local batch_key = string.sub(gift_key, 1, 3)
     local batch_info = MOD.batch_dict[batch_key]
     if not batch_info then return false end
     local key_info = schema_world.GiftKey:load(gift_key)
@@ -144,8 +144,8 @@ function MOD.query_gift_key(gift_key)
 end
 
 function MOD.use_gift_key(gift_key)
-    local tag = string.sub(gift_key, 1, 3)
-    local batch_key = string.sub(gift_key, 4, 6)
+    --local tag = string.sub(gift_key, 1, 3)
+    local batch_key = string.sub(gift_key, 1, 3)
     local batch_info = MOD.batch_dict[batch_key]
     if not batch_info then
         return false, g_tips.gift_key_wrong

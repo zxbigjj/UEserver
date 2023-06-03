@@ -108,12 +108,21 @@ def change_password():
 
 @route('/query_zone', method="POST")
 def query_zone():
-    print("is query zone info")
-    result = common_utils.call_dev_http()['data']
-    msg = dict(
-        zone_list=result,
-    )
-    return json.dumps(msg)
+    result = common_utils.call_gm(None, None, 'get_server_list', None)
+
+    server_info_list = []
+    for server_id, server_info in result.items():
+        request = common_utils.call_gm(
+            server_id, None, 'get_server_info_role_online', None)
+        if request['code'] == 0:
+            server_info['role_online_num'] = request['data']['role_online_num']
+            server_info['role_total_num'] = request['data']['role_total_num']
+            server_info['running_state'] = '1'
+            server_info_list.append(server_info)
+        else:
+            server_info_list.append(server_info)
+
+    return {'info': server_info_list}
 
 #################################################
 

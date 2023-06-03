@@ -97,6 +97,7 @@ CSConst.ItemSubType = {
     ActivityStuff = 304,    --活动材料
     Equipment = 401,        --装备
     EquipmentFragment = 402,--装备碎片
+    Treasure          = 403,--宝物
     Hero = 501,             --头目
     HeroFragment = 502,     --头目碎片
     PetProp = 601,          --宠物道具

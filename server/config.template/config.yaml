@@ -8,7 +8,7 @@ global:
   db_host: 127.0.0.1
   db_port: 3306
   db_user: root
-  db_passwd: '123456'
+  db_passwd: 'cys123456'
   enable_ssl: true
   # 分隔GameServer和CrossServer
   min_cross_server_id: 70
@@ -18,13 +18,13 @@ db_list:
     host: 127.0.0.1
     port: 3306
     user: root
-    passwd: '123456'
+    passwd: 'cys123456'
 
 server_list:
 - name: game50
   type: game
   server_id: 50
-  ip: 117.50.193.85
+  ip: 117.50.192.198
   area_id: 2
   area_name: "程序区"
   open_time: "2023-03-09 20:00:00"
@@ -38,8 +38,8 @@ server_list:
 - name: game55
   type: game
   server_id: 55
-  ip: 117.50.193.85
-  ssh_ip: 117.50.193.85
+  ip: 117.50.192.198
+  ssh_ip: 117.50.192.198
   area_id: 2
   area_name: "测试区"
   open_time: "2023-03-09 20:00:00"
@@ -53,7 +53,7 @@ server_list:
 - name: game51
   type: game
   server_id: 51
-  ip: 117.50.193.85
+  ip: 117.50.192.198
   area_id: 2
   area_name: "程序区"
   open_time: "2019-03-01 00:00:00"
@@ -67,7 +67,7 @@ server_list:
 - name: 郝继胜服
   type: game
   server_id: 53
-  ip: 117.50.193.85
+  ip: 117.50.192.198
   db: db1
   area_id: 2
   area_name: "程序区"
@@ -82,7 +82,7 @@ server_list:
 - name: game60
   type: game
   server_id: 60
-  ip: 117.50.193.85
+  ip: 117.50.192.198
   area_id: 2
   area_name: "程序区"
   open_time: "2019-03-01 00:00:00"
@@ -96,7 +96,7 @@ server_list:
 - name: 策划1服
   type: game
   server_id: 61
-  ip: 117.50.193.85
+  ip: 117.50.192.198
   area_id: 3
   area_name: "策划区"
   open_time: "2019-03-01 00:00:00"
@@ -110,7 +110,7 @@ server_list:
 - name: 策划2服
   type: game
   server_id: 62
-  ip: 117.50.193.85
+  ip: 117.50.192.198
   area_id: 3
   area_name: "策划区"
   open_time: "2019-03-01 00:00:00"
@@ -124,7 +124,7 @@ server_list:
 - name: 策划3服
   type: game
   server_id: 63
-  ip: 117.50.193.85
+  ip: 117.50.192.198
   area_id: 3
   area_name: "策划区"
   open_time: "2019-03-01 00:00:00"
@@ -138,7 +138,7 @@ server_list:
 - name: game65
   type: game
   server_id: 65
-  ip: 117.50.193.85
+  ip: 117.50.192.198
   area_id: 2
   area_name: "程序区"
   open_time: "2019-03-01 00:00:00"
@@ -152,7 +152,7 @@ server_list:
 - name: game67
   type: game
   server_id: 67
-  ip: 117.50.193.85
+  ip: 117.50.192.198
   area_id: 2
   area_name: "程序区"
   open_time: "2019-03-01 00:00:00"
@@ -166,7 +166,7 @@ server_list:
 - name: game68
   type: game
   server_id: 68
-  ip: 117.50.193.85
+  ip: 117.50.192.198
   area_id: 2
   area_name: "程序区"
   open_time: "2019-03-01 00:00:00"
@@ -180,24 +180,24 @@ server_list:
 - name: 跨服
   type: cross
   server_id: 70
-  ip: 117.50.193.85
+  ip: 117.50.192.198
 
 - name: cluster_router服
   type: cluster_router
   server_id: 2800
-  ip: 117.50.193.85
+  ip: 117.50.192.198
 
 - name: 世界服
   type: world
   server_id: 2801
-  ip: 117.50.193.85
+  ip: 117.50.192.198
 
 - name: gm服
   type: gm_router
   server_id: 2803
-  ip: 117.50.193.85
+  ip: 117.50.192.198
 
 - name: 登录服
   type: login
   server_id: 2810
-  ip: 117.50.193.85
+  ip: 117.50.192.198

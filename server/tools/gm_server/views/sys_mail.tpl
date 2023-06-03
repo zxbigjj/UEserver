@@ -141,23 +141,53 @@
     });
   });
 </script>
-
+<!-- 查询角色 -->
 <script type="text/javascript">
   var zone_list;
-
 
   /********************大区,服务器部分********************/
   function on_zone_change() {
     $("#server").find("option").remove()
     var name = $("#zone").val()
     $.each(zone_list, function (key, values) {
+      
       var zone = values;
+      console.log(values.server_id)
       if (zone.name == name) {
-        var option = '<option server_id="' + zone.id + '">' + zone.id + "</option>"
+        var option = '<option server_id="' + zone.server_id + '">' + zone.server_id + "</option>"
         $("#server").append(option);
       }
     })
   }
+
+  //全局加载
+  $(document).ready(function () {
+    $.ajax({
+      type: "POST",
+      url: "/query_zone",
+      dataType: 'json',
+      success: function (msg) {
+        console.log(msg)
+        zone_list=msg.info
+        $.each(msg.info, function (key, values) {
+          if (zone.name == name && values.running_state) {
+          $("#zone").append("<option>" + values.name + "</option>");
+          }
+        })
+        
+        on_zone_change();
+      }
+    });
+  })
+
+$("#zone").change(on_zone_change);
+
+</script>
+<script type="text/javascript">
+  var zone_list;
+
+
+  
 
   function isNumber(value) {
     var patrn = /^(-)?\d+(\.\d+)?$/;
@@ -185,22 +215,7 @@
     return server_id
   }
 
-  //全局加载
-  $(document).ready(function () {
-    $.ajax({
-      type: "POST",
-      url: "/query_zone",
-      dataType: 'json',
-      success: function (msg) {
-        zone_list = msg.zone_list;
-        $.each(zone_list, function (key, values) {
-          $("#zone").append("<option>" + values.name + "</option>");
-        })
-        on_zone_change();
-      }
-    });
-
-    $("#zone").change(on_zone_change);
+  
 
     /***************** 大区,服务器部分 END *****************/
 

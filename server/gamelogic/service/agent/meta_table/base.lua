@@ -454,7 +454,7 @@ function role_base:updata_fight_score(not_notify)
         self.role:update_activity_data(CSConst.ActivityType.GrowthFightScore, self.db.max_fight_score - old_max_fight_score)
         self.role:update_rush_activity_data(CSConst.RushActivityType.ringleader, self.db.max_fight_score - old_max_fight_score)
     end
-    print("tianjiazhanli:"..self.db.fight_score);
+    --print("tianjiazhanli:"..self.db.fight_score);
     self.role:update_cross_role_rank("cross_fight_score_rank", self.db.fight_score)
     if not not_notify then
         self.role:send_client("s_update_base_info", {fight_score = new_score})
@@ -517,7 +517,9 @@ end
 function role_base:on_rename()
     local name = self.db.name
     self.role:send_client("s_update_base_info", {name = name})
+    --local title_wearing_id = self.role.title.wearing_id
     self.role:update_rank_role_info({name = name})
+    --self.role:update_rank_role_info({title_wearing_id = "900090"})
     self.role:update_dynasty_role_info({name = name})
 end
 

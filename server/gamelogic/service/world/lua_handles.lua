@@ -26,11 +26,12 @@ local function make_item_list(item_list)
 end
 
 function lua_handles.lc_make_gift_key(args)
-    local group_name = string.lower(args.group_name)
-    if string.len(group_name) ~= 3 or not gift_key.check_str_valid(group_name) then
-        return false, 'group_name is invalid'
-    end
+    --local group_name = string.lower(args.group_name)
+    --if string.len(group_name) ~= 3 or not gift_key.check_str_valid(group_name) then
+        --return false, 'group_name is invalid'
+    --end
 
+    local group_name = ''
     local total_count = args.total_count
     if total_count > 100000 then
         return false, 'total_count must < 100000'

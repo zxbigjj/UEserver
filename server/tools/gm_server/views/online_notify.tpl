@@ -188,42 +188,55 @@
     });
 </script>
 
+<!-- 查询角色 -->
+<script type="text/javascript">
+  var zone_list;
 
+  /********************大区,服务器部分********************/
+  function on_zone_change() {
+    $("#server").find("option").remove()
+    var name = $("#zone").val()
+    $.each(zone_list, function (key, values) {
+      
+      var zone = values;
+      console.log(values.server_id)
+      if (zone.name == name) {
+        var option = '<option server_id="' + zone.server_id + '">' + zone.server_id + "</option>"
+        $("#server").append(option);
+      }
+    })
+  }
+
+  //全局加载
+  $(document).ready(function () {
+    $.ajax({
+      type: "POST",
+      url: "/query_zone",
+      dataType: 'json',
+      success: function (msg) {
+        console.log(msg)
+        zone_list=msg.info
+        $.each(msg.info, function (key, values) {
+          if (zone.name == name && values.running_state) {
+          $("#zone").append("<option>" + values.name + "</option>");
+          }
+        })
+        
+        on_zone_change();
+      }
+    });
+  })
+
+$("#zone").change(on_zone_change);
+
+</script>
 <!-- 大区,服务器 -->
 <script type="text/javascript">
-    var zone_list;
-
-    /********************大区,服务器部分********************/
-    function on_zone_change() {
-        $("#server").find("option").remove()
-        var name = $("#zone").val()
-        // console.log(zone_list) //测试
-        $.each(zone_list, function (key, values) {
-            var zone = values;
-            if (zone.name == name) {
-                var option = '<option server_id="' + zone.id + '">' + zone.id + "</option>"
-                // console.log(zone.id,zone.name) //测试
-                $("#server").append(option);
-            }
-        })
-    }
+    
 
     //全局加载
     $(document).ready(function () {
-        $.ajax({
-            type: "POST",
-            url: "/query_zone",
-            dataType: 'json',
-            success: function (msg) {
-                zone_list = msg.zone_list;
-                $.each(zone_list, function (key, values) {
-                    $("#zone").append("<option>" + values.name + "</option>");
-                })
-                on_zone_change();
-            }
-        });
-
-        $("#zone").change(on_zone_change);
+        
 
 
         $("#roll_notice").submit(function () {
@@ -278,7 +291,7 @@
             var notice_end_ts = (Date.parse($('#inner_add_roll_notice_end_ts').data().date) / 1000).toString();
             var notice_start_ts = (Date.parse($('#inner_add_roll_notice_start_ts').data().date) / 1000).toString();
             var interval = $("#inner_add_roll_notice_interval").val();
-            console.log(notice_start_ts, notice_end_ts)
+            console.log(server_id,notice_start_ts, notice_end_ts)
             $.ajax({
                 type: "POST",
                 url: "/add_roll_notice",

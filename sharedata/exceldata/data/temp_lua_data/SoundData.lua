@@ -63,7 +63,7 @@ return {
         ch_key = [==[总部音乐]==],
     },
     [ [==[2]==] ] = {
-        res_path = [==[Sound/Bgm/yulezhongxin_bgm]==],
+        res_path = [==[Sound/Bgm/login_bgm]==],
         id = [==[2]==],
         ch_key = [==[登录音乐]==],
     },

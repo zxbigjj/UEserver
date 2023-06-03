@@ -11,16 +11,22 @@ local httpc = require "http.httpc"
 local md5 = require "md5"
 local skynet_crypt = require("skynet.crypt")
 local base64_to_bin = skynet_crypt.base64decode
-local signature = "MIIBITANBgkqhkiG9w0BAQEFAAOCAQ4AMIIBCQKCAQBQQxM3UE0xWVqxnSfoYu4+XDICb+WTaZ87wGMFsSm7CizsniDVn0B+Xjptoz1PBSA7n0G5FOb7OPHpg8rH4gVoNcx9kZgBES5v7WX2Awr73wMHJiXMDR1KQA/iVRUzTXIz3k44U58qkkxljJ4SxKgxSmXmSJkK1vPSNdzvK9vN6zldqHV/iK7c/ZMiykWYUHUqwkQcCQM8+e4W+FJIGwHjiP6UOJRnQPsL5xCpTDkdzlJGyd6+cP8BCInWMrrWOvy1dJCl+Vl935/bU1bblApwEYUBh4SLsLEthbFPmXoqNUBKrWSrrcr486wpLq/FKM776LGiRt23DOCRY971AU1lAgMBAAE="
 
+
+--安卓
 local Md5_Key= "epmmsj7wbqgomgj1y077u38e9wrqgr4k"
---测试
-local callbackKey = "34477037442723932821589070372196"--test --"08682213938316890715589277849869"--
+local callbackKey = "34477037442723932821589070372196"
+
 local CONF_NAME = "transaction_id"
+
+--ios 参数
+local Md5_key_ios = "81740315100905102368857609511610"
+local callbackKey_ios = "85976967478589410725549984181219"
 
 local ROUTE = {
     ["/test"] = "on_test",
     ["/do_pay"] = "on_do_pay",
+    ["/do_payios"] = "on_dopayios",
     ["/questionnaire"] = "on_questionnaire",
 }
 
@@ -30,6 +36,102 @@ local ERR = {
     args_error = 1002,
     server_error = 1003,
 }
+
+
+function MOD:quick_getByte(data, flag)
+    local array = {}
+    local lens = string.len(data)
+    if (flag == false)
+    then
+        for i=1,lens do
+            array[i] = string.byte(data, i)
+        end
+        return array
+    else
+        for i=1,lens do
+            array[i-1] = string.byte(data, i)
+        end
+    end
+    return array,lens
+end
+
+--function getChars(bytes)
+--    local array = {}
+--    for key, val in pairs(bytes) do
+--        array[key] = string.char(val)
+--    end
+--    return array
+--end
+
+function MOD:quick_split( str,reps )
+    local resultStrList = {}
+    string.gsub(str,'[^'..reps..']+',function ( w )
+        table.insert(resultStrList,w)
+    end)
+    return resultStrList
+end
+
+function MOD:encryptData(data, keys)
+    local result = ""
+    local dataArr = MOD:quick_getByte(data, false)
+    local keyArr,keyLen = MOD:quick_getByte(keys, true)
+    for index,value in pairs(dataArr) do
+        result = result.."@"..tostring((0xFF and value) + (0xFF and keyArr[(index-1) % keyLen]))
+    end
+    return result
+end
+
+function MOD:decryptData(data, keys)
+    local result = ""
+    local dataArr = MOD:quick_split(data, '@')
+    local keyArr,keyLen = MOD:quick_getByte(keys, true)
+    for index,value in pairs(dataArr) do
+          local bytes =  tonumber(value) - (0xFF and keyArr[(index-1) % keyLen])
+          result = result..string.char(bytes)
+    end
+    return result
+end
+
+
+--校验签名
+function MOD:checkSign(nt_data,sign,md5Sign,key)   
+    local md5SignLocal = string.lower(md5.sumhexa(nt_data..sign..key))
+    if md5SignLocal == md5Sign then
+        return true
+    else
+        return false
+    end
+end
+
+function MOD:getArgs(xml_data)
+    local extras_params = MOD:getXMLValue(xml_data,"extras_params")
+    print(extras_params)
+    return MOD:getExtraValue(extras_params)--(base64_to_bin(extras_params))
+end
+
+--XML获取字段对应值
+function MOD:getXMLValue(tempxml,key)
+	local tag1 = "<"..key..">"
+	local tag2 = "</"..key..">"
+	local a,start_ =string.find(tempxml, tag1)
+    local end_,b=string.find(tempxml, tag2)
+    local value = string.sub(tempxml,start_+1,end_-1)
+	return value
+end
+
+-- 获取参数
+function MOD:getExtraValue(extra_params)
+	local singleStrList = MOD:quick_split(extra_params,'&')
+    local result = {}
+    for i, v in ipairs(singleStrList) do
+        local params = MOD:quick_split(v, '=')
+        if #params == 2 then 
+            local key = ""..params[1]
+            result[key] = params[2]
+        end
+    end
+    return result
+end
 
 function MOD:on_do_pay(args)
     g_log:info("RecvPay", args)
@@ -42,9 +144,50 @@ function MOD:on_do_pay(args)
     --return json.encode(ret)
     return ret
 end
+
+-- 苹果商城
+function MOD:on_dopayios(args)
+
+    local sign = args["sign"]
+    local md5Sign = args["md5Sign"]
+    local ntdata = args["nt_data"]
+    local isOK = MOD:checkSign(ntdata,sign,md5Sign,Md5_key_ios)
+    if isOK  == false then
+        return false --md5不通过
+    end
+
+    -- 解密
+    local nXMLStr = MOD:decryptData(ntdata, callbackKey_ios)
+    local jsonstr = MOD:getArgs(nXMLStr)
+    print("pay ios order jsonstr : " .. json.encode(jsonstr))
+
+    --发货
+    return MOD:on_send_recharge(jsonstr)
+
+end
+
 function MOD:__on_do_pay(args)
-    print(args.transactionId)
-    print("pay order args : " .. json.encode(args))
+
+    local sign = args["sign"]
+    local md5Sign = args["md5Sign"]
+    local ntdata = args["nt_data"]
+    local isOK = MOD:checkSign(ntdata,sign,md5Sign,Md5_Key)
+    if isOK  == false then
+        return false --md5不通过
+    end
+
+    -- 解密
+    local nXMLStr = MOD:decryptData(ntdata, callbackKey)
+    local jsonstr = MOD:getArgs(nXMLStr)
+
+    print("pay android order jsonstr : " .. json.encode(jsonstr))
+
+    --发货
+    return MOD:on_send_recharge(jsonstr)
+end
+
+function MOD:on_send_recharge(args)
+
     local type = args.type;
     local must_params = {}
     must_params["server_id"] = args.server_id
@@ -71,6 +214,7 @@ function MOD:__on_do_pay(args)
     end
 
     return MOD:imitate_recharge(must_params)
+    
 end
 
 local function response(id, ...)
@@ -93,125 +237,6 @@ function MOD.start()
         end)
     end)
 end
---XML获取字段对应值
-local function getXMLValue(tempxml,key)
-    g_log:info(tempxml)
-	local tag1 = "<"..key..">"
-	local tag2 = "</"..key..">"
-	local a,start_ =string.find(tempxml, tag1)
-    local end_,b=string.find(tempxml, tag2)
-    g_log:info(""..start_..","..end_)
-    local value = string.sub(tempxml,start_+1,end_-1)
-	return value
-end
-
---字符串分割函数 & 分隔
-local function split(str, pattern)
-    local result = {}
-    string.gsub(str, pattern, function(w) table.insert(result, w) end)
-    return result
-end
--- 获取参数
-local function getExtraValue(extra_params)
-    g_log:info(string.format("[TEST_getExtraValue]:%s",extra_params))
-	local singleStrList = split(extra_params,'[^&]+')
-    local result = {}
-    for i, v in ipairs(singleStrList) do
-        g_log:info("[TEST_getExtraValue]:"..i..","..v)
-        local params = split(v, '[^=]+')
-      --  g_log:info("[TEST_getExtraValue]:#params"..#params)
-        if #params == 2 then 
-            local key = ""..params[1]
-            result[key] = params[2]
-            g_log:info(string.format("[TEST_getExtraValue]:%d,%s,%s",i,key,result[key]))
-        end
-    end
-    return result
-end
---校验签名
-local function checkSign(nt_data,sign,md5Sign,key)   
-    local md5SignLocal = string.lower(md5.sumhexa(nt_data..sign..key))
-   -- local md5SignLocal_1 = string.lower(md5.sumhexa(nt_data..sign))
-    g_log:info("[TEST checkSign]"..md5SignLocal)
-    --g_log:info("[TEST checkSign]"..md5SignLocal_1)
-    if md5SignLocal == md5Sign then
-        return true
-    else
-        return false
-    end
-end
-local function GetNumber(str)
-	for s in string.gmatch(str, "%-?%d+%.?%d?") do 
-		local i, j = string.find(str, s)
-		if j>0 and j+1 < string.len(str)  then
-			str = string.sub(str, j+1)
-		else
-			str =""
-		end
-		return s*1, str
-	end
-	return 0, ""
-end
-local function decodeString(str,key)
-    if string.len(str) <1 then
-		return '';
-	end
-
-	local list = {};
-    local n = 0;
-    while string.len(str) >0 do
-        n,str = GetNumber(str)
-       -- g_log:info("get number"..n)
-        table.insert(list,n);
-    end
-
-    local keysByte = {}
-   -- g_log:info("string.len(key)"..string.len(key)..","..key)
-	for i= 1,string.len(key) do
-        keysByte[i] = string.byte(key,i)
-    end
-	
-    
-	local dataByte = {};
-    local parseStr = '';
-	for i = 1 ,#list do
-    --    g_log:info("tonumber(list[i])"..tonumber(list[i]))
-    --    g_log:info("i % (#keysByte)"..(i % (#keysByte)))
-        local index = (i % (#keysByte))
-        if index <1 then
-            index = #keysByte
-        end
-    --    g_log:info("keysByte[i % (#keysByte)]"..keysByte[index])
-		dataByte[i] = tonumber(list[i]) - (0xff & tonumber(keysByte[index]));
-        parseStr = parseStr ..string.char(dataByte[i])
-    end
-
-	if #dataByte < 1 then
-		return '';
-    end
-
-	--local parseStr = bytesToString(dataByte);
-	return parseStr;
-end
-local function getArgs(nt_data)
-    -- nt_data 为xml字符串
-  --  quicksdk_message = getXMLValue(nt_data,"quicksdk_message")
-    g_log:info("nt_data:"..nt_data)
-    --local message = getXMLValue(nt_data,"message")
-    --g_log:info("message:"..message)
-    local extras_params = getXMLValue(nt_data,"extras_params")
-    g_log:info("extra_params:"..extras_params)
-   -- g_log:info("extra_params:"..base64_to_bin(extras_params))
-
-    local result = getExtraValue(extras_params)--(base64_to_bin(extras_params))
-    return result
-end
---test
-local function testgetArgs()
-    local call_back_url = "order_id=167645512455000002&uuid=55000002&server_id=55&type=4"
-    local result = getExtraValue(call_back_url)
-    return result
-end
 
 function MOD.process(id)
     socket.start(id)
@@ -225,77 +250,27 @@ function MOD.process(id)
             local path, query = urllib.parse(url)
             local func = ROUTE[path]
             if func then
-
-                --test
---[[                 g_log:info("Start test")
-                local testargs = testgetArgs()
-              --  g_log:info("order_id:",tonumber(testargs["order_id"]))
-                ret = MOD[func](MOD, testargs)
-                
-                if  ret then
-                    res = "SUCCESS"
-                    response(id, code, "SUCCESS")
-                else
-                    res = "FAIL"
-                    response(id, 110, "FAIL")
-                end
-                g_log:info("End test:"..res) ]]
-
-                local args
-
-                -- quick sdk
-               
-                    local quickmessage
-                    if string.lower(method) == "post" then
-                        if header["content-type"] == "application/json" then
-                            quickmessage = body and json.decode(body) or {}
-                        else
-                            quickmessage = body and urllib.parse_query(body) or {}
-                        end
+                local quickmessage
+                if string.lower(method) == "post" then
+                    if header["content-type"] == "application/json" then
+                        quickmessage = body and json.decode(body) or {}
                     else
-                        quickmessage = query and urllib.parse_query(query) or {}
+                        quickmessage = body and urllib.parse_query(body) or {}
                     end
-                    local nt_data_org = quickmessage["nt_data"]
-                   -- g_log:info(string.format("[TEST_process]:ntdata=%s",nt_data_org))
-                    local nt_data 
-                    if nt_data_org ~=nil then
-                        nt_data = decodeString(nt_data_org,callbackKey)
-                    end
+                else
+                    quickmessage = query and urllib.parse_query(query) or {}
+                end
 
-                    args = getArgs(nt_data)  
-
-                    local sign_org = quickmessage["sign"]
---[[                     local sign
-                    if sign_org ~= nil then
-                        sign = decodeString(sign_org,callbackKey)
-                    end ]]
-                    local md5Sign = quickmessage["md5Sign"]
-                   -- g_log:info(string.format("[TEST_process]:ntdata=%s",nt_data_org))
-                --    g_log:info(string.format("[TEST_process]:ntdata=%s",nt_data))
-                  --  g_log:info(string.format("[TEST_process]:sign=%s",sign))
-                    g_log:info(string.format("[TEST_process]:md5Sign=%s",md5Sign))
-                    if not checkSign(nt_data_org,sign_org,md5Sign,Md5_Key) then
-                        g_log:warn("[TEST_process] check sign fail")                        
-                        response(id, code, "FAIL")
-                        socket.close(id)
-                        return
-                    end  
-                                     
-                
-                --local  sign = header["X-Signature"]
-                --print("pay order sign :"..sign)
-                ret = MOD[func](MOD, args)
+                ret = MOD[func](MOD, quickmessage)
             end
 
-            if  ret then
+            if ret then
                 res = "SUCCESS"
-                response(id, code, "SUCCESS")
+                response(id, code, res)
             else
                 res = "FAIL"
-                response(id, 110, "FAIL")
-            end
-            g_log:info("End test:"..res)
-            
+                response(id, 110, res)
+            end  
         end
     else
         if url == sockethelper.socket_error then
@@ -307,7 +282,7 @@ function MOD.process(id)
     socket.close(id)
 end
 
-function MOD.savePayOrder(orderTable)
+function MOD:savePayOrder(orderTable)
     local db = {
         transaction_id = orderTable["transactionId"],
         order_id = orderTable["orderId"],
@@ -345,11 +320,11 @@ function MOD:call_server(node_name, service_name, func_name, ...)
             node_name, service_name, func_name, ...)
     print(data)
     if not ok then
-        return false--,"FAIL"--({ code = ERR.server_error, err_msg = "服务器出错" })
+        return false
     elseif not is_success then
-        return false--,"FAIL"({ code = ERR.server_error, err_msg = data or "" })
+        return false
     end
-    return true--,"SUCCESS"--({ code = ERR.ok, data = data or {} })
+    return true
 end
 
 return MOD

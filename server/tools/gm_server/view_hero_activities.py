@@ -34,7 +34,7 @@ def add_hero_activities(curr_user):
     try:
         server_id = int(request.params.get("server_id"))
         reward = json.loads(request.params.get("reward"))
-        price = int(request.params.get("price")[:-3])
+        price = int(request.params.get("price"))
         discount = int(request.params.get("discount"))
         refresh_interval = int(request.params.get("refresh_interval"))
         icon = request.params.get("icon")
@@ -72,7 +72,7 @@ def update_hero_activities(curr_user):
         id = int(request.params.get("id"))
         server_id = int(request.params.get("server_id"))
         reward = json.loads(request.params.get("reward"))
-        price = int(request.params.get("price")[:-3])
+        price = int(request.params.get("price"))
         discount = int(request.params.get("discount"))
         refresh_interval = int(request.params.get("refresh_interval"))
         icon = request.params.get("icon")

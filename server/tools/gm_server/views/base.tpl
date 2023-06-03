@@ -102,7 +102,7 @@
               <a href="/view_map_mgr" class="list-group-item{{get_view_class('map_mgr', child, curr_user)}}">开启地图</a>
               <a href="/view_query_vip" class="list-group-item{{get_view_class('query_vip', child, curr_user)}}">充值查询</a>
               <a href="/view_query_union" class="list-group-item{{get_view_class('query_union', child, curr_user)}}">王朝查询</a>
-              <a href="/view_statistic" class="list-group-item{{get_view_class('statistic', child, curr_user)}}">礼包码</a>
+              <a href="/view_gift_key" class="list-group-item{{get_view_class('gift_key', child, curr_user)}}">礼包码</a>
               <a href="/view_statistic" class="list-group-item{{get_view_class('statistic', child, curr_user)}}">在线人数</a>
             </div>
             <a href="#menu-event-mgr" class="list-group-item" data-toggle="collapse">Event Online</a>

@@ -157,9 +157,11 @@
     $("#server").find("option").remove()
     var name = $("#zone").val()
     $.each(zone_list, function (key, values) {
+      
       var zone = values;
+      console.log(values.server_id)
       if (zone.name == name) {
-        var option = '<option server_id="' + zone.id + '">' + zone.id + "</option>"
+        var option = '<option server_id="' + zone.server_id + '">' + zone.server_id + "</option>"
         $("#server").append(option);
       }
     })
@@ -172,10 +174,14 @@
       url: "/query_zone",
       dataType: 'json',
       success: function (msg) {
-        zone_list = msg.zone_list;
-        $.each(zone_list, function (key, values) {
+        console.log(msg)
+        zone_list=msg.info
+        $.each(msg.info, function (key, values) {
+          if (zone.name == name && values.running_state) {
           $("#zone").append("<option>" + values.name + "</option>");
+          }
         })
+        
         on_zone_change();
       }
     });

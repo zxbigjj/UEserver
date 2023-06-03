@@ -5779,9 +5779,6 @@ return {
         [ "八" ] = {
             [ "eng" ] = "Eight",
         },
-        [ "公告" ] = {
-            [ "eng" ] = "Notice",
-        },
         [ "六" ] = {
             [ "eng" ] = "Six",
         },
@@ -7619,9 +7616,6 @@ return {
         [ "未命中" ] = {
             [ "eng" ] = "Missed",
         },
-        [ "未完成" ] = {
-            [ "eng" ] = "Unfinished",
-        },
         [ "未强化、精炼的橙色宝物可以熔炼成红色宝物碎片" ] = {
             [ "eng" ] = "Orange Artifact that haven't been enhanced or refined can be smelted into Red Artifact Shards",
         },
@@ -7723,9 +7717,6 @@ return {
         },
         [ "正在与: <color=#f0c058>%s</color> <color=#e32e2e>(s%s)</color> 私聊" ] = {
             [ "eng" ] = "Having a private chat with: <color=#f0c058>%s</color> <color=#e32e2e>(s%s)</color> PM",
-        },
-        [ "正常" ] = {
-            [ "eng" ] = "GOOD",
         },
         [ "正常重置" ] = {
             [ "eng" ] = "Normal Reset",
@@ -7862,9 +7853,6 @@ return {
         [ "派遣失败" ] = {
             [ "eng" ] = "Dispatch Failed",
         },
-        [ "流畅" ] = {
-            [ "eng" ] = "SMOOTH",
-        },
         [ "消耗" ] = {
             [ "eng" ] = "Cost",
         },
@@ -7918,9 +7906,6 @@ return {
         },
         [ "潜能点每日24:00清零" ] = {
             [ "eng" ] = "Potential Pt. resets on 24:00 every dat",
-        },
-        [ "火爆" ] = {
-            [ "eng" ] = "HOT",
         },
         [ "点击宝物可直接去强化" ] = {
             [ "eng" ] = "Tap the Artifact to start Enhance",
