@@ -36,13 +36,15 @@
         % end
       </div>
 
-      <div class="form-group">
-        <label for="server_id" class="col-sm-1 control-label">服务器ID:</label>
-        <div class="col-sm-2">
-          <input type="text" class="form-control" id="server_id">
-        </div>
-      </div>
-
+      
+      <div class="form-group" >
+                         <label for="server_id" class="col-sm-1 control-label">服务器ID:</label>
+                        <div class="col-sm-2" >
+                            <select class="form-control" id="server_id">
+                                
+                            </select>
+                        </div>
+                    </div>
       <div class="form-group">
         <label for="uid" class="col-sm-1 control-label">UID:</label>
         <div class="col-sm-2">
@@ -68,7 +70,21 @@
 </div>
 
 <script type="text/javascript">
-
+$(document).ready(function () {
+        $.ajax({
+      type: "POST",
+      url: "/query_zone",
+      dataType: 'json',
+      success: function (msg) {
+        console.log(msg)
+        $.each(msg.info, function (key, values) {
+          if (values.running_state) {
+          $("#server_id").append("<option>" + values.server_id + "</option>");
+          }
+        })
+      }
+    });
+    })
   function isNumber(value) {
     var patrn = /^(-)?\d+(\.\d+)?$/;
     if (patrn.exec(value) == null || value == "") {

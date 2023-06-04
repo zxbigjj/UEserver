@@ -12,7 +12,9 @@
         <form class="form-horizontal" role="form" id="role_map_mgr">
             <div class="form-group">
                 <p class="col-sm-2">服务器ID</p>
-                <input id="server_id" type="text" class="form-control">
+                <select class="form-control" id="server_id">
+                                
+                            </select>
             </div>
             <div class="form-group">
                 <p class="col-sm-2">角色ID</p>
@@ -32,6 +34,21 @@
 </div>
 
 <script>
+    $(document).ready(function () {
+        $.ajax({
+      type: "POST",
+      url: "/query_zone",
+      dataType: 'json',
+      success: function (msg) {
+        console.log(msg)
+        $.each(msg.info, function (key, values) {
+          if (values.running_state) {
+          $("#server_id").append("<option>" + values.server_id + "</option>");
+          }
+        })
+      }
+    });
+    })
     $(document).ready(function () {
         $("#role_map_mgr").submit(function () {
             event.preventDefault();

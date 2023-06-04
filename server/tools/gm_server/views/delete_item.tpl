@@ -13,13 +13,15 @@
     </div>
     <div class="panel-body">
         <form class="form-horizontal" role="form" id="delete_item_from">
-            <div class="form-group">
-                <p class="col-sm-2">服务器ID</p>
-                <div class="col-sm-10 ">
-                    <input type="text" class="form-control" id="server_id">
-                </div>
-            </div>
-
+            
+            <div class="form-group" >
+                        <p class="col-sm-2">服务器ID</p>
+                        <div class="col-sm-10" >
+                            <select class="form-control" id="server_id">
+                                
+                            </select>
+                        </div>
+                    </div>
             <div class="form-group">
                 <p class="col-sm-2">UUID</p>
                 <div class="col-sm-10 ">
@@ -62,6 +64,21 @@
 </div>
 
 <script>
+    $(document).ready(function () {
+        $.ajax({
+      type: "POST",
+      url: "/query_zone",
+      dataType: 'json',
+      success: function (msg) {
+        console.log(msg)
+        $.each(msg.info, function (key, values) {
+          if (values.running_state) {
+          $("#server_id").append("<option>" + values.server_id + "</option>");
+          }
+        })
+      }
+    });
+    })
     $(document).ready(function () {
         $("#delete_item_from").submit(function () {
             event.preventDefault();

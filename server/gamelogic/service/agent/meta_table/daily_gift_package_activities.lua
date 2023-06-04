@@ -28,7 +28,7 @@ end
 
 -- 零点更新每日礼包
 function daily_gift_package_activities:daily_gift(role)
-    local daily_gift_package = daily_gift_package_activities_utils.get_all_gift_info(role);
+    local daily_gift_package = daily_gift_package_activities_utils.get_daily_gift(role);
     print( "---- 每日礼包 --- " .. json.encode(daily_gift_package))
     role:send_client("s_update_daily_gift", daily_gift_package)
 end

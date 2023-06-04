@@ -192,12 +192,12 @@
   /********************大区,服务器部分********************/
   function on_zone_change() {
     $("#server").find("option").remove()
-    var name = $("#zone").val()
+    var area_name = $("#zone").val()
     $.each(zone_list, function (key, values) {
       
       var zone = values;
       console.log(values.server_id)
-      if (zone.name == name) {
+      if (zone.area_name == area_name) {
         var option = '<option server_id="' + zone.server_id + '">' + zone.server_id + "</option>"
         $("#server").append(option);
       }
@@ -214,8 +214,8 @@
         console.log(msg)
         zone_list=msg.info
         $.each(msg.info, function (key, values) {
-          if (zone.name == name && values.running_state) {
-          $("#zone").append("<option>" + values.name + "</option>");
+          if ( values.running_state) {
+          $("#zone").append("<option>" + values.area_name + "</option>");
           }
         })
         

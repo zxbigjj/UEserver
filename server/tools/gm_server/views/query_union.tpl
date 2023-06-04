@@ -19,7 +19,9 @@
             <div class="form-group">
                 <label for="server_id" class="col-sm-1 control-label">服务器ID</label>
                 <div class="col-sm-2">
-                    <input type="text" class="form-control" id="server_id" required="required">
+                    <select class="form-control" id="server_id">
+                                
+                            </select>
                 </div>
 
                 <label for="dynasty_name" class="col-sm-1 control-label">王朝名字</label>
@@ -109,7 +111,21 @@
             })
         }
     }
-
+    $(document).ready(function () {
+        $.ajax({
+      type: "POST",
+      url: "/query_zone",
+      dataType: 'json',
+      success: function (msg) {
+        console.log(msg)
+        $.each(msg.info, function (key, values) {
+          if (values.running_state) {
+          $("#server_id").append("<option>" + values.server_id + "</option>");
+          }
+        })
+      }
+    });
+    })
     $(document).ready(function () {
         $("#query_dynasty").submit(function () {
             event.preventDefault();

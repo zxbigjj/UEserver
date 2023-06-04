@@ -505,6 +505,7 @@ local GM_HANDLE = {
         type = GMTYPE.server,
         handle = 'gm_add_lover_activities',
         must_params = {
+            goods_name =PTYPE.str,
             server_id = PTYPE.int,
             activity_name_fir = PTYPE.str,
             activity_name_sec = PTYPE.str,
@@ -524,7 +525,9 @@ local GM_HANDLE = {
         type = GMTYPE.server,
         handle = 'gm_edit_lover_activities',
         must_params = {
-            server_id = PTYPE.int, id = PTYPE.int,
+            goods_name =PTYPE.str,
+            server_id = PTYPE.int, 
+            id = PTYPE.int,
             activity_name_fir = PTYPE.str,
             activity_name_sec = PTYPE.str,
             status = PTYPE.str,
@@ -579,6 +582,7 @@ local GM_HANDLE = {
         type = GMTYPE.server,
         handle = 'gm_add_hero_activities',
         must_params = {
+            goods_name = PTYPE.str,
             server_id = PTYPE.int,
             price = PTYPE.int,
             discount = PTYPE.int,
@@ -600,6 +604,7 @@ local GM_HANDLE = {
         handle = 'gm_edit_hero_activities',
         must_params = {
             id = PTYPE.int,
+            goods_name = PTYPE.str,
             server_id = PTYPE.int,
             price = PTYPE.int,
             discount = PTYPE.int,
@@ -1113,7 +1118,7 @@ function gm_router:gm_add_lover_activities(args)
 end
 
 function gm_router:gm_edit_lover_activities(args)
-    return self:call_game_server(args.server_id, args)
+    return  self:call_game_server(args.server_id, args)
 end
 
 function gm_router:gm_del_lover_activities(args)

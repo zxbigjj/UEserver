@@ -18,7 +18,7 @@ def view_event_config(curr_user):
 
 
 ############################################################################################
-@route("/query_hero_activities")
+@route("/query_hero_activities", method="post")
 @check_user("hero_activities")
 def query_hero_activities(curr_user):
     result = common_utils.call_gm(55, None, "query_hero_activities", None)
@@ -32,6 +32,7 @@ def query_hero_activities(curr_user):
 @check_user("hero_activities")
 def add_hero_activities(curr_user):
     try:
+        goods_name = request.params.get("goods_name")
         server_id = int(request.params.get("server_id"))
         reward = json.loads(request.params.get("reward"))
         price = int(request.params.get("price"))
@@ -46,6 +47,7 @@ def add_hero_activities(curr_user):
     except:
         return {"err": "Check the input"}
     args = dict(
+        goods_name=goods_name,
         server_id=server_id, item_list=reward,
         price=price, discount=discount,
         icon=icon,
@@ -69,6 +71,7 @@ def add_hero_activities(curr_user):
 @check_user("hero_activities")
 def update_hero_activities(curr_user):
     try:
+        goods_name = request.params.get("goods_name")
         id = int(request.params.get("id"))
         server_id = int(request.params.get("server_id"))
         reward = json.loads(request.params.get("reward"))
@@ -84,6 +87,7 @@ def update_hero_activities(curr_user):
     except:
         return {"err": "Check the input"}
     args = dict(
+        goods_name=goods_name,
         id=id,
         server_id=server_id, item_list=reward,
         price=price, discount=discount,

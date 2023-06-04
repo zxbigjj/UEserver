@@ -109,7 +109,6 @@ def change_password():
 @route('/query_zone', method="POST")
 def query_zone():
     result = common_utils.call_gm(None, None, 'get_server_list', None)
-
     server_info_list = []
     for server_id, server_info in result.items():
         request = common_utils.call_gm(

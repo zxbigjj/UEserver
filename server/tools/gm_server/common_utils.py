@@ -44,9 +44,7 @@ def call_gm(server_id, uuid, cmd, args):  # args 字典
             data[key] = values
     elif args_type is str:
         data['name'] = args
-
-    print(data)
-
+        
     return req_gm_router("do_gm", json.dumps(data))
 
 

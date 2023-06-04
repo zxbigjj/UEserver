@@ -36,9 +36,18 @@
             <div class="modal-body">
                 <form class="form-horizontal">
                     <div class="form-group">
-                        <p class="col-sm-2">Server</p>
-                        <div class="col-sm-10 ">
-                            <input type="text" class="form-control" id="server_id">
+                        <p class="col-sm-3">Goods_Name</p>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="goods_name" maxlength="16">
+                        </div>
+                    </div>
+
+                    <div class="form-group" >
+                        <p class="col-sm-3">Server</p>
+                        <div class="col-sm-9" >
+                            <select class="form-control" id="server_id">
+                                
+                            </select>
                         </div>
                     </div>
 
@@ -149,6 +158,12 @@
 
             <div class="modal-body">
                 <form class="form-horizontal">
+                    <div class="form-group">
+                        <p class="col-sm-2">Goods_Name</p>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="goods_name" maxlength="16">
+                        </div>
+                    </div>
                     <div class="form-group">
                         <p class="col-sm-2">Server</p>
                         <div class="col-sm-10 ">
@@ -284,6 +299,7 @@
             });
         },
         'click #edit': function (e, value, row, index) {
+            $("#edit_hero_activities_modal").find("#goods_name").val(row.goods_name);
             $("#edit_hero_activities_modal").find("#server_id").val(row.server_id);
             $("#edit_hero_activities_modal").find("#icon").val(row.icon);
             $("#edit_hero_activities_modal").find("#refresh_interval").val(row.refresh_interval);
@@ -300,6 +316,7 @@
             $('#edit_hero_activities_modal').unbind('submit')
             $("#edit_hero_activities").submit(function () {
                 event.preventDefault();
+                var goods_name = $("#edit_hero_activities_modal").find("#goods_name").val();
                 var server_id = $("#edit_hero_activities_modal").find("#server_id").val();
                 var reward = JSON.stringify(get_reward_list("#edit_hero_activities_modal"));
                 var price = $("#edit_hero_activities_modal").find("#price").find(":selected").html();
@@ -317,6 +334,7 @@
                     type: "post",
                     url: "/update_hero_activities",
                     data: {
+                        goods_name:goods_name,
                         id: row.id,
                         server_id: server_id,
                         price: price, discount: discount,
@@ -348,7 +366,7 @@
 
     $(document).ready(function () {
         $.ajax({
-            type: "get",
+            type: "POST",
             url: "/query_hero_activities",
             dataType: 'json',
             success: function (msg) {
@@ -358,7 +376,12 @@
                     striped: true,
                     cache: false,
                     data: msg.info,
-                    columns: [{
+                    columns: [
+                        {
+                            field: 'goods_name',
+                            title: 'Goods_Name',
+                        },
+                        {
                         field: 'id',
                         title: 'ID',
                     }, {
@@ -444,6 +467,21 @@
 
 <!-- 其他控制组件 -->
 <script>
+    $(document).ready(function () {
+        $.ajax({
+      type: "POST",
+      url: "/query_zone",
+      dataType: 'json',
+      success: function (msg) {
+        console.log(msg)
+        $.each(msg.info, function (key, values) {
+          if (values.running_state) {
+          $("#server_id").append("<option>" + values.server_id + "</option>");
+          }
+        })
+      }
+    });
+    })
     function set_rewards(reward_info) {
         console.log(reward_info)
         for (var index = 0; index < reward_info.length; index++) {

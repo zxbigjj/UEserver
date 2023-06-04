@@ -9,7 +9,6 @@ local daily_gift_package_activities_utils = DECLARE_MODULE("daily_gift_package_a
 --获取当前的每日礼包信息
 function daily_gift_package_activities_utils.get_all_gift_info(role)
     local cur_date = date.format_day_time(nil)
-    local cur_date2 = date.format_time(nil)
    
     --获取玩家今天购买每日礼包的全部记录
     local get_day_gift_info = schema_game.DailyGiftPackage:load_many({reward_date = cur_date , user_id = role.uuid , reset_cycle = 1})
@@ -57,11 +56,30 @@ function daily_gift_package_activities_utils.get_all_gift_info(role)
     }
 end
 
+function daily_gift_package_activities_utils.get_daily_gift(role)
+    local now_ts = date.time_second()
+    local one_day = 24*3600
+    local one_week = 7 * one_day
+    local result = {}
+    for  id, activities_info in pairs(excel_data.DailyGiftData) do
+        local residue_count = activities_info.limit_num;
+        table.insert(result , {
+            id = id ,
+            uuid = role.uuid ,
+            residue_count= residue_count
+        })
+    end
+    return {
+        detail_gift_package_list = result ,
+        day_residue_time = now_ts + one_day,
+        week_residue_time = now_ts + one_week
+    }
+end
+
 --充值减少礼包次数
 function daily_gift_package_activities_utils.purchase_info(role , id)
 
     local cur_date = date.format_day_time(nil)
-    local cur_date2 = date.format_time(nil)
 
     local excel_info = daily_gift_package_activities_utils.get_excel_info_by_id(tonumber(id))
     if  excel_info == nil then
@@ -109,6 +127,7 @@ function daily_gift_package_activities_utils.send_reward(role , id)
 
     -- 更新客户端每日礼包
     local daily_gift_package = daily_gift_package_activities_utils.get_all_gift_info(role);
+    print("daily_gift_package_activities_utils send_reward daily_gift_package :"..daily_gift_package)
     role:send_client("s_update_daily_gift", daily_gift_package)
 end
 
