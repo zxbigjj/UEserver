@@ -50,7 +50,7 @@ COLLECTION("GiftKeyBatch", {
     fields = {
         batch_id = INT,
         batch_key = STR,
-        tag = STR,
+        group_name = STR,
         total_use_count = INT,
         key_count = INT,
         start_ts = TS,

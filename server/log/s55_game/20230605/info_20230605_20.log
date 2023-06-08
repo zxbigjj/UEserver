@@ -1,0 +1,9 @@
+[2023-06-05 20:00:00][[clusterd-d]][info] connect s70_cross 117.50.193.85:17015
+[2023-06-05 20:00:01][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 20:05:10][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 20:06:50][[game_database-10]][info] SqlQueryCount: 32
+[2023-06-05 20:16:50][[game_database-10]][info] SqlQueryCount: 32
+[2023-06-05 20:26:50][[game_database-10]][info] SqlQueryCount: 32
+[2023-06-05 20:36:50][[game_database-10]][info] SqlQueryCount: 32
+[2023-06-05 20:46:50][[game_database-10]][info] SqlQueryCount: 32
+[2023-06-05 20:56:50][[game_database-10]][info] SqlQueryCount: 32

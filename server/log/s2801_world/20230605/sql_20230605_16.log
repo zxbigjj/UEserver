@@ -1,0 +1,7 @@
+[2023-06-05 16:03:40][[game_database-10]][SqlQuery] {"query":"select * from t_GiftKey","use_time":0,"size":23}
+[2023-06-05 16:07:29][[game_database-10]][SqlQuery] {"query":"select * from t_GiftKey","use_time":0,"size":23}
+[2023-06-05 16:07:54][[game_database-10]][SqlQuery] {"query":"select * from t_GiftKey","use_time":0.0099999904632568,"size":23}
+[2023-06-05 16:08:44][[game_database-10]][SqlQuery] {"query":"select * from t_GiftKey","use_time":0.0099999904632568,"size":23}
+[2023-06-05 16:09:40][[game_database-10]][SqlQuery] {"query":"select * from t_GiftKey","use_time":0,"size":23}
+[2023-06-05 16:09:45][[game_database-10]][SqlQuery] {"query":"select * from t_GiftKey where gift_key='00uepnswf01eb'","use_time":0,"size":54}
+[2023-06-05 16:09:45][[game_database-10]][SqlQuery] {"query":"select * from t_GiftKey","use_time":0,"size":23}

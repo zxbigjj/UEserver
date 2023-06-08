@@ -1,0 +1,10 @@
+[2023-06-05 14:23:10][[game_database-10]][SqlQuery] {"query":"select * from t_GiftKey","use_time":0.0099999904632568,"size":23}
+[2023-06-05 14:23:20][[game_database-10]][SqlQuery] {"query":"select * from t_GiftKey","use_time":0.0099999904632568,"size":23}
+[2023-06-05 14:24:23][[game_database-10]][SqlQuery] {"query":"select * from t_GiftKey","use_time":0,"size":23}
+[2023-06-05 14:24:51][[game_database-10]][SqlQuery] {"query":"select * from t_GiftKey","use_time":0.0099999904632568,"size":23}
+[2023-06-05 14:24:56][[game_database-10]][SqlQuery] {"query":"select * from t_GiftKey","use_time":0.0099999904632568,"size":23}
+[2023-06-05 14:26:01][[game_database-10]][SqlQuery] {"query":"select * from t_GiftKey","use_time":0,"size":23}
+[2023-06-05 14:27:52][[game_database-10]][SqlQuery] {"query":"select * from t_GiftKey","use_time":0,"size":23}
+[2023-06-05 14:35:02][[game_database-10]][SqlQuery] {"query":"select * from t_GiftKey","use_time":0,"size":23}
+[2023-06-05 14:36:38][[game_database-10]][SqlQuery] {"query":"select * from t_GiftKey","use_time":0,"size":23}
+[2023-06-05 14:37:40][[game_database-10]][SqlQuery] {"query":"select * from t_GiftKey","use_time":0,"size":23}

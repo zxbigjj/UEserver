@@ -1,0 +1,31 @@
+[2023-06-06 12:14:39][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-06 12:14:43][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-06 12:14:50][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-06 12:14:51][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-06 12:14:52][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-06 12:14:57][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-06 12:17:13][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-06 12:17:37][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-06 12:18:38][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-06 12:18:42][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-06 12:22:39][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-06 12:22:45][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-06 12:22:53][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-06 12:22:54][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-06 12:25:40][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 12:25:40][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-06 12:25:40][[world-11]][info] reload_mod begin: lua_handles <==> ./gamelogic/service/world/lua_handles.lua
+[2023-06-06 12:27:42][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-06 12:27:44][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-06 12:27:46][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-06 12:27:48][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-06 12:27:49][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-06 12:27:50][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-06 12:27:51][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-06 12:27:52][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-06 12:27:56][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-06 12:27:58][[game_database-10]][info] SqlQueryCount: 3
+[2023-06-06 12:28:07][[game_database-10]][info] SqlQueryCount: 4
+[2023-06-06 12:28:10][[game_database-10]][info] SqlQueryCount: 3

@@ -1,0 +1,13 @@
+[2023-06-08 15:42:42][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 15:42:42][[reload_watcher-a]][info] file to reload:
+./gamelogic/lualib/schema_world.lua
+[2023-06-08 15:42:50][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 15:42:50][[reload_watcher-a]][info] file to reload:
+./gamelogic/lualib/schema_world.lua
+[2023-06-08 15:54:02][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 15:54:02][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/agent/msg_handles/role.lua
+[2023-06-08 15:54:02][[agent-11]][info] reload_mod begin: msg_handles.role <==> ./gamelogic/service/agent/msg_handles/role.lua

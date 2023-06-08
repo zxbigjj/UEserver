@@ -36,15 +36,20 @@
         % end
       </div>
 
+      <div class="form-group">
+                <label for="zone" class="col-sm-1 control-label">大区</label>
+                <div class="col-sm-2">
+                    <select class="form-control required" id="zone">
+                    </select>
+                </div>
+
+                <label for="server_id" class="col-sm-1 control-label">服务器</label>
+                <div class="col-sm-2">
+                    <select class="form-control required" id="server_id">
+                    </select>
+                </div>
+            </div>
       
-      <div class="form-group" >
-                         <label for="server_id" class="col-sm-1 control-label">服务器ID:</label>
-                        <div class="col-sm-2" >
-                            <select class="form-control" id="server_id">
-                                
-                            </select>
-                        </div>
-                    </div>
       <div class="form-group">
         <label for="uid" class="col-sm-1 control-label">UID:</label>
         <div class="col-sm-2">
@@ -68,23 +73,50 @@
     </form>
   </div>
 </div>
-
+<!-- 查询角色 -->
 <script type="text/javascript">
-$(document).ready(function () {
-        $.ajax({
+  var zone_list;
+
+  /********************大区,服务器部分********************/
+  function on_zone_change() {
+    $("#server_id").find("option").remove()
+    var area_name = $("#zone").val()
+    $.each(zone_list, function (key, values) {
+      
+      var zone = values;
+      console.log(values.server_id)
+      if (zone.area_name == area_name) {
+        var option = '<option server_id="' + zone.server_id + '">' + zone.server_id + "</option>"
+        $("#server_id").append(option);
+      }
+    })
+  }
+
+  //全局加载
+  $(document).ready(function () {
+    $.ajax({
       type: "POST",
       url: "/query_zone",
       dataType: 'json',
       success: function (msg) {
         console.log(msg)
+        zone_list=msg.info
         $.each(msg.info, function (key, values) {
-          if (values.running_state) {
-          $("#server_id").append("<option>" + values.server_id + "</option>");
+          if ( values.running_state) {
+          $("#zone").append("<option>" + values.area_name + "</option>");
           }
         })
+        
+        on_zone_change();
       }
     });
-    })
+  })
+
+$("#zone").change(on_zone_change);
+
+</script>
+<script type="text/javascript">
+
   function isNumber(value) {
     var patrn = /^(-)?\d+(\.\d+)?$/;
     if (patrn.exec(value) == null || value == "") {
@@ -129,6 +161,7 @@ $(document).ready(function () {
       var server_id = $("#server_id").val()
       var arr_uuids = JSON.stringify(skipEmptyElementForArray(uids.split('\n')))
       var item_list = JSON.stringify(itemListForArray())
+      console.log(server_id)
       $.ajax({
         type: "POST",
         url: "/add_mail_role",

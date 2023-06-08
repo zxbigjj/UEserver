@@ -1,0 +1,11 @@
+[2023-06-06 12:00:01][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-06 12:06:50][[game_database-10]][info] SqlQueryCount: 32
+[2023-06-06 12:16:50][[game_database-10]][info] SqlQueryCount: 32
+[2023-06-06 12:25:40][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 12:25:40][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-06 12:26:50][[game_database-10]][info] SqlQueryCount: 32
+[2023-06-06 12:36:50][[game_database-10]][info] SqlQueryCount: 32
+[2023-06-06 12:46:50][[game_database-10]][info] SqlQueryCount: 32
+[2023-06-06 12:56:50][[game_database-10]][info] SqlQueryCount: 32

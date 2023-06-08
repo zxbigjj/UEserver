@@ -1,0 +1,108 @@
+[2023-06-05 14:07:51][[gm_router-10]][info] ["RecvGm",{"sign":"c3a1f57d362cc8c26709d5893d19bd0a","ts":1685945270,"data":"{\"gm_name\": \"query_gift_all_key\"}"}]
+[2023-06-05 14:07:51][[gm_router-10]][info] ["ret",{"err_msg":"gm_name错误","code":1002}]
+[2023-06-05 14:07:51][[gm_router-10]][info] ["GmFail",{"err_msg":"gm_name错误","code":1002}]
+[2023-06-05 14:09:16][[gm_router-10]][info] ["RecvGm",{"sign":"fdb44ed2ec11ef696132f714adcdfd03","ts":1685945355,"data":"{\"gm_name\": \"query_gift_all_key\"}"}]
+[2023-06-05 14:09:16][[gm_router-10]][info] ["ret",{"err_msg":"gm_name错误","code":1002}]
+[2023-06-05 14:09:16][[gm_router-10]][info] ["GmFail",{"err_msg":"gm_name错误","code":1002}]
+[2023-06-05 14:09:29][[gm_router-10]][info] ["RecvGm",{"sign":"b611b4eb3963c9ce87fefade9086b5bf","ts":1685945369,"data":"{\"gm_name\": \"query_gift_all_key\"}"}]
+[2023-06-05 14:09:29][[gm_router-10]][info] ["ret",{"err_msg":"gm_name错误","code":1002}]
+[2023-06-05 14:09:29][[gm_router-10]][info] ["GmFail",{"err_msg":"gm_name错误","code":1002}]
+[2023-06-05 14:12:03][[gm_router-10]][info] ["RecvGm",{"sign":"3e7c7c9802e7f36d9743a7b2683ac533","ts":1685945522,"data":"{\"gm_name\": \"query_gift_all_key\"}"}]
+[2023-06-05 14:12:03][[gm_router-10]][info] ["ret",{"err_msg":"gm_name错误","code":1002}]
+[2023-06-05 14:12:03][[gm_router-10]][info] ["GmFail",{"err_msg":"gm_name错误","code":1002}]
+[2023-06-05 14:21:01][[gm_router-10]][info] ["RecvGm",{"sign":"d8fb6721ab1eaef6103772389046762f","ts":1685946060,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 14:21:01][[gm_router-10]][info] ["ret",{"err_msg":"参数缺失：key","code":1002}]
+[2023-06-05 14:21:01][[gm_router-10]][info] ["GmFail",{"err_msg":"参数缺失：key","code":1002}]
+[2023-06-05 14:21:22][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 14:21:22][[reload_watcher-a]][info] file to reload:
+./service/gm_router/gm_router.lua
+[2023-06-05 14:21:22][[gm_router-10]][info] reload_mod begin: gm_router <==> ./service/gm_router/gm_router.lua
+[2023-06-05 14:21:23][[gm_router-10]][info] ["RecvGm",{"sign":"4976f5dca5f291ff39546b667ef45698","ts":1685946082,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 14:21:23][[gm_router-10]][info] ["ret",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 14:21:23][[gm_router-10]][info] ["GmFail",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 14:21:48][[gm_router-10]][info] ["RecvGm",{"sign":"d9ae74ec1dc9abd26fd6bfa21031daa2","ts":1685946107,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 14:21:48][[gm_router-10]][info] ["ret",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 14:21:48][[gm_router-10]][info] ["GmFail",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 14:22:42][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 14:22:42][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-05 14:22:45][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 14:22:45][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-05 14:22:51][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 14:22:51][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-05 14:22:53][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 14:22:53][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-05 14:22:58][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 14:22:58][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-05 14:23:03][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 14:23:03][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-05 14:23:08][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 14:23:08][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-05 14:23:10][[gm_router-10]][info] ["RecvGm",{"sign":"59d6262e5c2acb395ec1e98f01c1d26b","ts":1685946189,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 14:23:10][[gm_router-10]][info] ["ret",{"data":true,"code":0}]
+[2023-06-05 14:23:10][[gm_router-10]][info] ["GmSuccess",{"data":true,"code":0}]
+[2023-06-05 14:23:20][[gm_router-10]][info] ["RecvGm",{"sign":"dd54ded189f78cf9b0c702ca7348a5ba","ts":1685946199,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 14:23:20][[gm_router-10]][info] ["ret",{"data":true,"code":0}]
+[2023-06-05 14:23:20][[gm_router-10]][info] ["GmSuccess",{"data":true,"code":0}]
+[2023-06-05 14:24:23][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 14:24:23][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 14:24:23][[gm_router-10]][info] ["RecvGm",{"sign":"559c60fb6ce04a2a1ce115dc832707c1","ts":1685946263,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 14:24:23][[gm_router-10]][info] ["ret",{"data":true,"code":0}]
+[2023-06-05 14:24:23][[gm_router-10]][info] ["GmSuccess",{"data":true,"code":0}]
+[2023-06-05 14:24:31][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 14:24:31][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 14:24:43][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 14:24:43][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-05 14:24:46][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 14:24:46][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-05 14:24:51][[gm_router-10]][info] ["RecvGm",{"sign":"f252b2ca8746a4b90df08b1ef5e3eb65","ts":1685946290,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 14:24:51][[gm_router-10]][info] ["ret",{"data":true,"code":0}]
+[2023-06-05 14:24:51][[gm_router-10]][info] ["GmSuccess",{"data":true,"code":0}]
+[2023-06-05 14:24:56][[gm_router-10]][info] ["RecvGm",{"sign":"e514f4e20a80571cf26d21c9bbbe7621","ts":1685946295,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 14:24:56][[gm_router-10]][info] ["ret",{"data":true,"code":0}]
+[2023-06-05 14:24:56][[gm_router-10]][info] ["GmSuccess",{"data":true,"code":0}]
+[2023-06-05 14:25:56][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 14:25:56][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 14:26:00][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 14:26:00][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 14:26:01][[gm_router-10]][info] ["RecvGm",{"sign":"a232e906fc90c607a7202bf1d5483b8a","ts":1685946361,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 14:26:01][[gm_router-10]][info] ["ret",{"data":[{"gift_key":"001elpt12ib9y","use_count":0},{"gift_key":"002uqbskma6fy","use_count":0},{"gift_key":"003gpvcchg5jm","use_count":0},{"gift_key":"0040an7ihjtq8","use_count":0},{"gift_key":"005s5t7m5qfny","use_count":0},{"gift_key":"006r0pks65cid","use_count":0},{"gift_key":"006y5wvsqo6rg","use_count":0},{"gift_key":"0071k2jdsjtwv","use_count":0},{"gift_key":"0071t3gqhrnfr","use_count":0},{"gift_key":"0088e17tzfyqb","use_count":0},{"gift_key":"008ejo4s8yb5d","use_count":0},{"gift_key":"009654piaqj3a","use_count":0},{"gift_key":"00a9nt0su3how","use_count":0},{"gift_key":"00bxy3k5tp33d","use_count":0},{"gift_key":"00c8igjrf3khv","use_count":0},{"gift_key":"00dlh255vi2qd","use_count":0},{"gift_key":"00e73gmkdqkcm","use_count":0},{"gift_key":"00fljv3svctft","use_count":0},{"gift_key":"00g013lf5g0u9","use_count":0},{"gift_key":"00h8jpvicugmx","use_count":0},{"gift_key":"00iutt2wsn54z","use_count":0},{"gift_key":"00jy07ipg563l","use_count":0},{"gift_key":"00kqeedg3vy6h","use_count":0},{"gift_key":"00ljbquy96o8e","use_count":0},{"gift_key":"00mvr8z908l4v","use_count":0},{"gift_key":"00ndxjqax52ag","use_count":0},{"gift_key":"00oooln7dang0","use_count":0},{"gift_key":"00pqli3czg7so","use_count":0},{"gift_key":"00qn1npiisvwi","use_count":0}],"code":0}]
+[2023-06-05 14:26:01][[gm_router-10]][info] ["GmSuccess",{"data":[{"gift_key":"001elpt12ib9y","use_count":0},{"gift_key":"002uqbskma6fy","use_count":0},{"gift_key":"003gpvcchg5jm","use_count":0},{"gift_key":"0040an7ihjtq8","use_count":0},{"gift_key":"005s5t7m5qfny","use_count":0},{"gift_key":"006r0pks65cid","use_count":0},{"gift_key":"006y5wvsqo6rg","use_count":0},{"gift_key":"0071k2jdsjtwv","use_count":0},{"gift_key":"0071t3gqhrnfr","use_count":0},{"gift_key":"0088e17tzfyqb","use_count":0},{"gift_key":"008ejo4s8yb5d","use_count":0},{"gift_key":"009654piaqj3a","use_count":0},{"gift_key":"00a9nt0su3how","use_count":0},{"gift_key":"00bxy3k5tp33d","use_count":0},{"gift_key":"00c8igjrf3khv","use_count":0},{"gift_key":"00dlh255vi2qd","use_count":0},{"gift_key":"00e73gmkdqkcm","use_count":0},{"gift_key":"00fljv3svctft","use_count":0},{"gift_key":"00g013lf5g0u9","use_count":0},{"gift_key":"00h8jpvicugmx","use_count":0},{"gift_key":"00iutt2wsn54z","use_count":0},{"gift_key":"00jy07ipg563l","use_count":0},{"gift_key":"00kqeedg3vy6h","use_count":0},{"gift_key":"00ljbquy96o8e","use_count":0},{"gift_key":"00mvr8z908l4v","use_count":0},{"gift_key":"00ndxjqax52ag","use_count":0},{"gift_key":"00oooln7dang0","use_count":0},{"gift_key":"00pqli3czg7so","use_count":0},{"gift_key":"00qn1npiisvwi","use_count":0}],"code":0}]
+[2023-06-05 14:27:52][[gm_router-10]][info] ["RecvGm",{"sign":"f52751f94c64d47e67492a41a4abace3","ts":1685946472,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 14:27:52][[gm_router-10]][info] ["ret",{"data":[{"gift_key":"001elpt12ib9y","use_count":0},{"gift_key":"002uqbskma6fy","use_count":0},{"gift_key":"003gpvcchg5jm","use_count":0},{"gift_key":"0040an7ihjtq8","use_count":0},{"gift_key":"005s5t7m5qfny","use_count":0},{"gift_key":"006r0pks65cid","use_count":0},{"gift_key":"006y5wvsqo6rg","use_count":0},{"gift_key":"0071k2jdsjtwv","use_count":0},{"gift_key":"0071t3gqhrnfr","use_count":0},{"gift_key":"0088e17tzfyqb","use_count":0},{"gift_key":"008ejo4s8yb5d","use_count":0},{"gift_key":"009654piaqj3a","use_count":0},{"gift_key":"00a9nt0su3how","use_count":0},{"gift_key":"00bxy3k5tp33d","use_count":0},{"gift_key":"00c8igjrf3khv","use_count":0},{"gift_key":"00dlh255vi2qd","use_count":0},{"gift_key":"00e73gmkdqkcm","use_count":0},{"gift_key":"00fljv3svctft","use_count":0},{"gift_key":"00g013lf5g0u9","use_count":0},{"gift_key":"00h8jpvicugmx","use_count":0},{"gift_key":"00iutt2wsn54z","use_count":0},{"gift_key":"00jy07ipg563l","use_count":0},{"gift_key":"00kqeedg3vy6h","use_count":0},{"gift_key":"00ljbquy96o8e","use_count":0},{"gift_key":"00mvr8z908l4v","use_count":0},{"gift_key":"00ndxjqax52ag","use_count":0},{"gift_key":"00oooln7dang0","use_count":0},{"gift_key":"00pqli3czg7so","use_count":0},{"gift_key":"00qn1npiisvwi","use_count":0}],"code":0}]
+[2023-06-05 14:27:52][[gm_router-10]][info] ["GmSuccess",{"data":[{"gift_key":"001elpt12ib9y","use_count":0},{"gift_key":"002uqbskma6fy","use_count":0},{"gift_key":"003gpvcchg5jm","use_count":0},{"gift_key":"0040an7ihjtq8","use_count":0},{"gift_key":"005s5t7m5qfny","use_count":0},{"gift_key":"006r0pks65cid","use_count":0},{"gift_key":"006y5wvsqo6rg","use_count":0},{"gift_key":"0071k2jdsjtwv","use_count":0},{"gift_key":"0071t3gqhrnfr","use_count":0},{"gift_key":"0088e17tzfyqb","use_count":0},{"gift_key":"008ejo4s8yb5d","use_count":0},{"gift_key":"009654piaqj3a","use_count":0},{"gift_key":"00a9nt0su3how","use_count":0},{"gift_key":"00bxy3k5tp33d","use_count":0},{"gift_key":"00c8igjrf3khv","use_count":0},{"gift_key":"00dlh255vi2qd","use_count":0},{"gift_key":"00e73gmkdqkcm","use_count":0},{"gift_key":"00fljv3svctft","use_count":0},{"gift_key":"00g013lf5g0u9","use_count":0},{"gift_key":"00h8jpvicugmx","use_count":0},{"gift_key":"00iutt2wsn54z","use_count":0},{"gift_key":"00jy07ipg563l","use_count":0},{"gift_key":"00kqeedg3vy6h","use_count":0},{"gift_key":"00ljbquy96o8e","use_count":0},{"gift_key":"00mvr8z908l4v","use_count":0},{"gift_key":"00ndxjqax52ag","use_count":0},{"gift_key":"00oooln7dang0","use_count":0},{"gift_key":"00pqli3czg7so","use_count":0},{"gift_key":"00qn1npiisvwi","use_count":0}],"code":0}]
+[2023-06-05 14:35:02][[gm_router-10]][info] ["RecvGm",{"sign":"e7f572cc40865d91ec81700105064937","ts":1685946901,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 14:35:02][[gm_router-10]][info] ["ret",{"data":[{"gift_key":"001elpt12ib9y","use_count":0},{"gift_key":"002uqbskma6fy","use_count":0},{"gift_key":"003gpvcchg5jm","use_count":0},{"gift_key":"0040an7ihjtq8","use_count":0},{"gift_key":"005s5t7m5qfny","use_count":0},{"gift_key":"006r0pks65cid","use_count":0},{"gift_key":"006y5wvsqo6rg","use_count":0},{"gift_key":"0071k2jdsjtwv","use_count":0},{"gift_key":"0071t3gqhrnfr","use_count":0},{"gift_key":"0088e17tzfyqb","use_count":0},{"gift_key":"008ejo4s8yb5d","use_count":0},{"gift_key":"009654piaqj3a","use_count":0},{"gift_key":"00a9nt0su3how","use_count":0},{"gift_key":"00bxy3k5tp33d","use_count":0},{"gift_key":"00c8igjrf3khv","use_count":0},{"gift_key":"00dlh255vi2qd","use_count":0},{"gift_key":"00e73gmkdqkcm","use_count":0},{"gift_key":"00fljv3svctft","use_count":0},{"gift_key":"00g013lf5g0u9","use_count":0},{"gift_key":"00h8jpvicugmx","use_count":0},{"gift_key":"00iutt2wsn54z","use_count":0},{"gift_key":"00jy07ipg563l","use_count":0},{"gift_key":"00kqeedg3vy6h","use_count":0},{"gift_key":"00ljbquy96o8e","use_count":0},{"gift_key":"00mvr8z908l4v","use_count":0},{"gift_key":"00ndxjqax52ag","use_count":0},{"gift_key":"00oooln7dang0","use_count":0},{"gift_key":"00pqli3czg7so","use_count":0},{"gift_key":"00qn1npiisvwi","use_count":0}],"code":0}]
+[2023-06-05 14:35:02][[gm_router-10]][info] ["GmSuccess",{"data":[{"gift_key":"001elpt12ib9y","use_count":0},{"gift_key":"002uqbskma6fy","use_count":0},{"gift_key":"003gpvcchg5jm","use_count":0},{"gift_key":"0040an7ihjtq8","use_count":0},{"gift_key":"005s5t7m5qfny","use_count":0},{"gift_key":"006r0pks65cid","use_count":0},{"gift_key":"006y5wvsqo6rg","use_count":0},{"gift_key":"0071k2jdsjtwv","use_count":0},{"gift_key":"0071t3gqhrnfr","use_count":0},{"gift_key":"0088e17tzfyqb","use_count":0},{"gift_key":"008ejo4s8yb5d","use_count":0},{"gift_key":"009654piaqj3a","use_count":0},{"gift_key":"00a9nt0su3how","use_count":0},{"gift_key":"00bxy3k5tp33d","use_count":0},{"gift_key":"00c8igjrf3khv","use_count":0},{"gift_key":"00dlh255vi2qd","use_count":0},{"gift_key":"00e73gmkdqkcm","use_count":0},{"gift_key":"00fljv3svctft","use_count":0},{"gift_key":"00g013lf5g0u9","use_count":0},{"gift_key":"00h8jpvicugmx","use_count":0},{"gift_key":"00iutt2wsn54z","use_count":0},{"gift_key":"00jy07ipg563l","use_count":0},{"gift_key":"00kqeedg3vy6h","use_count":0},{"gift_key":"00ljbquy96o8e","use_count":0},{"gift_key":"00mvr8z908l4v","use_count":0},{"gift_key":"00ndxjqax52ag","use_count":0},{"gift_key":"00oooln7dang0","use_count":0},{"gift_key":"00pqli3czg7so","use_count":0},{"gift_key":"00qn1npiisvwi","use_count":0}],"code":0}]
+[2023-06-05 14:36:38][[gm_router-10]][info] ["RecvGm",{"sign":"42e5af674e0a422ac99596e745753e3d","ts":1685946997,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 14:36:38][[gm_router-10]][info] ["ret",{"data":[{"gift_key":"001elpt12ib9y","use_count":0},{"gift_key":"002uqbskma6fy","use_count":0},{"gift_key":"003gpvcchg5jm","use_count":0},{"gift_key":"0040an7ihjtq8","use_count":0},{"gift_key":"005s5t7m5qfny","use_count":0},{"gift_key":"006r0pks65cid","use_count":0},{"gift_key":"006y5wvsqo6rg","use_count":0},{"gift_key":"0071k2jdsjtwv","use_count":0},{"gift_key":"0071t3gqhrnfr","use_count":0},{"gift_key":"0088e17tzfyqb","use_count":0},{"gift_key":"008ejo4s8yb5d","use_count":0},{"gift_key":"009654piaqj3a","use_count":0},{"gift_key":"00a9nt0su3how","use_count":0},{"gift_key":"00bxy3k5tp33d","use_count":0},{"gift_key":"00c8igjrf3khv","use_count":0},{"gift_key":"00dlh255vi2qd","use_count":0},{"gift_key":"00e73gmkdqkcm","use_count":0},{"gift_key":"00fljv3svctft","use_count":0},{"gift_key":"00g013lf5g0u9","use_count":0},{"gift_key":"00h8jpvicugmx","use_count":0},{"gift_key":"00iutt2wsn54z","use_count":0},{"gift_key":"00jy07ipg563l","use_count":0},{"gift_key":"00kqeedg3vy6h","use_count":0},{"gift_key":"00ljbquy96o8e","use_count":0},{"gift_key":"00mvr8z908l4v","use_count":0},{"gift_key":"00ndxjqax52ag","use_count":0},{"gift_key":"00oooln7dang0","use_count":0},{"gift_key":"00pqli3czg7so","use_count":0},{"gift_key":"00qn1npiisvwi","use_count":0}],"code":0}]
+[2023-06-05 14:36:38][[gm_router-10]][info] ["GmSuccess",{"data":[{"gift_key":"001elpt12ib9y","use_count":0},{"gift_key":"002uqbskma6fy","use_count":0},{"gift_key":"003gpvcchg5jm","use_count":0},{"gift_key":"0040an7ihjtq8","use_count":0},{"gift_key":"005s5t7m5qfny","use_count":0},{"gift_key":"006r0pks65cid","use_count":0},{"gift_key":"006y5wvsqo6rg","use_count":0},{"gift_key":"0071k2jdsjtwv","use_count":0},{"gift_key":"0071t3gqhrnfr","use_count":0},{"gift_key":"0088e17tzfyqb","use_count":0},{"gift_key":"008ejo4s8yb5d","use_count":0},{"gift_key":"009654piaqj3a","use_count":0},{"gift_key":"00a9nt0su3how","use_count":0},{"gift_key":"00bxy3k5tp33d","use_count":0},{"gift_key":"00c8igjrf3khv","use_count":0},{"gift_key":"00dlh255vi2qd","use_count":0},{"gift_key":"00e73gmkdqkcm","use_count":0},{"gift_key":"00fljv3svctft","use_count":0},{"gift_key":"00g013lf5g0u9","use_count":0},{"gift_key":"00h8jpvicugmx","use_count":0},{"gift_key":"00iutt2wsn54z","use_count":0},{"gift_key":"00jy07ipg563l","use_count":0},{"gift_key":"00kqeedg3vy6h","use_count":0},{"gift_key":"00ljbquy96o8e","use_count":0},{"gift_key":"00mvr8z908l4v","use_count":0},{"gift_key":"00ndxjqax52ag","use_count":0},{"gift_key":"00oooln7dang0","use_count":0},{"gift_key":"00pqli3czg7so","use_count":0},{"gift_key":"00qn1npiisvwi","use_count":0}],"code":0}]
+[2023-06-05 14:37:40][[gm_router-10]][info] ["RecvGm",{"sign":"9fb7e8eea5014c6abf57e36944526c55","ts":1685947059,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 14:37:40][[gm_router-10]][info] ["ret",{"data":[{"gift_key":"001elpt12ib9y","use_count":0},{"gift_key":"002uqbskma6fy","use_count":0},{"gift_key":"003gpvcchg5jm","use_count":0},{"gift_key":"0040an7ihjtq8","use_count":0},{"gift_key":"005s5t7m5qfny","use_count":0},{"gift_key":"006r0pks65cid","use_count":0},{"gift_key":"006y5wvsqo6rg","use_count":0},{"gift_key":"0071k2jdsjtwv","use_count":0},{"gift_key":"0071t3gqhrnfr","use_count":0},{"gift_key":"0088e17tzfyqb","use_count":0},{"gift_key":"008ejo4s8yb5d","use_count":0},{"gift_key":"009654piaqj3a","use_count":0},{"gift_key":"00a9nt0su3how","use_count":0},{"gift_key":"00bxy3k5tp33d","use_count":0},{"gift_key":"00c8igjrf3khv","use_count":0},{"gift_key":"00dlh255vi2qd","use_count":0},{"gift_key":"00e73gmkdqkcm","use_count":0},{"gift_key":"00fljv3svctft","use_count":0},{"gift_key":"00g013lf5g0u9","use_count":0},{"gift_key":"00h8jpvicugmx","use_count":0},{"gift_key":"00iutt2wsn54z","use_count":0},{"gift_key":"00jy07ipg563l","use_count":0},{"gift_key":"00kqeedg3vy6h","use_count":0},{"gift_key":"00ljbquy96o8e","use_count":0},{"gift_key":"00mvr8z908l4v","use_count":0},{"gift_key":"00ndxjqax52ag","use_count":0},{"gift_key":"00oooln7dang0","use_count":0},{"gift_key":"00pqli3czg7so","use_count":0},{"gift_key":"00qn1npiisvwi","use_count":0}],"code":0}]
+[2023-06-05 14:37:40][[gm_router-10]][info] ["GmSuccess",{"data":[{"gift_key":"001elpt12ib9y","use_count":0},{"gift_key":"002uqbskma6fy","use_count":0},{"gift_key":"003gpvcchg5jm","use_count":0},{"gift_key":"0040an7ihjtq8","use_count":0},{"gift_key":"005s5t7m5qfny","use_count":0},{"gift_key":"006r0pks65cid","use_count":0},{"gift_key":"006y5wvsqo6rg","use_count":0},{"gift_key":"0071k2jdsjtwv","use_count":0},{"gift_key":"0071t3gqhrnfr","use_count":0},{"gift_key":"0088e17tzfyqb","use_count":0},{"gift_key":"008ejo4s8yb5d","use_count":0},{"gift_key":"009654piaqj3a","use_count":0},{"gift_key":"00a9nt0su3how","use_count":0},{"gift_key":"00bxy3k5tp33d","use_count":0},{"gift_key":"00c8igjrf3khv","use_count":0},{"gift_key":"00dlh255vi2qd","use_count":0},{"gift_key":"00e73gmkdqkcm","use_count":0},{"gift_key":"00fljv3svctft","use_count":0},{"gift_key":"00g013lf5g0u9","use_count":0},{"gift_key":"00h8jpvicugmx","use_count":0},{"gift_key":"00iutt2wsn54z","use_count":0},{"gift_key":"00jy07ipg563l","use_count":0},{"gift_key":"00kqeedg3vy6h","use_count":0},{"gift_key":"00ljbquy96o8e","use_count":0},{"gift_key":"00mvr8z908l4v","use_count":0},{"gift_key":"00ndxjqax52ag","use_count":0},{"gift_key":"00oooln7dang0","use_count":0},{"gift_key":"00pqli3czg7so","use_count":0},{"gift_key":"00qn1npiisvwi","use_count":0}],"code":0}]

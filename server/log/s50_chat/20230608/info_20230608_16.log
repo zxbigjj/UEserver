@@ -1,0 +1,337 @@
+[2023-06-08 16:01:44][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:01:44][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/agent/msg_handles/role.lua
+[2023-06-08 16:05:50][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:05:50][[reload_watcher-a]][info] file to reload:
+./service/clusterd/clusterd_utils.lua
+[2023-06-08 16:05:50][[clusterd-d]][info] reload_mod begin: clusterd_utils <==> ./service/clusterd/clusterd_utils.lua
+[2023-06-08 16:05:51][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:05:51][[reload_watcher-a]][info] file to reload:
+./service/clusterd/clusterd_utils.lua
+[2023-06-08 16:05:51][[clusterd-d]][info] reload_mod begin: clusterd_utils <==> ./service/clusterd/clusterd_utils.lua
+[2023-06-08 16:06:34][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:06:34][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/agent/meta_table/recharge.lua
+[2023-06-08 16:08:32][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:08:32][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/agent/msg_handles/role.lua
+[2023-06-08 16:08:33][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:08:33][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/agent/msg_handles/role.lua
+[2023-06-08 16:08:35][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:08:35][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/agent/msg_handles/role.lua
+[2023-06-08 16:08:36][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:08:36][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/agent/msg_handles/role.lua
+[2023-06-08 16:08:38][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:08:38][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/agent/msg_handles/role.lua
+[2023-06-08 16:09:25][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:09:25][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-08 16:09:26][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:09:26][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-08 16:10:19][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:10:19][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-08 16:11:25][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:11:25][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-08 16:11:26][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:11:26][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-08 16:12:35][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:12:35][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-08 16:12:36][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:12:36][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-08 16:12:38][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:12:38][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-08 16:12:39][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:12:39][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-08 16:12:48][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:12:48][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-08 16:12:50][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:12:50][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-08 16:12:54][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:12:54][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-08 16:12:55][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:12:55][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-08 16:13:04][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:13:04][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-08 16:13:12][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:13:12][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-08 16:13:14][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:13:14][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-08 16:13:15][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:13:15][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-08 16:13:17][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:13:17][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-08 16:14:22][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:14:22][[reload_watcher-a]][info] file to reload:
+./gamelogic/lualib/schema_world.lua
+[2023-06-08 16:15:33][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:15:33][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-08 16:15:39][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:15:39][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-08 16:15:45][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:15:45][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-08 16:15:46][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:15:46][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-08 16:15:49][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:15:49][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-08 16:15:58][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:15:58][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/agent/msg_handles/role.lua
+[2023-06-08 16:19:00][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:19:00][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/agent/msg_handles/role.lua
+[2023-06-08 16:19:06][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:19:06][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/agent/msg_handles/role.lua
+[2023-06-08 16:19:08][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:19:08][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/agent/msg_handles/role.lua
+[2023-06-08 16:19:15][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:19:15][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/agent/msg_handles/role.lua
+[2023-06-08 16:19:17][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:19:17][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/agent/msg_handles/role.lua
+[2023-06-08 16:19:19][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:19:19][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/agent/msg_handles/role.lua
+[2023-06-08 16:19:21][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:19:21][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/agent/msg_handles/role.lua
+[2023-06-08 16:19:24][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:19:24][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/agent/msg_handles/role.lua
+[2023-06-08 16:19:30][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:19:30][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/agent/msg_handles/role.lua
+[2023-06-08 16:19:32][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:19:32][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/agent/msg_handles/role.lua
+[2023-06-08 16:19:35][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:19:35][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/agent/msg_handles/role.lua
+[2023-06-08 16:19:37][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:19:37][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/agent/msg_handles/role.lua
+[2023-06-08 16:19:41][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:19:41][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/agent/msg_handles/role.lua
+[2023-06-08 16:19:43][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:19:43][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/agent/msg_handles/role.lua
+[2023-06-08 16:19:45][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:19:45][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/agent/msg_handles/role.lua
+[2023-06-08 16:19:56][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:19:56][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/agent/msg_handles/role.lua
+[2023-06-08 16:22:01][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:22:01][[reload_watcher-a]][info] file to reload:
+./gamelogic/lualib/node_base.lua
+[2023-06-08 16:22:01][[chat_launcher-8]][info] reload_mod begin: node_base <==> ./gamelogic/lualib/node_base.lua
+[2023-06-08 16:22:01][[chat-10]][info] reload_mod begin: msg_utils.sproto_msg_utils <==> ./lualib/msg_utils/sproto_msg_utils.lua
+[2023-06-08 16:22:01][[chat_launcher-8]][info] reload_mod begin: msg_utils.sproto_msg_utils <==> ./lualib/msg_utils/sproto_msg_utils.lua
+[2023-06-08 16:22:55][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:22:55][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/agent/msg_handles/role.lua
+[2023-06-08 16:23:00][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:23:00][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/agent/msg_handles/role.lua
+[2023-06-08 16:23:06][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:23:06][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/agent/msg_handles/role.lua
+[2023-06-08 16:23:07][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:23:07][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/agent/msg_handles/role.lua
+[2023-06-08 16:24:02][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:24:02][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/agent/msg_handles/role.lua
+[2023-06-08 16:24:42][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:24:42][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/agent/msg_handles/role.lua
+[2023-06-08 16:28:26][[reload_watcher-a]][info] ["reload_watcher:",10]
+[2023-06-08 16:28:26][[common_init-c]][info] uuid init<50|41>, tag<1E_15_>
+[2023-06-08 16:28:26][[clusterd-d]][info] connect s2800_cluster_router 117.50.193.85:40301
+[2023-06-08 16:28:26][[clusterd-d]][info] ["clusterd start:",13]
+[2023-06-08 16:28:26][[clusterd-d]][info] socket accept from ::ffff:117.50.193.85:48640, 5
+[2023-06-08 16:28:26][[clusterd-d]][info] clusterd show_self s2800_cluster_router
+[2023-06-08 16:28:27][[common_init-c]][info] SqlQueryCount: 5
+[2023-06-08 16:28:29][[gamelog-9]][info] ["gamelog start:",9]
+[2023-06-08 16:28:29][[clusterd-d]][info] connect s50_game 117.50.193.85:15016
+[2023-06-08 16:28:29][[clusterd-d]][info] socket accept from ::ffff:117.50.193.85:48652, 7
+[2023-06-08 16:28:29][[clusterd-d]][info] clusterd show_self s50_game
+[2023-06-08 16:28:29][[chat-10]][info] ["chat start:",16]
+[2023-06-08 16:33:46][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:33:46][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-08 16:33:54][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:33:54][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-08 16:34:00][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:34:00][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-08 16:34:05][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:34:05][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-08 16:34:11][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:34:11][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-08 16:34:17][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:34:17][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-08 16:34:18][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:34:18][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-08 16:34:19][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:34:19][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-08 16:34:22][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:34:22][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-08 16:36:37][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:36:37][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-08 16:38:53][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:38:53][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-08 16:38:54][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:38:54][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-08 16:39:05][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:39:05][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-08 16:39:14][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:39:14][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-08 16:39:23][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:39:23][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-08 16:39:38][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:39:38][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/agent/msg_handles/role.lua
+[2023-06-08 16:39:43][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:39:43][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/agent/msg_handles/role.lua
+[2023-06-08 16:40:17][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:40:17][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/agent/msg_handles/role.lua
+[2023-06-08 16:41:32][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:41:32][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/agent/msg_handles/role.lua
+[2023-06-08 16:41:33][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:41:33][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/agent/msg_handles/role.lua
+[2023-06-08 16:41:50][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:41:50][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/agent/msg_handles/role.lua
+[2023-06-08 16:54:52][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:54:52][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/agent/msg_handles/role.lua
+[2023-06-08 16:54:53][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-08 16:54:53][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/agent/msg_handles/role.lua

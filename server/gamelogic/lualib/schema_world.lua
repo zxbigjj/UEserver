@@ -50,7 +50,7 @@ COLLECTION("GiftKeyBatch", {
     fields = {
         batch_id = INT,
         batch_key = STR,
-        tag = STR,
+        group_name = STR,
         total_use_count = INT,
         key_count = INT,
         start_ts = TS,
@@ -85,6 +85,14 @@ COLLECTION("PayOrder", {
         description = STR(nil, "varchar(256)"),
     },
 })
-
+COLLECTION("ClientErrorLog", {
+    primary = "uuid",
+    db_name = "world_db",
+    fields = {
+        server_id = INT,
+        uuid = INT,
+        error_log = STR,
+    },
+})
 
 return MOD

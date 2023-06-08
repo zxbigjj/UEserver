@@ -1,0 +1,55 @@
+[2023-06-06 10:48:05][[gm_router-10]][info] ["RecvGm",{"sign":"0679bc902900e0f9691e7f73aa15defb","ts":1686019685,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-06 10:48:05][[gm_router-10]][info] ["ret",{"data":[{"item_list":[{"count":1,"item_id":101002}],"gift_key":"0014158jg2ig5","end_ts":"2023.06.05:23.00.00","use_count":0,"start_ts":"2023.06.05:00.00.00"},{"group_name":"啊啊啊","item_list":[{"count":1,"item_id":101002}],"gift_key":"002a6u64ugdvy","end_ts":"2023.06.05:23.00.00","use_count":0,"start_ts":"2023.06.05:00.00.00"},{"group_name":"1","item_list":[{"item_id":101002,"count":1},{"item_id":501025,"count":1}],"gift_key":"00327m2x7kgzy","end_ts":"2023.06.05:23.00.00","use_count":0,"start_ts":"2023.06.05:00.00.00"}],"code":0}]
+[2023-06-06 10:48:05][[gm_router-10]][info] ["GmSuccess",{"data":[{"item_list":[{"count":1,"item_id":101002}],"gift_key":"0014158jg2ig5","end_ts":"2023.06.05:23.00.00","use_count":0,"start_ts":"2023.06.05:00.00.00"},{"group_name":"啊啊啊","item_list":[{"count":1,"item_id":101002}],"gift_key":"002a6u64ugdvy","end_ts":"2023.06.05:23.00.00","use_count":0,"start_ts":"2023.06.05:00.00.00"},{"group_name":"1","item_list":[{"item_id":101002,"count":1},{"item_id":501025,"count":1}],"gift_key":"00327m2x7kgzy","end_ts":"2023.06.05:23.00.00","use_count":0,"start_ts":"2023.06.05:00.00.00"}],"code":0}]
+[2023-06-06 10:51:10][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 10:51:10][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 10:51:14][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 10:51:14][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 10:51:15][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 10:51:15][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 10:51:19][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 10:51:19][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 10:51:20][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 10:51:20][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 10:51:22][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 10:51:22][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 10:51:23][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 10:51:23][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 10:51:26][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 10:51:26][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 10:51:34][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 10:51:34][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 10:52:23][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 10:52:23][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 10:52:30][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 10:52:30][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 10:52:36][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 10:52:36][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 10:52:37][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 10:52:37][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua

@@ -1,0 +1,7 @@
+[2023-06-04 17:03:19][[common_init-c]][SqlConnect] {"host":"127.0.0.1","user":"root"}
+[2023-06-04 17:03:19][[common_init-c]][SqlQuery] {"query":"use hd_game55","use_time":0.0099999904632568,"size":13}
+[2023-06-04 17:03:19][[common_init-c]][SqlQuery] {"query":"SET NAMES utf8mb4","use_time":0,"size":17}
+[2023-06-04 17:03:19][[common_init-c]][SqlQuery] {"query":"select count(*) from t_uuid_alloc","use_time":0.0099999904632568,"size":33}
+[2023-06-04 17:03:19][[common_init-c]][SqlQuery] {"query":"insert t_uuid_alloc (rand_key) values (\"r2WNBKQgF4JTX9sb\")","use_time":0.0099999904632568,"size":58}
+[2023-06-04 17:03:19][[common_init-c]][SqlQuery] {"query":"select * from t_uuid_alloc where rand_key='r2WNBKQgF4JTX9sb'","use_time":0,"size":60}
+[2023-06-04 17:03:19][[common_init-c]][SqlClose] {"host":"127.0.0.1","user":"root"}

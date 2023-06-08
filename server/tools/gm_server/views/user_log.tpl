@@ -84,7 +84,7 @@
                       var log = msg.log_list[index];
                       var newrow = '<tr>'
                       newrow += '<td>' + log.uname + '</td>'
-                      newrow += '<td>' + new Date(log.ts * 1000).format("yyyy-MM-dd HH:mm:ss") + '</td>'
+                      newrow += '<td>' + new Date(log.now * 1000).format("yyyy-MM-dd HH:mm:ss") + '</td>'
                       newrow += '<td>' + log.page_name + '</td>'
                       newrow += '<td>' + log.op_name + '</td>'
                       newrow += '<td>' + log.data + '</td>'

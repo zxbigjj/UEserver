@@ -1,4 +1,4 @@
-local role_recharge = DECLARE_MODULE("meta_table.recharge")
+local role_recharge = DECLARE_MODULE("cluster_utilsmeta_table.recharge")
 local excel_data = require("excel_data")
 local date = require("sys_utils.date")
 local schema_game = require("schema_game")

@@ -3,6 +3,8 @@
 <script src="static/datetimepicker/js/bootstrap-datetimepicker.js"></script>
 <script src="static/datetimepicker/js/bootstrap-datetimepicker.zh-CN.js"></script>
 
+<link rel="stylesheet" href="static/bootstrap-table/bootstrap-table.min.css">
+<script src="static/bootstrap-table/bootstrap-table.min.js"></script>
 
 
 <div class="panel panel-default">
@@ -10,12 +12,12 @@
   <div class="panel-body">
     <form class="form-horizontal" id="form_add_gift_key">
       
-     <!-- <div class="form-group">
-        <label for="group_name" class="col-sm-1 control-label">礼包前3位:</label>
+     <div class="form-group">
+        <label for="group_name" class="col-sm-1 control-label">礼包码组别名字:</label>
         <div class="col-sm-2">
           <input type="text" class="form-control" id="group_name">
         </div>
-      </div> -->
+      </div> 
       <div class="form-group">
         <label for="total_use_count" class="col-sm-1 control-label">礼包码可使用次数:</label>
         <div class="col-sm-2">
@@ -76,6 +78,8 @@
         <div class="col-sm-offset-3">
           <button id="query_submit" type="submit" class="btn btn-primary"
             style="padding-left: 30px; padding-right: 30px">查询</button>
+          <button id="delete_submit" type="submit"  onclick="delete_gift_key();" class="btn btn-primary"
+              style="padding-left: 30px; padding-right: 30px">删除</button>
         </div>
         </div>
         </form>
@@ -93,6 +97,10 @@
 
             </tbody>
         </table>
+        <div class="panel-body">
+         <label for="gift_list_tb" class="col-sm-1 control-label">全部礼包码:</label>
+        <table id="gift_list_tb"></table>
+    </div>
   </div>
 </div>
 <!-- 初始化设置 -->
@@ -155,7 +163,7 @@
     $('#form_add_gift_key').unbind('submit');
     $("#form_add_gift_key").submit(function () {
       event.preventDefault();
-      
+      var group_name = $("#group_name").val()
       var total_use_count = $("#total_use_count").val()
       var total_count=$("#total_count").val()
       var gift_key_end_ts   = (Date.parse($('#add_gift_key_end_ts').data().date) / 1000).toString();
@@ -166,6 +174,7 @@
         type: "POST",
         url: "/add_gift_key",
         data: {
+          group_name: group_name,
           total_use_count: total_use_count,
           total_count: total_count,
           start_ts: gift_key_start_ts,
@@ -181,6 +190,7 @@
             return;
           }
           toastr.success("操作成功")
+          window.location.reload();
         }
       })
     })
@@ -189,12 +199,87 @@
 </script>
 <script type="text/javascript">
    
-
+      //全局加载
+    $(document).ready(function () {
+        $.ajax({
+                type: "POST",
+                url: "/query_all_gift_key",
+                data: {
+                  
+                  },
+                dataType: 'json',
+                success: function (msg) {
+                    console.log(msg)    // Test
+                    toastr.options.positionClass = 'toast-top-center';
+                    if (msg.err) {
+                        toastr.error(msg.err);
+                        return;
+                    }
+                    
+                    $("#gift_list_tb").bootstrapTable({
+                    striped: true,
+                    cache: false,
+                    data: msg.info,
+                    columns: [{
+                        title: '礼包码组别名字',
+                        field: 'group_name',
+                    },{
+                        title: '礼包码',
+                        field: 'gift_key',
+                    },{
+                        title: '使用次数',
+                        field: 'use_count',
+                    }, {
+                        title: '开始时间',
+                        field: 'start_ts',
+                    },  {
+                        title: '结束时间',
+                        field: 'end_ts',
+                    },  {
+                        title: '道具',
+                        field: 'item_list',
+                        formatter: function (value, row, index) {
+                            return "<pre>" + JSON.stringify(value, null, 1) + "</pre>"
+                        }
+                    }],
+                })
+                
+                }
+            });
+        
+    })
+   function delete_gift_key() {
+        
+            event.preventDefault();
+            $("#gift_key_result").find("tr").remove();
+            //var server_id = $("#server").find(":selected").attr("server_id");
+            var gift_key=$("#gift_key").val()
+            console.log(1)
+            $.ajax({
+                type: "POST",
+                url: "/delete_gift_key",
+                data: {
+                  gift_key: gift_key,
+                  },
+                dataType: 'json',
+                success: function (msg) {
+                    console.log(msg)    // Test
+                    toastr.options.positionClass = 'toast-top-center';
+                    if (msg.err) {
+                        toastr.error(msg.err);
+                        return;
+                    }
+                    window.location.reload();
+                    
+                        
+                    
+                }
+            });
+        }
+    
     //全局加载
     $(document).ready(function () {
-        
-
-
+          
         $("#query_gift_key").submit(function () {
             event.preventDefault();
             $("#gift_key_result").find("tr").remove();
@@ -219,6 +304,7 @@
                     
                         var tr = "<tr>"
                         $.each(msg.info, function (key, val) {
+                            if (key == "group_name") { tr += "<td>礼包码组别名字: " + val + "</td>" }
                             if (key == "total_use_count") { tr += "<td>礼包码可使用次数: " + val + "</td>" }
                             if (key == "use_count") { tr += "<td>礼包码已使用次数: " + val + "</td>" }
                             if (key == "end_ts") { tr += "<td>结束时间:  " + new Date(val * 1000).format("yyyy-MM-dd EE HH:mm:ss") + "</td>" }

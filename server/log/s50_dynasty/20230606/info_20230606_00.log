@@ -1,0 +1,3 @@
+[2023-06-06 00:00:01][[clusterd-d]][info] connect s70_cross 117.50.193.85:17015
+[2023-06-06 00:20:54][[clusterd-d]][info] socket accept from ::ffff:85.90.246.130:60000, 9
+[2023-06-06 00:21:25][[clusterd-d]][info] close socket 9

@@ -1,0 +1,209 @@
+[2023-06-05 19:01:21][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 19:01:21][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 19:01:25][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 19:01:25][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 19:01:26][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 19:01:26][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 19:01:28][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 19:01:28][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 19:01:29][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 19:01:29][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 19:01:54][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 19:01:54][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 19:01:55][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 19:01:55][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 19:01:59][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 19:01:59][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 19:02:00][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 19:02:00][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 19:02:01][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 19:02:01][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 19:02:01][[gm_router-10]][info] ["RecvGm",{"sign":"358c4e6e751e0f41f69ef0f9984d7b33","ts":1685962921,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 19:02:01][[gm_router-10]][info] ["ret",{"data":[{"end_ts":"2023.06.05:23.00.00","use_count":0,"start_ts":"2023.06.05:00.00.00","gift_key":"0014158jg2ig5"},{"use_count":0,"gift_key":"002a6u64ugdvy","end_ts":"2023.06.05:23.00.00","start_ts":"2023.06.05:00.00.00","group_name":"啊啊啊"}],"code":0}]
+[2023-06-05 19:02:01][[gm_router-10]][info] ["GmSuccess",{"data":[{"end_ts":"2023.06.05:23.00.00","use_count":0,"start_ts":"2023.06.05:00.00.00","gift_key":"0014158jg2ig5"},{"use_count":0,"gift_key":"002a6u64ugdvy","end_ts":"2023.06.05:23.00.00","start_ts":"2023.06.05:00.00.00","group_name":"啊啊啊"}],"code":0}]
+[2023-06-05 19:02:02][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 19:02:02][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 19:02:57][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 19:02:57][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 19:03:10][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 19:03:10][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 19:03:11][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 19:03:11][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 19:03:16][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 19:03:16][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 19:03:17][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 19:03:17][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 19:03:17][[gm_router-10]][info] ["RecvGm",{"sign":"419cded1ccfc382bb8b245e4a74c139e","ts":1685962997,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 19:03:17][[gm_router-10]][info] ["ret",{"data":[{"end_ts":"2023.06.05:23.00.00","use_count":0,"start_ts":"2023.06.05:00.00.00","gift_key":"0014158jg2ig5"},{"use_count":0,"gift_key":"002a6u64ugdvy","end_ts":"2023.06.05:23.00.00","start_ts":"2023.06.05:00.00.00","group_name":"啊啊啊"}],"code":0}]
+[2023-06-05 19:03:17][[gm_router-10]][info] ["GmSuccess",{"data":[{"end_ts":"2023.06.05:23.00.00","use_count":0,"start_ts":"2023.06.05:00.00.00","gift_key":"0014158jg2ig5"},{"use_count":0,"gift_key":"002a6u64ugdvy","end_ts":"2023.06.05:23.00.00","start_ts":"2023.06.05:00.00.00","group_name":"啊啊啊"}],"code":0}]
+[2023-06-05 19:03:45][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 19:03:45][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 19:03:47][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 19:03:47][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 19:03:50][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 19:03:50][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 19:03:52][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 19:03:52][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 19:04:20][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 19:04:20][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 19:04:22][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 19:04:22][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 19:04:23][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 19:04:23][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 19:04:30][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 19:04:30][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 19:04:31][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 19:04:31][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 19:04:33][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 19:04:33][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 19:04:38][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 19:04:38][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 19:04:39][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 19:04:39][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 19:04:40][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 19:04:40][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 19:04:41][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 19:04:41][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 19:04:45][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 19:04:45][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 19:04:46][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 19:04:46][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 19:04:48][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 19:04:48][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 19:04:48][[gm_router-10]][info] ["RecvGm",{"sign":"a5ac011f8bafa150952e760fa1add76a","ts":1685963087,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 19:04:48][[gm_router-10]][info] ["ret",{"data":[{"item_list":[{"item_id":101002,"count":1}],"gift_key":"0014158jg2ig5","end_ts":"2023.06.05:23.00.00","start_ts":"2023.06.05:00.00.00","use_count":0},{"item_list":[{"item_id":101002,"count":1}],"gift_key":"002a6u64ugdvy","end_ts":"2023.06.05:23.00.00","use_count":0,"start_ts":"2023.06.05:00.00.00","group_name":"啊啊啊"}],"code":0}]
+[2023-06-05 19:04:48][[gm_router-10]][info] ["GmSuccess",{"data":[{"item_list":[{"item_id":101002,"count":1}],"gift_key":"0014158jg2ig5","end_ts":"2023.06.05:23.00.00","start_ts":"2023.06.05:00.00.00","use_count":0},{"item_list":[{"item_id":101002,"count":1}],"gift_key":"002a6u64ugdvy","end_ts":"2023.06.05:23.00.00","use_count":0,"start_ts":"2023.06.05:00.00.00","group_name":"啊啊啊"}],"code":0}]
+[2023-06-05 19:04:49][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 19:04:49][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 19:05:54][[gm_router-10]][info] ["RecvGm",{"sign":"60885169b36fe248cf4913be3d577bc3","ts":1685963154,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 19:05:54][[gm_router-10]][info] ["ret",{"data":[{"item_list":[{"item_id":101002,"count":1}],"gift_key":"0014158jg2ig5","end_ts":"2023.06.05:23.00.00","start_ts":"2023.06.05:00.00.00","use_count":0},{"item_list":[{"item_id":101002,"count":1}],"gift_key":"002a6u64ugdvy","end_ts":"2023.06.05:23.00.00","use_count":0,"start_ts":"2023.06.05:00.00.00","group_name":"啊啊啊"}],"code":0}]
+[2023-06-05 19:05:54][[gm_router-10]][info] ["GmSuccess",{"data":[{"item_list":[{"item_id":101002,"count":1}],"gift_key":"0014158jg2ig5","end_ts":"2023.06.05:23.00.00","start_ts":"2023.06.05:00.00.00","use_count":0},{"item_list":[{"item_id":101002,"count":1}],"gift_key":"002a6u64ugdvy","end_ts":"2023.06.05:23.00.00","use_count":0,"start_ts":"2023.06.05:00.00.00","group_name":"啊啊啊"}],"code":0}]
+[2023-06-05 19:06:31][[gm_router-10]][info] ["RecvGm",{"sign":"eba74e0d03e671d056f03eb59d0ba2aa","ts":1685963191,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 19:06:31][[gm_router-10]][info] ["ret",{"data":[{"item_list":[{"item_id":101002,"count":1}],"gift_key":"0014158jg2ig5","end_ts":"2023.06.05:23.00.00","start_ts":"2023.06.05:00.00.00","use_count":0},{"item_list":[{"item_id":101002,"count":1}],"gift_key":"002a6u64ugdvy","end_ts":"2023.06.05:23.00.00","use_count":0,"start_ts":"2023.06.05:00.00.00","group_name":"啊啊啊"}],"code":0}]
+[2023-06-05 19:06:31][[gm_router-10]][info] ["GmSuccess",{"data":[{"item_list":[{"item_id":101002,"count":1}],"gift_key":"0014158jg2ig5","end_ts":"2023.06.05:23.00.00","start_ts":"2023.06.05:00.00.00","use_count":0},{"item_list":[{"item_id":101002,"count":1}],"gift_key":"002a6u64ugdvy","end_ts":"2023.06.05:23.00.00","use_count":0,"start_ts":"2023.06.05:00.00.00","group_name":"啊啊啊"}],"code":0}]
+[2023-06-05 19:08:48][[gm_router-10]][info] ["RecvGm",{"sign":"f334439c3cfa7a55a144a8f89fc2ca6b","ts":1685963328,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 19:08:48][[gm_router-10]][info] ["ret",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 19:08:48][[gm_router-10]][info] ["GmFail",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 19:09:00][[gm_router-10]][info] ["RecvGm",{"sign":"0f9daa1cb14d5631c4d1ffec80d53a2e","ts":1685963340,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 19:09:00][[gm_router-10]][info] ["ret",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 19:09:00][[gm_router-10]][info] ["GmFail",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 19:11:53][[gm_router-10]][info] ["RecvGm",{"sign":"e6fbb3a8203d57a0ae7bc301e1a83d22","ts":1685963513,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 19:11:53][[gm_router-10]][info] ["ret",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 19:11:53][[gm_router-10]][info] ["GmFail",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 19:16:31][[reload_watcher-a]][info] ["reload_watcher:",10]
+[2023-06-05 19:16:31][[common_init-c]][info] uuid init<2803|15>, tag<25V_F_>
+[2023-06-05 19:16:31][[clusterd-d]][info] connect s2800_cluster_router 117.50.193.85:40301
+[2023-06-05 19:16:31][[clusterd-d]][info] ["clusterd start:",13]
+[2023-06-05 19:16:31][[clusterd-d]][info] socket accept from ::ffff:117.50.193.85:34964, 5
+[2023-06-05 19:16:31][[clusterd-d]][info] clusterd show_self s2800_cluster_router
+[2023-06-05 19:16:32][[common_init-c]][info] SqlQueryCount: 5
+[2023-06-05 19:16:34][[gamelog-9]][info] ["gamelog start:",9]
+[2023-06-05 19:16:35][[gm_router-10]][info] ["gm_router start:",16]
+[2023-06-05 19:16:47][[gm_router-10]][info] ["RecvGm",{"sign":"b6281327d1615987c3f2be21eaaa4438","ts":1685963806,"data":"{\"gm_name\": \"get_server_list\"}"}]
+[2023-06-05 19:16:47][[gm_router-10]][info] ["ret",{"65":{"server_id":65,"allow_login":1,"mapped_server_id":65,"area_id":2,"open_ts":1551369600,"ssl_login_port":0,"node_name":"s65_game","recommend_status":0,"state":"free","login_port":16515,"name":"game65","area_name":"程序区","enable_ssl":false,"ip":"117.50.193.85","recommend_priority":1,"open_time":"2019-03-01 00:00:00"},"50":{"server_id":50,"allow_login":1,"mapped_server_id":50,"area_id":2,"open_ts":1678363200,"ssl_login_port":0,"node_name":"s50_game","recommend_status":0,"state":"free","login_port":15015,"name":"game50","area_name":"程序区","enable_ssl":false,"ip":"117.50.193.85","recommend_priority":1,"open_time":"2023-03-09 20:00:00"},"67":{"server_id":67,"allow_login":1,"mapped_server_id":67,"area_id":2,"open_ts":1551369600,"ssl_login_port":0,"node_name":"s67_game","recommend_status":0,"state":"free","login_port":16715,"name":"game67","area_name":"程序区","enable_ssl":false,"ip":"117.50.193.85","recommend_priority":1,"open_time":"2019-03-01 00:00:00"},"68":{"server_id":68,"allow_login":1,"mapped_server_id":68,"area_id":2,"open_ts":1551369600,"ssl_login_port":0,"node_name":"s68_game","recommend_status":0,"state":"free","login_port":16815,"name":"game68","area_name":"程序区","enable_ssl":false,"ip":"117.50.193.85","recommend_priority":1,"open_time":"2019-03-01 00:00:00"},"53":{"server_id":53,"allow_login":1,"mapped_server_id":53,"area_id":2,"open_ts":1551369600,"ssl_login_port":0,"node_name":"s53_game","recommend_status":0,"state":"free","login_port":15315,"name":"郝继胜服","area_name":"程序区","enable_ssl":false,"ip":"117.50.193.85","recommend_priority":1,"open_time":"2019-03-01 00:00:00"},"55":{"server_id":55,"mapped_server_id":55,"open_ts":1678363200,"node_name":"s55_game","recommend_status":0,"enable_ssl":true,"ip":"117.50.193.85","state":"free","allow_login":1,"ssh_ip":"117.50.193.85","ssl_login_port":15514,"name":"game55","area_name":"测试区","recommend_priority":1,"open_time":"2023-03-09 20:00:00","login_port":15515,"area_id":2},"51":{"server_id":51,"allow_login":1,"mapped_server_id":51,"area_id":2,"open_ts":1551369600,"ssl_login_port":0,"node_name":"s51_game","recommend_status":0,"state":"free","login_port":15115,"name":"game51","area_name":"程序区","enable_ssl":false,"ip":"117.50.193.85","recommend_priority":1,"open_time":"2019-03-01 00:00:00"},"60":{"server_id":60,"allow_login":1,"mapped_server_id":60,"area_id":2,"open_ts":1551369600,"ssl_login_port":0,"node_name":"s60_game","recommend_status":0,"state":"free","login_port":16015,"name":"game60","area_name":"程序区","enable_ssl":false,"ip":"117.50.193.85","recommend_priority":1,"open_time":"2019-03-01 00:00:00"},"61":{"server_id":61,"allow_login":1,"mapped_server_id":61,"area_id":3,"open_ts":1551369600,"ssl_login_port":0,"node_name":"s61_game","recommend_status":0,"state":"free","login_port":16115,"name":"策划1服","area_name":"策划区","enable_ssl":false,"ip":"117.50.193.85","recommend_priority":1,"open_time":"2019-03-01 00:00:00"},"62":{"server_id":62,"allow_login":1,"mapped_server_id":62,"area_id":3,"open_ts":1551369600,"ssl_login_port":0,"node_name":"s62_game","recommend_status":0,"state":"free","login_port":16215,"name":"策划2服","area_name":"策划区","enable_ssl":false,"ip":"117.50.193.85","recommend_priority":1,"open_time":"2019-03-01 00:00:00"},"63":{"server_id":63,"allow_login":1,"mapped_server_id":63,"area_id":3,"open_ts":1551369600,"ssl_login_port":0,"node_name":"s63_game","recommend_status":0,"state":"free","login_port":16315,"name":"策划3服","area_name":"策划区","enable_ssl":false,"ip":"117.50.193.85","recommend_priority":1,"open_time":"2019-03-01 00:00:00"}}]
+[2023-06-05 19:16:47][[gm_router-10]][info] ["GmFail",{"65":{"server_id":65,"allow_login":1,"mapped_server_id":65,"area_id":2,"open_ts":1551369600,"ssl_login_port":0,"node_name":"s65_game","recommend_status":0,"state":"free","login_port":16515,"name":"game65","area_name":"程序区","enable_ssl":false,"ip":"117.50.193.85","recommend_priority":1,"open_time":"2019-03-01 00:00:00"},"50":{"server_id":50,"allow_login":1,"mapped_server_id":50,"area_id":2,"open_ts":1678363200,"ssl_login_port":0,"node_name":"s50_game","recommend_status":0,"state":"free","login_port":15015,"name":"game50","area_name":"程序区","enable_ssl":false,"ip":"117.50.193.85","recommend_priority":1,"open_time":"2023-03-09 20:00:00"},"67":{"server_id":67,"allow_login":1,"mapped_server_id":67,"area_id":2,"open_ts":1551369600,"ssl_login_port":0,"node_name":"s67_game","recommend_status":0,"state":"free","login_port":16715,"name":"game67","area_name":"程序区","enable_ssl":false,"ip":"117.50.193.85","recommend_priority":1,"open_time":"2019-03-01 00:00:00"},"68":{"server_id":68,"allow_login":1,"mapped_server_id":68,"area_id":2,"open_ts":1551369600,"ssl_login_port":0,"node_name":"s68_game","recommend_status":0,"state":"free","login_port":16815,"name":"game68","area_name":"程序区","enable_ssl":false,"ip":"117.50.193.85","recommend_priority":1,"open_time":"2019-03-01 00:00:00"},"53":{"server_id":53,"allow_login":1,"mapped_server_id":53,"area_id":2,"open_ts":1551369600,"ssl_login_port":0,"node_name":"s53_game","recommend_status":0,"state":"free","login_port":15315,"name":"郝继胜服","area_name":"程序区","enable_ssl":false,"ip":"117.50.193.85","recommend_priority":1,"open_time":"2019-03-01 00:00:00"},"55":{"server_id":55,"mapped_server_id":55,"open_ts":1678363200,"node_name":"s55_game","recommend_status":0,"enable_ssl":true,"ip":"117.50.193.85","state":"free","allow_login":1,"ssh_ip":"117.50.193.85","ssl_login_port":15514,"name":"game55","area_name":"测试区","recommend_priority":1,"open_time":"2023-03-09 20:00:00","login_port":15515,"area_id":2},"51":{"server_id":51,"allow_login":1,"mapped_server_id":51,"area_id":2,"open_ts":1551369600,"ssl_login_port":0,"node_name":"s51_game","recommend_status":0,"state":"free","login_port":15115,"name":"game51","area_name":"程序区","enable_ssl":false,"ip":"117.50.193.85","recommend_priority":1,"open_time":"2019-03-01 00:00:00"},"60":{"server_id":60,"allow_login":1,"mapped_server_id":60,"area_id":2,"open_ts":1551369600,"ssl_login_port":0,"node_name":"s60_game","recommend_status":0,"state":"free","login_port":16015,"name":"game60","area_name":"程序区","enable_ssl":false,"ip":"117.50.193.85","recommend_priority":1,"open_time":"2019-03-01 00:00:00"},"61":{"server_id":61,"allow_login":1,"mapped_server_id":61,"area_id":3,"open_ts":1551369600,"ssl_login_port":0,"node_name":"s61_game","recommend_status":0,"state":"free","login_port":16115,"name":"策划1服","area_name":"策划区","enable_ssl":false,"ip":"117.50.193.85","recommend_priority":1,"open_time":"2019-03-01 00:00:00"},"62":{"server_id":62,"allow_login":1,"mapped_server_id":62,"area_id":3,"open_ts":1551369600,"ssl_login_port":0,"node_name":"s62_game","recommend_status":0,"state":"free","login_port":16215,"name":"策划2服","area_name":"策划区","enable_ssl":false,"ip":"117.50.193.85","recommend_priority":1,"open_time":"2019-03-01 00:00:00"},"63":{"server_id":63,"allow_login":1,"mapped_server_id":63,"area_id":3,"open_ts":1551369600,"ssl_login_port":0,"node_name":"s63_game","recommend_status":0,"state":"free","login_port":16315,"name":"策划3服","area_name":"策划区","enable_ssl":false,"ip":"117.50.193.85","recommend_priority":1,"open_time":"2019-03-01 00:00:00"}}]
+[2023-06-05 19:16:47][[gm_router-10]][info] ["RecvGm",{"sign":"daf9185ee0bf86e7a76b010c717bb8bd","ts":1685963806,"data":"{\"server_id\": \"55\", \"gm_name\": \"get_server_info_role_online\"}"}]
+[2023-06-05 19:16:47][[clusterd-d]][info] connect s55_game 117.50.193.85:15516
+[2023-06-05 19:16:53][[gm_router-10]][info] ["RecvGm",{"sign":"8b52648f718aba140d2ef90dae42a66f","ts":1685963813,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 19:16:53][[clusterd-d]][info] connect s2801_world 117.50.193.85:40001
+[2023-06-05 19:16:53][[clusterd-d]][info] socket accept from ::ffff:117.50.193.85:35052, 12
+[2023-06-05 19:16:53][[clusterd-d]][info] clusterd show_self s2801_world
+[2023-06-05 19:16:53][[gm_router-10]][info] ["ret",{"data":[{"item_list":[{"count":1,"item_id":101002}],"gift_key":"0014158jg2ig5","end_ts":"2023.06.05:23.00.00","use_count":0,"start_ts":"2023.06.05:00.00.00"},{"group_name":"啊啊啊","item_list":[{"count":1,"item_id":101002}],"gift_key":"002a6u64ugdvy","end_ts":"2023.06.05:23.00.00","use_count":0,"start_ts":"2023.06.05:00.00.00"}],"code":0}]
+[2023-06-05 19:16:53][[gm_router-10]][info] ["GmSuccess",{"data":[{"item_list":[{"count":1,"item_id":101002}],"gift_key":"0014158jg2ig5","end_ts":"2023.06.05:23.00.00","use_count":0,"start_ts":"2023.06.05:00.00.00"},{"group_name":"啊啊啊","item_list":[{"count":1,"item_id":101002}],"gift_key":"002a6u64ugdvy","end_ts":"2023.06.05:23.00.00","use_count":0,"start_ts":"2023.06.05:00.00.00"}],"code":0}]
+[2023-06-05 19:18:12][[gm_router-10]][info] ["RecvGm",{"sign":"cfbdb36835327a29fb59acd53c82cdb6","ts":1685963892,"data":"{\"item_list\": [{\"item_id\": \"101002\", \"count\": \"1\"}, {\"item_id\": \"501025\", \"count\": \"1\"}], \"gm_name\": \"make_gift_key\", \"total_count\": \"1\", \"end_ts\": 1685977200, \"start_ts\": 1685894400, \"group_name\": \"1\", \"total_use_count\": \"1\"}"}]
+[2023-06-05 19:18:12][[gm_router-10]][info] ["ret",{"data":{"key_list":["00327m2x7kgzy"]},"code":0}]
+[2023-06-05 19:18:12][[gm_router-10]][info] ["GmSuccess",{"data":{"key_list":["00327m2x7kgzy"]},"code":0}]
+[2023-06-05 19:18:13][[gm_router-10]][info] ["RecvGm",{"sign":"069677e19706a7aee981ee9da3a7f756","ts":1685963892,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 19:18:13][[gm_router-10]][info] ["ret",{"data":[{"item_list":[{"count":1,"item_id":101002}],"gift_key":"0014158jg2ig5","end_ts":"2023.06.05:23.00.00","use_count":0,"start_ts":"2023.06.05:00.00.00"},{"group_name":"啊啊啊","item_list":[{"count":1,"item_id":101002}],"gift_key":"002a6u64ugdvy","end_ts":"2023.06.05:23.00.00","use_count":0,"start_ts":"2023.06.05:00.00.00"},{"group_name":"1","item_list":[{"item_id":101002,"count":1},{"item_id":501025,"count":1}],"gift_key":"00327m2x7kgzy","end_ts":"2023.06.05:23.00.00","use_count":0,"start_ts":"2023.06.05:00.00.00"}],"code":0}]
+[2023-06-05 19:18:13][[gm_router-10]][info] ["GmSuccess",{"data":[{"item_list":[{"count":1,"item_id":101002}],"gift_key":"0014158jg2ig5","end_ts":"2023.06.05:23.00.00","use_count":0,"start_ts":"2023.06.05:00.00.00"},{"group_name":"啊啊啊","item_list":[{"count":1,"item_id":101002}],"gift_key":"002a6u64ugdvy","end_ts":"2023.06.05:23.00.00","use_count":0,"start_ts":"2023.06.05:00.00.00"},{"group_name":"1","item_list":[{"item_id":101002,"count":1},{"item_id":501025,"count":1}],"gift_key":"00327m2x7kgzy","end_ts":"2023.06.05:23.00.00","use_count":0,"start_ts":"2023.06.05:00.00.00"}],"code":0}]
+[2023-06-05 19:19:10][[gm_router-10]][info] ["RecvGm",{"sign":"262849374f1093ebe346df9a38b0e1da","ts":1685963949,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 19:19:10][[gm_router-10]][info] ["ret",{"data":[{"item_list":[{"count":1,"item_id":101002}],"gift_key":"0014158jg2ig5","end_ts":"2023.06.05:23.00.00","use_count":0,"start_ts":"2023.06.05:00.00.00"},{"group_name":"啊啊啊","item_list":[{"count":1,"item_id":101002}],"gift_key":"002a6u64ugdvy","end_ts":"2023.06.05:23.00.00","use_count":0,"start_ts":"2023.06.05:00.00.00"},{"group_name":"1","item_list":[{"item_id":101002,"count":1},{"item_id":501025,"count":1}],"gift_key":"00327m2x7kgzy","end_ts":"2023.06.05:23.00.00","use_count":0,"start_ts":"2023.06.05:00.00.00"}],"code":0}]
+[2023-06-05 19:19:10][[gm_router-10]][info] ["GmSuccess",{"data":[{"item_list":[{"count":1,"item_id":101002}],"gift_key":"0014158jg2ig5","end_ts":"2023.06.05:23.00.00","use_count":0,"start_ts":"2023.06.05:00.00.00"},{"group_name":"啊啊啊","item_list":[{"count":1,"item_id":101002}],"gift_key":"002a6u64ugdvy","end_ts":"2023.06.05:23.00.00","use_count":0,"start_ts":"2023.06.05:00.00.00"},{"group_name":"1","item_list":[{"item_id":101002,"count":1},{"item_id":501025,"count":1}],"gift_key":"00327m2x7kgzy","end_ts":"2023.06.05:23.00.00","use_count":0,"start_ts":"2023.06.05:00.00.00"}],"code":0}]
+[2023-06-05 19:26:15][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 19:26:15][[reload_watcher-a]][info] file to reload:
+./service/gm_router/gm_router.lua
+[2023-06-05 19:26:15][[gm_router-10]][info] reload_mod begin: gm_router <==> ./service/gm_router/gm_router.lua
+[2023-06-05 19:35:38][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 19:35:38][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 19:36:04][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 19:36:04][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 19:43:11][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 19:43:11][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-05 19:45:08][[gm_router-10]][info] ["RecvGm",{"sign":"d86c363d82f3828f09e3c9ba8c06ab34","ts":1685965507,"data":"{\"gm_name\": \"query_gift_key\", \"key\": \"00327m2x7kgzy\"}"}]
+[2023-06-05 19:45:08][[gm_router-10]][info] ["ret",{"data":{"group_name":"1","total_use_count":1,"end_ts":1685977200,"use_count":0,"start_ts":1685894400},"code":0}]
+[2023-06-05 19:45:08][[gm_router-10]][info] ["GmSuccess",{"data":{"group_name":"1","total_use_count":1,"end_ts":1685977200,"use_count":0,"start_ts":1685894400},"code":0}]

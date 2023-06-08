@@ -1,0 +1,20 @@
+[2023-06-04 18:00:02][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-04 18:03:17][[game_database-10]][info] SqlQueryCount: 32
+[2023-06-04 18:13:17][[game_database-10]][info] SqlQueryCount: 32
+[2023-06-04 18:23:17][[game_database-10]][info] SqlQueryCount: 32
+[2023-06-04 18:33:17][[game_database-10]][info] SqlQueryCount: 32
+[2023-06-04 18:37:26][[agent-11]][info] SqlQueryCount: 3
+[2023-06-04 18:43:17][[game_database-10]][info] SqlQueryCount: 32
+[2023-06-04 18:53:17][[game_database-10]][info] SqlQueryCount: 32
+[2023-06-04 18:55:45][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-04 18:55:45][[reload_watcher-a]][info] file to reload:
+./service/gm_router/gm_router.lua
+[2023-06-04 18:55:50][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-04 18:55:50][[reload_watcher-a]][info] file to reload:
+./service/gm_router/gm_router.lua
+[2023-06-04 18:55:52][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-04 18:55:52][[reload_watcher-a]][info] file to reload:
+./service/gm_router/gm_router.lua

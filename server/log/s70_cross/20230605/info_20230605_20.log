@@ -1,0 +1,10 @@
+[2023-06-05 20:00:00][[clusterd-d]][info] socket accept from ::ffff:117.50.193.85:30386, 7
+[2023-06-05 20:00:00][[clusterd-d]][info] clusterd show_self s55_game
+[2023-06-05 20:00:01][[clusterd-d]][info] socket accept from ::ffff:117.50.193.85:30388, 8
+[2023-06-05 20:00:01][[clusterd-d]][info] clusterd show_self s50_game
+[2023-06-05 20:06:35][[game_database-10]][info] SqlQueryCount: 15
+[2023-06-05 20:16:35][[game_database-10]][info] SqlQueryCount: 15
+[2023-06-05 20:26:35][[game_database-10]][info] SqlQueryCount: 15
+[2023-06-05 20:36:35][[game_database-10]][info] SqlQueryCount: 15
+[2023-06-05 20:46:35][[game_database-10]][info] SqlQueryCount: 15
+[2023-06-05 20:56:35][[game_database-10]][info] SqlQueryCount: 15

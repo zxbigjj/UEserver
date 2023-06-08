@@ -42,3 +42,277 @@ CreateThread: 2005, socket_send_worker
 [2023-05-22 14:40:46][:00000010] LAUNCH snlua chat
 [2023-05-22 14:40:46][chat_launcher-8]	[warn][node s50_chat]all service booted
 [2023-05-22 14:40:46][:00000002] KILL self
+CreateThread: 16574, skynet_worker
+[2023-06-04 17:03:12][:00000002] LAUNCH snlua bootstrap
+CreateThread: 16576, skynet_worker
+CreateThread: 16577, skynet_worker
+CreateThread: 16575, skynet_worker
+CreateThread: 16571, skynet_worker
+CreateThread: 16568, thread_monitor
+CreateThread: 16569, thread_timer
+CreateThread: 16570, thread_socket
+CreateThread: 16573, skynet_worker
+CreateThread: 16578, skynet_worker
+CreateThread: 16572, skynet_worker
+[2023-06-04 17:03:12][:00000003] LAUNCH snlua launcher
+[2023-06-04 17:03:12][:00000004] LAUNCH snlua cdummy
+[2023-06-04 17:03:12][:00000005] LAUNCH harbor 0 4
+[2023-06-04 17:03:12][:00000006] LAUNCH snlua datacenterd
+[2023-06-04 17:03:12][:00000007] LAUNCH snlua service_mgr
+[2023-06-04 17:03:12][:00000008] LAUNCH snlua chat_launcher
+[2023-06-04 17:03:12][chat_launcher-8]	load sproto:./bin/c2s.spb
+[2023-06-04 17:03:12][chat_launcher-8]	load sproto:./bin/s2c.spb
+[2023-06-04 17:03:12][chat_launcher-8]	[warn][node s50_chat]start begin
+[2023-06-04 17:03:12][:00000009] LAUNCH snlua gamelog
+[2023-06-04 17:03:12][gamelog-9]	true	exit	0
+[2023-06-04 17:03:12][gamelog-9]	true	exit	0
+[2023-06-04 17:03:12][gamelog-9]	true	exit	0
+[2023-06-04 17:03:12][:0000000a] LAUNCH snlua reload_watcher
+[2023-06-04 17:03:12][:0000000b] LAUNCH snlua debug_console 15019
+[2023-06-04 17:03:12][:0000000b] Start debug console at 127.0.0.1:15019
+[2023-06-04 17:03:12][:0000000c] LAUNCH snlua common_init
+header:<1E_Q_>, len:<5>
+[2023-06-04 17:03:12][:0000000d] LAUNCH snlua clusterd
+[2023-06-04 17:03:12][:0000000e] LAUNCH snlua sharedatad
+[2023-06-04 17:03:12][:0000000f] LAUNCH gate M :0000000d :::15018 3 65535 2
+[2023-06-04 17:03:12][chat_launcher-8]	load excel begin:	75391.753210252
+CreateThread: 16606, socket_send_worker
+CreateThread: 16607, socket_send_worker
+[2023-06-04 17:03:12][:0000000f] socket open: 5
+[2023-06-04 17:03:13][:00000008] Memory warning 32.00 M
+[2023-06-04 17:03:15][chat_launcher-8]	=============no excel: MonsterBaseAttr.lua MonsterRateData.lua ExpData.lua LanguageData.lua SysUnlockData.lua
+[2023-06-04 17:03:15][chat_launcher-8]	load excel end:	75394.767738495
+[2023-06-04 17:03:15][:0000000f] socket open: 7
+[2023-06-04 17:03:15][:00000010] LAUNCH snlua chat
+[2023-06-04 17:03:15][chat_launcher-8]	[warn][node s50_chat]all service booted
+[2023-06-04 17:03:15][:00000002] KILL self
+CreateThread: 4736, skynet_worker
+[2023-06-05 10:24:22][:00000002] LAUNCH snlua bootstrap
+CreateThread: 4738, skynet_worker
+CreateThread: 4739, skynet_worker
+CreateThread: 4737, skynet_worker
+CreateThread: 4733, skynet_worker
+CreateThread: 4730, thread_monitor
+CreateThread: 4731, thread_timer
+CreateThread: 4732, thread_socket
+CreateThread: 4735, skynet_worker
+CreateThread: 4740, skynet_worker
+CreateThread: 4734, skynet_worker
+[2023-06-05 10:24:22][:00000003] LAUNCH snlua launcher
+[2023-06-05 10:24:22][:00000004] LAUNCH snlua cdummy
+[2023-06-05 10:24:22][:00000005] LAUNCH harbor 0 4
+[2023-06-05 10:24:22][:00000006] LAUNCH snlua datacenterd
+[2023-06-05 10:24:22][:00000007] LAUNCH snlua service_mgr
+[2023-06-05 10:24:22][:00000008] LAUNCH snlua chat_launcher
+[2023-06-05 10:24:22][chat_launcher-8]	load sproto:./bin/c2s.spb
+[2023-06-05 10:24:22][chat_launcher-8]	load sproto:./bin/s2c.spb
+[2023-06-05 10:24:22][chat_launcher-8]	[warn][node s50_chat]start begin
+[2023-06-05 10:24:22][:00000009] LAUNCH snlua gamelog
+[2023-06-05 10:24:22][gamelog-9]	true	exit	0
+[2023-06-05 10:24:23][gamelog-9]	true	exit	0
+[2023-06-05 10:24:23][gamelog-9]	true	exit	0
+[2023-06-05 10:24:23][:0000000a] LAUNCH snlua reload_watcher
+[2023-06-05 10:24:23][:0000000b] LAUNCH snlua debug_console 15019
+[2023-06-05 10:24:23][:0000000b] Start debug console at 127.0.0.1:15019
+[2023-06-05 10:24:23][:0000000c] LAUNCH snlua common_init
+header:<1E_T_>, len:<5>
+[2023-06-05 10:24:23][:0000000d] LAUNCH snlua clusterd
+[2023-06-05 10:24:23][:0000000e] LAUNCH snlua sharedatad
+[2023-06-05 10:24:23][:0000000f] LAUNCH gate M :0000000d :::15018 3 65535 2
+[2023-06-05 10:24:23][chat_launcher-8]	load excel begin:	38269.045495451
+CreateThread: 4768, socket_send_worker
+CreateThread: 4769, socket_send_worker
+[2023-06-05 10:24:23][:0000000f] socket open: 5
+[2023-06-05 10:24:23][:00000008] Memory warning 32.00 M
+[2023-06-05 10:24:25][chat_launcher-8]	=============no excel: MonsterBaseAttr.lua MonsterRateData.lua ExpData.lua LanguageData.lua SysUnlockData.lua
+[2023-06-05 10:24:25][chat_launcher-8]	load excel end:	38271.449723544
+[2023-06-05 10:24:25][:0000000f] socket open: 7
+[2023-06-05 10:24:25][:00000010] LAUNCH snlua chat
+[2023-06-05 10:24:25][chat_launcher-8]	[warn][node s50_chat]all service booted
+[2023-06-05 10:24:25][:00000002] KILL self
+CreateThread: 5950, skynet_worker
+[2023-06-05 17:44:53][:00000002] LAUNCH snlua bootstrap
+CreateThread: 5952, skynet_worker
+CreateThread: 5953, skynet_worker
+CreateThread: 5955, skynet_worker
+CreateThread: 5951, skynet_worker
+CreateThread: 5947, thread_socket
+CreateThread: 5945, thread_monitor
+CreateThread: 5946, thread_timer
+CreateThread: 5949, skynet_worker
+CreateThread: 5954, skynet_worker
+CreateThread: 5948, skynet_worker
+[2023-06-05 17:44:53][:00000003] LAUNCH snlua launcher
+[2023-06-05 17:44:53][:00000004] LAUNCH snlua cdummy
+[2023-06-05 17:44:53][:00000005] LAUNCH harbor 0 4
+[2023-06-05 17:44:53][:00000006] LAUNCH snlua datacenterd
+[2023-06-05 17:44:53][:00000007] LAUNCH snlua service_mgr
+[2023-06-05 17:44:53][:00000008] LAUNCH snlua chat_launcher
+[2023-06-05 17:44:53][chat_launcher-8]	load sproto:./bin/c2s.spb
+[2023-06-05 17:44:53][chat_launcher-8]	load sproto:./bin/s2c.spb
+[2023-06-05 17:44:53][chat_launcher-8]	[warn][node s50_chat]start begin
+[2023-06-05 17:44:53][:00000009] LAUNCH snlua gamelog
+[2023-06-05 17:44:54][gamelog-9]	true	exit	0
+[2023-06-05 17:44:54][gamelog-9]	true	exit	0
+[2023-06-05 17:44:54][gamelog-9]	true	exit	0
+[2023-06-05 17:44:54][:0000000a] LAUNCH snlua reload_watcher
+[2023-06-05 17:44:54][:0000000b] LAUNCH snlua debug_console 15019
+[2023-06-05 17:44:54][:0000000b] Start debug console at 127.0.0.1:15019
+[2023-06-05 17:44:54][:0000000c] LAUNCH snlua common_init
+header:<1E_W_>, len:<5>
+[2023-06-05 17:44:54][:0000000d] LAUNCH snlua clusterd
+[2023-06-05 17:44:54][:0000000e] LAUNCH snlua sharedatad
+[2023-06-05 17:44:54][:0000000f] LAUNCH gate M :0000000d :::15018 3 65535 2
+[2023-06-05 17:44:54][chat_launcher-8]	load excel begin:	64700.13513508
+CreateThread: 5982, socket_send_worker
+CreateThread: 5983, socket_send_worker
+[2023-06-05 17:44:54][:0000000f] socket open: 5
+[2023-06-05 17:44:54][:00000008] Memory warning 32.00 M
+[2023-06-05 17:44:57][chat_launcher-8]	=============no excel: MonsterBaseAttr.lua MonsterRateData.lua ExpData.lua LanguageData.lua SysUnlockData.lua
+[2023-06-05 17:44:57][chat_launcher-8]	load excel end:	64703.509759785
+[2023-06-05 17:44:57][:0000000f] socket open: 7
+[2023-06-05 17:44:57][:00000010] LAUNCH snlua chat
+[2023-06-05 17:44:57][chat_launcher-8]	[warn][node s50_chat]all service booted
+[2023-06-05 17:44:57][:00000002] KILL self
+CreateThread: 7510, thread_monitor
+CreateThread: 7511, thread_timer
+CreateThread: 7512, thread_socket
+CreateThread: 7513, skynet_worker
+[2023-06-05 17:51:39][:00000002] LAUNCH snlua bootstrap
+CreateThread: 7514, skynet_worker
+CreateThread: 7515, skynet_worker
+CreateThread: 7516, skynet_worker
+CreateThread: 7517, skynet_worker
+CreateThread: 7518, skynet_worker
+CreateThread: 7519, skynet_worker
+CreateThread: 7520, skynet_worker
+[2023-06-05 17:51:39][:00000003] LAUNCH snlua launcher
+[2023-06-05 17:51:39][:00000004] LAUNCH snlua cdummy
+[2023-06-05 17:51:39][:00000005] LAUNCH harbor 0 4
+[2023-06-05 17:51:39][:00000006] LAUNCH snlua datacenterd
+[2023-06-05 17:51:39][:00000007] LAUNCH snlua service_mgr
+[2023-06-05 17:51:39][:00000008] LAUNCH snlua chat_launcher
+[2023-06-05 17:51:39][chat_launcher-8]	load sproto:./bin/c2s.spb
+[2023-06-05 17:51:39][chat_launcher-8]	load sproto:./bin/s2c.spb
+[2023-06-05 17:51:39][chat_launcher-8]	[warn][node s50_chat]start begin
+[2023-06-05 17:51:39][:00000009] LAUNCH snlua gamelog
+[2023-06-05 17:51:39][gamelog-9]	true	exit	0
+[2023-06-05 17:51:39][gamelog-9]	true	exit	0
+[2023-06-05 17:51:39][gamelog-9]	true	exit	0
+[2023-06-05 17:51:39][:0000000a] LAUNCH snlua reload_watcher
+[2023-06-05 17:51:39][:0000000b] LAUNCH snlua debug_console 15019
+[2023-06-05 17:51:39][:0000000b] Start debug console at 127.0.0.1:15019
+[2023-06-05 17:51:39][:0000000c] LAUNCH snlua common_init
+header:<1E_Z_>, len:<5>
+[2023-06-05 17:51:39][:0000000d] LAUNCH snlua clusterd
+[2023-06-05 17:51:39][:0000000e] LAUNCH snlua sharedatad
+[2023-06-05 17:51:39][:0000000f] LAUNCH gate M :0000000d :::15018 3 65535 2
+[2023-06-05 17:51:39][chat_launcher-8]	load excel begin:	65105.732916937
+CreateThread: 7547, socket_send_worker
+CreateThread: 7546, socket_send_worker
+[2023-06-05 17:51:39][:0000000f] socket open: 5
+[2023-06-05 17:51:40][:00000008] Memory warning 32.00 M
+[2023-06-05 17:51:42][chat_launcher-8]	=============no excel: MonsterBaseAttr.lua MonsterRateData.lua ExpData.lua LanguageData.lua SysUnlockData.lua
+[2023-06-05 17:51:42][chat_launcher-8]	load excel end:	65108.160377828
+[2023-06-05 17:51:42][:0000000f] socket open: 7
+[2023-06-05 17:51:42][:00000010] LAUNCH snlua chat
+[2023-06-05 17:51:42][chat_launcher-8]	[warn][node s50_chat]all service booted
+[2023-06-05 17:51:42][:00000002] KILL self
+CreateThread: 1872, skynet_worker
+[2023-06-05 19:16:41][:00000002] LAUNCH snlua bootstrap
+CreateThread: 1874, skynet_worker
+CreateThread: 1875, skynet_worker
+CreateThread: 1873, skynet_worker
+CreateThread: 1869, skynet_worker
+CreateThread: 1866, thread_monitor
+CreateThread: 1867, thread_timer
+CreateThread: 1868, thread_socket
+CreateThread: 1871, skynet_worker
+CreateThread: 1876, skynet_worker
+CreateThread: 1870, skynet_worker
+[2023-06-05 19:16:41][:00000003] LAUNCH snlua launcher
+[2023-06-05 19:16:41][:00000004] LAUNCH snlua cdummy
+[2023-06-05 19:16:41][:00000005] LAUNCH harbor 0 4
+[2023-06-05 19:16:41][:00000006] LAUNCH snlua datacenterd
+[2023-06-05 19:16:41][:00000007] LAUNCH snlua service_mgr
+[2023-06-05 19:16:41][:00000008] LAUNCH snlua chat_launcher
+[2023-06-05 19:16:41][chat_launcher-8]	load sproto:./bin/c2s.spb
+[2023-06-05 19:16:41][chat_launcher-8]	load sproto:./bin/s2c.spb
+[2023-06-05 19:16:41][chat_launcher-8]	[warn][node s50_chat]start begin
+[2023-06-05 19:16:41][:00000009] LAUNCH snlua gamelog
+[2023-06-05 19:16:41][gamelog-9]	true	exit	0
+[2023-06-05 19:16:41][gamelog-9]	true	exit	0
+[2023-06-05 19:16:41][gamelog-9]	true	exit	0
+[2023-06-05 19:16:41][:0000000a] LAUNCH snlua reload_watcher
+[2023-06-05 19:16:41][:0000000b] LAUNCH snlua debug_console 15019
+[2023-06-05 19:16:41][:0000000b] Start debug console at 127.0.0.1:15019
+[2023-06-05 19:16:41][:0000000c] LAUNCH snlua common_init
+header:<1E_12_>, len:<6>
+[2023-06-05 19:16:41][:0000000d] LAUNCH snlua clusterd
+[2023-06-05 19:16:41][:0000000e] LAUNCH snlua sharedatad
+[2023-06-05 19:16:41][:0000000f] LAUNCH gate M :0000000d :::15018 3 65535 2
+[2023-06-05 19:16:41][chat_launcher-8]	load excel begin:	64.401037119
+CreateThread: 1905, socket_send_worker
+CreateThread: 1906, socket_send_worker
+[2023-06-05 19:16:41][:0000000f] socket open: 5
+[2023-06-05 19:16:41][:00000008] Memory warning 32.00 M
+[2023-06-05 19:16:44][chat_launcher-8]	=============no excel: MonsterBaseAttr.lua MonsterRateData.lua ExpData.lua LanguageData.lua SysUnlockData.lua
+[2023-06-05 19:16:44][chat_launcher-8]	load excel end:	67.563730388
+[2023-06-05 19:16:44][:0000000f] socket open: 7
+[2023-06-05 19:16:44][:00000010] LAUNCH snlua chat
+[2023-06-05 19:16:44][chat_launcher-8]	[warn][node s50_chat]all service booted
+[2023-06-05 19:16:44][:00000002] KILL self
+[2023-06-06 14:34:33][:0000000f] socket open: 8
+[2023-06-06 14:34:46][:0000000f] socket open: 9
+[2023-06-06 14:34:57][:0000000f] socket open: a
+[2023-06-08 16:05:49][clusterd-d]	[warn]reload_mod finish:clusterd_utils <==> ./service/clusterd/clusterd_utils.lua
+[2023-06-08 16:05:50][clusterd-d]	[warn]reload_mod finish:clusterd_utils <==> ./service/clusterd/clusterd_utils.lua
+[2023-06-08 16:22:00][chat_launcher-8]	load sproto:./bin/c2s.spb
+[2023-06-08 16:22:00][chat_launcher-8]	load sproto:./bin/s2c.spb
+[2023-06-08 16:22:00][chat_launcher-8]	[warn]reload_mod finish:node_base <==> ./gamelogic/lualib/node_base.lua
+[2023-06-08 16:22:00][chat-10]	[warn]reload_mod finish:msg_utils.sproto_msg_utils <==> ./lualib/msg_utils/sproto_msg_utils.lua
+[2023-06-08 16:22:00][chat_launcher-8]	[warn]reload_mod finish:msg_utils.sproto_msg_utils <==> ./lualib/msg_utils/sproto_msg_utils.lua
+CreateThread: 1930, skynet_worker
+[2023-06-08 16:28:24][:00000002] LAUNCH snlua bootstrap
+CreateThread: 1932, skynet_worker
+[2023-06-08 16:28:24][:00000003] LAUNCH snlua launcher
+CreateThread: 1933, skynet_worker
+CreateThread: 1935, skynet_worker
+CreateThread: 1931, skynet_worker
+CreateThread: 1927, thread_socket
+CreateThread: 1925, thread_monitor
+CreateThread: 1926, thread_timer
+CreateThread: 1929, skynet_worker
+CreateThread: 1934, skynet_worker
+CreateThread: 1928, skynet_worker
+[2023-06-08 16:28:25][:00000004] LAUNCH snlua cdummy
+[2023-06-08 16:28:25][:00000005] LAUNCH harbor 0 4
+[2023-06-08 16:28:25][:00000006] LAUNCH snlua datacenterd
+[2023-06-08 16:28:25][:00000007] LAUNCH snlua service_mgr
+[2023-06-08 16:28:25][:00000008] LAUNCH snlua chat_launcher
+[2023-06-08 16:28:25][chat_launcher-8]	load sproto:./bin/c2s.spb
+[2023-06-08 16:28:25][chat_launcher-8]	load sproto:./bin/s2c.spb
+[2023-06-08 16:28:25][chat_launcher-8]	[warn][node s50_chat]start begin
+[2023-06-08 16:28:25][:00000009] LAUNCH snlua gamelog
+[2023-06-08 16:28:25][gamelog-9]	true	exit	0
+[2023-06-08 16:28:25][gamelog-9]	true	exit	0
+[2023-06-08 16:28:25][gamelog-9]	true	exit	0
+[2023-06-08 16:28:25][:0000000a] LAUNCH snlua reload_watcher
+[2023-06-08 16:28:25][:0000000b] LAUNCH snlua debug_console 15019
+[2023-06-08 16:28:25][:0000000b] Start debug console at 127.0.0.1:15019
+[2023-06-08 16:28:25][:0000000c] LAUNCH snlua common_init
+header:<1E_15_>, len:<6>
+[2023-06-08 16:28:25][:0000000d] LAUNCH snlua clusterd
+[2023-06-08 16:28:25][:0000000e] LAUNCH snlua sharedatad
+[2023-06-08 16:28:25][:0000000f] LAUNCH gate M :0000000d :::15018 3 65535 2
+[2023-06-08 16:28:25][chat_launcher-8]	load excel begin:	110.062041671
+CreateThread: 1966, socket_send_worker
+CreateThread: 1965, socket_send_worker
+[2023-06-08 16:28:25][:0000000f] socket open: 5
+[2023-06-08 16:28:25][:00000008] Memory warning 32.00 M
+[2023-06-08 16:28:28][chat_launcher-8]	=============no excel: MonsterBaseAttr.lua MonsterRateData.lua ExpData.lua LanguageData.lua SysUnlockData.lua
+[2023-06-08 16:28:28][chat_launcher-8]	load excel end:	113.150391506
+[2023-06-08 16:28:28][:0000000f] socket open: 7
+[2023-06-08 16:28:28][:00000010] LAUNCH snlua chat
+[2023-06-08 16:28:28][chat_launcher-8]	[warn][node s50_chat]all service booted
+[2023-06-08 16:28:28][:00000002] KILL self

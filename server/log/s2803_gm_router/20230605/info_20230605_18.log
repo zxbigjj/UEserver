@@ -1,0 +1,1061 @@
+[2023-06-05 18:00:14][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:00:14][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:00:15][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:00:15][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:00:25][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:00:25][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:00:29][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:00:29][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:00:31][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:00:31][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:00:32][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:00:32][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:00:34][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:00:34][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:00:35][[gm_router-10]][info] ["RecvGm",{"sign":"a8b6b3f7441e8ce56a64abeea242df9b","ts":1685959235,"data":"{\"gm_name\": \"query_gift_key\", \"key\": \"002a6u64ugdvy\"}"}]
+[2023-06-05 18:00:35][[gm_router-10]][info] ["ret",{"data":{"use_count":0,"total_use_count":1,"end_ts":1685977200,"start_ts":1685894400,"group_name":"啊啊啊"},"code":0}]
+[2023-06-05 18:00:35][[gm_router-10]][info] ["GmSuccess",{"data":{"use_count":0,"total_use_count":1,"end_ts":1685977200,"start_ts":1685894400,"group_name":"啊啊啊"},"code":0}]
+[2023-06-05 18:01:52][[gm_router-10]][info] ["RecvGm",{"sign":"e3ef00c9b72a1c9077ff6c6c040be3c7","ts":1685959312,"data":"{\"gm_name\": \"query_gift_key\", \"key\": \"002a6u64ugdvy\"}"}]
+[2023-06-05 18:01:52][[gm_router-10]][info] ["ret",{"data":{"use_count":0,"total_use_count":1,"end_ts":1685977200,"start_ts":1685894400,"group_name":"啊啊啊"},"code":0}]
+[2023-06-05 18:01:52][[gm_router-10]][info] ["GmSuccess",{"data":{"use_count":0,"total_use_count":1,"end_ts":1685977200,"start_ts":1685894400,"group_name":"啊啊啊"},"code":0}]
+[2023-06-05 18:01:55][[gm_router-10]][info] ["RecvGm",{"sign":"f1915d14a9394e0907544a9409cf7571","ts":1685959315,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 18:01:55][[gm_router-10]][info] ["ret",{"data":[{"gift_key":"0014158jg2ig5","use_count":0},{"gift_key":"002a6u64ugdvy","use_count":0}],"code":0}]
+[2023-06-05 18:01:55][[gm_router-10]][info] ["GmSuccess",{"data":[{"gift_key":"0014158jg2ig5","use_count":0},{"gift_key":"002a6u64ugdvy","use_count":0}],"code":0}]
+[2023-06-05 18:01:57][[gm_router-10]][info] ["RecvGm",{"sign":"8883a1049c40b97d57ae8986b03ba2ea","ts":1685959316,"data":"{\"gm_name\": \"query_gift_key\", \"key\": \"005s5t7m5qfny\"}"}]
+[2023-06-05 18:01:57][[gm_router-10]][info] ["ret",{"err_msg":"key not exist","code":1003}]
+[2023-06-05 18:01:57][[gm_router-10]][info] ["GmFail",{"err_msg":"key not exist","code":1003}]
+[2023-06-05 18:02:08][[gm_router-10]][info] ["RecvGm",{"sign":"e236b000f2d3f2c2ad0a52cf25439917","ts":1685959328,"data":"{\"gm_name\": \"query_gift_key\", \"key\": \"002a6u64ugdvy\"}"}]
+[2023-06-05 18:02:08][[gm_router-10]][info] ["ret",{"data":{"use_count":0,"total_use_count":1,"end_ts":1685977200,"start_ts":1685894400,"group_name":"啊啊啊"},"code":0}]
+[2023-06-05 18:02:08][[gm_router-10]][info] ["GmSuccess",{"data":{"use_count":0,"total_use_count":1,"end_ts":1685977200,"start_ts":1685894400,"group_name":"啊啊啊"},"code":0}]
+[2023-06-05 18:02:29][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:02:29][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:02:47][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:02:47][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:02:50][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:02:50][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:02:51][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:02:51][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:02:53][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:02:53][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:02:55][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:02:55][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:02:56][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:02:56][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:02:59][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:02:59][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:03:00][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:03:00][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:03:01][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:03:01][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:03:04][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:03:04][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:03:07][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:03:07][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:03:28][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:03:28][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:03:29][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:03:29][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:03:37][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:03:37][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:03:44][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:03:44][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:03:46][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:03:46][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:03:53][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:03:53][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:04:52][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:04:52][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:04:53][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:04:53][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:04:55][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:04:55][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:04:56][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:04:56][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:05:04][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:05:04][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:05:14][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:05:14][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:05:47][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:05:47][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:05:49][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:05:49][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:05:53][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:05:53][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:05:54][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:05:54][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:06:03][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:06:03][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:06:09][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:06:09][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:06:13][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:06:13][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:06:14][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:06:14][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:06:15][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:06:15][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:06:16][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:06:16][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:06:17][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:06:17][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:06:31][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:06:31][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:07:22][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:07:22][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:07:24][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:07:24][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:07:35][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:07:35][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:07:36][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:07:36][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:07:37][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:07:37][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:07:38][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:07:38][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:07:43][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:07:43][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:07:44][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:07:44][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:07:45][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:07:45][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:07:46][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:07:46][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:08:07][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:08:07][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:08:19][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:08:19][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:08:20][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:08:20][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:11:29][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:11:29][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:11:30][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:11:30][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:11:36][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:11:36][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:11:40][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:11:40][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:11:41][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:11:41][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:11:46][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:11:46][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:11:52][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:11:52][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:11:53][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:11:53][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:11:55][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:11:55][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:11:56][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:11:56][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:11:58][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:11:58][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:11:59][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:11:59][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:12:01][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:12:01][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:12:02][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:12:02][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:12:04][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:12:04][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:12:05][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:12:05][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:12:09][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:12:09][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:12:14][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:12:14][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:12:20][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:12:20][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:13:29][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:13:29][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:13:30][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:13:30][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:13:32][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:13:32][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:13:34][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:13:34][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:13:37][[gm_router-10]][info] ["RecvGm",{"sign":"b09d42857961d8bc44f6ffea49bc96b6","ts":1685960017,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 18:13:37][[gm_router-10]][info] ["ret",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:13:37][[gm_router-10]][info] ["GmFail",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:14:22][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:14:22][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:14:23][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:14:23][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:14:28][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:14:28][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:14:29][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:14:29][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:14:36][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:14:36][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:14:37][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:14:37][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:14:40][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:14:40][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:14:42][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:14:42][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:14:44][[gm_router-10]][info] ["RecvGm",{"sign":"a4862394f24772a167a953a10cc444b5","ts":1685960084,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 18:14:44][[gm_router-10]][info] ["ret",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:14:44][[gm_router-10]][info] ["GmFail",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:14:57][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:14:57][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:14:58][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:14:58][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:15:01][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:15:01][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:15:05][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:15:05][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:15:10][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:15:10][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:15:11][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:15:11][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:15:13][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:15:13][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:15:13][[gm_router-10]][info] ["RecvGm",{"sign":"a0ae7f8e94627b5c55a7cf38a6b55fa6","ts":1685960113,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 18:15:13][[gm_router-10]][info] ["ret",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:15:13][[gm_router-10]][info] ["GmFail",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:15:14][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:15:14][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:15:25][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:15:25][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:15:26][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:15:26][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:15:27][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:15:27][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:15:27][[gm_router-10]][info] ["RecvGm",{"sign":"77ed414c16449fbccbe1d58184e45bd2","ts":1685960127,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 18:15:27][[gm_router-10]][info] ["ret",{"data":[{"gift_key":"0014158jg2ig5","use_count":0},{"gift_key":"002a6u64ugdvy","use_count":0}],"code":0}]
+[2023-06-05 18:15:27][[gm_router-10]][info] ["GmSuccess",{"data":[{"gift_key":"0014158jg2ig5","use_count":0},{"gift_key":"002a6u64ugdvy","use_count":0}],"code":0}]
+[2023-06-05 18:15:28][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:15:28][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:15:49][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:15:49][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:15:50][[gm_router-10]][info] ["RecvGm",{"sign":"1f3c87d144b600841d24ce42e53a8f84","ts":1685960149,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 18:15:50][[gm_router-10]][info] ["ret",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:15:50][[gm_router-10]][info] ["GmFail",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:16:05][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:16:05][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:16:05][[gm_router-10]][info] ["RecvGm",{"sign":"b78b48409b16616a91994e1fd6caa4be","ts":1685960164,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 18:16:05][[gm_router-10]][info] ["ret",{"data":[{"gift_key":"0014158jg2ig5","use_count":0},{"gift_key":"002a6u64ugdvy","use_count":0}],"code":0}]
+[2023-06-05 18:16:05][[gm_router-10]][info] ["GmSuccess",{"data":[{"gift_key":"0014158jg2ig5","use_count":0},{"gift_key":"002a6u64ugdvy","use_count":0}],"code":0}]
+[2023-06-05 18:22:14][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:22:14][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:22:24][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:22:24][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:22:25][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:22:25][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:22:26][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:22:26][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:22:29][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:22:29][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:22:31][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:22:31][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:22:34][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:22:34][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:23:07][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:23:07][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:23:15][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:23:15][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:23:31][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:23:31][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:23:33][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:23:33][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:23:34][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:23:34][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:24:23][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:24:23][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:24:24][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:24:24][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:24:26][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:24:26][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:24:28][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:24:28][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:24:31][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:24:31][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:24:33][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:24:33][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:24:38][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:24:38][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:25:01][[clusterd-d]][info] socket accept from ::ffff:92.63.196.54:44066, 30
+[2023-06-05 18:25:03][[clusterd-d]][info] close socket 30
+[2023-06-05 18:25:07][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:25:07][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:25:08][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:25:08][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:25:10][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:25:10][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:25:11][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:25:11][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:25:13][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:25:13][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:25:14][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:25:14][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:25:17][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:25:17][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:25:18][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:25:18][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:25:20][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:25:20][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:25:21][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:25:21][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:25:58][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:25:58][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:26:07][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:26:07][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:26:10][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:26:10][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:26:13][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:26:13][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:26:14][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:26:14][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:26:20][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:26:20][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:26:33][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:26:33][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:26:34][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:26:34][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:26:35][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:26:35][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:26:37][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:26:37][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:26:40][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:26:40][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:26:43][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:26:43][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:26:44][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:26:44][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:27:03][[gm_router-10]][info] ["RecvGm",{"sign":"96355746ed42a2463a8c4a2e25cde9cd","ts":1685960823,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 18:27:03][[gm_router-10]][info] ["ret",{"data":[{"gift_key":"0014158jg2ig5","use_count":0},{"gift_key":"002a6u64ugdvy","use_count":0}],"code":0}]
+[2023-06-05 18:27:03][[gm_router-10]][info] ["GmSuccess",{"data":[{"gift_key":"0014158jg2ig5","use_count":0},{"gift_key":"002a6u64ugdvy","use_count":0}],"code":0}]
+[2023-06-05 18:27:19][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:27:19][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:27:21][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:27:21][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:27:21][[gm_router-10]][info] ["RecvGm",{"sign":"43c95e1e7da5fbb3f88ca8e7ef9e8375","ts":1685960841,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 18:27:21][[gm_router-10]][info] ["ret",{"data":[{"gift_key":"0014158jg2ig5","use_count":0},{"gift_key":"002a6u64ugdvy","use_count":0}],"code":0}]
+[2023-06-05 18:27:21][[gm_router-10]][info] ["GmSuccess",{"data":[{"gift_key":"0014158jg2ig5","use_count":0},{"gift_key":"002a6u64ugdvy","use_count":0}],"code":0}]
+[2023-06-05 18:27:40][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:27:40][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:27:41][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:27:41][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:27:42][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:27:42][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:27:49][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:27:49][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:27:51][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:27:51][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:27:51][[gm_router-10]][info] ["RecvGm",{"sign":"89c6c6f619f78709828589d829f4f8ab","ts":1685960871,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 18:27:51][[gm_router-10]][info] ["ret",{"data":[{"gift_key":"0014158jg2ig5","use_count":0},{"gift_key":"002a6u64ugdvy","use_count":0}],"code":0}]
+[2023-06-05 18:27:51][[gm_router-10]][info] ["GmSuccess",{"data":[{"gift_key":"0014158jg2ig5","use_count":0},{"gift_key":"002a6u64ugdvy","use_count":0}],"code":0}]
+[2023-06-05 18:28:11][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:28:11][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:28:12][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:28:12][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:28:15][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:28:15][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:28:18][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:28:18][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:28:19][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:28:19][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:28:25][[gm_router-10]][info] ["RecvGm",{"sign":"c6c10af59e3d47f525be5372747014ae","ts":1685960905,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 18:28:25][[gm_router-10]][info] ["ret",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:28:25][[gm_router-10]][info] ["GmFail",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:28:47][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:28:47][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:29:07][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:29:07][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:29:08][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:29:08][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:29:16][[gm_router-10]][info] ["RecvGm",{"sign":"f245ad2dedf0b4a50b589d39ee1c18a5","ts":1685960956,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 18:29:16][[gm_router-10]][info] ["ret",{"data":[{"gift_key":"0014158jg2ig5","use_count":0},{"gift_key":"002a6u64ugdvy","use_count":0}],"code":0}]
+[2023-06-05 18:29:16][[gm_router-10]][info] ["GmSuccess",{"data":[{"gift_key":"0014158jg2ig5","use_count":0},{"gift_key":"002a6u64ugdvy","use_count":0}],"code":0}]
+[2023-06-05 18:30:06][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:30:06][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:30:07][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:30:07][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:30:09][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:30:09][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:30:10][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:30:10][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:30:11][[gm_router-10]][info] ["RecvGm",{"sign":"46fa7d420b8e8f59ca96141c4a686a01","ts":1685961011,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 18:30:11][[gm_router-10]][info] ["ret",{"data":[{"gift_key":"0014158jg2ig5","use_count":0},{"gift_key":"002a6u64ugdvy","use_count":0}],"code":0}]
+[2023-06-05 18:30:11][[gm_router-10]][info] ["GmSuccess",{"data":[{"gift_key":"0014158jg2ig5","use_count":0},{"gift_key":"002a6u64ugdvy","use_count":0}],"code":0}]
+[2023-06-05 18:30:22][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:30:22][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:30:24][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:30:24][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:30:30][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:30:30][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:30:31][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:30:31][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:30:37][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:30:37][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:30:39][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:30:39][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:30:40][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:30:40][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:30:41][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:30:41][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:30:42][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:30:42][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:30:42][[gm_router-10]][info] ["RecvGm",{"sign":"2a56243ca0d158f9f14809a7ca59959c","ts":1685961042,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 18:30:42][[gm_router-10]][info] ["ret",{"data":[{"gift_key":"0014158jg2ig5","use_count":0},{"gift_key":"002a6u64ugdvy","use_count":0}],"code":0}]
+[2023-06-05 18:30:42][[gm_router-10]][info] ["GmSuccess",{"data":[{"gift_key":"0014158jg2ig5","use_count":0},{"gift_key":"002a6u64ugdvy","use_count":0}],"code":0}]
+[2023-06-05 18:32:39][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:32:39][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:32:48][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:32:48][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:32:55][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:32:55][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:32:56][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:32:56][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:33:00][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:33:00][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:33:01][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:33:01][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:33:02][[gm_router-10]][info] ["RecvGm",{"sign":"7c90b58a8ee7105607e94b4d4f7f1b44","ts":1685961182,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 18:33:02][[gm_router-10]][info] ["ret",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:33:02][[gm_router-10]][info] ["GmFail",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:33:11][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:33:11][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:36:19][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:36:19][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:36:20][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:36:20][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:36:22][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:36:22][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:36:26][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:36:26][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:36:27][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:36:27][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:36:32][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:36:32][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:36:33][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:36:33][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:36:37][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:36:37][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:36:37][[gm_router-10]][info] ["RecvGm",{"sign":"fc016344404679a6cc6ddcf869ada167","ts":1685961397,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 18:36:37][[gm_router-10]][info] ["ret",{"data":[{"gift_key":"0014158jg2ig5","use_count":0},{"gift_key":"002a6u64ugdvy","use_count":0}],"code":0}]
+[2023-06-05 18:36:37][[gm_router-10]][info] ["GmSuccess",{"data":[{"gift_key":"0014158jg2ig5","use_count":0},{"gift_key":"002a6u64ugdvy","use_count":0}],"code":0}]
+[2023-06-05 18:37:12][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:37:12][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:37:17][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:37:17][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:37:42][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:37:42][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:37:43][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:37:43][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:37:47][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:37:47][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:37:50][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:37:50][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:37:52][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:37:52][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:37:53][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:37:53][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:37:56][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:37:56][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:37:57][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:37:57][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:38:11][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:38:11][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:38:12][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:38:12][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:38:16][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:38:16][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:38:18][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:38:18][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:38:19][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:38:19][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:38:27][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:38:27][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:38:32][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:38:32][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:38:39][[gm_router-10]][info] ["RecvGm",{"sign":"61075a4c3b00ac6074a1012515888296","ts":1685961518,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 18:38:39][[gm_router-10]][info] ["ret",{"data":[{"gift_key":"0014158jg2ig5","use_count":0},{"gift_key":"002a6u64ugdvy","use_count":0}],"code":0}]
+[2023-06-05 18:38:39][[gm_router-10]][info] ["GmSuccess",{"data":[{"gift_key":"0014158jg2ig5","use_count":0},{"gift_key":"002a6u64ugdvy","use_count":0}],"code":0}]
+[2023-06-05 18:39:09][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:39:09][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:39:10][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:39:10][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:39:11][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:39:11][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:39:12][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:39:12][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:39:17][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:39:17][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:39:20][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:39:20][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:39:21][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:39:21][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:39:25][[gm_router-10]][info] ["RecvGm",{"sign":"a315d45eb74586a840947b82a76c88b3","ts":1685961564,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 18:39:25][[gm_router-10]][info] ["ret",{"data":[{"end_ts":1685977200,"use_count":0,"start_ts":1685894400,"gift_key":"0014158jg2ig5"},{"use_count":0,"gift_key":"002a6u64ugdvy","end_ts":1685977200,"start_ts":1685894400,"group_name":"啊啊啊"}],"code":0}]
+[2023-06-05 18:39:25][[gm_router-10]][info] ["GmSuccess",{"data":[{"end_ts":1685977200,"use_count":0,"start_ts":1685894400,"gift_key":"0014158jg2ig5"},{"use_count":0,"gift_key":"002a6u64ugdvy","end_ts":1685977200,"start_ts":1685894400,"group_name":"啊啊啊"}],"code":0}]
+[2023-06-05 18:39:38][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:39:38][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:39:40][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:39:40][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:39:41][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:39:41][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:39:44][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:39:44][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:39:46][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:39:46][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:40:00][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:40:00][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:40:01][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:40:01][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:40:03][[gm_router-10]][info] ["RecvGm",{"sign":"c1f219275e1aad7183b03415b642058e","ts":1685961603,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 18:40:03][[gm_router-10]][info] ["ret",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:40:03][[gm_router-10]][info] ["GmFail",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:40:04][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:40:04][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:40:33][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:40:33][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:40:34][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:40:34][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:40:36][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:40:36][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:40:40][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:40:40][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:40:41][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:40:41][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:40:43][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:40:43][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:40:43][[gm_router-10]][info] ["RecvGm",{"sign":"565f8b063e73aebc8c28a2d9e71157cc","ts":1685961643,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 18:40:43][[gm_router-10]][info] ["ret",{"data":[{"end_ts":1685977200,"use_count":0,"start_ts":1685894400,"gift_key":"0014158jg2ig5"},{"use_count":0,"gift_key":"002a6u64ugdvy","end_ts":1685977200,"start_ts":1685894400,"group_name":"啊啊啊"}],"code":0}]
+[2023-06-05 18:40:43][[gm_router-10]][info] ["GmSuccess",{"data":[{"end_ts":1685977200,"use_count":0,"start_ts":1685894400,"gift_key":"0014158jg2ig5"},{"use_count":0,"gift_key":"002a6u64ugdvy","end_ts":1685977200,"start_ts":1685894400,"group_name":"啊啊啊"}],"code":0}]
+[2023-06-05 18:40:44][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 18:40:44][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 18:43:54][[gm_router-10]][info] ["RecvGm",{"sign":"996cf084bb28bcbc86a79957fd156bad","ts":1685961834,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 18:43:54][[gm_router-10]][info] ["ret",{"data":[{"end_ts":1685977200,"use_count":0,"start_ts":1685894400,"gift_key":"0014158jg2ig5"},{"use_count":0,"gift_key":"002a6u64ugdvy","end_ts":1685977200,"start_ts":1685894400,"group_name":"啊啊啊"}],"code":0}]
+[2023-06-05 18:43:54][[gm_router-10]][info] ["GmSuccess",{"data":[{"end_ts":1685977200,"use_count":0,"start_ts":1685894400,"gift_key":"0014158jg2ig5"},{"use_count":0,"gift_key":"002a6u64ugdvy","end_ts":1685977200,"start_ts":1685894400,"group_name":"啊啊啊"}],"code":0}]
+[2023-06-05 18:44:59][[gm_router-10]][info] ["RecvGm",{"sign":"5534ec5e43019b7d66db359a526985a5","ts":1685961899,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 18:44:59][[gm_router-10]][info] ["ret",{"data":[{"end_ts":1685977200,"use_count":0,"start_ts":1685894400,"gift_key":"0014158jg2ig5"},{"use_count":0,"gift_key":"002a6u64ugdvy","end_ts":1685977200,"start_ts":1685894400,"group_name":"啊啊啊"}],"code":0}]
+[2023-06-05 18:44:59][[gm_router-10]][info] ["GmSuccess",{"data":[{"end_ts":1685977200,"use_count":0,"start_ts":1685894400,"gift_key":"0014158jg2ig5"},{"use_count":0,"gift_key":"002a6u64ugdvy","end_ts":1685977200,"start_ts":1685894400,"group_name":"啊啊啊"}],"code":0}]
+[2023-06-05 18:46:18][[gm_router-10]][info] ["RecvGm",{"sign":"6db43d41e86aff3477f2bd4d0b955498","ts":1685961978,"data":"{\"gm_name\": \"get_server_list\"}"}]
+[2023-06-05 18:46:18][[gm_router-10]][info] ["ret",{"65":{"recommend_priority":1,"area_name":"程序区","mapped_server_id":65,"state":"free","recommend_status":0,"area_id":2,"node_name":"s65_game","ip":"117.50.193.85","login_port":16515,"enable_ssl":false,"name":"game65","open_time":"2019-03-01 00:00:00","allow_login":1,"open_ts":1551369600,"server_id":65,"ssl_login_port":0},"50":{"recommend_priority":1,"area_name":"程序区","mapped_server_id":50,"state":"free","recommend_status":0,"area_id":2,"node_name":"s50_game","ip":"117.50.193.85","login_port":15015,"enable_ssl":false,"name":"game50","open_time":"2023-03-09 20:00:00","allow_login":1,"open_ts":1678363200,"server_id":50,"ssl_login_port":0},"67":{"recommend_priority":1,"area_name":"程序区","mapped_server_id":67,"state":"free","recommend_status":0,"area_id":2,"node_name":"s67_game","ip":"117.50.193.85","login_port":16715,"enable_ssl":false,"name":"game67","open_time":"2019-03-01 00:00:00","allow_login":1,"open_ts":1551369600,"server_id":67,"ssl_login_port":0},"68":{"recommend_priority":1,"area_name":"程序区","mapped_server_id":68,"state":"free","recommend_status":0,"area_id":2,"node_name":"s68_game","ip":"117.50.193.85","login_port":16815,"enable_ssl":false,"name":"game68","open_time":"2019-03-01 00:00:00","allow_login":1,"open_ts":1551369600,"server_id":68,"ssl_login_port":0},"53":{"recommend_priority":1,"area_name":"程序区","mapped_server_id":53,"state":"free","recommend_status":0,"area_id":2,"node_name":"s53_game","ip":"117.50.193.85","login_port":15315,"enable_ssl":false,"name":"郝继胜服","open_time":"2019-03-01 00:00:00","allow_login":1,"open_ts":1551369600,"server_id":53,"ssl_login_port":0},"55":{"recommend_priority":1,"ssh_ip":"117.50.193.85","mapped_server_id":55,"node_name":"s55_game","ip":"117.50.193.85","area_name":"测试区","open_time":"2023-03-09 20:00:00","recommend_status":0,"server_id":55,"state":"free","enable_ssl":true,"name":"game55","area_id":2,"allow_login":1,"open_ts":1678363200,"login_port":15515,"ssl_login_port":15514},"51":{"recommend_priority":1,"area_name":"程序区","mapped_server_id":51,"state":"free","recommend_status":0,"area_id":2,"node_name":"s51_game","ip":"117.50.193.85","login_port":15115,"enable_ssl":false,"name":"game51","open_time":"2019-03-01 00:00:00","allow_login":1,"open_ts":1551369600,"server_id":51,"ssl_login_port":0},"60":{"recommend_priority":1,"area_name":"程序区","mapped_server_id":60,"state":"free","recommend_status":0,"area_id":2,"node_name":"s60_game","ip":"117.50.193.85","login_port":16015,"enable_ssl":false,"name":"game60","open_time":"2019-03-01 00:00:00","allow_login":1,"open_ts":1551369600,"server_id":60,"ssl_login_port":0},"61":{"recommend_priority":1,"area_name":"策划区","mapped_server_id":61,"state":"free","recommend_status":0,"area_id":3,"node_name":"s61_game","ip":"117.50.193.85","login_port":16115,"enable_ssl":false,"name":"策划1服","open_time":"2019-03-01 00:00:00","allow_login":1,"open_ts":1551369600,"server_id":61,"ssl_login_port":0},"62":{"recommend_priority":1,"area_name":"策划区","mapped_server_id":62,"state":"free","recommend_status":0,"area_id":3,"node_name":"s62_game","ip":"117.50.193.85","login_port":16215,"enable_ssl":false,"name":"策划2服","open_time":"2019-03-01 00:00:00","allow_login":1,"open_ts":1551369600,"server_id":62,"ssl_login_port":0},"63":{"recommend_priority":1,"area_name":"策划区","mapped_server_id":63,"state":"free","recommend_status":0,"area_id":3,"node_name":"s63_game","ip":"117.50.193.85","login_port":16315,"enable_ssl":false,"name":"策划3服","open_time":"2019-03-01 00:00:00","allow_login":1,"open_ts":1551369600,"server_id":63,"ssl_login_port":0}}]
+[2023-06-05 18:46:18][[gm_router-10]][info] ["GmFail",{"65":{"recommend_priority":1,"area_name":"程序区","mapped_server_id":65,"state":"free","recommend_status":0,"area_id":2,"node_name":"s65_game","ip":"117.50.193.85","login_port":16515,"enable_ssl":false,"name":"game65","open_time":"2019-03-01 00:00:00","allow_login":1,"open_ts":1551369600,"server_id":65,"ssl_login_port":0},"50":{"recommend_priority":1,"area_name":"程序区","mapped_server_id":50,"state":"free","recommend_status":0,"area_id":2,"node_name":"s50_game","ip":"117.50.193.85","login_port":15015,"enable_ssl":false,"name":"game50","open_time":"2023-03-09 20:00:00","allow_login":1,"open_ts":1678363200,"server_id":50,"ssl_login_port":0},"67":{"recommend_priority":1,"area_name":"程序区","mapped_server_id":67,"state":"free","recommend_status":0,"area_id":2,"node_name":"s67_game","ip":"117.50.193.85","login_port":16715,"enable_ssl":false,"name":"game67","open_time":"2019-03-01 00:00:00","allow_login":1,"open_ts":1551369600,"server_id":67,"ssl_login_port":0},"68":{"recommend_priority":1,"area_name":"程序区","mapped_server_id":68,"state":"free","recommend_status":0,"area_id":2,"node_name":"s68_game","ip":"117.50.193.85","login_port":16815,"enable_ssl":false,"name":"game68","open_time":"2019-03-01 00:00:00","allow_login":1,"open_ts":1551369600,"server_id":68,"ssl_login_port":0},"53":{"recommend_priority":1,"area_name":"程序区","mapped_server_id":53,"state":"free","recommend_status":0,"area_id":2,"node_name":"s53_game","ip":"117.50.193.85","login_port":15315,"enable_ssl":false,"name":"郝继胜服","open_time":"2019-03-01 00:00:00","allow_login":1,"open_ts":1551369600,"server_id":53,"ssl_login_port":0},"55":{"recommend_priority":1,"ssh_ip":"117.50.193.85","mapped_server_id":55,"node_name":"s55_game","ip":"117.50.193.85","area_name":"测试区","open_time":"2023-03-09 20:00:00","recommend_status":0,"server_id":55,"state":"free","enable_ssl":true,"name":"game55","area_id":2,"allow_login":1,"open_ts":1678363200,"login_port":15515,"ssl_login_port":15514},"51":{"recommend_priority":1,"area_name":"程序区","mapped_server_id":51,"state":"free","recommend_status":0,"area_id":2,"node_name":"s51_game","ip":"117.50.193.85","login_port":15115,"enable_ssl":false,"name":"game51","open_time":"2019-03-01 00:00:00","allow_login":1,"open_ts":1551369600,"server_id":51,"ssl_login_port":0},"60":{"recommend_priority":1,"area_name":"程序区","mapped_server_id":60,"state":"free","recommend_status":0,"area_id":2,"node_name":"s60_game","ip":"117.50.193.85","login_port":16015,"enable_ssl":false,"name":"game60","open_time":"2019-03-01 00:00:00","allow_login":1,"open_ts":1551369600,"server_id":60,"ssl_login_port":0},"61":{"recommend_priority":1,"area_name":"策划区","mapped_server_id":61,"state":"free","recommend_status":0,"area_id":3,"node_name":"s61_game","ip":"117.50.193.85","login_port":16115,"enable_ssl":false,"name":"策划1服","open_time":"2019-03-01 00:00:00","allow_login":1,"open_ts":1551369600,"server_id":61,"ssl_login_port":0},"62":{"recommend_priority":1,"area_name":"策划区","mapped_server_id":62,"state":"free","recommend_status":0,"area_id":3,"node_name":"s62_game","ip":"117.50.193.85","login_port":16215,"enable_ssl":false,"name":"策划2服","open_time":"2019-03-01 00:00:00","allow_login":1,"open_ts":1551369600,"server_id":62,"ssl_login_port":0},"63":{"recommend_priority":1,"area_name":"策划区","mapped_server_id":63,"state":"free","recommend_status":0,"area_id":3,"node_name":"s63_game","ip":"117.50.193.85","login_port":16315,"enable_ssl":false,"name":"策划3服","open_time":"2019-03-01 00:00:00","allow_login":1,"open_ts":1551369600,"server_id":63,"ssl_login_port":0}}]
+[2023-06-05 18:46:18][[gm_router-10]][info] ["RecvGm",{"sign":"e2153e6a4678834a51bcf3047f57ac45","ts":1685961978,"data":"{\"server_id\": \"55\", \"gm_name\": \"get_server_info_role_online\"}"}]
+[2023-06-05 18:46:18][[clusterd-d]][info] connect s55_game 117.50.193.85:15516
+[2023-06-05 18:46:18][[clusterd-d]][info] socket accept from ::ffff:117.50.193.85:11640, 49
+[2023-06-05 18:46:18][[clusterd-d]][info] clusterd show_self s55_game
+[2023-06-05 18:46:18][[gm_router-10]][info] ["ret",{"data":{"role_online_num":0,"role_total_num":1},"code":0}]
+[2023-06-05 18:46:18][[gm_router-10]][info] ["GmSuccess",{"data":{"role_online_num":0,"role_total_num":1},"code":0}]
+[2023-06-05 18:46:18][[gm_router-10]][info] ["RecvGm",{"sign":"2ed99cd5e8d58738d5c02f91a0a6ebed","ts":1685961978,"data":"{\"server_id\": \"51\", \"gm_name\": \"get_server_info_role_online\"}"}]
+[2023-06-05 18:46:18][[gm_router-10]][info] ["ret",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:46:18][[gm_router-10]][info] ["GmFail",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:46:18][[gm_router-10]][info] ["RecvGm",{"sign":"d663634b63ddd0f2465f111cbe95969f","ts":1685961978,"data":"{\"server_id\": \"50\", \"gm_name\": \"get_server_info_role_online\"}"}]
+[2023-06-05 18:46:18][[clusterd-d]][info] connect s50_game 117.50.193.85:15016
+[2023-06-05 18:46:18][[clusterd-d]][info] socket accept from ::ffff:117.50.193.85:11650, 53
+[2023-06-05 18:46:18][[clusterd-d]][info] clusterd show_self s50_game
+[2023-06-05 18:46:18][[gm_router-10]][info] ["ret",{"data":{"role_online_num":0,"role_total_num":0},"code":0}]
+[2023-06-05 18:46:18][[gm_router-10]][info] ["GmSuccess",{"data":{"role_online_num":0,"role_total_num":0},"code":0}]
+[2023-06-05 18:46:18][[gm_router-10]][info] ["RecvGm",{"sign":"4f2c368af607d6275a1119d01f7636b6","ts":1685961978,"data":"{\"server_id\": \"53\", \"gm_name\": \"get_server_info_role_online\"}"}]
+[2023-06-05 18:46:18][[gm_router-10]][info] ["ret",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:46:18][[gm_router-10]][info] ["GmFail",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:46:18][[gm_router-10]][info] ["RecvGm",{"sign":"4c1857fb4bdae83285b0d48750cfc531","ts":1685961978,"data":"{\"server_id\": \"60\", \"gm_name\": \"get_server_info_role_online\"}"}]
+[2023-06-05 18:46:18][[gm_router-10]][info] ["ret",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:46:18][[gm_router-10]][info] ["GmFail",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:46:18][[gm_router-10]][info] ["RecvGm",{"sign":"6b43dbd46602cffee76a3fef8b9afe40","ts":1685961978,"data":"{\"server_id\": \"61\", \"gm_name\": \"get_server_info_role_online\"}"}]
+[2023-06-05 18:46:18][[gm_router-10]][info] ["ret",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:46:18][[gm_router-10]][info] ["GmFail",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:46:18][[gm_router-10]][info] ["RecvGm",{"sign":"8bec3400d8abec81f9e2f16ab4285139","ts":1685961978,"data":"{\"server_id\": \"62\", \"gm_name\": \"get_server_info_role_online\"}"}]
+[2023-06-05 18:46:18][[gm_router-10]][info] ["ret",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:46:18][[gm_router-10]][info] ["GmFail",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:46:18][[gm_router-10]][info] ["RecvGm",{"sign":"b5daeb948fcf9412c4f41ca937865a48","ts":1685961978,"data":"{\"server_id\": \"63\", \"gm_name\": \"get_server_info_role_online\"}"}]
+[2023-06-05 18:46:18][[gm_router-10]][info] ["ret",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:46:18][[gm_router-10]][info] ["GmFail",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:46:18][[gm_router-10]][info] ["RecvGm",{"sign":"39e08b9f3435e837e6b9765521d3e9da","ts":1685961978,"data":"{\"server_id\": \"65\", \"gm_name\": \"get_server_info_role_online\"}"}]
+[2023-06-05 18:46:18][[gm_router-10]][info] ["ret",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:46:18][[gm_router-10]][info] ["GmFail",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:46:18][[gm_router-10]][info] ["RecvGm",{"sign":"520af79a182f25972116e268bc7cb679","ts":1685961978,"data":"{\"server_id\": \"67\", \"gm_name\": \"get_server_info_role_online\"}"}]
+[2023-06-05 18:46:18][[gm_router-10]][info] ["ret",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:46:18][[gm_router-10]][info] ["GmFail",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:46:18][[gm_router-10]][info] ["RecvGm",{"sign":"ccebf23c8e698fd09d0aa76f37a9595b","ts":1685961978,"data":"{\"server_id\": \"68\", \"gm_name\": \"get_server_info_role_online\"}"}]
+[2023-06-05 18:46:18][[gm_router-10]][info] ["ret",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:46:18][[gm_router-10]][info] ["GmFail",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:46:20][[gm_router-10]][info] ["RecvGm",{"sign":"0dc3cdeaf4393095ec82f8b9c1640a2a","ts":1685961980,"data":"{\"gm_name\": \"get_server_list\"}"}]
+[2023-06-05 18:46:20][[gm_router-10]][info] ["ret",{"65":{"recommend_priority":1,"area_name":"程序区","mapped_server_id":65,"state":"free","recommend_status":0,"area_id":2,"node_name":"s65_game","ip":"117.50.193.85","login_port":16515,"enable_ssl":false,"name":"game65","open_time":"2019-03-01 00:00:00","allow_login":1,"open_ts":1551369600,"server_id":65,"ssl_login_port":0},"50":{"recommend_priority":1,"area_name":"程序区","mapped_server_id":50,"state":"free","recommend_status":0,"area_id":2,"node_name":"s50_game","ip":"117.50.193.85","login_port":15015,"enable_ssl":false,"name":"game50","open_time":"2023-03-09 20:00:00","allow_login":1,"open_ts":1678363200,"server_id":50,"ssl_login_port":0},"67":{"recommend_priority":1,"area_name":"程序区","mapped_server_id":67,"state":"free","recommend_status":0,"area_id":2,"node_name":"s67_game","ip":"117.50.193.85","login_port":16715,"enable_ssl":false,"name":"game67","open_time":"2019-03-01 00:00:00","allow_login":1,"open_ts":1551369600,"server_id":67,"ssl_login_port":0},"68":{"recommend_priority":1,"area_name":"程序区","mapped_server_id":68,"state":"free","recommend_status":0,"area_id":2,"node_name":"s68_game","ip":"117.50.193.85","login_port":16815,"enable_ssl":false,"name":"game68","open_time":"2019-03-01 00:00:00","allow_login":1,"open_ts":1551369600,"server_id":68,"ssl_login_port":0},"53":{"recommend_priority":1,"area_name":"程序区","mapped_server_id":53,"state":"free","recommend_status":0,"area_id":2,"node_name":"s53_game","ip":"117.50.193.85","login_port":15315,"enable_ssl":false,"name":"郝继胜服","open_time":"2019-03-01 00:00:00","allow_login":1,"open_ts":1551369600,"server_id":53,"ssl_login_port":0},"55":{"recommend_priority":1,"ssh_ip":"117.50.193.85","mapped_server_id":55,"node_name":"s55_game","ip":"117.50.193.85","area_name":"测试区","open_time":"2023-03-09 20:00:00","recommend_status":0,"server_id":55,"state":"free","enable_ssl":true,"name":"game55","area_id":2,"allow_login":1,"open_ts":1678363200,"login_port":15515,"ssl_login_port":15514},"51":{"recommend_priority":1,"area_name":"程序区","mapped_server_id":51,"state":"free","recommend_status":0,"area_id":2,"node_name":"s51_game","ip":"117.50.193.85","login_port":15115,"enable_ssl":false,"name":"game51","open_time":"2019-03-01 00:00:00","allow_login":1,"open_ts":1551369600,"server_id":51,"ssl_login_port":0},"60":{"recommend_priority":1,"area_name":"程序区","mapped_server_id":60,"state":"free","recommend_status":0,"area_id":2,"node_name":"s60_game","ip":"117.50.193.85","login_port":16015,"enable_ssl":false,"name":"game60","open_time":"2019-03-01 00:00:00","allow_login":1,"open_ts":1551369600,"server_id":60,"ssl_login_port":0},"61":{"recommend_priority":1,"area_name":"策划区","mapped_server_id":61,"state":"free","recommend_status":0,"area_id":3,"node_name":"s61_game","ip":"117.50.193.85","login_port":16115,"enable_ssl":false,"name":"策划1服","open_time":"2019-03-01 00:00:00","allow_login":1,"open_ts":1551369600,"server_id":61,"ssl_login_port":0},"62":{"recommend_priority":1,"area_name":"策划区","mapped_server_id":62,"state":"free","recommend_status":0,"area_id":3,"node_name":"s62_game","ip":"117.50.193.85","login_port":16215,"enable_ssl":false,"name":"策划2服","open_time":"2019-03-01 00:00:00","allow_login":1,"open_ts":1551369600,"server_id":62,"ssl_login_port":0},"63":{"recommend_priority":1,"area_name":"策划区","mapped_server_id":63,"state":"free","recommend_status":0,"area_id":3,"node_name":"s63_game","ip":"117.50.193.85","login_port":16315,"enable_ssl":false,"name":"策划3服","open_time":"2019-03-01 00:00:00","allow_login":1,"open_ts":1551369600,"server_id":63,"ssl_login_port":0}}]
+[2023-06-05 18:46:20][[gm_router-10]][info] ["GmFail",{"65":{"recommend_priority":1,"area_name":"程序区","mapped_server_id":65,"state":"free","recommend_status":0,"area_id":2,"node_name":"s65_game","ip":"117.50.193.85","login_port":16515,"enable_ssl":false,"name":"game65","open_time":"2019-03-01 00:00:00","allow_login":1,"open_ts":1551369600,"server_id":65,"ssl_login_port":0},"50":{"recommend_priority":1,"area_name":"程序区","mapped_server_id":50,"state":"free","recommend_status":0,"area_id":2,"node_name":"s50_game","ip":"117.50.193.85","login_port":15015,"enable_ssl":false,"name":"game50","open_time":"2023-03-09 20:00:00","allow_login":1,"open_ts":1678363200,"server_id":50,"ssl_login_port":0},"67":{"recommend_priority":1,"area_name":"程序区","mapped_server_id":67,"state":"free","recommend_status":0,"area_id":2,"node_name":"s67_game","ip":"117.50.193.85","login_port":16715,"enable_ssl":false,"name":"game67","open_time":"2019-03-01 00:00:00","allow_login":1,"open_ts":1551369600,"server_id":67,"ssl_login_port":0},"68":{"recommend_priority":1,"area_name":"程序区","mapped_server_id":68,"state":"free","recommend_status":0,"area_id":2,"node_name":"s68_game","ip":"117.50.193.85","login_port":16815,"enable_ssl":false,"name":"game68","open_time":"2019-03-01 00:00:00","allow_login":1,"open_ts":1551369600,"server_id":68,"ssl_login_port":0},"53":{"recommend_priority":1,"area_name":"程序区","mapped_server_id":53,"state":"free","recommend_status":0,"area_id":2,"node_name":"s53_game","ip":"117.50.193.85","login_port":15315,"enable_ssl":false,"name":"郝继胜服","open_time":"2019-03-01 00:00:00","allow_login":1,"open_ts":1551369600,"server_id":53,"ssl_login_port":0},"55":{"recommend_priority":1,"ssh_ip":"117.50.193.85","mapped_server_id":55,"node_name":"s55_game","ip":"117.50.193.85","area_name":"测试区","open_time":"2023-03-09 20:00:00","recommend_status":0,"server_id":55,"state":"free","enable_ssl":true,"name":"game55","area_id":2,"allow_login":1,"open_ts":1678363200,"login_port":15515,"ssl_login_port":15514},"51":{"recommend_priority":1,"area_name":"程序区","mapped_server_id":51,"state":"free","recommend_status":0,"area_id":2,"node_name":"s51_game","ip":"117.50.193.85","login_port":15115,"enable_ssl":false,"name":"game51","open_time":"2019-03-01 00:00:00","allow_login":1,"open_ts":1551369600,"server_id":51,"ssl_login_port":0},"60":{"recommend_priority":1,"area_name":"程序区","mapped_server_id":60,"state":"free","recommend_status":0,"area_id":2,"node_name":"s60_game","ip":"117.50.193.85","login_port":16015,"enable_ssl":false,"name":"game60","open_time":"2019-03-01 00:00:00","allow_login":1,"open_ts":1551369600,"server_id":60,"ssl_login_port":0},"61":{"recommend_priority":1,"area_name":"策划区","mapped_server_id":61,"state":"free","recommend_status":0,"area_id":3,"node_name":"s61_game","ip":"117.50.193.85","login_port":16115,"enable_ssl":false,"name":"策划1服","open_time":"2019-03-01 00:00:00","allow_login":1,"open_ts":1551369600,"server_id":61,"ssl_login_port":0},"62":{"recommend_priority":1,"area_name":"策划区","mapped_server_id":62,"state":"free","recommend_status":0,"area_id":3,"node_name":"s62_game","ip":"117.50.193.85","login_port":16215,"enable_ssl":false,"name":"策划2服","open_time":"2019-03-01 00:00:00","allow_login":1,"open_ts":1551369600,"server_id":62,"ssl_login_port":0},"63":{"recommend_priority":1,"area_name":"策划区","mapped_server_id":63,"state":"free","recommend_status":0,"area_id":3,"node_name":"s63_game","ip":"117.50.193.85","login_port":16315,"enable_ssl":false,"name":"策划3服","open_time":"2019-03-01 00:00:00","allow_login":1,"open_ts":1551369600,"server_id":63,"ssl_login_port":0}}]
+[2023-06-05 18:46:20][[gm_router-10]][info] ["RecvGm",{"sign":"da422c8efeefa58ac6eafcfb9b4b92ec","ts":1685961980,"data":"{\"server_id\": \"55\", \"gm_name\": \"get_server_info_role_online\"}"}]
+[2023-06-05 18:46:20][[gm_router-10]][info] ["ret",{"data":{"role_online_num":0,"role_total_num":1},"code":0}]
+[2023-06-05 18:46:20][[gm_router-10]][info] ["GmSuccess",{"data":{"role_online_num":0,"role_total_num":1},"code":0}]
+[2023-06-05 18:46:20][[gm_router-10]][info] ["RecvGm",{"sign":"34de326032e61eeb2fbf8da09a30d1f7","ts":1685961980,"data":"{\"server_id\": \"51\", \"gm_name\": \"get_server_info_role_online\"}"}]
+[2023-06-05 18:46:20][[gm_router-10]][info] ["ret",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:46:20][[gm_router-10]][info] ["GmFail",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:46:20][[gm_router-10]][info] ["RecvGm",{"sign":"0a66fdb5573fddf7a118e9005f8ca6f6","ts":1685961980,"data":"{\"server_id\": \"50\", \"gm_name\": \"get_server_info_role_online\"}"}]
+[2023-06-05 18:46:20][[gm_router-10]][info] ["ret",{"data":{"role_online_num":0,"role_total_num":0},"code":0}]
+[2023-06-05 18:46:20][[gm_router-10]][info] ["GmSuccess",{"data":{"role_online_num":0,"role_total_num":0},"code":0}]
+[2023-06-05 18:46:20][[gm_router-10]][info] ["RecvGm",{"sign":"f094706a0f8753276027b68afc72eaaf","ts":1685961980,"data":"{\"server_id\": \"53\", \"gm_name\": \"get_server_info_role_online\"}"}]
+[2023-06-05 18:46:20][[gm_router-10]][info] ["ret",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:46:20][[gm_router-10]][info] ["GmFail",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:46:20][[gm_router-10]][info] ["RecvGm",{"sign":"998c14407929368fd13e13aecfd27b72","ts":1685961980,"data":"{\"server_id\": \"60\", \"gm_name\": \"get_server_info_role_online\"}"}]
+[2023-06-05 18:46:20][[gm_router-10]][info] ["ret",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:46:20][[gm_router-10]][info] ["GmFail",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:46:20][[gm_router-10]][info] ["RecvGm",{"sign":"0186ca0c89515dd7730d0a7ed8664094","ts":1685961980,"data":"{\"server_id\": \"61\", \"gm_name\": \"get_server_info_role_online\"}"}]
+[2023-06-05 18:46:20][[gm_router-10]][info] ["ret",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:46:20][[gm_router-10]][info] ["GmFail",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:46:20][[gm_router-10]][info] ["RecvGm",{"sign":"7e1c68b32a8f5adec80e61d7a9112aba","ts":1685961980,"data":"{\"server_id\": \"62\", \"gm_name\": \"get_server_info_role_online\"}"}]
+[2023-06-05 18:46:20][[gm_router-10]][info] ["ret",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:46:20][[gm_router-10]][info] ["GmFail",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:46:20][[gm_router-10]][info] ["RecvGm",{"sign":"4442cbe61858dba4be2f315ba56a69f8","ts":1685961980,"data":"{\"server_id\": \"63\", \"gm_name\": \"get_server_info_role_online\"}"}]
+[2023-06-05 18:46:20][[gm_router-10]][info] ["ret",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:46:20][[gm_router-10]][info] ["GmFail",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:46:20][[gm_router-10]][info] ["RecvGm",{"sign":"e173b2fabf7ae19d463abc0cf59d2a66","ts":1685961980,"data":"{\"server_id\": \"65\", \"gm_name\": \"get_server_info_role_online\"}"}]
+[2023-06-05 18:46:20][[gm_router-10]][info] ["ret",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:46:20][[gm_router-10]][info] ["GmFail",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:46:20][[gm_router-10]][info] ["RecvGm",{"sign":"09369ef34994d85f784249de3e209616","ts":1685961980,"data":"{\"server_id\": \"67\", \"gm_name\": \"get_server_info_role_online\"}"}]
+[2023-06-05 18:46:20][[gm_router-10]][info] ["ret",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:46:20][[gm_router-10]][info] ["GmFail",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:46:20][[gm_router-10]][info] ["RecvGm",{"sign":"8c6a8c4b57e1f94e63201a7e51ffe7bf","ts":1685961980,"data":"{\"server_id\": \"68\", \"gm_name\": \"get_server_info_role_online\"}"}]
+[2023-06-05 18:46:20][[gm_router-10]][info] ["ret",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:46:20][[gm_router-10]][info] ["GmFail",{"err_msg":"服务器出错","code":1003}]
+[2023-06-05 18:59:58][[gm_router-10]][info] ["RecvGm",{"sign":"8c502d2050e24f329bf743119aefbddf","ts":1685962798,"data":"{\"gm_name\": \"query_all_gift_key\"}"}]
+[2023-06-05 18:59:58][[gm_router-10]][info] ["ret",{"data":[{"end_ts":1685977200,"use_count":0,"start_ts":1685894400,"gift_key":"0014158jg2ig5"},{"use_count":0,"gift_key":"002a6u64ugdvy","end_ts":1685977200,"start_ts":1685894400,"group_name":"啊啊啊"}],"code":0}]
+[2023-06-05 18:59:58][[gm_router-10]][info] ["GmSuccess",{"data":[{"end_ts":1685977200,"use_count":0,"start_ts":1685894400,"gift_key":"0014158jg2ig5"},{"use_count":0,"gift_key":"002a6u64ugdvy","end_ts":1685977200,"start_ts":1685894400,"group_name":"啊啊啊"}],"code":0}]

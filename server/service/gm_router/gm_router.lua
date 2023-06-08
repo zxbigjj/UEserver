@@ -418,7 +418,7 @@ local GM_HANDLE = {
         type = GMTYPE.global,
         handle = 'gm_make_gift_key',
         must_params = {
-            --group_name = PTYPE.str,
+            group_name = PTYPE.str,
             total_use_count = PTYPE.int,
             total_count = PTYPE.int,
             start_ts = PTYPE.int,
@@ -426,7 +426,14 @@ local GM_HANDLE = {
             item_list = PTYPE.list,
         },
     },
-
+    -- 删除礼包码
+    delete_gift_key = {
+        type = GMTYPE.global,
+        handle = 'gm_delete_gift_key',
+        must_params = {
+            key = PTYPE.str,
+        },
+    },
     -- 查询礼包码
     query_gift_key = {
         type = GMTYPE.global,
@@ -435,7 +442,14 @@ local GM_HANDLE = {
             key = PTYPE.str,
         },
     },
-
+    -- 查询所有礼包码
+    query_all_gift_key = {
+        type = GMTYPE.global,
+        handle = 'gm_query_all_gift_key',
+        must_params = {
+            
+        },
+    },
 
     -- 插入订单
     save_pay_order = {
@@ -1040,11 +1054,15 @@ end
 function gm_router:gm_make_gift_key(args)
     return self:call_server("s2801_world", ".world", 'lc_make_gift_key', args)
 end
-
+function gm_router:gm_delete_gift_key(args)
+    return self:call_server("s2801_world", ".world", 'lc_delete_gift_key', args)
+end
 function gm_router:gm_query_gift_key(args)
     return self:call_server("s2801_world", ".world", 'lc_query_gift_key', args)
 end
-
+function gm_router:gm_query_all_gift_key(args)
+    return self:call_server("s2801_world", ".world", 'lc_query_all_gift_key', args)
+end
 function gm_router:gm_save_pay_order(args)
     return self:call_server("s2801_world", ".world", 'lc_save_pay_order', args)
 end
@@ -1118,6 +1136,7 @@ function gm_router:gm_add_lover_activities(args)
 end
 
 function gm_router:gm_edit_lover_activities(args)
+    print(json.encode(args))
     return  self:call_game_server(args.server_id, args)
 end
 
@@ -1140,6 +1159,7 @@ end
 
 ----------------------------------------------------- 英雄礼包
 function gm_router:gm_add_hero_activities(args)
+    print(json.encode(args))
     return self:call_game_server(args.server_id, args)
 end
 
@@ -1148,6 +1168,7 @@ function gm_router:gm_edit_hero_activities(args)
 end
 
 function gm_router:gm_del_hero_activities(args)
+    print(json.encode(args))
     return self:call_game_server(args.server_id, args)
 end
 

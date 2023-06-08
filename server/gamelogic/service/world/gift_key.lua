@@ -67,7 +67,7 @@ function MOD.check_str_valid(s)
     return true
 end
 
-function MOD.add_gift_batch(tag, total_use_count, key_count, start_ts, end_ts, item_list)
+function MOD.add_gift_batch(group_name, total_use_count, key_count, start_ts, end_ts, item_list)
     local batch_id = MOD.last_batch_id + 1
     MOD.last_batch_id = batch_id
     local batch_key = pack_batch_id(batch_id)
@@ -78,7 +78,7 @@ function MOD.add_gift_batch(tag, total_use_count, key_count, start_ts, end_ts, i
     local info = {
         batch_id = batch_id,
         batch_key = batch_key,
-        tag = tag,
+        group_name = group_name,
         total_use_count = total_use_count,
         key_count = key_count,
         start_ts = start_ts,
@@ -87,10 +87,11 @@ function MOD.add_gift_batch(tag, total_use_count, key_count, start_ts, end_ts, i
     }
 
     MOD.batch_dict[batch_key] = info
+    
     schema_world.GiftKeyBatch:insert(batch_id, info)
-
+    
     -- 生成礼包码,3位tag  3位batch_key， 10位随机数
-    local prefix = tag .. batch_key
+    local prefix = batch_key
     local rand_obj = math.new_rand()
     local words_count = #CHAR2_LIST
     local rand_dict = {}
@@ -124,25 +125,71 @@ function MOD.add_gift_batch(tag, total_use_count, key_count, start_ts, end_ts, i
     if next(insert_list) then
         schema_world.GiftKey:batch_insert(insert_list)
     end
+    print(json.encode(key_list))
     return key_list
 end
-
+function MOD.delete_gift_key(gift_key)
+    --local tag = string.sub(gift_key, 1, 3)
+    local batch_key = string.sub(gift_key, 1, 3)
+    local batch_info = MOD.batch_dict[batch_key]
+    if not batch_info  then return false end
+    local key_info = schema_world.GiftKey:delete(gift_key)
+    if not key_info    then return false end
+    
+    local batch_info = schema_world.GiftKeyBatch:delete(batch_key)
+    if not batch_info  then return false end
+     
+    
+end
 function MOD.query_gift_key(gift_key)
     --local tag = string.sub(gift_key, 1, 3)
     local batch_key = string.sub(gift_key, 1, 3)
     local batch_info = MOD.batch_dict[batch_key]
     if not batch_info then return false end
     local key_info = schema_world.GiftKey:load(gift_key)
+    
     if not key_info then return false end
-
+    print(json.encode(batch_info))   
     return {
+        group_name= batch_info.group_name,
         total_use_count = batch_info.total_use_count,
         use_count = key_info.use_count,
         end_ts = batch_info.end_ts,
         start_ts = batch_info.start_ts,
     }
 end
-
+function MOD.query_all_gift_key(gift_key)
+    
+    local result = schema_world.GiftKey:load_many()
+    local KeyBatchs = schema_world.GiftKeyBatch:load_many()
+    for k,key_info in ipairs(result) do
+        local NewKeyInfo={}
+        local batch_key = string.sub(key_info.gift_key, 1, 3)
+        local batch_info = MOD.batch_dict[batch_key]  
+        print(json.encode(batch_info))
+        local batch_data = {
+            start_ts = os.date("%Y.%m.%d:%H.%M.%S",batch_info.start_ts),
+            end_ts = os.date("%Y.%m.%d:%H.%M.%S",batch_info.end_ts),
+            group_name=batch_info.group_name,
+        }
+        
+        for k ,v in pairs(batch_data) do
+            
+            NewKeyInfo[k]=v
+            
+        end
+        for k ,v in pairs(key_info) do
+            
+            NewKeyInfo[k]=v
+            
+        end
+        NewKeyInfo["item_list"]=batch_info.item_list
+        print(json.encode(NewKeyInfo))
+        result[k]=NewKeyInfo
+    end
+    --print(json.encode(result))
+    if result   then return result end
+end
 function MOD.use_gift_key(gift_key)
     --local tag = string.sub(gift_key, 1, 3)
     local batch_key = string.sub(gift_key, 1, 3)

@@ -2,3 +2,38 @@ Bottle v0.13-dev server starting up (using GeventServer())...
 Listening on http://0.0.0.0:10116/
 Hit Ctrl-C to quit.
 
+Bottle v0.13-dev server starting up (using GeventServer())...
+Listening on http://0.0.0.0:10116/
+Hit Ctrl-C to quit.
+
+Bottle v0.13-dev server starting up (using GeventServer())...
+Listening on http://0.0.0.0:10116/
+Hit Ctrl-C to quit.
+
+Bottle v0.13-dev server starting up (using GeventServer())...
+Listening on http://0.0.0.0:10116/
+Hit Ctrl-C to quit.
+
+Bottle v0.13-dev server starting up (using GeventServer())...
+Listening on http://0.0.0.0:10116/
+Hit Ctrl-C to quit.
+
+Bottle v0.13-dev server starting up (using GeventServer())...
+Listening on http://0.0.0.0:10116/
+Hit Ctrl-C to quit.
+
+127.0.0.1 - - [2023-06-06 11:56:35] "GET /static/version/ios HTTP/1.1" 200 329 0.007964
+127.0.0.1 - - [2023-06-06 11:56:35] "GET /static/version/android HTTP/1.1" 200 333 0.000770
+127.0.0.1 - - [2023-06-06 11:56:59] "GET /static/version/ios HTTP/1.1" 200 329 0.000323
+127.0.0.1 - - [2023-06-06 11:56:59] "GET /static/version/android HTTP/1.1" 200 333 0.000197
+127.0.0.1 - - [2023-06-07 11:45:21] "GET /static/version/ios HTTP/1.1" 200 329 0.001444
+127.0.0.1 - - [2023-06-07 11:45:21] "GET /static/version/android HTTP/1.1" 200 333 0.000466
+127.0.0.1 - - [2023-06-07 13:48:19] "GET /static/version/ios HTTP/1.1" 200 329 0.000718
+127.0.0.1 - - [2023-06-07 13:48:19] "GET /static/version/android HTTP/1.1" 200 333 0.001495
+127.0.0.1 - - [2023-06-07 13:50:35] "POST /update_static HTTP/1.1" 200 144 0.000796
+127.0.0.1 - - [2023-06-07 13:52:10] "GET /static/version/ios HTTP/1.1" 200 319 0.000541
+127.0.0.1 - - [2023-06-07 13:52:10] "GET /static/version/android HTTP/1.1" 200 321 0.000205
+Bottle v0.13-dev server starting up (using GeventServer())...
+Listening on http://0.0.0.0:10116/
+Hit Ctrl-C to quit.
+

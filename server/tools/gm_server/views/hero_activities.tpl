@@ -45,9 +45,7 @@
                     <div class="form-group" >
                         <p class="col-sm-3">Server</p>
                         <div class="col-sm-9" >
-                            <select class="form-control" id="server_id">
-                                
-                            </select>
+                            <input type="text" class="form-control" id="server_id">
                         </div>
                     </div>
 
@@ -164,12 +162,7 @@
                             <input type="text" class="form-control" id="goods_name" maxlength="16">
                         </div>
                     </div>
-                    <div class="form-group">
-                        <p class="col-sm-2">Server</p>
-                        <div class="col-sm-10 ">
-                            <input type="text" class="form-control" id="server_id">
-                        </div>
-                    </div>
+                    
 
                     <div class="form-group">
                         <p class="col-sm-2">Title</p>
@@ -260,7 +253,118 @@
         </div>
     </div><!-- /.modal -->
 </div>
+<div class="modal fade" id="clone_hero_activities_modal" data-backdrop tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Clone Hero Activities</h4>
+            </div>
 
+            <div class="modal-body">
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <p class="col-sm-2">Goods_Name</p>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="goods_name" maxlength="16">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <p class="col-sm-2">Server</p>
+                        <div class="col-sm-10 ">
+                            <input type="text" class="form-control" id="server_id">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <p class="col-sm-2">Title</p>
+                        <div class="col-sm-10 ">
+                            <input type="text" class="form-control" id="activity_name_fir" maxlength="12">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <p class="col-sm-2">Subhead</p>
+                        <div class="col-sm-10 ">
+                            <input type="text" class="form-control" id="activity_name_sec" maxlength="12">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <p class="col-sm-2">Price</p>
+                        <div class="col-sm-10 " id="price">
+                            <select class="form-control">
+                                <option value="38">38</option>
+                                <option value="68">68</option>
+                                <option value="98">98</option>
+                                <option value="128">128</option>
+                                <option value="328">328</option>
+                                <option value="648">648</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <p class="col-sm-2">Discount</p>
+                        <div class="col-sm-10 ">
+                            <input type="text" class="form-control" id="discount">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <p class="col-sm-2">Back Image</p>
+                        <div class="col-sm-10 ">
+                            <input type="text" class="form-control" id="icon">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <p class="col-sm-2">Unit ID</p>
+                        <div class="col-sm-10 ">
+                            <input type="text" class="form-control" id="hero_id">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <p class="col-sm-2">Lover</p>
+                        <div class="col-sm-5">
+                            <p class="col-sm-2">Left</p>
+                            <input id="hero_left_id" type="text" class="form-control" value="-1">
+                        </div>
+                        <div class="col-sm-5">
+                            <p class="col-sm-2">Right</p>
+                            <input id="hero_right_id" type="text" class="form-control" value="-1">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <p class="col-sm-2">Refresh Interval</p>
+                        <div class="col-sm-10 ">
+                            <input type="text" class="form-control" id="refresh_interval" placeholder="Minute">
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="modal-footer">
+                <form class="form-horizontal" id="clone_hero_activities">
+                    <div class="form-group">
+                        <button type="button" class="btn btn-default" onclick="add_rewards('#clone_hero_activities');">
+                            Add Rewards</button>
+                    </div>
+                    <div class="form-group" id="reward_list">
+
+                    </div>
+
+                    <div class="form-group">
+                        <button class="btn btn-lg btn-primary btn-block" type="submit">
+                            Hero Activities</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div><!-- /.modal -->
+</div>
 
 <!-- 时间组件初始化 -->
 <script type="text/javascript">
@@ -279,6 +383,7 @@
             // '<button id="activate" type="button" class="btn btn-default" style="width:90px;margin:auto">Activate</button>',
             '<button id="delete" type="button" class="btn btn-default" style="width:90px;margin:auto">Delete</button>',
             '<button id="edit" type="button" class="btn btn-default" style="width:90px;margin:auto">Edit</button>',
+            '<button id="clone" type="button" class="btn btn-default" style="width:90px;margin:auto">Clone</button>',
         ].join('');
     }
 
@@ -288,6 +393,7 @@
                 url: "/del_hero_activities",
                 type: "post",
                 data: { id: row.id, server_id: row.server_id },
+                
                 success: function (msg) {
                     toastr.options.positionClass = 'toast-top-center';
                     if (msg.err) {
@@ -300,7 +406,7 @@
         },
         'click #edit': function (e, value, row, index) {
             $("#edit_hero_activities_modal").find("#goods_name").val(row.goods_name);
-            $("#edit_hero_activities_modal").find("#server_id").val(row.server_id);
+            
             $("#edit_hero_activities_modal").find("#icon").val(row.icon);
             $("#edit_hero_activities_modal").find("#refresh_interval").val(row.refresh_interval);
             $("#edit_hero_activities_modal").find("#hero_id").val(row.hero_id);
@@ -310,14 +416,14 @@
             $("#edit_hero_activities_modal").find("#activity_name_sec").val(row.activity_name_sec);
             $("#edit_hero_activities_modal").find("#price").find("select").val(row.price);
             $("#edit_hero_activities_modal").find("#discount").val(row.discount);
-            set_rewards(row.item_list);
+            set_edit_rewards(row.item_list);
 
             $('#edit_hero_activities_modal').modal('show')
             $('#edit_hero_activities_modal').unbind('submit')
             $("#edit_hero_activities").submit(function () {
                 event.preventDefault();
                 var goods_name = $("#edit_hero_activities_modal").find("#goods_name").val();
-                var server_id = $("#edit_hero_activities_modal").find("#server_id").val();
+                var server_id =row.server_id;
                 var reward = JSON.stringify(get_reward_list("#edit_hero_activities_modal"));
                 var price = $("#edit_hero_activities_modal").find("#price").find(":selected").html();
                 var discount = $("#edit_hero_activities_modal").find("#discount").val();
@@ -361,9 +467,73 @@
                 window.location.reload();
                 // $("#edit_hero_activities").find("#reward_list").find("div").remove();
             })
+        },
+        'click #clone': function (e, value, row, index) {
+            $("#clone_hero_activities_modal").find("#goods_name").val(row.goods_name);
+            $("#clone_hero_activities_modal").find("#server_id").val(row.server_id);
+            $("#clone_hero_activities_modal").find("#icon").val(row.icon);
+            $("#clone_hero_activities_modal").find("#refresh_interval").val(row.refresh_interval);
+            $("#clone_hero_activities_modal").find("#hero_id").val(row.hero_id);
+            $("#clone_hero_activities_modal").find("#hero_left_id").val(row.hero_left_id);
+            $("#clone_hero_activities_modal").find("#hero_right_id").val(row.hero_right_id);
+            $("#clone_hero_activities_modal").find("#activity_name_fir").val(row.activity_name_fir);
+            $("#clone_hero_activities_modal").find("#activity_name_sec").val(row.activity_name_sec);
+            $("#clone_hero_activities_modal").find("#price").find("select").val(row.price);
+            $("#clone_hero_activities_modal").find("#discount").val(row.discount);
+            set_clone_rewards(row.item_list);
+
+            $('#clone_hero_activities_modal').modal('show')
+            $('#clone_hero_activities_modal').unbind('submit')
+            $("#clone_hero_activities").submit(function () {
+                event.preventDefault();
+                var goods_name = $("#clone_hero_activities_modal").find("#goods_name").val();
+                var server_id = $("#clone_hero_activities_modal").find("#server_id").val();
+                var reward = JSON.stringify(get_reward_list("#clone_hero_activities_modal"));
+                var price = $("#clone_hero_activities_modal").find("#price").find(":selected").html();
+                var discount = $("#clone_hero_activities_modal").find("#discount").val();
+                var icon = $("#clone_hero_activities_modal").find("#icon").val();
+                var refresh_interval = $("#clone_hero_activities_modal").find("#refresh_interval").val();
+                var hero_id = $("#clone_hero_activities_modal").find("#hero_id").val();
+                var hero_left_id = $("#clone_hero_activities_modal").find("#hero_left_id").val();
+                var hero_right_id = $("#clone_hero_activities_modal").find("#hero_right_id").val();
+                var activity_name_fir = $("#clone_hero_activities_modal").find("#activity_name_fir").val();
+                var activity_name_sec = $("#clone_hero_activities_modal").find("#activity_name_sec").val();
+
+                $("#clone_hero_activities").find("button[type='submit']").prop("disabled", true);
+                $.ajax({
+                    type: "post",
+                    url: "/clone_hero_activities",
+                    data: {
+                        goods_name:goods_name,
+                        id: row.id,
+                        server_id: server_id,
+                        price: price, discount: discount,
+                        hero_id: hero_id, reward: reward, icon: icon,
+                        hero_left_id: hero_left_id, hero_right_id: hero_right_id,
+                        refresh_interval: refresh_interval,
+                        activity_name_fir: activity_name_fir,
+                        activity_name_sec: activity_name_sec,
+                    },
+                    dataType: "json",
+                    success: function (msg) {
+                        toastr.options.positionClass = 'toast-top-center';
+                        if (msg.err) {
+                            toastr.error(msg.err);
+                            $("#clone_hero_activities").find("button[type='submit']").prop("disabled", false);
+                        } else {
+                            window.location.reload();
+                        }
+                    }
+                });
+            })
+
+            $('#clone_hero_activities_modal').on('hide.bs.modal', function () {
+                window.location.reload();
+                // $("#edit_hero_activities").find("#reward_list").find("div").remove();
+            })
         }
     };
-
+            
     $(document).ready(function () {
         $.ajax({
             type: "POST",
@@ -467,29 +637,21 @@
 
 <!-- 其他控制组件 -->
 <script>
-    $(document).ready(function () {
-        $.ajax({
-      type: "POST",
-      url: "/query_zone",
-      dataType: 'json',
-      success: function (msg) {
-        console.log(msg)
-        $.each(msg.info, function (key, values) {
-          if (values.running_state) {
-          $("#server_id").append("<option>" + values.server_id + "</option>");
-          }
-        })
-      }
-    });
-    })
-    function set_rewards(reward_info) {
+    
+    function set_edit_rewards(reward_info) {
         console.log(reward_info)
         for (var index = 0; index < reward_info.length; index++) {
             var info = '<div name="item_group"><div class="col-sm-6"><input type="text" class="form-control" name="id" value=' + reward_info[index].item_id + '></div ><div class="col-sm-6"><input type="text" class="form-control" name="count" value=' + reward_info[index].count + '></div></div>'
             $("#edit_hero_activities").find("#reward_list").append(info);
         }
     }
-
+    function set_clone_rewards(reward_info) {
+        console.log(reward_info)
+        for (var index = 0; index < reward_info.length; index++) {
+            var info = '<div name="item_group"><div class="col-sm-6"><input type="text" class="form-control" name="id" value=' + reward_info[index].item_id + '></div ><div class="col-sm-6"><input type="text" class="form-control" name="count" value=' + reward_info[index].count + '></div></div>'
+            $("#clone_hero_activities").find("#reward_list").append(info);
+        }
+    }
     function add_rewards(path) {
         var info = '<div name="item_group"><div class="col-sm-6"><input type="text" class="form-control" placeholder="ID" name="id"></div ><div class="col-sm-6"><input type="text" class="form-control" placeholder="Count" name="count"></div></div>'
         $(path).find("#reward_list").append(info);
@@ -511,6 +673,7 @@
         $('#add_hero_activities_modal').unbind('submit')
         $("#add_hero_activities").submit(function () {
             event.preventDefault()
+            var goods_name = $("#add_hero_activities_modal").find("#goods_name").val();
             var server_id = $("#add_hero_activities_modal").find("#server_id").val();
             var reward = JSON.stringify(get_reward_list("#add_hero_activities_modal"));
             var price = $("#add_hero_activities_modal").find("#price").find(":selected").html();
@@ -522,12 +685,13 @@
             var hero_right_id = $("#add_hero_activities_modal").find("#hero_right_id").val();
             var activity_name_fir = $("#add_hero_activities_modal").find("#activity_name_fir").val();
             var activity_name_sec = $("#add_hero_activities_modal").find("#activity_name_sec").val();
-
+            console.log(goods_name,server_id)
             $("#add_hero_activities").find("button[type='submit']").prop("disabled", true);
             $.ajax({
                 type: "post",
                 url: "/add_hero_activities",
                 data: {
+                    goods_name:goods_name,
                     server_id: server_id,
                     price: price, discount: discount,
                     hero_id: hero_id, reward: reward, icon: icon,

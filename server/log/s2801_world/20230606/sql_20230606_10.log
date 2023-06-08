@@ -1,0 +1,4 @@
+[2023-06-06 10:48:05][[game_database-10]][SqlQuery] {"query":"use hd_world","use_time":0.0099999904632568,"size":12}
+[2023-06-06 10:48:05][[game_database-10]][SqlQuery] {"query":"SET NAMES utf8mb4","use_time":0,"size":17}
+[2023-06-06 10:48:05][[game_database-10]][SqlQuery] {"query":"select * from t_GiftKey","use_time":0.0099999904632568,"size":23}
+[2023-06-06 10:48:05][[game_database-10]][SqlQuery] {"query":"select * from t_GiftKeyBatch","use_time":0,"size":28}

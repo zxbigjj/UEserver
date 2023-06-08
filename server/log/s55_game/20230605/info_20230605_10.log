@@ -1,0 +1,197 @@
+[2023-06-05 10:24:29][[reload_watcher-a]][info] ["reload_watcher:",10]
+[2023-06-05 10:24:29][[common_init-c]][info] uuid init<55|22>, tag<1J_M_>
+[2023-06-05 10:24:29][[clusterd-d]][info] connect s2800_cluster_router 117.50.193.85:40301
+[2023-06-05 10:24:29][[clusterd-d]][info] ["clusterd start:",13]
+[2023-06-05 10:24:29][[clusterd-d]][info] socket accept from ::ffff:117.50.193.85:51732, 5
+[2023-06-05 10:24:29][[clusterd-d]][info] clusterd show_self s2800_cluster_router
+[2023-06-05 10:24:30][[common_init-c]][info] SqlQueryCount: 5
+[2023-06-05 10:24:32][[gamelog-9]][info] ["gamelog start:",9]
+[2023-06-05 10:24:37][[clusterd-d]][info] socket accept from ::ffff:117.50.193.85:51746, 6
+[2023-06-05 10:24:37][[clusterd-d]][info] socket accept from ::ffff:117.50.193.85:51748, 7
+[2023-06-05 10:24:37][[clusterd-d]][info] clusterd show_self s55_chat
+[2023-06-05 10:24:37][[clusterd-d]][info] connect s55_chat 117.50.193.85:15518
+[2023-06-05 10:24:37][[clusterd-d]][info] clusterd show_self s55_dynasty
+[2023-06-05 10:24:37][[clusterd-d]][info] connect s55_dynasty 117.50.193.85:15520
+[2023-06-05 10:24:37][[game_database-10]][info] gamedb service boot success!
+[2023-06-05 10:24:38][[agent-11]][info] refresh schema:schema_game
+[2023-06-05 10:24:38][[game_database-10]][info] SqlQueryCount: 80
+[2023-06-05 10:24:38][[agent_gate-12]][info] ["agent_gate start:",18]
+[2023-06-05 10:24:38][[agent-11]][info] ["agent_start:",17]
+[2023-06-05 10:24:38][[child_marry-14]][info] ["child_marry start:",20]
+[2023-06-05 10:24:39][[game_database-10]][info] SqlQueryCount: 60
+[2023-06-05 10:24:54][[clusterd-d]][info] socket accept from ::ffff:117.50.193.85:51776, 16
+[2023-06-05 10:24:54][[clusterd-d]][info] clusterd show_self s2803_gm_router
+[2023-06-05 10:24:54][[clusterd-d]][info] connect s2803_gm_router 117.50.193.85:40201
+[2023-06-05 10:24:55][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:24:58][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:24:58][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:25:00][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:25:08][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:25:16][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:26:31][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:26:31][[agent-11]][info] SqlQueryCount: 6
+[2023-06-05 10:27:03][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:27:03][[agent-11]][info] SqlQueryCount: 6
+[2023-06-05 10:27:13][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:27:14][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:27:14][[agent-11]][info] SqlQueryCount: 6
+[2023-06-05 10:27:18][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:27:19][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:27:19][[agent-11]][info] SqlQueryCount: 6
+[2023-06-05 10:27:24][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-05 10:27:24][[agent-11]][info] SqlQueryCount: 6
+[2023-06-05 10:27:27][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:27:27][[agent-11]][info] SqlQueryCount: 6
+[2023-06-05 10:27:31][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:27:31][[agent-11]][info] SqlQueryCount: 6
+[2023-06-05 10:27:33][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:27:33][[agent-11]][info] SqlQueryCount: 6
+[2023-06-05 10:27:38][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-05 10:27:38][[agent-11]][info] SqlQueryCount: 6
+[2023-06-05 10:27:42][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:27:42][[agent-11]][info] SqlQueryCount: 6
+[2023-06-05 10:27:43][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:27:43][[agent-11]][info] SqlQueryCount: 6
+[2023-06-05 10:27:44][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:27:44][[agent-11]][info] SqlQueryCount: 6
+[2023-06-05 10:27:45][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:27:45][[agent-11]][info] SqlQueryCount: 6
+[2023-06-05 10:29:10][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:29:10][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:29:14][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:29:14][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:29:22][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:29:22][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:30:15][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:30:15][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:34:14][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:34:14][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:34:19][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:34:19][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:34:33][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:34:33][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:34:38][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-05 10:34:39][[game_database-10]][info] SqlQueryCount: 30
+[2023-06-05 10:34:54][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:34:54][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:35:58][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-05 10:35:58][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:36:37][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:36:37][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:36:43][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:36:43][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:36:56][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:36:56][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:39:55][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:39:55][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:40:11][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:40:12][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:40:12][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:40:39][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:40:39][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:40:55][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:40:56][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:40:56][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:41:49][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 10:41:49][[reload_watcher-a]][info] file to reload:
+./service/gm_router/gm_router.lua
+[2023-06-05 10:41:53][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 10:41:53][[reload_watcher-a]][info] file to reload:
+./service/gm_router/gm_router.lua
+[2023-06-05 10:41:57][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 10:41:57][[reload_watcher-a]][info] file to reload:
+./service/gm_router/gm_router.lua
+[2023-06-05 10:42:12][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-05 10:42:12][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:43:34][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:43:34][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:43:49][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 10:43:49][[reload_watcher-a]][info] file to reload:
+./service/gm_router/gm_router.lua
+[2023-06-05 10:43:50][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 10:43:50][[reload_watcher-a]][info] file to reload:
+./service/gm_router/gm_router.lua
+[2023-06-05 10:43:58][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:43:58][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:44:29][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:44:29][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:44:33][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:44:33][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:44:37][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:44:37][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:44:38][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-05 10:44:39][[game_database-10]][info] SqlQueryCount: 30
+[2023-06-05 10:44:41][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:44:41][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:44:53][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:44:54][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:44:56][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:44:56][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:45:43][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:45:43][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:45:46][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:45:46][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:45:54][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-05 10:45:54][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:45:59][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-05 10:45:59][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:46:02][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:46:02][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:46:06][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:46:06][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:46:08][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:46:08][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:46:50][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:46:50][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:46:53][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:46:53][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:46:55][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:46:56][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:46:56][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:46:58][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-05 10:46:58][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:47:00][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:47:00][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:47:01][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:47:02][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:47:03][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:47:03][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:47:04][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-05 10:47:04][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:47:25][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-05 10:47:25][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:47:43][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-05 10:47:43][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:47:55][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:47:55][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:48:11][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:48:11][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:49:58][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:49:58][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:50:13][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:50:13][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:50:38][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:50:38][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:54:38][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-05 10:54:39][[game_database-10]][info] SqlQueryCount: 30
+[2023-06-05 10:56:03][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:56:03][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:56:10][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:56:10][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:56:11][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:56:19][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:56:20][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:56:20][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:56:26][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-05 10:56:26][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:57:22][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:57:22][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:57:36][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:57:36][[agent-11]][info] SqlQueryCount: 3
+[2023-06-05 10:57:43][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 10:57:43][[agent-11]][info] SqlQueryCount: 3

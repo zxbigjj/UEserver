@@ -1,0 +1,14 @@
+[2023-06-05 17:44:55][[common_init-c]][SqlConnect] {"host":"127.0.0.1","user":"root"}
+[2023-06-05 17:44:55][[common_init-c]][SqlQuery] {"query":"use hd_game50","use_time":0,"size":13}
+[2023-06-05 17:44:55][[common_init-c]][SqlQuery] {"query":"SET NAMES utf8mb4","use_time":0.0099999904632568,"size":17}
+[2023-06-05 17:44:55][[common_init-c]][SqlQuery] {"query":"select count(*) from t_uuid_alloc","use_time":0,"size":33}
+[2023-06-05 17:44:55][[common_init-c]][SqlQuery] {"query":"insert t_uuid_alloc (rand_key) values (\"4vGNZJ7pNHyuILz8\")","use_time":0.020000219345093,"size":58}
+[2023-06-05 17:44:55][[common_init-c]][SqlQuery] {"query":"select * from t_uuid_alloc where rand_key='4vGNZJ7pNHyuILz8'","use_time":0,"size":60}
+[2023-06-05 17:44:55][[common_init-c]][SqlClose] {"host":"127.0.0.1","user":"root"}
+[2023-06-05 17:51:40][[common_init-c]][SqlConnect] {"host":"127.0.0.1","user":"root"}
+[2023-06-05 17:51:40][[common_init-c]][SqlQuery] {"query":"use hd_game50","use_time":0.0099999904632568,"size":13}
+[2023-06-05 17:51:40][[common_init-c]][SqlQuery] {"query":"SET NAMES utf8mb4","use_time":0,"size":17}
+[2023-06-05 17:51:40][[common_init-c]][SqlQuery] {"query":"select count(*) from t_uuid_alloc","use_time":0.0099999904632568,"size":33}
+[2023-06-05 17:51:40][[common_init-c]][SqlQuery] {"query":"insert t_uuid_alloc (rand_key) values (\"V0fftYLOYLNj9qBC\")","use_time":0.0099999904632568,"size":58}
+[2023-06-05 17:51:40][[common_init-c]][SqlQuery] {"query":"select * from t_uuid_alloc where rand_key='V0fftYLOYLNj9qBC'","use_time":0.0099999904632568,"size":60}
+[2023-06-05 17:51:40][[common_init-c]][SqlClose] {"host":"127.0.0.1","user":"root"}

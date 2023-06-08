@@ -1,0 +1,36 @@
+[2023-06-05 16:03:41][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 16:07:30][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 16:07:55][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 16:08:45][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 16:09:41][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-05 16:09:46][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-05 16:26:07][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 16:26:07][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 16:26:07][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-05 16:26:40][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 16:26:40][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 16:26:40][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-05 16:26:45][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 16:26:45][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 16:26:45][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-05 16:26:49][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 16:26:49][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 16:26:49][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-05 16:27:04][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 16:27:04][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-05 16:27:04][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-05 16:44:46][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-05 16:44:46][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-05 16:44:46][[world-11]][info] reload_mod begin: lua_handles <==> ./gamelogic/service/world/lua_handles.lua

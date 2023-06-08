@@ -1,0 +1,27 @@
+[2023-06-04 23:00:01][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-04 23:00:48][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-04 23:00:48][[agent-11]][info] SqlQueryCount: 6
+[2023-06-04 23:00:49][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-04 23:00:49][[agent-11]][info] SqlQueryCount: 6
+[2023-06-04 23:00:57][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-04 23:00:57][[agent-11]][info] SqlQueryCount: 6
+[2023-06-04 23:01:11][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-04 23:01:11][[agent-11]][info] SqlQueryCount: 3
+[2023-06-04 23:03:17][[game_database-10]][info] SqlQueryCount: 32
+[2023-06-04 23:05:02][[agent-11]][info] SqlQueryCount: 3
+[2023-06-04 23:05:03][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-04 23:05:04][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-04 23:05:04][[agent-11]][info] SqlQueryCount: 3
+[2023-06-04 23:06:16][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-04 23:06:16][[agent-11]][info] SqlQueryCount: 3
+[2023-06-04 23:06:20][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-04 23:06:20][[agent-11]][info] SqlQueryCount: 3
+[2023-06-04 23:06:31][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-04 23:06:31][[agent-11]][info] SqlQueryCount: 3
+[2023-06-04 23:07:47][[agent-11]][info] SqlQueryCount: 3
+[2023-06-04 23:07:48][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-04 23:08:08][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-04 23:08:08][[agent-11]][info] SqlQueryCount: 3
+[2023-06-04 23:13:17][[game_database-10]][info] SqlQueryCount: 32
+[2023-06-04 23:45:28][[agent-11]][info] shutdown....
+[2023-06-04 23:45:29][[agent-11]][info] SaveInfo 0 0 0

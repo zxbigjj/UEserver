@@ -1,0 +1,161 @@
+[2023-06-04 23:00:00][[game_database-10]][SqlQuery] {"query":"update t_ServerCore set last_hour_ts=1685890800 where server_name='s50'","use_time":0,"size":71}
+[2023-06-04 23:00:47][[agent-11]][SqlConnect] {"host":"127.0.0.1","user":"root"}
+[2023-06-04 23:00:47][[agent-11]][SqlQuery] {"query":"use hd_game50","use_time":0,"size":13}
+[2023-06-04 23:00:47][[agent-11]][SqlQuery] {"query":"SET NAMES utf8mb4","use_time":0.0099999904632568,"size":17}
+[2023-06-04 23:00:47][[agent-11]][SqlConnect] {"host":"127.0.0.1","user":"root"}
+[2023-06-04 23:00:47][[agent-11]][SqlQuery] {"query":"select count(*) from t_Role","use_time":0,"size":27}
+[2023-06-04 23:00:47][[agent-11]][SqlClose] {"host":"127.0.0.1","user":"root"}
+[2023-06-04 23:00:47][[agent-11]][SqlQuery] {"query":"use hd_game50","use_time":0,"size":13}
+[2023-06-04 23:00:47][[agent-11]][SqlQuery] {"query":"SET NAMES utf8mb4","use_time":0,"size":17}
+[2023-06-04 23:00:47][[game_database-10]][SqlQuery] {"query":"select * from t_LoverActivities","use_time":0,"size":31}
+[2023-06-04 23:00:47][[agent-11]][SqlQuery] {"query":"select count(*) from t_Role","use_time":0.0099999904632568,"size":27}
+[2023-06-04 23:00:47][[agent-11]][SqlClose] {"host":"127.0.0.1","user":"root"}
+[2023-06-04 23:00:49][[agent-11]][SqlConnect] {"host":"127.0.0.1","user":"root"}
+[2023-06-04 23:00:49][[agent-11]][SqlQuery] {"query":"use hd_game50","use_time":0,"size":13}
+[2023-06-04 23:00:49][[agent-11]][SqlQuery] {"query":"SET NAMES utf8mb4","use_time":0,"size":17}
+[2023-06-04 23:00:49][[agent-11]][SqlQuery] {"query":"select count(*) from t_Role","use_time":0,"size":27}
+[2023-06-04 23:00:49][[agent-11]][SqlClose] {"host":"127.0.0.1","user":"root"}
+[2023-06-04 23:00:49][[game_database-10]][SqlQuery] {"query":"select * from t_LoverActivities","use_time":0,"size":31}
+[2023-06-04 23:00:49][[agent-11]][SqlConnect] {"host":"127.0.0.1","user":"root"}
+[2023-06-04 23:00:49][[agent-11]][SqlQuery] {"query":"use hd_game50","use_time":0.0099999904632568,"size":13}
+[2023-06-04 23:00:49][[agent-11]][SqlQuery] {"query":"SET NAMES utf8mb4","use_time":0,"size":17}
+[2023-06-04 23:00:49][[agent-11]][SqlQuery] {"query":"select count(*) from t_Role","use_time":0,"size":27}
+[2023-06-04 23:00:49][[agent-11]][SqlClose] {"host":"127.0.0.1","user":"root"}
+[2023-06-04 23:00:56][[agent-11]][SqlConnect] {"host":"127.0.0.1","user":"root"}
+[2023-06-04 23:00:56][[agent-11]][SqlQuery] {"query":"use hd_game50","use_time":0.0099999904632568,"size":13}
+[2023-06-04 23:00:56][[agent-11]][SqlQuery] {"query":"SET NAMES utf8mb4","use_time":0,"size":17}
+[2023-06-04 23:00:56][[agent-11]][SqlQuery] {"query":"select count(*) from t_Role","use_time":0.0099999904632568,"size":27}
+[2023-06-04 23:00:56][[agent-11]][SqlClose] {"host":"127.0.0.1","user":"root"}
+[2023-06-04 23:00:56][[game_database-10]][SqlQuery] {"query":"select * from t_LoverActivities","use_time":0.0099999904632568,"size":31}
+[2023-06-04 23:00:56][[agent-11]][SqlConnect] {"host":"127.0.0.1","user":"root"}
+[2023-06-04 23:00:56][[agent-11]][SqlQuery] {"query":"use hd_game50","use_time":0,"size":13}
+[2023-06-04 23:00:56][[agent-11]][SqlQuery] {"query":"SET NAMES utf8mb4","use_time":0,"size":17}
+[2023-06-04 23:00:56][[agent-11]][SqlQuery] {"query":"select count(*) from t_Role","use_time":0,"size":27}
+[2023-06-04 23:00:56][[agent-11]][SqlClose] {"host":"127.0.0.1","user":"root"}
+[2023-06-04 23:01:10][[agent-11]][SqlConnect] {"host":"127.0.0.1","user":"root"}
+[2023-06-04 23:01:10][[agent-11]][SqlQuery] {"query":"use hd_game50","use_time":0,"size":13}
+[2023-06-04 23:01:10][[agent-11]][SqlQuery] {"query":"SET NAMES utf8mb4","use_time":0,"size":17}
+[2023-06-04 23:01:10][[agent-11]][SqlQuery] {"query":"select count(*) from t_Role","use_time":0.0099999904632568,"size":27}
+[2023-06-04 23:01:10][[agent-11]][SqlClose] {"host":"127.0.0.1","user":"root"}
+[2023-06-04 23:01:10][[game_database-10]][SqlQuery] {"query":"select * from t_LoverActivities","use_time":0,"size":31}
+[2023-06-04 23:03:16][[game_database-10]][SqlQuery] {"query":"update t_DynastyRank set dynasty_list='{ ... re rank_name='rush_activity_dynasty_rank'","use_time":0.0099999904632568,"size":87}
+[2023-06-04 23:03:16][[game_database-10]][SqlQuery] {"query":"update t_DynastyRank set dynasty_list='{ ... k_name='traitor_boss_honour_dynasty_rank'","use_time":0,"size":93}
+[2023-06-04 23:03:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ere rank_name='activity_fight_score_rank'","use_time":0,"size":93}
+[2023-06-04 23:03:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... t='{}' where rank_name='fight_score_rank'","use_time":0,"size":84}
+[2023-06-04 23:03:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... e rank_name='rush_activity_intimacy_rank'","use_time":0,"size":95}
+[2023-06-04 23:03:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_list='{}' where rank_name='hunt_rank'","use_time":0,"size":77}
+[2023-06-04 23:03:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... '{}' where rank_name='traitor_feats_rank'","use_time":0,"size":86}
+[2023-06-04 23:03:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... rank_name='rush_activity_checkpoint_rank'","use_time":0,"size":97}
+[2023-06-04 23:03:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... where rank_name='rush_activity_food_rank'","use_time":0,"size":91}
+[2023-06-04 23:03:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ' where rank_name='activity_stamina_rank'","use_time":0,"size":89}
+[2023-06-04 23:03:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... {}' where rank_name='activity_login_rank'","use_time":0.0099999904632568,"size":87}
+[2023-06-04 23:03:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... here rank_name='rush_activity_score_rank'","use_time":0,"size":92}
+[2023-06-04 23:03:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ='{}' where rank_name='traitor_hurt_rank'","use_time":0,"size":85}
+[2023-06-04 23:03:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ' where rank_name='activity_diamond_rank'","use_time":0,"size":89}
+[2023-06-04 23:03:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... re rank_name='rush_activity_soldier_rank'","use_time":0,"size":94}
+[2023-06-04 23:03:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... {}' where rank_name='activity_money_rank'","use_time":0,"size":87}
+[2023-06-04 23:03:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... rank_name='rush_activity_ringleader_rank'","use_time":0,"size":97}
+[2023-06-04 23:03:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... here rank_name='rush_activity_party_rank'","use_time":0,"size":92}
+[2023-06-04 23:03:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ...  where rank_name='traitor_boss_hurt_rank'","use_time":0,"size":90}
+[2023-06-04 23:03:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ' where rank_name='traitor_max_hurt_rank'","use_time":0,"size":89}
+[2023-06-04 23:03:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ...  where rank_name='activity_intimacy_rank'","use_time":0.0099999904632568,"size":90}
+[2023-06-04 23:03:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ' where rank_name='activity_banquet_rank'","use_time":0,"size":89}
+[2023-06-04 23:03:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_list='{}' where rank_name='train_rank'","use_time":0,"size":78}
+[2023-06-04 23:03:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... e rank_name='rush_activity_recharge_rank'","use_time":0,"size":95}
+[2023-06-04 23:03:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_list='{}' where rank_name='score_rank'","use_time":0,"size":78}
+[2023-06-04 23:03:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_list='{}' where rank_name='level_rank'","use_time":0,"size":78}
+[2023-06-04 23:03:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ' where rank_name='activity_soldier_rank'","use_time":0,"size":89}
+[2023-06-04 23:03:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... where rank_name='rush_activity_hunt_rank'","use_time":0,"size":91}
+[2023-06-04 23:03:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... {}' where rank_name='activity_score_rank'","use_time":0,"size":87}
+[2023-06-04 23:03:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... here rank_name='traitor_boss_honour_rank'","use_time":0.0099999904632568,"size":92}
+[2023-06-04 23:03:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... here rank_name='rush_activity_money_rank'","use_time":0,"size":92}
+[2023-06-04 23:03:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... st='{}' where rank_name='stage_star_rank'","use_time":0.0099999904632568,"size":83}
+[2023-06-04 23:05:02][[agent-11]][SqlConnect] {"host":"127.0.0.1","user":"root"}
+[2023-06-04 23:05:02][[agent-11]][SqlQuery] {"query":"use hd_game50","use_time":0,"size":13}
+[2023-06-04 23:05:02][[agent-11]][SqlQuery] {"query":"SET NAMES utf8mb4","use_time":0,"size":17}
+[2023-06-04 23:05:02][[agent-11]][SqlQuery] {"query":"select count(*) from t_Role","use_time":0,"size":27}
+[2023-06-04 23:05:02][[agent-11]][SqlClose] {"host":"127.0.0.1","user":"root"}
+[2023-06-04 23:05:02][[game_database-10]][SqlQuery] {"query":"select * from t_LoverActivities","use_time":0,"size":31}
+[2023-06-04 23:05:03][[agent-11]][SqlConnect] {"host":"127.0.0.1","user":"root"}
+[2023-06-04 23:05:03][[agent-11]][SqlQuery] {"query":"use hd_game50","use_time":0,"size":13}
+[2023-06-04 23:05:03][[agent-11]][SqlQuery] {"query":"SET NAMES utf8mb4","use_time":0,"size":17}
+[2023-06-04 23:05:03][[agent-11]][SqlQuery] {"query":"select count(*) from t_Role","use_time":0,"size":27}
+[2023-06-04 23:05:03][[agent-11]][SqlClose] {"host":"127.0.0.1","user":"root"}
+[2023-06-04 23:05:03][[game_database-10]][SqlQuery] {"query":"select * from t_LoverActivities","use_time":0,"size":31}
+[2023-06-04 23:06:15][[agent-11]][SqlConnect] {"host":"127.0.0.1","user":"root"}
+[2023-06-04 23:06:15][[agent-11]][SqlQuery] {"query":"use hd_game50","use_time":0,"size":13}
+[2023-06-04 23:06:15][[agent-11]][SqlQuery] {"query":"SET NAMES utf8mb4","use_time":0,"size":17}
+[2023-06-04 23:06:15][[agent-11]][SqlQuery] {"query":"select count(*) from t_Role","use_time":0,"size":27}
+[2023-06-04 23:06:15][[agent-11]][SqlClose] {"host":"127.0.0.1","user":"root"}
+[2023-06-04 23:06:15][[game_database-10]][SqlQuery] {"query":"select * from t_LoverActivities","use_time":0,"size":31}
+[2023-06-04 23:06:19][[game_database-10]][SqlQuery] {"query":"insert into t_LoverActivities (server_id ... 3,'1',100,1685897179,1,123,'60019','123')","use_time":0,"size":353}
+[2023-06-04 23:06:19][[agent-11]][SqlConnect] {"host":"127.0.0.1","user":"root"}
+[2023-06-04 23:06:19][[agent-11]][SqlQuery] {"query":"use hd_game50","use_time":0,"size":13}
+[2023-06-04 23:06:19][[agent-11]][SqlQuery] {"query":"SET NAMES utf8mb4","use_time":0,"size":17}
+[2023-06-04 23:06:19][[agent-11]][SqlQuery] {"query":"select count(*) from t_Role","use_time":0,"size":27}
+[2023-06-04 23:06:19][[agent-11]][SqlClose] {"host":"127.0.0.1","user":"root"}
+[2023-06-04 23:06:19][[game_database-10]][SqlQuery] {"query":"select * from t_LoverActivities","use_time":0,"size":31}
+[2023-06-04 23:06:30][[game_database-10]][SqlQuery] {"query":"insert into t_LoverActivities (server_id ... 1231',100,1685897189,1,123,'60019','123')","use_time":0.0099999904632568,"size":358}
+[2023-06-04 23:06:30][[agent-11]][SqlConnect] {"host":"127.0.0.1","user":"root"}
+[2023-06-04 23:06:30][[agent-11]][SqlQuery] {"query":"use hd_game50","use_time":0,"size":13}
+[2023-06-04 23:06:30][[agent-11]][SqlQuery] {"query":"SET NAMES utf8mb4","use_time":0,"size":17}
+[2023-06-04 23:06:30][[agent-11]][SqlQuery] {"query":"select count(*) from t_Role","use_time":0,"size":27}
+[2023-06-04 23:06:30][[agent-11]][SqlClose] {"host":"127.0.0.1","user":"root"}
+[2023-06-04 23:06:30][[game_database-10]][SqlQuery] {"query":"select * from t_LoverActivities","use_time":0,"size":31}
+[2023-06-04 23:07:47][[agent-11]][SqlConnect] {"host":"127.0.0.1","user":"root"}
+[2023-06-04 23:07:47][[agent-11]][SqlQuery] {"query":"use hd_game50","use_time":0,"size":13}
+[2023-06-04 23:07:47][[agent-11]][SqlQuery] {"query":"SET NAMES utf8mb4","use_time":0,"size":17}
+[2023-06-04 23:07:47][[agent-11]][SqlQuery] {"query":"select count(*) from t_Role","use_time":0,"size":27}
+[2023-06-04 23:07:47][[agent-11]][SqlClose] {"host":"127.0.0.1","user":"root"}
+[2023-06-04 23:07:47][[game_database-10]][SqlQuery] {"query":"select * from t_LoverActivities","use_time":0,"size":31}
+[2023-06-04 23:08:07][[agent-11]][SqlConnect] {"host":"127.0.0.1","user":"root"}
+[2023-06-04 23:08:07][[agent-11]][SqlQuery] {"query":"use hd_game50","use_time":0,"size":13}
+[2023-06-04 23:08:07][[agent-11]][SqlQuery] {"query":"SET NAMES utf8mb4","use_time":0,"size":17}
+[2023-06-04 23:08:07][[agent-11]][SqlQuery] {"query":"select count(*) from t_Role","use_time":0,"size":27}
+[2023-06-04 23:08:07][[agent-11]][SqlClose] {"host":"127.0.0.1","user":"root"}
+[2023-06-04 23:08:07][[game_database-10]][SqlQuery] {"query":"select * from t_LoverActivities","use_time":0,"size":31}
+[2023-06-04 23:13:16][[game_database-10]][SqlQuery] {"query":"update t_DynastyRank set dynasty_list='{ ... re rank_name='rush_activity_dynasty_rank'","use_time":0,"size":87}
+[2023-06-04 23:13:16][[game_database-10]][SqlQuery] {"query":"update t_DynastyRank set dynasty_list='{ ... k_name='traitor_boss_honour_dynasty_rank'","use_time":0,"size":93}
+[2023-06-04 23:13:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ere rank_name='activity_fight_score_rank'","use_time":0,"size":93}
+[2023-06-04 23:13:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... t='{}' where rank_name='fight_score_rank'","use_time":0,"size":84}
+[2023-06-04 23:13:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... e rank_name='rush_activity_intimacy_rank'","use_time":0,"size":95}
+[2023-06-04 23:13:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_list='{}' where rank_name='hunt_rank'","use_time":0,"size":77}
+[2023-06-04 23:13:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... '{}' where rank_name='traitor_feats_rank'","use_time":0,"size":86}
+[2023-06-04 23:13:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... rank_name='rush_activity_checkpoint_rank'","use_time":0,"size":97}
+[2023-06-04 23:13:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... where rank_name='rush_activity_food_rank'","use_time":0,"size":91}
+[2023-06-04 23:13:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ' where rank_name='activity_stamina_rank'","use_time":0.0099999904632568,"size":89}
+[2023-06-04 23:13:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... {}' where rank_name='activity_login_rank'","use_time":0,"size":87}
+[2023-06-04 23:13:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... here rank_name='rush_activity_score_rank'","use_time":0,"size":92}
+[2023-06-04 23:13:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ='{}' where rank_name='traitor_hurt_rank'","use_time":0,"size":85}
+[2023-06-04 23:13:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ' where rank_name='activity_diamond_rank'","use_time":0,"size":89}
+[2023-06-04 23:13:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... re rank_name='rush_activity_soldier_rank'","use_time":0,"size":94}
+[2023-06-04 23:13:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... {}' where rank_name='activity_money_rank'","use_time":0,"size":87}
+[2023-06-04 23:13:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... rank_name='rush_activity_ringleader_rank'","use_time":0,"size":97}
+[2023-06-04 23:13:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... here rank_name='rush_activity_party_rank'","use_time":0,"size":92}
+[2023-06-04 23:13:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ...  where rank_name='traitor_boss_hurt_rank'","use_time":0,"size":90}
+[2023-06-04 23:13:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ' where rank_name='traitor_max_hurt_rank'","use_time":0.0099999904632568,"size":89}
+[2023-06-04 23:13:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ...  where rank_name='activity_intimacy_rank'","use_time":0,"size":90}
+[2023-06-04 23:13:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ' where rank_name='activity_banquet_rank'","use_time":0,"size":89}
+[2023-06-04 23:13:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_list='{}' where rank_name='train_rank'","use_time":0,"size":78}
+[2023-06-04 23:13:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... e rank_name='rush_activity_recharge_rank'","use_time":0,"size":95}
+[2023-06-04 23:13:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_list='{}' where rank_name='score_rank'","use_time":0,"size":78}
+[2023-06-04 23:13:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_list='{}' where rank_name='level_rank'","use_time":0,"size":78}
+[2023-06-04 23:13:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... ' where rank_name='activity_soldier_rank'","use_time":0,"size":89}
+[2023-06-04 23:13:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... where rank_name='rush_activity_hunt_rank'","use_time":0,"size":91}
+[2023-06-04 23:13:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... {}' where rank_name='activity_score_rank'","use_time":0,"size":87}
+[2023-06-04 23:13:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... here rank_name='traitor_boss_honour_rank'","use_time":0.0099999904632568,"size":92}
+[2023-06-04 23:13:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... here rank_name='rush_activity_money_rank'","use_time":0,"size":92}
+[2023-06-04 23:13:16][[game_database-10]][SqlQuery] {"query":"update t_Rank set forbid_dict='{}',role_ ... st='{}' where rank_name='stage_star_rank'","use_time":0,"size":83}
+[2023-06-04 23:27:10][[agent-11]][SqlConnect] {"host":"127.0.0.1","user":"root"}
+[2023-06-04 23:27:16][[agent-11]][SqlConnect] {"host":"127.0.0.1","user":"root"}
+[2023-06-04 23:35:48][[agent-11]][SqlConnect] {"host":"127.0.0.1","user":"root"}
+[2023-06-04 23:36:01][[agent-11]][SqlConnect] {"host":"127.0.0.1","user":"root"}
+[2023-06-04 23:36:05][[agent-11]][SqlConnect] {"host":"127.0.0.1","user":"root"}
+[2023-06-04 23:36:08][[agent-11]][SqlConnect] {"host":"127.0.0.1","user":"root"}
+[2023-06-04 23:36:29][[agent-11]][SqlConnect] {"host":"127.0.0.1","user":"root"}
+[2023-06-04 23:36:30][[agent-11]][SqlConnect] {"host":"127.0.0.1","user":"root"}
+[2023-06-04 23:36:31][[agent-11]][SqlConnect] {"host":"127.0.0.1","user":"root"}
+[2023-06-04 23:36:32][[agent-11]][SqlConnect] {"host":"127.0.0.1","user":"root"}
+[2023-06-04 23:43:46][[agent-11]][SqlConnect] {"host":"127.0.0.1","user":"root"}
+[2023-06-04 23:44:07][[agent-11]][SqlConnect] {"host":"127.0.0.1","user":"root"}
+[2023-06-04 23:44:58][[agent-11]][SqlConnect] {"host":"127.0.0.1","user":"root"}

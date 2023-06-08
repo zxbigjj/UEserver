@@ -22,6 +22,7 @@ def view_event_config(curr_user):
 @check_user("lover_activities")
 def query_lover_activities(curr_user):
     server_list = common_utils.call_gm(None, None, 'get_server_list', None)
+    List=[]
     for server_id, server_info in server_list.items():
         request = common_utils.call_gm(
             server_id, None, 'get_server_info_role_online', None)
@@ -29,12 +30,9 @@ def query_lover_activities(curr_user):
             args = dict(
                 server_id=server_id,
             )
-            result = common_utils.call_gm(server_id, None, "query_lover_activities",None)
-            if result['code'] == 0:
-                return {"info": result["data"]}
-            else:
-                return {"err": result['err_msg']}
-    return {"err": 'err_msg'}
+            List =List+ list(common_utils.call_gm(server_id, None, "query_lover_activities",None)["data"])
+    
+    return {"info": List}
 
 
 @route('/add_lover_activities', method="post")
@@ -42,6 +40,7 @@ def query_lover_activities(curr_user):
 def add_lover_activities(curr_user):
     try:
         goods_name = request.params.get("goods_name")
+        server_id = int(request.params.get("server_id"))
         reward = json.loads(request.params.get("reward"))
         price = int(request.params.get("price"))
         discount = int(request.params.get("discount"))
@@ -58,6 +57,7 @@ def add_lover_activities(curr_user):
         return {"err": "检查输入"}
     args = dict(
         goods_name=goods_name,
+        server_id=server_id,
         item_list=reward,
         price=price, discount=discount,
         icon=icon, face_time=face_time,
@@ -68,14 +68,57 @@ def add_lover_activities(curr_user):
         status='activate', purchase_count=1,
     )
 
-    print(args)
-    server_list = common_utils.call_gm(None, None, 'get_server_list', None)
-    for server_id, server_info in server_list.items():
-        result = common_utils.call_gm(server_id, None, "add_lover_activities", args)
-        if result['code'] == 0:
-            return {"info": ""}
-        else:
-            return {"err": result['err_msg']}
+    
+    
+    result = common_utils.call_gm(server_id, None, "add_lover_activities", args)
+    
+    if result['code'] == 0:
+        return {"info": ""}
+    else:
+        return {"err": result['err_msg']}
+
+@route('/clone_lover_activities', method="post")
+@check_user("lover_activities")
+def clone_lover_activities(curr_user):
+    try:
+        goods_name = request.params.get("goods_name")
+        server_id = int(request.params.get("server_id"))
+        reward = json.loads(request.params.get("reward"))
+        price = int(request.params.get("price"))
+        discount = int(request.params.get("discount"))
+        icon = request.params.get("icon")
+        face_time = request.params.get("face_time")
+        refresh_interval = int(request.params.get("refresh_interval"))
+        lover_id = int(request.params.get("lover_id"))
+        lover_piece = int(request.params.get("lover_piece"))
+        lover_fashion = int(request.params.get("lover_fashion"))
+        lover_type = int(request.params.get("lover_type"))
+        activity_name_fir = request.params.get("activity_name_fir")
+        activity_name_sec = request.params.get("activity_name_sec")
+    except:
+        return {"err": "检查输入"}
+    args = dict(
+        goods_name=goods_name,
+        server_id = server_id,
+        item_list=reward,
+        price=price, discount=discount,
+        icon=icon, face_time=face_time,
+        refresh_interval=refresh_interval,
+        lover_id=lover_id, lover_piece=lover_piece,
+        lover_fashion=lover_fashion, lover_type=lover_type,
+        activity_name_fir=activity_name_fir, activity_name_sec=activity_name_sec,
+        status='activate', purchase_count=1,
+    )
+
+    
+    
+    result = common_utils.call_gm(server_id, None, "add_lover_activities", args)
+    
+    if result['code'] == 0:
+        return {"info": ""}
+    else:
+        return {"err": result['err_msg']}
+    
 
 
 @route('/update_lover_activities', method="post")
@@ -84,6 +127,7 @@ def update_lover_activities(curr_user):
     try:
         goods_name = request.params.get("goods_name")
         id = int(request.params.get("id"))
+        server_id = int(request.params.get("server_id"))
         reward = json.loads(request.params.get("reward"))
         price = int(request.params.get("price"))
         discount = int(request.params.get("discount"))
@@ -100,6 +144,7 @@ def update_lover_activities(curr_user):
         return {"err": "Check the input"}
     args = dict(
         goods_name=goods_name,
+        server_id=server_id,
         id=id,
         item_list=reward,
         price=price, discount=discount,
@@ -111,13 +156,14 @@ def update_lover_activities(curr_user):
         status='activate', purchase_count=1,
     )
     print(args)
-    server_list = common_utils.call_gm(None, None, 'get_server_list', None)
-    for server_id, server_info in server_list.items():
-        result = common_utils.call_gm(server_id, None, "edit_lover_activities", args)
-        if result['code'] == 0:
-          return {"info": ""}
-        else:
-          return {"err": result['err_msg']}
+    
+    result = common_utils.call_gm(server_id, None, "edit_lover_activities", args)
+    
+    if result['code'] == 0:
+        return {"info": ""}
+    else:
+        return {"err": result['err_msg']}
+    
 
 
 @route('/del_lover_activities', method="post")
@@ -125,20 +171,22 @@ def update_lover_activities(curr_user):
 def del_lover_activities(curr_user):
     try:
         id = int(request.params.get("id"))
+        server_id = int(request.params.get("server_id"))
     except:
         return {"err": "error"}
     else:
         pass
-    args = dict(id=id)
+    args = dict(id=id, server_id=server_id)
 
     print(args)
-    server_list = common_utils.call_gm(None, None, 'get_server_list', None)
-    for server_id, server_info in server_list.items():
-        result = common_utils.call_gm(server_id, None, "del_lover_activities", args)
-        if result['code'] == 0:
-            return {"info": ""}
-        else:
-            return {"err": result['err_msg']}
+    
+    result = common_utils.call_gm(server_id, None, "del_lover_activities", args)
+    
+    if result['code'] == 0:
+        return {"info": ""}
+    else:
+        return {"err": result['err_msg']}
+    
 
 
 # @route('/activate_lover_activities', method="post")

@@ -1,0 +1,24 @@
+[2023-06-05 17:44:49][[common_init-c]][SqlConnect] {"host":"127.0.0.1","user":"root"}
+[2023-06-05 17:44:49][[common_init-c]][SqlQuery] {"query":"use hd_game2810","use_time":0.0099999904632568,"size":15}
+[2023-06-05 17:44:49][[common_init-c]][SqlQuery] {"query":"SET NAMES utf8mb4","use_time":0,"size":17}
+[2023-06-05 17:44:49][[common_init-c]][SqlQuery] {"query":"select count(*) from t_uuid_alloc","use_time":0.0099999904632568,"size":33}
+[2023-06-05 17:44:49][[common_init-c]][SqlQuery] {"query":"insert t_uuid_alloc (rand_key) values (\"4WgnKKRODiKp8WS3\")","use_time":0.0099999904632568,"size":58}
+[2023-06-05 17:44:49][[common_init-c]][SqlQuery] {"query":"select * from t_uuid_alloc where rand_key='4WgnKKRODiKp8WS3'","use_time":0,"size":60}
+[2023-06-05 17:44:49][[common_init-c]][SqlClose] {"host":"127.0.0.1","user":"root"}
+[2023-06-05 17:44:52][[game_database-10]][SqlConnect] {"host":"127.0.0.1","user":"root"}
+[2023-06-05 17:44:52][[game_database-10]][SqlQuery] {"query":"use hd_login","use_time":0,"size":12}
+[2023-06-05 17:44:52][[game_database-10]][SqlQuery] {"query":"SET NAMES utf8mb4","use_time":0,"size":17}
+[2023-06-05 17:44:52][[game_database-10]][SqlQuery] {"query":"select count(*) from t_lua_schema","use_time":0,"size":33}
+[2023-06-05 17:44:52][[game_database-10]][SqlQuery] {"query":"select * from t_lua_schema where name='t_LoginRolesInfo'","use_time":0,"size":56}
+[2023-06-05 17:51:34][[common_init-c]][SqlConnect] {"host":"127.0.0.1","user":"root"}
+[2023-06-05 17:51:34][[common_init-c]][SqlQuery] {"query":"use hd_game2810","use_time":0.0099999904632568,"size":15}
+[2023-06-05 17:51:34][[common_init-c]][SqlQuery] {"query":"SET NAMES utf8mb4","use_time":0,"size":17}
+[2023-06-05 17:51:34][[common_init-c]][SqlQuery] {"query":"select count(*) from t_uuid_alloc","use_time":0,"size":33}
+[2023-06-05 17:51:34][[common_init-c]][SqlQuery] {"query":"insert t_uuid_alloc (rand_key) values (\"uPXCvRqCMPbzufeo\")","use_time":0.019999980926514,"size":58}
+[2023-06-05 17:51:34][[common_init-c]][SqlQuery] {"query":"select * from t_uuid_alloc where rand_key='uPXCvRqCMPbzufeo'","use_time":0,"size":60}
+[2023-06-05 17:51:34][[common_init-c]][SqlClose] {"host":"127.0.0.1","user":"root"}
+[2023-06-05 17:51:37][[game_database-10]][SqlConnect] {"host":"127.0.0.1","user":"root"}
+[2023-06-05 17:51:37][[game_database-10]][SqlQuery] {"query":"use hd_login","use_time":0,"size":12}
+[2023-06-05 17:51:37][[game_database-10]][SqlQuery] {"query":"SET NAMES utf8mb4","use_time":0.0099999904632568,"size":17}
+[2023-06-05 17:51:37][[game_database-10]][SqlQuery] {"query":"select count(*) from t_lua_schema","use_time":0,"size":33}
+[2023-06-05 17:51:37][[game_database-10]][SqlQuery] {"query":"select * from t_lua_schema where name='t_LoginRolesInfo'","use_time":0,"size":56}

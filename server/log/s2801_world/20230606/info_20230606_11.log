@@ -1,0 +1,378 @@
+[2023-06-06 11:04:14][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:04:14][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-06 11:04:14][[world-11]][info] reload_mod begin: lua_handles <==> ./gamelogic/service/world/lua_handles.lua
+[2023-06-06 11:04:21][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:04:21][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-06 11:04:21][[world-11]][info] reload_mod begin: lua_handles <==> ./gamelogic/service/world/lua_handles.lua
+[2023-06-06 11:04:23][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:04:23][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-06 11:04:23][[world-11]][info] reload_mod begin: lua_handles <==> ./gamelogic/service/world/lua_handles.lua
+[2023-06-06 11:04:27][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:04:27][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-06 11:04:27][[world-11]][info] reload_mod begin: lua_handles <==> ./gamelogic/service/world/lua_handles.lua
+[2023-06-06 11:04:28][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:04:28][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-06 11:04:28][[world-11]][info] reload_mod begin: lua_handles <==> ./gamelogic/service/world/lua_handles.lua
+[2023-06-06 11:04:37][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:04:37][[reload_watcher-a]][info] file to reload:
+./service/gm_router/gm_router.lua
+[2023-06-06 11:04:42][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:04:42][[reload_watcher-a]][info] file to reload:
+./service/gm_router/gm_router.lua
+[2023-06-06 11:04:47][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:04:47][[reload_watcher-a]][info] file to reload:
+./service/gm_router/gm_router.lua
+[2023-06-06 11:05:13][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:05:13][[reload_watcher-a]][info] file to reload:
+./service/gm_router/gm_router.lua
+[2023-06-06 11:06:41][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:06:41][[reload_watcher-a]][info] file to reload:
+./service/gm_router/gm_router.lua
+[2023-06-06 11:06:45][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:06:45][[reload_watcher-a]][info] file to reload:
+./service/gm_router/gm_router.lua
+[2023-06-06 11:06:53][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:06:53][[reload_watcher-a]][info] file to reload:
+./service/gm_router/gm_router.lua
+[2023-06-06 11:06:59][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:06:59][[reload_watcher-a]][info] file to reload:
+./service/gm_router/gm_router.lua
+[2023-06-06 11:07:05][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:07:05][[reload_watcher-a]][info] file to reload:
+./service/gm_router/gm_router.lua
+[2023-06-06 11:23:50][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-06 11:24:50][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:24:50][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:24:50][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:25:01][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:25:01][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:25:01][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:25:38][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:25:38][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:25:38][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:25:39][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:25:39][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:25:39][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:25:41][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:25:41][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:25:41][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:27:28][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:27:28][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:27:28][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:27:34][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:27:34][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:27:34][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:27:37][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:27:37][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:27:37][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:27:42][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:27:42][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:27:42][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:27:50][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:27:50][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:27:50][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:27:57][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:27:57][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:27:57][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:28:00][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-06 11:28:52][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:28:52][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:28:52][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:31:17][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:31:17][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:31:17][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:31:47][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:31:47][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:31:47][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:31:49][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:31:49][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:31:49][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:31:51][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:31:51][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:31:51][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:32:11][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:32:11][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:32:11][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:32:17][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:32:17][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:32:17][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:32:18][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:32:18][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:32:18][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:32:20][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:32:20][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:32:20][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:32:21][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:32:21][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:32:21][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:32:24][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:32:24][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:32:24][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:32:29][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:32:29][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:32:29][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:32:40][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:32:40][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:32:40][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:32:50][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:32:50][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:32:50][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:32:51][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:32:51][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:32:51][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:32:52][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-06 11:33:29][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:33:29][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:33:29][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:33:33][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:33:33][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:33:33][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:33:34][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-06 11:34:18][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-06 11:34:28][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:34:28][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:34:28][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:34:29][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:34:29][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:34:29][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:34:33][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:34:33][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:34:33][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:34:36][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:34:36][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:34:36][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:34:46][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-06 11:34:52][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-06 11:35:14][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-06 11:36:02][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:36:02][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:36:02][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:36:09][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:36:09][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:36:09][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:36:11][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:36:11][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:36:11][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:36:24][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:36:24][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:36:24][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:36:28][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:36:28][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:36:28][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:36:56][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:36:56][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:36:56][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:36:58][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:36:58][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:36:58][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:37:35][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:37:35][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:37:35][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:37:43][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:37:43][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:37:43][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:37:49][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:37:49][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:37:49][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:37:51][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:37:51][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:37:51][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:37:57][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:37:57][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:37:57][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:38:26][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:38:26][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:38:26][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:38:27][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:38:27][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:38:27][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:38:59][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:38:59][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-06 11:38:59][[world-11]][info] reload_mod begin: lua_handles <==> ./gamelogic/service/world/lua_handles.lua
+[2023-06-06 11:39:02][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:39:02][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-06 11:39:02][[world-11]][info] reload_mod begin: lua_handles <==> ./gamelogic/service/world/lua_handles.lua
+[2023-06-06 11:39:06][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:39:06][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/lua_handles.lua
+[2023-06-06 11:39:06][[world-11]][info] reload_mod begin: lua_handles <==> ./gamelogic/service/world/lua_handles.lua
+[2023-06-06 11:39:16][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:39:16][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:39:16][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:39:19][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:39:19][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:39:19][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:39:54][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:39:54][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:39:54][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:40:02][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:40:02][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:40:02][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:40:09][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:40:09][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:40:09][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:40:11][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:40:11][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:40:11][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:40:13][[reload_watcher-a]][info] excel to reload:
+
+[2023-06-06 11:40:13][[reload_watcher-a]][info] file to reload:
+./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:40:13][[world-11]][info] reload_mod begin: gift_key <==> ./gamelogic/service/world/gift_key.lua
+[2023-06-06 11:40:15][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-06 11:40:22][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-06 11:40:24][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-06 11:42:38][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-06 11:42:47][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-06 11:42:59][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-06 11:43:07][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-06 11:43:21][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-06 11:44:12][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-06 11:44:28][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-06 11:44:50][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-06 11:46:03][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-06 11:47:56][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-06 11:48:09][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-06 11:48:10][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-06 11:48:17][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-06 11:48:18][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-06 11:48:37][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-06 11:49:23][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-06 11:49:28][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-06 11:53:30][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-06 11:53:33][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-06 11:53:36][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-06 11:53:39][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-06 11:54:31][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-06 11:54:34][[game_database-10]][info] SqlQueryCount: 2
+[2023-06-06 11:55:26][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-06 11:55:27][[game_database-10]][info] SqlQueryCount: 1
+[2023-06-06 11:56:53][[game_database-10]][info] SqlQueryCount: 2

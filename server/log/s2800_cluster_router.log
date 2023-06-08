@@ -46,3 +46,899 @@ CreateThread: 1782, socket_send_worker
 [2023-05-22 14:40:47][:0000000f] socket open: 12
 [2023-05-22 14:40:47][:0000000f] socket open: 14
 [2023-05-22 14:40:47][:0000000f] socket open: 16
+CreateThread: 16378, skynet_worker
+[2023-06-04 17:03:03][:00000002] LAUNCH snlua bootstrap
+CreateThread: 16373, skynet_worker
+CreateThread: 16374, skynet_worker
+CreateThread: 16370, thread_monitor
+CreateThread: 16371, thread_timer
+CreateThread: 16375, skynet_worker
+CreateThread: 16376, skynet_worker
+CreateThread: 16377, skynet_worker
+CreateThread: 16380, skynet_worker
+CreateThread: 16372, thread_socket
+CreateThread: 16379, skynet_worker
+[2023-06-04 17:03:03][:00000003] LAUNCH snlua launcher
+[2023-06-04 17:03:03][:00000004] LAUNCH snlua cdummy
+[2023-06-04 17:03:03][:00000005] LAUNCH harbor 0 4
+[2023-06-04 17:03:03][:00000006] LAUNCH snlua datacenterd
+[2023-06-04 17:03:03][:00000007] LAUNCH snlua service_mgr
+[2023-06-04 17:03:03][:00000008] LAUNCH snlua cluster_router_launcher
+[2023-06-04 17:03:03][cluster_router_launcher-8]	load sproto:./bin/c2s.spb
+[2023-06-04 17:03:03][cluster_router_launcher-8]	load sproto:./bin/s2c.spb
+[2023-06-04 17:03:03][cluster_router_launcher-8]	[warn][node s2800_cluster_router]start begin
+[2023-06-04 17:03:03][:00000009] LAUNCH snlua gamelog
+[2023-06-04 17:03:03][gamelog-9]	true	exit	0
+[2023-06-04 17:03:03][gamelog-9]	true	exit	0
+[2023-06-04 17:03:03][gamelog-9]	true	exit	0
+[2023-06-04 17:03:03][:0000000a] LAUNCH snlua reload_watcher
+[2023-06-04 17:03:03][:0000000b] LAUNCH snlua debug_console 40302
+[2023-06-04 17:03:03][:0000000b] Start debug console at 127.0.0.1:40302
+[2023-06-04 17:03:03][:0000000c] LAUNCH snlua common_init
+header:<25S_A_>, len:<6>
+[2023-06-04 17:03:03][:0000000d] LAUNCH snlua clusterd
+[2023-06-04 17:03:03][:0000000e] LAUNCH snlua sharedatad
+[2023-06-04 17:03:03][:0000000f] LAUNCH gate M :0000000d :::40301 3 65535 2
+[2023-06-04 17:03:03][:00000010] LAUNCH snlua cluster_router
+CreateThread: 16384, socket_send_worker
+CreateThread: 16385, socket_send_worker
+[2023-06-04 17:03:03][cluster_router_launcher-8]	[warn][node s2800_cluster_router]all service booted
+[2023-06-04 17:03:03][:00000002] KILL self
+[2023-06-04 17:03:06][:0000000f] socket open: 4
+[2023-06-04 17:03:06][:0000000f] socket open: 6
+[2023-06-04 17:03:07][:0000000f] socket open: 8
+[2023-06-04 17:03:07][:0000000f] socket open: a
+[2023-06-04 17:03:12][:0000000f] socket open: c
+[2023-06-04 17:03:12][:0000000f] socket open: e
+[2023-06-04 17:03:12][:0000000f] socket open: f
+[2023-06-04 17:03:17][:0000000f] socket open: 12
+[2023-06-04 17:03:17][:0000000f] socket open: 14
+[2023-06-04 17:03:17][:0000000f] socket open: 16
+CreateThread: 4540, skynet_worker
+[2023-06-05 10:24:13][:00000002] LAUNCH snlua bootstrap
+CreateThread: 4535, skynet_worker
+CreateThread: 4536, skynet_worker
+CreateThread: 4531, thread_monitor
+CreateThread: 4532, thread_timer
+CreateThread: 4533, thread_socket
+CreateThread: 4537, skynet_worker
+CreateThread: 4538, skynet_worker
+CreateThread: 4539, skynet_worker
+CreateThread: 4534, skynet_worker
+CreateThread: 4541, skynet_worker
+[2023-06-05 10:24:14][:00000003] LAUNCH snlua launcher
+[2023-06-05 10:24:14][:00000004] LAUNCH snlua cdummy
+[2023-06-05 10:24:14][:00000005] LAUNCH harbor 0 4
+[2023-06-05 10:24:14][:00000006] LAUNCH snlua datacenterd
+[2023-06-05 10:24:14][:00000007] LAUNCH snlua service_mgr
+[2023-06-05 10:24:14][:00000008] LAUNCH snlua cluster_router_launcher
+[2023-06-05 10:24:14][cluster_router_launcher-8]	load sproto:./bin/c2s.spb
+[2023-06-05 10:24:14][cluster_router_launcher-8]	load sproto:./bin/s2c.spb
+[2023-06-05 10:24:14][cluster_router_launcher-8]	[warn][node s2800_cluster_router]start begin
+[2023-06-05 10:24:14][:00000009] LAUNCH snlua gamelog
+[2023-06-05 10:24:14][gamelog-9]	true	exit	0
+[2023-06-05 10:24:14][gamelog-9]	true	exit	0
+[2023-06-05 10:24:14][gamelog-9]	true	exit	0
+[2023-06-05 10:24:14][:0000000a] LAUNCH snlua reload_watcher
+[2023-06-05 10:24:14][:0000000b] LAUNCH snlua debug_console 40302
+[2023-06-05 10:24:14][:0000000b] Start debug console at 127.0.0.1:40302
+[2023-06-05 10:24:14][:0000000c] LAUNCH snlua common_init
+header:<25S_B_>, len:<6>
+[2023-06-05 10:24:14][:0000000d] LAUNCH snlua clusterd
+[2023-06-05 10:24:14][:0000000e] LAUNCH snlua sharedatad
+[2023-06-05 10:24:14][:0000000f] LAUNCH gate M :0000000d :::40301 3 65535 2
+[2023-06-05 10:24:14][:00000010] LAUNCH snlua cluster_router
+CreateThread: 4556, socket_send_worker
+CreateThread: 4555, socket_send_worker
+[2023-06-05 10:24:14][cluster_router_launcher-8]	[warn][node s2800_cluster_router]all service booted
+[2023-06-05 10:24:14][:00000002] KILL self
+[2023-06-05 10:24:17][:0000000f] socket open: 4
+[2023-06-05 10:24:17][:0000000f] socket open: 5
+[2023-06-05 10:24:17][:0000000f] socket open: 8
+[2023-06-05 10:24:17][:0000000f] socket open: 9
+[2023-06-05 10:24:23][:0000000f] socket open: c
+[2023-06-05 10:24:23][:0000000f] socket open: e
+[2023-06-05 10:24:23][:0000000f] socket open: 10
+[2023-06-05 10:24:28][:0000000f] socket open: 12
+[2023-06-05 10:24:28][:0000000f] socket open: 14
+[2023-06-05 10:24:28][:0000000f] socket open: 16
+[2023-06-05 17:44:34][cluster_router-10]	[warn]NodeDown:s50_chat
+[2023-06-05 17:44:34][cluster_router-10]	[warn]NodeDown:s50_dynasty
+[2023-06-05 17:44:34][cluster_router-10]	[warn]NodeDown:s50_game
+[2023-06-05 17:44:35][cluster_router-10]	[warn]NodeDown:s55_chat
+[2023-06-05 17:44:35][cluster_router-10]	[warn]NodeDown:s55_dynasty
+[2023-06-05 17:44:35][cluster_router-10]	[warn]NodeDown:s55_game
+[2023-06-05 17:44:35][cluster_router-10]	[warn]NodeChange
+[2023-06-05 17:44:37][cluster_router-10]	[warn]NodeDown:s70_cross
+[2023-06-05 17:44:37][clusterd-d]	stack traceback:
+	./lualib/srv_utils/gate_utils.lua:85: in function 'srv_utils.gate_utils.connect'
+	./service/clusterd/clusterd_utils.lua:116: in function <./service/clusterd/clusterd_utils.lua:108>
+	[C]: in function 'xpcall'
+	./lualib/srv_utils/co_lock.lua:175: in method 'run'
+	./service/clusterd/clusterd_utils.lua:108: in method '__connect'
+	./service/clusterd/clusterd_utils.lua:124: in method '_send'
+	./service/clusterd/clusterd_utils.lua:189: in method 'send'
+	./service/clusterd/clusterd_utils.lua:376: in local 'func'
+	./lualib/msg_utils/lua_handles_utils.lua:68: in function 'msg_utils.lua_handles_utils._lua_handle'
+	(...tail calls...)
+	./skynet/lualib/skynet.lua:190: in function <./skynet/lualib/skynet.lua:153>
+[2023-06-05 17:44:37][:0000000d] lua call [f to :d : 0 msgsz = 13] error : [31m./skynet/lualib/skynet.lua:681: ./skynet/lualib/skynet.lua:233: ./lualib/srv_utils/co_lock.lua:146: ./lualib/srv_utils/gate_utils.lua:86: connect fail: 117.50.193.85, 15520, error
+stack traceback:
+	[C]: in function 'error'
+	./lualib/srv_utils/gate_utils.lua:86: in function 'srv_utils.gate_utils.connect'
+	./service/clusterd/clusterd_utils.lua:116: in function <./service/clusterd/clusterd_utils.lua:108>
+	[C]: in function 'xpcall'
+	./lualib/srv_utils/co_lock.lua:175: in method 'run'
+	./service/clusterd/clusterd_utils.lua:108: in method '__connect'
+	./service/clusterd/clusterd_utils.lua:124: in method '_send'
+	./service/clusterd/clusterd_utils.lua:189: in method 'send'
+	./service/clusterd/clusterd_utils.lua:376: in local 'func'
+	./lualib/msg_utils/lua_handles_utils.lua:68: in function 'msg_utils.lua_handles_utils._lua_handle'
+	(...tail calls...)
+	./skynet/lualib/skynet.lua:190: in function <./skynet/lualib/skynet.lua:153>
+stack traceback:
+	[C]: in function 'error'
+	./lualib/srv_utils/co_lock.lua:146: in function <./lualib/srv_utils/co_lock.lua:130>
+	(...tail calls...)
+	./service/clusterd/clusterd_utils.lua:108: in method '__connect'
+	./service/clusterd/clusterd_utils.lua:124: in method '_send'
+	./service/clusterd/clusterd_utils.lua:189: in method 'send'
+	./service/clusterd/clusterd_utils.lua:376: in local 'func'
+	./lualib/msg_utils/lua_handles_utils.lua:68: in function 'msg_utils.lua_handles_utils._lua_handle'
+	(...tail calls...)
+	./skynet/lualib/skynet.lua:190: in function <./skynet/lualib/skynet.lua:153>
+stack traceback:
+	[C]: in function 'assert'
+	./skynet/lualib/skynet.lua:681: in function 'skynet.manager.dispatch_message'[0m
+[2023-06-05 17:44:39][cluster_router-10]	[warn]NodeDown:s2810_login
+[2023-06-05 17:44:39][clusterd-d]	stack traceback:
+	./lualib/srv_utils/gate_utils.lua:85: in function 'srv_utils.gate_utils.connect'
+	./service/clusterd/clusterd_utils.lua:116: in function <./service/clusterd/clusterd_utils.lua:108>
+	[C]: in function 'xpcall'
+	./lualib/srv_utils/co_lock.lua:175: in method 'run'
+	./service/clusterd/clusterd_utils.lua:108: in method '__connect'
+	./service/clusterd/clusterd_utils.lua:124: in method '_send'
+	./service/clusterd/clusterd_utils.lua:189: in method 'send'
+	./service/clusterd/clusterd_utils.lua:376: in local 'func'
+	./lualib/msg_utils/lua_handles_utils.lua:68: in function 'msg_utils.lua_handles_utils._lua_handle'
+	(...tail calls...)
+	./skynet/lualib/skynet.lua:190: in function <./skynet/lualib/skynet.lua:153>
+[2023-06-05 17:44:39][:0000000d] lua call [f to :d : 0 msgsz = 13] error : [31m./skynet/lualib/skynet.lua:681: ./skynet/lualib/skynet.lua:233: ./lualib/srv_utils/co_lock.lua:146: ./lualib/srv_utils/gate_utils.lua:86: connect fail: 117.50.193.85, 15520, error
+stack traceback:
+	[C]: in function 'error'
+	./lualib/srv_utils/gate_utils.lua:86: in function 'srv_utils.gate_utils.connect'
+	./service/clusterd/clusterd_utils.lua:116: in function <./service/clusterd/clusterd_utils.lua:108>
+	[C]: in function 'xpcall'
+	./lualib/srv_utils/co_lock.lua:175: in method 'run'
+	./service/clusterd/clusterd_utils.lua:108: in method '__connect'
+	./service/clusterd/clusterd_utils.lua:124: in method '_send'
+	./service/clusterd/clusterd_utils.lua:189: in method 'send'
+	./service/clusterd/clusterd_utils.lua:376: in local 'func'
+	./lualib/msg_utils/lua_handles_utils.lua:68: in function 'msg_utils.lua_handles_utils._lua_handle'
+	(...tail calls...)
+	./skynet/lualib/skynet.lua:190: in function <./skynet/lualib/skynet.lua:153>
+stack traceback:
+	[C]: in function 'error'
+	./lualib/srv_utils/co_lock.lua:146: in function <./lualib/srv_utils/co_lock.lua:130>
+	(...tail calls...)
+	./service/clusterd/clusterd_utils.lua:108: in method '__connect'
+	./service/clusterd/clusterd_utils.lua:124: in method '_send'
+	./service/clusterd/clusterd_utils.lua:189: in method 'send'
+	./service/clusterd/clusterd_utils.lua:376: in local 'func'
+	./lualib/msg_utils/lua_handles_utils.lua:68: in function 'msg_utils.lua_handles_utils._lua_handle'
+	(...tail calls...)
+	./skynet/lualib/skynet.lua:190: in function <./skynet/lualib/skynet.lua:153>
+stack traceback:
+	[C]: in function 'assert'
+	./skynet/lualib/skynet.lua:681: in function 'skynet.manager.dispatch_message'[0m
+[2023-06-05 17:44:41][cluster_router-10]	[error]NodeDown:s55_dynasty
+[2023-06-05 17:44:41][cluster_router-10]	[warn]NodeDown:s2803_gm_router
+[2023-06-05 17:44:43][cluster_router-10]	[warn]NodeDown:s2801_world
+CreateThread: 5755, skynet_worker
+[2023-06-05 17:44:45][:00000002] LAUNCH snlua bootstrap
+CreateThread: 5750, skynet_worker
+CreateThread: 5751, skynet_worker
+CreateThread: 5746, thread_monitor
+CreateThread: 5747, thread_timer
+CreateThread: 5748, thread_socket
+CreateThread: 5752, skynet_worker
+CreateThread: 5753, skynet_worker
+CreateThread: 5754, skynet_worker
+CreateThread: 5749, skynet_worker
+CreateThread: 5756, skynet_worker
+[2023-06-05 17:44:45][:00000003] LAUNCH snlua launcher
+[2023-06-05 17:44:45][:00000004] LAUNCH snlua cdummy
+[2023-06-05 17:44:45][:00000005] LAUNCH harbor 0 4
+[2023-06-05 17:44:45][:00000006] LAUNCH snlua datacenterd
+[2023-06-05 17:44:45][:00000007] LAUNCH snlua service_mgr
+[2023-06-05 17:44:45][:00000008] LAUNCH snlua cluster_router_launcher
+[2023-06-05 17:44:45][cluster_router_launcher-8]	load sproto:./bin/c2s.spb
+[2023-06-05 17:44:45][cluster_router_launcher-8]	load sproto:./bin/s2c.spb
+[2023-06-05 17:44:45][cluster_router_launcher-8]	[warn][node s2800_cluster_router]start begin
+[2023-06-05 17:44:45][:00000009] LAUNCH snlua gamelog
+[2023-06-05 17:44:45][gamelog-9]	true	exit	0
+[2023-06-05 17:44:45][gamelog-9]	true	exit	0
+[2023-06-05 17:44:45][gamelog-9]	true	exit	0
+[2023-06-05 17:44:45][:0000000a] LAUNCH snlua reload_watcher
+[2023-06-05 17:44:45][:0000000b] LAUNCH snlua debug_console 40302
+[2023-06-05 17:44:45][:0000000b] Start debug console at 127.0.0.1:40302
+[2023-06-05 17:44:45][:0000000c] LAUNCH snlua common_init
+header:<25S_C_>, len:<6>
+[2023-06-05 17:44:45][:0000000d] LAUNCH snlua clusterd
+[2023-06-05 17:44:45][:0000000e] LAUNCH snlua sharedatad
+[2023-06-05 17:44:45][:0000000f] LAUNCH gate M :0000000d :::40301 3 65535 2
+[2023-06-05 17:44:45][:00000010] LAUNCH snlua cluster_router
+CreateThread: 5760, socket_send_worker
+CreateThread: 5761, socket_send_worker
+[2023-06-05 17:44:45][cluster_router_launcher-8]	[warn][node s2800_cluster_router]all service booted
+[2023-06-05 17:44:45][:00000002] KILL self
+[2023-06-05 17:44:48][:0000000f] socket open: 4
+[2023-06-05 17:44:48][:0000000f] socket open: 6
+[2023-06-05 17:44:48][:0000000f] socket open: 8
+[2023-06-05 17:44:48][:0000000f] socket open: 9
+[2023-06-05 17:44:54][:0000000f] socket open: c
+[2023-06-05 17:44:54][:0000000f] socket open: e
+[2023-06-05 17:44:54][:0000000f] socket open: f
+[2023-06-05 17:44:59][:0000000f] socket open: 12
+[2023-06-05 17:44:59][:0000000f] socket open: 14
+[2023-06-05 17:44:59][:0000000f] socket open: 16
+[2023-06-05 17:49:07][cluster_router-10]	[warn]NodeDown:s50_chat
+[2023-06-05 17:49:07][cluster_router-10]	[warn]NodeDown:s50_dynasty
+[2023-06-05 17:49:07][cluster_router-10]	[warn]NodeDown:s50_game
+[2023-06-05 17:49:07][cluster_router-10]	[warn]NodeChange
+[2023-06-05 17:49:07][cluster_router-10]	[warn]NodeChange
+[2023-06-05 17:49:08][cluster_router-10]	[warn]NodeDown:s55_chat
+[2023-06-05 17:49:08][clusterd-d]	stack traceback:
+	./lualib/srv_utils/gate_utils.lua:85: in function 'srv_utils.gate_utils.connect'
+	./service/clusterd/clusterd_utils.lua:116: in function <./service/clusterd/clusterd_utils.lua:108>
+	[C]: in function 'xpcall'
+	./lualib/srv_utils/co_lock.lua:175: in method 'run'
+	./service/clusterd/clusterd_utils.lua:108: in method '__connect'
+	./service/clusterd/clusterd_utils.lua:124: in method '_send'
+	./service/clusterd/clusterd_utils.lua:189: in method 'send'
+	./service/clusterd/clusterd_utils.lua:376: in local 'func'
+	./lualib/msg_utils/lua_handles_utils.lua:68: in function 'msg_utils.lua_handles_utils._lua_handle'
+	(...tail calls...)
+	./skynet/lualib/skynet.lua:190: in function <./skynet/lualib/skynet.lua:153>
+[2023-06-05 17:49:08][:0000000d] lua call [f to :d : 0 msgsz = 13] error : [31m./skynet/lualib/skynet.lua:681: ./skynet/lualib/skynet.lua:233: ./lualib/srv_utils/co_lock.lua:146: ./lualib/srv_utils/gate_utils.lua:86: connect fail: 117.50.193.85, 15018, error
+stack traceback:
+	[C]: in function 'error'
+	./lualib/srv_utils/gate_utils.lua:86: in function 'srv_utils.gate_utils.connect'
+	./service/clusterd/clusterd_utils.lua:116: in function <./service/clusterd/clusterd_utils.lua:108>
+	[C]: in function 'xpcall'
+	./lualib/srv_utils/co_lock.lua:175: in method 'run'
+	./service/clusterd/clusterd_utils.lua:108: in method '__connect'
+	./service/clusterd/clusterd_utils.lua:124: in method '_send'
+	./service/clusterd/clusterd_utils.lua:189: in method 'send'
+	./service/clusterd/clusterd_utils.lua:376: in local 'func'
+	./lualib/msg_utils/lua_handles_utils.lua:68: in function 'msg_utils.lua_handles_utils._lua_handle'
+	(...tail calls...)
+	./skynet/lualib/skynet.lua:190: in function <./skynet/lualib/skynet.lua:153>
+stack traceback:
+	[C]: in function 'error'
+	./lualib/srv_utils/co_lock.lua:146: in function <./lualib/srv_utils/co_lock.lua:130>
+	(...tail calls...)
+	./service/clusterd/clusterd_utils.lua:108: in method '__connect'
+	./service/clusterd/clusterd_utils.lua:124: in method '_send'
+	./service/clusterd/clusterd_utils.lua:189: in method 'send'
+	./service/clusterd/clusterd_utils.lua:376: in local 'func'
+	./lualib/msg_utils/lua_handles_utils.lua:68: in function 'msg_utils.lua_handles_utils._lua_handle'
+	(...tail calls...)
+	./skynet/lualib/skynet.lua:190: in function <./skynet/lualib/skynet.lua:153>
+stack traceback:
+	[C]: in function 'assert'
+	./skynet/lualib/skynet.lua:681: in function 'skynet.manager.dispatch_message'[0m
+[2023-06-05 17:49:08][clusterd-d]	stack traceback:
+	./lualib/srv_utils/gate_utils.lua:85: in function 'srv_utils.gate_utils.connect'
+	./service/clusterd/clusterd_utils.lua:116: in function <./service/clusterd/clusterd_utils.lua:108>
+	[C]: in function 'xpcall'
+	./lualib/srv_utils/co_lock.lua:175: in method 'run'
+	./service/clusterd/clusterd_utils.lua:108: in method '__connect'
+	./service/clusterd/clusterd_utils.lua:124: in method '_send'
+	./service/clusterd/clusterd_utils.lua:189: in method 'send'
+	./service/clusterd/clusterd_utils.lua:376: in local 'func'
+	./lualib/msg_utils/lua_handles_utils.lua:68: in function 'msg_utils.lua_handles_utils._lua_handle'
+	(...tail calls...)
+	./skynet/lualib/skynet.lua:190: in function <./skynet/lualib/skynet.lua:153>
+[2023-06-05 17:49:08][:0000000d] lua call [f to :d : 0 msgsz = 13] error : [31m./skynet/lualib/skynet.lua:681: ./skynet/lualib/skynet.lua:233: ./lualib/srv_utils/co_lock.lua:146: ./lualib/srv_utils/gate_utils.lua:86: connect fail: 117.50.193.85, 15020, error
+stack traceback:
+	[C]: in function 'error'
+	./lualib/srv_utils/gate_utils.lua:86: in function 'srv_utils.gate_utils.connect'
+	./service/clusterd/clusterd_utils.lua:116: in function <./service/clusterd/clusterd_utils.lua:108>
+	[C]: in function 'xpcall'
+	./lualib/srv_utils/co_lock.lua:175: in method 'run'
+	./service/clusterd/clusterd_utils.lua:108: in method '__connect'
+	./service/clusterd/clusterd_utils.lua:124: in method '_send'
+	./service/clusterd/clusterd_utils.lua:189: in method 'send'
+	./service/clusterd/clusterd_utils.lua:376: in local 'func'
+	./lualib/msg_utils/lua_handles_utils.lua:68: in function 'msg_utils.lua_handles_utils._lua_handle'
+	(...tail calls...)
+	./skynet/lualib/skynet.lua:190: in function <./skynet/lualib/skynet.lua:153>
+stack traceback:
+	[C]: in function 'error'
+	./lualib/srv_utils/co_lock.lua:146: in function <./lualib/srv_utils/co_lock.lua:130>
+	(...tail calls...)
+	./service/clusterd/clusterd_utils.lua:108: in method '__connect'
+	./service/clusterd/clusterd_utils.lua:124: in method '_send'
+	./service/clusterd/clusterd_utils.lua:189: in method 'send'
+	./service/clusterd/clusterd_utils.lua:376: in local 'func'
+	./lualib/msg_utils/lua_handles_utils.lua:68: in function 'msg_utils.lua_handles_utils._lua_handle'
+	(...tail calls...)
+	./skynet/lualib/skynet.lua:190: in function <./skynet/lualib/skynet.lua:153>
+stack traceback:
+	[C]: in function 'assert'
+	./skynet/lualib/skynet.lua:681: in function 'skynet.manager.dispatch_message'[0m
+[2023-06-05 17:49:08][cluster_router-10]	[warn]NodeDown:s55_dynasty
+[2023-06-05 17:49:08][clusterd-d]	stack traceback:
+	./lualib/srv_utils/gate_utils.lua:85: in function 'srv_utils.gate_utils.connect'
+	./service/clusterd/clusterd_utils.lua:116: in function <./service/clusterd/clusterd_utils.lua:108>
+	[C]: in function 'xpcall'
+	./lualib/srv_utils/co_lock.lua:175: in method 'run'
+	./service/clusterd/clusterd_utils.lua:108: in method '__connect'
+	./service/clusterd/clusterd_utils.lua:124: in method '_send'
+	./service/clusterd/clusterd_utils.lua:189: in method 'send'
+	./service/clusterd/clusterd_utils.lua:376: in local 'func'
+	./lualib/msg_utils/lua_handles_utils.lua:68: in function 'msg_utils.lua_handles_utils._lua_handle'
+	(...tail calls...)
+	./skynet/lualib/skynet.lua:190: in function <./skynet/lualib/skynet.lua:153>
+[2023-06-05 17:49:08][:0000000d] lua call [f to :d : 0 msgsz = 13] error : [31m./skynet/lualib/skynet.lua:681: ./skynet/lualib/skynet.lua:233: ./lualib/srv_utils/co_lock.lua:146: ./lualib/srv_utils/gate_utils.lua:86: connect fail: 117.50.193.85, 15018, error
+stack traceback:
+	[C]: in function 'error'
+	./lualib/srv_utils/gate_utils.lua:86: in function 'srv_utils.gate_utils.connect'
+	./service/clusterd/clusterd_utils.lua:116: in function <./service/clusterd/clusterd_utils.lua:108>
+	[C]: in function 'xpcall'
+	./lualib/srv_utils/co_lock.lua:175: in method 'run'
+	./service/clusterd/clusterd_utils.lua:108: in method '__connect'
+	./service/clusterd/clusterd_utils.lua:124: in method '_send'
+	./service/clusterd/clusterd_utils.lua:189: in method 'send'
+	./service/clusterd/clusterd_utils.lua:376: in local 'func'
+	./lualib/msg_utils/lua_handles_utils.lua:68: in function 'msg_utils.lua_handles_utils._lua_handle'
+	(...tail calls...)
+	./skynet/lualib/skynet.lua:190: in function <./skynet/lualib/skynet.lua:153>
+stack traceback:
+	[C]: in function 'error'
+	./lualib/srv_utils/co_lock.lua:146: in function <./lualib/srv_utils/co_lock.lua:130>
+	(...tail calls...)
+	./service/clusterd/clusterd_utils.lua:108: in method '__connect'
+	./service/clusterd/clusterd_utils.lua:124: in method '_send'
+	./service/clusterd/clusterd_utils.lua:189: in method 'send'
+	./service/clusterd/clusterd_utils.lua:376: in local 'func'
+	./lualib/msg_utils/lua_handles_utils.lua:68: in function 'msg_utils.lua_handles_utils._lua_handle'
+	(...tail calls...)
+	./skynet/lualib/skynet.lua:190: in function <./skynet/lualib/skynet.lua:153>
+stack traceback:
+	[C]: in function 'assert'
+	./skynet/lualib/skynet.lua:681: in function 'skynet.manager.dispatch_message'[0m
+[2023-06-05 17:49:08][clusterd-d]	stack traceback:
+	./lualib/srv_utils/gate_utils.lua:85: in function 'srv_utils.gate_utils.connect'
+	./service/clusterd/clusterd_utils.lua:116: in function <./service/clusterd/clusterd_utils.lua:108>
+	[C]: in function 'xpcall'
+	./lualib/srv_utils/co_lock.lua:175: in method 'run'
+	./service/clusterd/clusterd_utils.lua:108: in method '__connect'
+	./service/clusterd/clusterd_utils.lua:124: in method '_send'
+	./service/clusterd/clusterd_utils.lua:189: in method 'send'
+	./service/clusterd/clusterd_utils.lua:376: in local 'func'
+	./lualib/msg_utils/lua_handles_utils.lua:68: in function 'msg_utils.lua_handles_utils._lua_handle'
+	(...tail calls...)
+	./skynet/lualib/skynet.lua:190: in function <./skynet/lualib/skynet.lua:153>
+[2023-06-05 17:49:08][:0000000d] lua call [f to :d : 0 msgsz = 13] error : [31m./skynet/lualib/skynet.lua:681: ./skynet/lualib/skynet.lua:233: ./lualib/srv_utils/co_lock.lua:146: ./lualib/srv_utils/gate_utils.lua:86: connect fail: 117.50.193.85, 15020, error
+stack traceback:
+	[C]: in function 'error'
+	./lualib/srv_utils/gate_utils.lua:86: in function 'srv_utils.gate_utils.connect'
+	./service/clusterd/clusterd_utils.lua:116: in function <./service/clusterd/clusterd_utils.lua:108>
+	[C]: in function 'xpcall'
+	./lualib/srv_utils/co_lock.lua:175: in method 'run'
+	./service/clusterd/clusterd_utils.lua:108: in method '__connect'
+	./service/clusterd/clusterd_utils.lua:124: in method '_send'
+	./service/clusterd/clusterd_utils.lua:189: in method 'send'
+	./service/clusterd/clusterd_utils.lua:376: in local 'func'
+	./lualib/msg_utils/lua_handles_utils.lua:68: in function 'msg_utils.lua_handles_utils._lua_handle'
+	(...tail calls...)
+	./skynet/lualib/skynet.lua:190: in function <./skynet/lualib/skynet.lua:153>
+stack traceback:
+	[C]: in function 'error'
+	./lualib/srv_utils/co_lock.lua:146: in function <./lualib/srv_utils/co_lock.lua:130>
+	(...tail calls...)
+	./service/clusterd/clusterd_utils.lua:108: in method '__connect'
+	./service/clusterd/clusterd_utils.lua:124: in method '_send'
+	./service/clusterd/clusterd_utils.lua:189: in method 'send'
+	./service/clusterd/clusterd_utils.lua:376: in local 'func'
+	./lualib/msg_utils/lua_handles_utils.lua:68: in function 'msg_utils.lua_handles_utils._lua_handle'
+	(...tail calls...)
+	./skynet/lualib/skynet.lua:190: in function <./skynet/lualib/skynet.lua:153>
+stack traceback:
+	[C]: in function 'assert'
+	./skynet/lualib/skynet.lua:681: in function 'skynet.manager.dispatch_message'[0m
+[2023-06-05 17:49:08][cluster_router-10]	[warn]NodeDown:s55_game
+[2023-06-05 17:49:08][clusterd-d]	stack traceback:
+	./lualib/srv_utils/gate_utils.lua:85: in function 'srv_utils.gate_utils.connect'
+	./service/clusterd/clusterd_utils.lua:116: in function <./service/clusterd/clusterd_utils.lua:108>
+	[C]: in function 'xpcall'
+	./lualib/srv_utils/co_lock.lua:175: in method 'run'
+	./service/clusterd/clusterd_utils.lua:108: in method '__connect'
+	./service/clusterd/clusterd_utils.lua:124: in method '_send'
+	./service/clusterd/clusterd_utils.lua:189: in method 'send'
+	./service/clusterd/clusterd_utils.lua:376: in local 'func'
+	./lualib/msg_utils/lua_handles_utils.lua:68: in function 'msg_utils.lua_handles_utils._lua_handle'
+	(...tail calls...)
+	./skynet/lualib/skynet.lua:190: in function <./skynet/lualib/skynet.lua:153>
+[2023-06-05 17:49:08][:0000000d] lua call [f to :d : 0 msgsz = 13] error : [31m./skynet/lualib/skynet.lua:681: ./skynet/lualib/skynet.lua:233: ./lualib/srv_utils/co_lock.lua:146: ./lualib/srv_utils/gate_utils.lua:86: connect fail: 117.50.193.85, 15018, error
+stack traceback:
+	[C]: in function 'error'
+	./lualib/srv_utils/gate_utils.lua:86: in function 'srv_utils.gate_utils.connect'
+	./service/clusterd/clusterd_utils.lua:116: in function <./service/clusterd/clusterd_utils.lua:108>
+	[C]: in function 'xpcall'
+	./lualib/srv_utils/co_lock.lua:175: in method 'run'
+	./service/clusterd/clusterd_utils.lua:108: in method '__connect'
+	./service/clusterd/clusterd_utils.lua:124: in method '_send'
+	./service/clusterd/clusterd_utils.lua:189: in method 'send'
+	./service/clusterd/clusterd_utils.lua:376: in local 'func'
+	./lualib/msg_utils/lua_handles_utils.lua:68: in function 'msg_utils.lua_handles_utils._lua_handle'
+	(...tail calls...)
+	./skynet/lualib/skynet.lua:190: in function <./skynet/lualib/skynet.lua:153>
+stack traceback:
+	[C]: in function 'error'
+	./lualib/srv_utils/co_lock.lua:146: in function <./lualib/srv_utils/co_lock.lua:130>
+	(...tail calls...)
+	./service/clusterd/clusterd_utils.lua:108: in method '__connect'
+	./service/clusterd/clusterd_utils.lua:124: in method '_send'
+	./service/clusterd/clusterd_utils.lua:189: in method 'send'
+	./service/clusterd/clusterd_utils.lua:376: in local 'func'
+	./lualib/msg_utils/lua_handles_utils.lua:68: in function 'msg_utils.lua_handles_utils._lua_handle'
+	(...tail calls...)
+	./skynet/lualib/skynet.lua:190: in function <./skynet/lualib/skynet.lua:153>
+stack traceback:
+	[C]: in function 'assert'
+	./skynet/lualib/skynet.lua:681: in function 'skynet.manager.dispatch_message'[0m
+[2023-06-05 17:49:08][clusterd-d]	stack traceback:
+	./lualib/srv_utils/gate_utils.lua:85: in function 'srv_utils.gate_utils.connect'
+	./service/clusterd/clusterd_utils.lua:116: in function <./service/clusterd/clusterd_utils.lua:108>
+	[C]: in function 'xpcall'
+	./lualib/srv_utils/co_lock.lua:175: in method 'run'
+	./service/clusterd/clusterd_utils.lua:108: in method '__connect'
+	./service/clusterd/clusterd_utils.lua:124: in method '_send'
+	./service/clusterd/clusterd_utils.lua:189: in method 'send'
+	./service/clusterd/clusterd_utils.lua:376: in local 'func'
+	./lualib/msg_utils/lua_handles_utils.lua:68: in function 'msg_utils.lua_handles_utils._lua_handle'
+	(...tail calls...)
+	./skynet/lualib/skynet.lua:190: in function <./skynet/lualib/skynet.lua:153>
+[2023-06-05 17:49:08][:0000000d] lua call [f to :d : 0 msgsz = 13] error : [31m./skynet/lualib/skynet.lua:681: ./skynet/lualib/skynet.lua:233: ./lualib/srv_utils/co_lock.lua:146: ./lualib/srv_utils/gate_utils.lua:86: connect fail: 117.50.193.85, 15020, error
+stack traceback:
+	[C]: in function 'error'
+	./lualib/srv_utils/gate_utils.lua:86: in function 'srv_utils.gate_utils.connect'
+	./service/clusterd/clusterd_utils.lua:116: in function <./service/clusterd/clusterd_utils.lua:108>
+	[C]: in function 'xpcall'
+	./lualib/srv_utils/co_lock.lua:175: in method 'run'
+	./service/clusterd/clusterd_utils.lua:108: in method '__connect'
+	./service/clusterd/clusterd_utils.lua:124: in method '_send'
+	./service/clusterd/clusterd_utils.lua:189: in method 'send'
+	./service/clusterd/clusterd_utils.lua:376: in local 'func'
+	./lualib/msg_utils/lua_handles_utils.lua:68: in function 'msg_utils.lua_handles_utils._lua_handle'
+	(...tail calls...)
+	./skynet/lualib/skynet.lua:190: in function <./skynet/lualib/skynet.lua:153>
+stack traceback:
+	[C]: in function 'error'
+	./lualib/srv_utils/co_lock.lua:146: in function <./lualib/srv_utils/co_lock.lua:130>
+	(...tail calls...)
+	./service/clusterd/clusterd_utils.lua:108: in method '__connect'
+	./service/clusterd/clusterd_utils.lua:124: in method '_send'
+	./service/clusterd/clusterd_utils.lua:189: in method 'send'
+	./service/clusterd/clusterd_utils.lua:376: in local 'func'
+	./lualib/msg_utils/lua_handles_utils.lua:68: in function 'msg_utils.lua_handles_utils._lua_handle'
+	(...tail calls...)
+	./skynet/lualib/skynet.lua:190: in function <./skynet/lualib/skynet.lua:153>
+stack traceback:
+	[C]: in function 'assert'
+	./skynet/lualib/skynet.lua:681: in function 'skynet.manager.dispatch_message'[0m
+[2023-06-05 17:49:08][cluster_router-10]	[warn]NodeChange
+[2023-06-05 17:49:08][clusterd-d]	stack traceback:
+	./lualib/srv_utils/gate_utils.lua:85: in function 'srv_utils.gate_utils.connect'
+	./service/clusterd/clusterd_utils.lua:116: in function <./service/clusterd/clusterd_utils.lua:108>
+	[C]: in function 'xpcall'
+	./lualib/srv_utils/co_lock.lua:175: in method 'run'
+	./service/clusterd/clusterd_utils.lua:108: in method '__connect'
+	./service/clusterd/clusterd_utils.lua:124: in method '_send'
+	./service/clusterd/clusterd_utils.lua:189: in method 'send'
+	./service/clusterd/clusterd_utils.lua:376: in local 'func'
+	./lualib/msg_utils/lua_handles_utils.lua:68: in function 'msg_utils.lua_handles_utils._lua_handle'
+	(...tail calls...)
+	./skynet/lualib/skynet.lua:190: in function <./skynet/lualib/skynet.lua:153>
+[2023-06-05 17:49:08][:0000000d] lua call [f to :d : 0 msgsz = 13] error : [31m./skynet/lualib/skynet.lua:681: ./skynet/lualib/skynet.lua:233: ./lualib/srv_utils/co_lock.lua:146: ./lualib/srv_utils/gate_utils.lua:86: connect fail: 117.50.193.85, 15018, error
+stack traceback:
+	[C]: in function 'error'
+	./lualib/srv_utils/gate_utils.lua:86: in function 'srv_utils.gate_utils.connect'
+	./service/clusterd/clusterd_utils.lua:116: in function <./service/clusterd/clusterd_utils.lua:108>
+	[C]: in function 'xpcall'
+	./lualib/srv_utils/co_lock.lua:175: in method 'run'
+	./service/clusterd/clusterd_utils.lua:108: in method '__connect'
+	./service/clusterd/clusterd_utils.lua:124: in method '_send'
+	./service/clusterd/clusterd_utils.lua:189: in method 'send'
+	./service/clusterd/clusterd_utils.lua:376: in local 'func'
+	./lualib/msg_utils/lua_handles_utils.lua:68: in function 'msg_utils.lua_handles_utils._lua_handle'
+	(...tail calls...)
+	./skynet/lualib/skynet.lua:190: in function <./skynet/lualib/skynet.lua:153>
+stack traceback:
+	[C]: in function 'error'
+	./lualib/srv_utils/co_lock.lua:146: in function <./lualib/srv_utils/co_lock.lua:130>
+	(...tail calls...)
+	./service/clusterd/clusterd_utils.lua:108: in method '__connect'
+	./service/clusterd/clusterd_utils.lua:124: in method '_send'
+	./service/clusterd/clusterd_utils.lua:189: in method 'send'
+	./service/clusterd/clusterd_utils.lua:376: in local 'func'
+	./lualib/msg_utils/lua_handles_utils.lua:68: in function 'msg_utils.lua_handles_utils._lua_handle'
+	(...tail calls...)
+	./skynet/lualib/skynet.lua:190: in function <./skynet/lualib/skynet.lua:153>
+stack traceback:
+	[C]: in function 'assert'
+	./skynet/lualib/skynet.lua:681: in function 'skynet.manager.dispatch_message'[0m
+[2023-06-05 17:49:08][clusterd-d]	stack traceback:
+	./lualib/srv_utils/gate_utils.lua:85: in function 'srv_utils.gate_utils.connect'
+	./service/clusterd/clusterd_utils.lua:116: in function <./service/clusterd/clusterd_utils.lua:108>
+	[C]: in function 'xpcall'
+	./lualib/srv_utils/co_lock.lua:175: in method 'run'
+	./service/clusterd/clusterd_utils.lua:108: in method '__connect'
+	./service/clusterd/clusterd_utils.lua:124: in method '_send'
+	./service/clusterd/clusterd_utils.lua:189: in method 'send'
+	./service/clusterd/clusterd_utils.lua:376: in local 'func'
+	./lualib/msg_utils/lua_handles_utils.lua:68: in function 'msg_utils.lua_handles_utils._lua_handle'
+	(...tail calls...)
+	./skynet/lualib/skynet.lua:190: in function <./skynet/lualib/skynet.lua:153>
+[2023-06-05 17:49:08][:0000000d] lua call [f to :d : 0 msgsz = 13] error : [31m./skynet/lualib/skynet.lua:681: ./skynet/lualib/skynet.lua:233: ./lualib/srv_utils/co_lock.lua:146: ./lualib/srv_utils/gate_utils.lua:86: connect fail: 117.50.193.85, 15020, error
+stack traceback:
+	[C]: in function 'error'
+	./lualib/srv_utils/gate_utils.lua:86: in function 'srv_utils.gate_utils.connect'
+	./service/clusterd/clusterd_utils.lua:116: in function <./service/clusterd/clusterd_utils.lua:108>
+	[C]: in function 'xpcall'
+	./lualib/srv_utils/co_lock.lua:175: in method 'run'
+	./service/clusterd/clusterd_utils.lua:108: in method '__connect'
+	./service/clusterd/clusterd_utils.lua:124: in method '_send'
+	./service/clusterd/clusterd_utils.lua:189: in method 'send'
+	./service/clusterd/clusterd_utils.lua:376: in local 'func'
+	./lualib/msg_utils/lua_handles_utils.lua:68: in function 'msg_utils.lua_handles_utils._lua_handle'
+	(...tail calls...)
+	./skynet/lualib/skynet.lua:190: in function <./skynet/lualib/skynet.lua:153>
+stack traceback:
+	[C]: in function 'error'
+	./lualib/srv_utils/co_lock.lua:146: in function <./lualib/srv_utils/co_lock.lua:130>
+	(...tail calls...)
+	./service/clusterd/clusterd_utils.lua:108: in method '__connect'
+	./service/clusterd/clusterd_utils.lua:124: in method '_send'
+	./service/clusterd/clusterd_utils.lua:189: in method 'send'
+	./service/clusterd/clusterd_utils.lua:376: in local 'func'
+	./lualib/msg_utils/lua_handles_utils.lua:68: in function 'msg_utils.lua_handles_utils._lua_handle'
+	(...tail calls...)
+	./skynet/lualib/skynet.lua:190: in function <./skynet/lualib/skynet.lua:153>
+stack traceback:
+	[C]: in function 'assert'
+	./skynet/lualib/skynet.lua:681: in function 'skynet.manager.dispatch_message'[0m
+[2023-06-05 17:49:12][cluster_router-10]	[error]NodeDown:s50_chat
+[2023-06-05 17:49:12][cluster_router-10]	[error]NodeDown:s55_dynasty
+[2023-06-05 17:49:12][cluster_router-10]	[error]NodeDown:s50_dynasty
+[2023-06-05 17:49:30][cluster_router-10]	[warn]NodeDown:s70_cross
+[2023-06-05 17:49:31][cluster_router-10]	[warn]NodeDown:s2810_login
+[2023-06-05 17:49:31][cluster_router-10]	[warn]NodeChange
+[2023-06-05 17:49:33][cluster_router-10]	[warn]NodeDown:s2803_gm_router
+[2023-06-05 17:49:33][clusterd-d]	stack traceback:
+	./lualib/srv_utils/gate_utils.lua:85: in function 'srv_utils.gate_utils.connect'
+	./service/clusterd/clusterd_utils.lua:116: in function <./service/clusterd/clusterd_utils.lua:108>
+	[C]: in function 'xpcall'
+	./lualib/srv_utils/co_lock.lua:175: in method 'run'
+	./service/clusterd/clusterd_utils.lua:108: in method '__connect'
+	./service/clusterd/clusterd_utils.lua:124: in method '_send'
+	./service/clusterd/clusterd_utils.lua:189: in method 'send'
+	./service/clusterd/clusterd_utils.lua:376: in local 'func'
+	./lualib/msg_utils/lua_handles_utils.lua:68: in function 'msg_utils.lua_handles_utils._lua_handle'
+	(...tail calls...)
+	./skynet/lualib/skynet.lua:190: in function <./skynet/lualib/skynet.lua:153>
+[2023-06-05 17:49:33][:0000000d] lua call [f to :d : 0 msgsz = 13] error : [31m./skynet/lualib/skynet.lua:681: ./skynet/lualib/skynet.lua:233: ./lualib/srv_utils/co_lock.lua:146: ./lualib/srv_utils/gate_utils.lua:86: connect fail: 117.50.193.85, 38101, error
+stack traceback:
+	[C]: in function 'error'
+	./lualib/srv_utils/gate_utils.lua:86: in function 'srv_utils.gate_utils.connect'
+	./service/clusterd/clusterd_utils.lua:116: in function <./service/clusterd/clusterd_utils.lua:108>
+	[C]: in function 'xpcall'
+	./lualib/srv_utils/co_lock.lua:175: in method 'run'
+	./service/clusterd/clusterd_utils.lua:108: in method '__connect'
+	./service/clusterd/clusterd_utils.lua:124: in method '_send'
+	./service/clusterd/clusterd_utils.lua:189: in method 'send'
+	./service/clusterd/clusterd_utils.lua:376: in local 'func'
+	./lualib/msg_utils/lua_handles_utils.lua:68: in function 'msg_utils.lua_handles_utils._lua_handle'
+	(...tail calls...)
+	./skynet/lualib/skynet.lua:190: in function <./skynet/lualib/skynet.lua:153>
+stack traceback:
+	[C]: in function 'error'
+	./lualib/srv_utils/co_lock.lua:146: in function <./lualib/srv_utils/co_lock.lua:130>
+	(...tail calls...)
+	./service/clusterd/clusterd_utils.lua:108: in method '__connect'
+	./service/clusterd/clusterd_utils.lua:124: in method '_send'
+	./service/clusterd/clusterd_utils.lua:189: in method 'send'
+	./service/clusterd/clusterd_utils.lua:376: in local 'func'
+	./lualib/msg_utils/lua_handles_utils.lua:68: in function 'msg_utils.lua_handles_utils._lua_handle'
+	(...tail calls...)
+	./skynet/lualib/skynet.lua:190: in function <./skynet/lualib/skynet.lua:153>
+stack traceback:
+	[C]: in function 'assert'
+	./skynet/lualib/skynet.lua:681: in function 'skynet.manager.dispatch_message'[0m
+[2023-06-05 17:49:33][cluster_router-10]	[warn]NodeChange
+[2023-06-05 17:49:33][clusterd-d]	stack traceback:
+	./lualib/srv_utils/gate_utils.lua:85: in function 'srv_utils.gate_utils.connect'
+	./service/clusterd/clusterd_utils.lua:116: in function <./service/clusterd/clusterd_utils.lua:108>
+	[C]: in function 'xpcall'
+	./lualib/srv_utils/co_lock.lua:175: in method 'run'
+	./service/clusterd/clusterd_utils.lua:108: in method '__connect'
+	./service/clusterd/clusterd_utils.lua:124: in method '_send'
+	./service/clusterd/clusterd_utils.lua:189: in method 'send'
+	./service/clusterd/clusterd_utils.lua:376: in local 'func'
+	./lualib/msg_utils/lua_handles_utils.lua:68: in function 'msg_utils.lua_handles_utils._lua_handle'
+	(...tail calls...)
+	./skynet/lualib/skynet.lua:190: in function <./skynet/lualib/skynet.lua:153>
+[2023-06-05 17:49:33][:0000000d] lua call [f to :d : 0 msgsz = 13] error : [31m./skynet/lualib/skynet.lua:681: ./skynet/lualib/skynet.lua:233: ./lualib/srv_utils/co_lock.lua:146: ./lualib/srv_utils/gate_utils.lua:86: connect fail: 117.50.193.85, 38101, error
+stack traceback:
+	[C]: in function 'error'
+	./lualib/srv_utils/gate_utils.lua:86: in function 'srv_utils.gate_utils.connect'
+	./service/clusterd/clusterd_utils.lua:116: in function <./service/clusterd/clusterd_utils.lua:108>
+	[C]: in function 'xpcall'
+	./lualib/srv_utils/co_lock.lua:175: in method 'run'
+	./service/clusterd/clusterd_utils.lua:108: in method '__connect'
+	./service/clusterd/clusterd_utils.lua:124: in method '_send'
+	./service/clusterd/clusterd_utils.lua:189: in method 'send'
+	./service/clusterd/clusterd_utils.lua:376: in local 'func'
+	./lualib/msg_utils/lua_handles_utils.lua:68: in function 'msg_utils.lua_handles_utils._lua_handle'
+	(...tail calls...)
+	./skynet/lualib/skynet.lua:190: in function <./skynet/lualib/skynet.lua:153>
+stack traceback:
+	[C]: in function 'error'
+	./lualib/srv_utils/co_lock.lua:146: in function <./lualib/srv_utils/co_lock.lua:130>
+	(...tail calls...)
+	./service/clusterd/clusterd_utils.lua:108: in method '__connect'
+	./service/clusterd/clusterd_utils.lua:124: in method '_send'
+	./service/clusterd/clusterd_utils.lua:189: in method 'send'
+	./service/clusterd/clusterd_utils.lua:376: in local 'func'
+	./lualib/msg_utils/lua_handles_utils.lua:68: in function 'msg_utils.lua_handles_utils._lua_handle'
+	(...tail calls...)
+	./skynet/lualib/skynet.lua:190: in function <./skynet/lualib/skynet.lua:153>
+stack traceback:
+	[C]: in function 'assert'
+	./skynet/lualib/skynet.lua:681: in function 'skynet.manager.dispatch_message'[0m
+[2023-06-05 17:49:34][cluster_router-10]	[warn]NodeDown:s2801_world
+[2023-06-05 17:49:34][clusterd-d]	stack traceback:
+	./lualib/srv_utils/gate_utils.lua:85: in function 'srv_utils.gate_utils.connect'
+	./service/clusterd/clusterd_utils.lua:116: in function <./service/clusterd/clusterd_utils.lua:108>
+	[C]: in function 'xpcall'
+	./lualib/srv_utils/co_lock.lua:175: in method 'run'
+	./service/clusterd/clusterd_utils.lua:108: in method '__connect'
+	./service/clusterd/clusterd_utils.lua:124: in method '_send'
+	./service/clusterd/clusterd_utils.lua:189: in method 'send'
+	./service/clusterd/clusterd_utils.lua:376: in local 'func'
+	./lualib/msg_utils/lua_handles_utils.lua:68: in function 'msg_utils.lua_handles_utils._lua_handle'
+	(...tail calls...)
+	./skynet/lualib/skynet.lua:155: in function <./skynet/lualib/skynet.lua:153>
+[2023-06-05 17:49:34][:0000000d] lua call [f to :d : 0 msgsz = 13] error : [31m./skynet/lualib/skynet.lua:681: ./skynet/lualib/skynet.lua:233: ./lualib/srv_utils/co_lock.lua:146: ./lualib/srv_utils/gate_utils.lua:86: connect fail: 117.50.193.85, 38101, error
+stack traceback:
+	[C]: in function 'error'
+	./lualib/srv_utils/gate_utils.lua:86: in function 'srv_utils.gate_utils.connect'
+	./service/clusterd/clusterd_utils.lua:116: in function <./service/clusterd/clusterd_utils.lua:108>
+	[C]: in function 'xpcall'
+	./lualib/srv_utils/co_lock.lua:175: in method 'run'
+	./service/clusterd/clusterd_utils.lua:108: in method '__connect'
+	./service/clusterd/clusterd_utils.lua:124: in method '_send'
+	./service/clusterd/clusterd_utils.lua:189: in method 'send'
+	./service/clusterd/clusterd_utils.lua:376: in local 'func'
+	./lualib/msg_utils/lua_handles_utils.lua:68: in function 'msg_utils.lua_handles_utils._lua_handle'
+	(...tail calls...)
+	./skynet/lualib/skynet.lua:155: in function <./skynet/lualib/skynet.lua:153>
+stack traceback:
+	[C]: in function 'error'
+	./lualib/srv_utils/co_lock.lua:146: in function <./lualib/srv_utils/co_lock.lua:130>
+	(...tail calls...)
+	./service/clusterd/clusterd_utils.lua:108: in method '__connect'
+	./service/clusterd/clusterd_utils.lua:124: in method '_send'
+	./service/clusterd/clusterd_utils.lua:189: in method 'send'
+	./service/clusterd/clusterd_utils.lua:376: in local 'func'
+	./lualib/msg_utils/lua_handles_utils.lua:68: in function 'msg_utils.lua_handles_utils._lua_handle'
+	(...tail calls...)
+	./skynet/lualib/skynet.lua:155: in function <./skynet/lualib/skynet.lua:153>
+stack traceback:
+	[C]: in function 'assert'
+	./skynet/lualib/skynet.lua:681: in function 'skynet.manager.dispatch_message'[0m
+[2023-06-05 17:49:34][clusterd-d]	stack traceback:
+	./lualib/srv_utils/gate_utils.lua:85: in function 'srv_utils.gate_utils.connect'
+	./service/clusterd/clusterd_utils.lua:116: in function <./service/clusterd/clusterd_utils.lua:108>
+	[C]: in function 'xpcall'
+	./lualib/srv_utils/co_lock.lua:175: in method 'run'
+	./service/clusterd/clusterd_utils.lua:108: in method '__connect'
+	./service/clusterd/clusterd_utils.lua:124: in method '_send'
+	./service/clusterd/clusterd_utils.lua:189: in method 'send'
+	./service/clusterd/clusterd_utils.lua:376: in local 'func'
+	./lualib/msg_utils/lua_handles_utils.lua:68: in function 'msg_utils.lua_handles_utils._lua_handle'
+	(...tail calls...)
+	./skynet/lualib/skynet.lua:190: in function <./skynet/lualib/skynet.lua:153>
+[2023-06-05 17:49:34][:0000000d] lua call [f to :d : 0 msgsz = 13] error : [31m./skynet/lualib/skynet.lua:681: ./skynet/lualib/skynet.lua:233: ./lualib/srv_utils/co_lock.lua:146: ./lualib/srv_utils/gate_utils.lua:86: connect fail: 117.50.193.85, 40201, error
+stack traceback:
+	[C]: in function 'error'
+	./lualib/srv_utils/gate_utils.lua:86: in function 'srv_utils.gate_utils.connect'
+	./service/clusterd/clusterd_utils.lua:116: in function <./service/clusterd/clusterd_utils.lua:108>
+	[C]: in function 'xpcall'
+	./lualib/srv_utils/co_lock.lua:175: in method 'run'
+	./service/clusterd/clusterd_utils.lua:108: in method '__connect'
+	./service/clusterd/clusterd_utils.lua:124: in method '_send'
+	./service/clusterd/clusterd_utils.lua:189: in method 'send'
+	./service/clusterd/clusterd_utils.lua:376: in local 'func'
+	./lualib/msg_utils/lua_handles_utils.lua:68: in function 'msg_utils.lua_handles_utils._lua_handle'
+	(...tail calls...)
+	./skynet/lualib/skynet.lua:190: in function <./skynet/lualib/skynet.lua:153>
+stack traceback:
+	[C]: in function 'error'
+	./lualib/srv_utils/co_lock.lua:146: in function <./lualib/srv_utils/co_lock.lua:130>
+	(...tail calls...)
+	./service/clusterd/clusterd_utils.lua:108: in method '__connect'
+	./service/clusterd/clusterd_utils.lua:124: in method '_send'
+	./service/clusterd/clusterd_utils.lua:189: in method 'send'
+	./service/clusterd/clusterd_utils.lua:376: in local 'func'
+	./lualib/msg_utils/lua_handles_utils.lua:68: in function 'msg_utils.lua_handles_utils._lua_handle'
+	(...tail calls...)
+	./skynet/lualib/skynet.lua:190: in function <./skynet/lualib/skynet.lua:153>
+stack traceback:
+	[C]: in function 'assert'
+	./skynet/lualib/skynet.lua:681: in function 'skynet.manager.dispatch_message'[0m
+CreateThread: 7317, skynet_worker
+[2023-06-05 17:51:29][:00000002] LAUNCH snlua bootstrap
+CreateThread: 7312, skynet_worker
+CreateThread: 7313, skynet_worker
+CreateThread: 7309, thread_monitor
+CreateThread: 7310, thread_timer
+CreateThread: 7314, skynet_worker
+CreateThread: 7315, skynet_worker
+CreateThread: 7316, skynet_worker
+CreateThread: 7319, skynet_worker
+CreateThread: 7311, thread_socket
+CreateThread: 7318, skynet_worker
+[2023-06-05 17:51:29][:00000003] LAUNCH snlua launcher
+[2023-06-05 17:51:29][:00000004] LAUNCH snlua cdummy
+[2023-06-05 17:51:29][:00000005] LAUNCH harbor 0 4
+[2023-06-05 17:51:29][:00000006] LAUNCH snlua datacenterd
+[2023-06-05 17:51:29][:00000007] LAUNCH snlua service_mgr
+[2023-06-05 17:51:29][cluster_router_launcher-8]	load sproto:./bin/c2s.spb
+[2023-06-05 17:51:29][cluster_router_launcher-8]	load sproto:./bin/s2c.spb
+[2023-06-05 17:51:29][:00000008] LAUNCH snlua cluster_router_launcher
+[2023-06-05 17:51:29][cluster_router_launcher-8]	[warn][node s2800_cluster_router]start begin
+[2023-06-05 17:51:29][:00000009] LAUNCH snlua gamelog
+[2023-06-05 17:51:29][gamelog-9]	true	exit	0
+[2023-06-05 17:51:29][gamelog-9]	true	exit	0
+[2023-06-05 17:51:29][gamelog-9]	true	exit	0
+[2023-06-05 17:51:29][:0000000a] LAUNCH snlua reload_watcher
+[2023-06-05 17:51:29][:0000000b] LAUNCH snlua debug_console 40302
+[2023-06-05 17:51:29][:0000000b] Start debug console at 127.0.0.1:40302
+[2023-06-05 17:51:29][:0000000c] LAUNCH snlua common_init
+header:<25S_D_>, len:<6>
+[2023-06-05 17:51:29][:0000000d] LAUNCH snlua clusterd
+[2023-06-05 17:51:29][:0000000e] LAUNCH snlua sharedatad
+[2023-06-05 17:51:29][:0000000f] LAUNCH gate M :0000000d :::40301 3 65535 2
+[2023-06-05 17:51:29][:00000010] LAUNCH snlua cluster_router
+[2023-06-05 17:51:29][cluster_router_launcher-8]	[warn][node s2800_cluster_router]all service booted
+CreateThread: 7329, socket_send_worker
+CreateThread: 7330, socket_send_worker
+[2023-06-05 17:51:29][:00000002] KILL self
+[2023-06-05 17:51:32][:0000000f] socket open: 4
+[2023-06-05 17:51:33][:0000000f] socket open: 6
+[2023-06-05 17:51:33][:0000000f] socket open: 8
+[2023-06-05 17:51:33][:0000000f] socket open: a
+[2023-06-05 17:51:39][:0000000f] socket open: c
+[2023-06-05 17:51:39][:0000000f] socket open: e
+[2023-06-05 17:51:39][:0000000f] socket open: f
+[2023-06-05 17:51:44][:0000000f] socket open: 12
+[2023-06-05 17:51:44][:0000000f] socket open: 14
+[2023-06-05 17:51:44][:0000000f] socket open: 16
+[2023-06-05 18:24:59][:0000000f] socket open: 18
+[2023-06-05 19:11:59][cluster_router-10]	[error]NodeDown:s70_cross
+[2023-06-05 19:11:59][cluster_router-10]	[error]NodeDown:s2810_login
+[2023-06-05 19:11:59][cluster_router-10]	[error]NodeDown:s2801_world
+[2023-06-05 19:11:59][cluster_router-10]	[error]NodeDown:s55_game
+[2023-06-05 19:11:59][cluster_router-10]	[error]NodeDown:s50_game
+[2023-06-05 19:11:59][cluster_router-10]	[error]NodeDown:s55_chat
+[2023-06-05 19:11:59][cluster_router-10]	[error]NodeDown:s50_chat
+[2023-06-05 19:11:59][cluster_router-10]	[error]NodeDown:s55_dynasty
+[2023-06-05 19:11:59][cluster_router-10]	[error]NodeDown:s2803_gm_router
+[2023-06-05 19:11:59][cluster_router-10]	[error]NodeDown:s50_dynasty
+CreateThread: 1668, skynet_worker
+[2023-06-05 19:16:27][:00000002] LAUNCH snlua bootstrap
+CreateThread: 1663, skynet_worker
+CreateThread: 1664, skynet_worker
+CreateThread: 1659, thread_monitor
+CreateThread: 1660, thread_timer
+CreateThread: 1661, thread_socket
+CreateThread: 1665, skynet_worker
+CreateThread: 1666, skynet_worker
+CreateThread: 1667, skynet_worker
+CreateThread: 1662, skynet_worker
+CreateThread: 1669, skynet_worker
+[2023-06-05 19:16:27][:00000003] LAUNCH snlua launcher
+[2023-06-05 19:16:27][:00000004] LAUNCH snlua cdummy
+[2023-06-05 19:16:27][:00000005] LAUNCH harbor 0 4
+[2023-06-05 19:16:27][:00000006] LAUNCH snlua datacenterd
+[2023-06-05 19:16:27][:00000007] LAUNCH snlua service_mgr
+[2023-06-05 19:16:27][:00000008] LAUNCH snlua cluster_router_launcher
+[2023-06-05 19:16:27][cluster_router_launcher-8]	load sproto:./bin/c2s.spb
+[2023-06-05 19:16:27][cluster_router_launcher-8]	load sproto:./bin/s2c.spb
+[2023-06-05 19:16:27][cluster_router_launcher-8]	[warn][node s2800_cluster_router]start begin
+[2023-06-05 19:16:27][:00000009] LAUNCH snlua gamelog
+[2023-06-05 19:16:27][gamelog-9]	true	exit	0
+[2023-06-05 19:16:27][gamelog-9]	true	exit	0
+[2023-06-05 19:16:27][gamelog-9]	true	exit	0
+[2023-06-05 19:16:27][:0000000a] LAUNCH snlua reload_watcher
+[2023-06-05 19:16:27][:0000000b] LAUNCH snlua debug_console 40302
+[2023-06-05 19:16:27][:0000000b] Start debug console at 127.0.0.1:40302
+[2023-06-05 19:16:27][:0000000c] LAUNCH snlua common_init
+header:<25S_E_>, len:<6>
+[2023-06-05 19:16:27][:0000000d] LAUNCH snlua clusterd
+[2023-06-05 19:16:27][:0000000e] LAUNCH snlua sharedatad
+[2023-06-05 19:16:27][:0000000f] LAUNCH gate M :0000000d :::40301 3 65535 2
+[2023-06-05 19:16:27][:00000010] LAUNCH snlua cluster_router
+CreateThread: 1686, socket_send_worker
+CreateThread: 1685, socket_send_worker
+[2023-06-05 19:16:27][cluster_router_launcher-8]	[warn][node s2800_cluster_router]all service booted
+[2023-06-05 19:16:27][:00000002] KILL self
+[2023-06-05 19:16:30][:0000000f] socket open: 4
+[2023-06-05 19:16:30][:0000000f] socket open: 6
+[2023-06-05 19:16:30][:0000000f] socket open: 7
+[2023-06-05 19:16:30][:0000000f] socket open: 8
+[2023-06-05 19:16:41][:0000000f] socket open: c
+[2023-06-05 19:16:41][:0000000f] socket open: e
+[2023-06-05 19:16:41][:0000000f] socket open: 10
+[2023-06-05 19:16:46][:0000000f] socket open: 12
+[2023-06-05 19:16:46][:0000000f] socket open: 14
+[2023-06-05 19:16:46][:0000000f] socket open: 15
+[2023-06-08 03:48:03][:0000000f] socket open: 18
+[2023-06-08 16:05:50][clusterd-d]	[warn]reload_mod finish:clusterd_utils <==> ./service/clusterd/clusterd_utils.lua
+[2023-06-08 16:22:01][cluster_router_launcher-8]	load sproto:./bin/c2s.spb
+[2023-06-08 16:22:01][cluster_router_launcher-8]	load sproto:./bin/s2c.spb
+[2023-06-08 16:22:01][cluster_router_launcher-8]	[warn]reload_mod finish:node_base <==> ./gamelogic/lualib/node_base.lua
+[2023-06-08 16:22:01][cluster_router-10]	[warn]reload_mod finish:msg_utils.sproto_msg_utils <==> ./lualib/msg_utils/sproto_msg_utils.lua
+[2023-06-08 16:22:01][cluster_router_launcher-8]	[warn]reload_mod finish:msg_utils.sproto_msg_utils <==> ./lualib/msg_utils/sproto_msg_utils.lua
+CreateThread: 1728, skynet_worker
+[2023-06-08 16:28:15][:00000002] LAUNCH snlua bootstrap
+CreateThread: 1723, skynet_worker
+CreateThread: 1724, skynet_worker
+CreateThread: 1719, thread_timer
+CreateThread: 1720, thread_socket
+CreateThread: 1721, skynet_worker
+CreateThread: 1725, skynet_worker
+CreateThread: 1726, skynet_worker
+CreateThread: 1727, skynet_worker
+CreateThread: 1722, skynet_worker
+CreateThread: 1718, thread_monitor
+[2023-06-08 16:28:15][:00000003] LAUNCH snlua launcher
+[2023-06-08 16:28:15][:00000004] LAUNCH snlua cdummy
+[2023-06-08 16:28:15][:00000005] LAUNCH harbor 0 4
+[2023-06-08 16:28:15][:00000006] LAUNCH snlua datacenterd
+[2023-06-08 16:28:15][:00000007] LAUNCH snlua service_mgr
+[2023-06-08 16:28:15][:00000008] LAUNCH snlua cluster_router_launcher
+[2023-06-08 16:28:15][cluster_router_launcher-8]	load sproto:./bin/c2s.spb
+[2023-06-08 16:28:15][cluster_router_launcher-8]	load sproto:./bin/s2c.spb
+[2023-06-08 16:28:15][cluster_router_launcher-8]	[warn][node s2800_cluster_router]start begin
+[2023-06-08 16:28:15][:00000009] LAUNCH snlua gamelog
+[2023-06-08 16:28:15][gamelog-9]	true	exit	0
+[2023-06-08 16:28:15][gamelog-9]	true	exit	0
+[2023-06-08 16:28:15][gamelog-9]	true	exit	0
+[2023-06-08 16:28:15][:0000000a] LAUNCH snlua reload_watcher
+[2023-06-08 16:28:15][:0000000b] LAUNCH snlua debug_console 40302
+[2023-06-08 16:28:15][:0000000b] Start debug console at 127.0.0.1:40302
+[2023-06-08 16:28:15][:0000000c] LAUNCH snlua common_init
+header:<25S_F_>, len:<6>
+[2023-06-08 16:28:15][:0000000d] LAUNCH snlua clusterd
+[2023-06-08 16:28:15][:0000000e] LAUNCH snlua sharedatad
+[2023-06-08 16:28:15][:0000000f] LAUNCH gate M :0000000d :::40301 3 65535 2
+[2023-06-08 16:28:15][:00000010] LAUNCH snlua cluster_router
+CreateThread: 1744, socket_send_worker
+CreateThread: 1743, socket_send_worker
+[2023-06-08 16:28:15][cluster_router_launcher-8]	[warn][node s2800_cluster_router]all service booted
+[2023-06-08 16:28:15][:00000002] KILL self
+[2023-06-08 16:28:18][:0000000f] socket open: 4
+[2023-06-08 16:28:18][:0000000f] socket open: 6
+[2023-06-08 16:28:18][:0000000f] socket open: 8
+[2023-06-08 16:28:18][:0000000f] socket open: a
+[2023-06-08 16:28:25][:0000000f] socket open: c
+[2023-06-08 16:28:25][:0000000f] socket open: d
+[2023-06-08 16:28:25][:0000000f] socket open: f
+[2023-06-08 16:28:30][:0000000f] socket open: 12
+[2023-06-08 16:28:30][:0000000f] socket open: 13
+[2023-06-08 16:28:30][:0000000f] socket open: 16

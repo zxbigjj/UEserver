@@ -1,0 +1,3 @@
+[2023-06-05 13:16:54][[agent-11]][get_server_info_role_online] {"data":{"role_online_num":0,"role_total_num":1},"success":true,"args":{"server_id":55,"gm_name":"get_server_info_role_online"}}
+[2023-06-05 13:16:56][[agent-11]][query_roll_notice] {"data":{"notice_list":{}},"success":true,"args":{"server_id":55,"gm_name":"query_roll_notice"}}
+[2023-06-05 13:25:24][[agent-11]][get_server_info_role_online] {"data":{"role_online_num":0,"role_total_num":1},"success":true,"args":{"server_id":55,"gm_name":"get_server_info_role_online"}}

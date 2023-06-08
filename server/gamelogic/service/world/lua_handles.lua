@@ -30,8 +30,9 @@ function lua_handles.lc_make_gift_key(args)
     --if string.len(group_name) ~= 3 or not gift_key.check_str_valid(group_name) then
         --return false, 'group_name is invalid'
     --end
-
-    local group_name = ''
+    
+    local group_name = args.group_name
+    print("lua_handles.lc_make_gift_key"..group_name)
     local total_count = args.total_count
     if total_count > 100000 then
         return false, 'total_count must < 100000'
@@ -69,7 +70,28 @@ function lua_handles.lc_query_gift_key(args)
         return false, "key not exist"
     end
 end
-
+function lua_handles.lc_delete_gift_key(args)
+    local key = string.lower(args.key)
+    if not gift_key.check_str_valid(key) then
+        return false, "key isnot valid"
+    end
+    local info = gift_key.delete_gift_key(key)
+    if info then
+        return false, info
+    else
+        return true
+    end
+end
+function lua_handles.lc_query_all_gift_key(args)
+    
+    local info = gift_key.query_all_gift_key()
+    
+    if info then
+        return true, info
+    else
+        return false, "keys not exist"
+    end
+end
 function lua_handles.lc_query_gift_key_close_dict(args)
     return gift_key.query_close_dict()
 end
@@ -137,6 +159,17 @@ end
 function lua_handles.lc_query_pay_order(args)
     local orderId = args.order_id
     return pay_order.queryPayOrder(orderId)
+end
+function lua_handles.lc_set_client_log(args)
+    local uuid = args.uuid
+    local server_id=args.server_id
+    local error_log=args.error_log
+    local db = {
+        uuid = args.uuid,
+        server_id = args.server_id,
+        error_log = error_log,
+    }
+    return require("schema_world").ClientErrorLog:insert(uuid, db)
 end
 
 
