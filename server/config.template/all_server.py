@@ -13,9 +13,9 @@ this_dir = os.path.dirname(os.path.abspath(__file__))
 with open(this_dir + "/config.yaml") as f:
     config = yaml.safe_load(f.read())
 
-global_config = config["global"]
-global_port_offst = global_config.get('global_port_offst', 40000)
-cluster_router = ""
+global_config       = config["global"]
+global_port_offst   = global_config.get('global_port_offst', 40000)
+cluster_router      = ""
 cluster_router_name = ""
 
 class Node(object):
@@ -32,7 +32,7 @@ class Node(object):
 
         for k, v in global_config.items():
             setattr(self, k, v)
-
+        
         if 'extra_args' in kwargs:
             for k, v in kwargs['extra_args'].items():
                 setattr(self, k, v)

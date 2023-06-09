@@ -15,15 +15,15 @@ config_path = 'config/'
 db_host = '127.0.0.1'
 db_port = 3306
 db_user = 'root'
-db_passwd = 'cys123456'
+db_passwd = '123456'
 
 server_id = 2810
 server_name = 's2810' -- 服务器ID
 server_type = 'login'
 
 cluster_nodename = 's2810_login' -- 集群节点名
-cluster_nodeaddr = '117.50.192.198:38101' -- 地址
-cluster_router = '117.50.192.198:40301'
+cluster_nodeaddr = '117.50.193.85:38101' -- 地址
+cluster_router = '117.50.193.85:40301'
 cluster_router_name = 's2800_cluster_router'
 cluster_port = 38101
 debug_console_port = 38102
