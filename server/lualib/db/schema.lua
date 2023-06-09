@@ -829,7 +829,7 @@ function Collection:new_obj(key)
 end
 
 function Collection:load(key)
-    print("key.."..key)
+    print("key.."..key .. "table_name:" .. self.table_name)
     local data = self:get_db_client(key):select_one(
         self.table_name, 
         {[self.primary] = key}

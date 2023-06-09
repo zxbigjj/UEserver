@@ -184,7 +184,7 @@ end
 function role_gm.vitality(role, args)
     local num = tonumber(args)
     role.db.vitality = num
-    role:send_client("s_update_vitality", {vitality = role.db.vitality, vitality_ts = role.db.vitality_ts})
+    role:send_client("s_update_vitality", {vitality = role.db.vitality, vitality_ts = role.db.vitality_ts , taoxin_vitality = role.db.taoxin_vitality})
     return true
 end
 

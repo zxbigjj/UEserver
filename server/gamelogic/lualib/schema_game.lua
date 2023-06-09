@@ -70,8 +70,9 @@ COLLECTION("Player", {
     db_name = "gamedb",
     primary = "urs",
     fields = {
-        urs = STR(nil, "varchar(128)"),
+        urs = STR(nil, "varchar(512)"),
         uuid = F.UUID,
+        channel_id = STR,
     },
 })
 
@@ -107,7 +108,7 @@ COLLECTION("Role", {
     primary = "uuid",
     fields = {
         uuid = F.UUID,
-        urs = STR(nil, "varchar(128)"), -- player key
+        urs = STR(nil, "varchar(512)"), -- player key
         name = F.NAME,
         create_ts = TS(0),
         login_type = STR,    --登陆类型：dev, robot, gaea
@@ -138,6 +139,7 @@ COLLECTION("Role", {
         },true),
 
         vitality = INT,
+        taoxin_vitality = INT(0),
         vitality_ts = TS,
         random_num = INT(0),
         last_global_mail = INT(0),

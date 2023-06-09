@@ -393,14 +393,4 @@ function role_handle.c_save_comment(role, args)
     end
 end
 
-function role_handle.c_set_client_log(role, args)
-    server_id=cluster_utils.get_server_id(uuid)
-    args.server_id=server_id
-    print("=============role_handle.c_set_client_log=========="..json.encode(args))
-    if require("msg_utils.cluster_utils").call_world("lc_set_client_log",args) then
-        return g_tips.ok_resp
-    else
-        return g_tips.error_resp
-    end
-end
 return role_handle

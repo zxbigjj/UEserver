@@ -31,7 +31,6 @@ def query_lover_activities(curr_user):
                 server_id=server_id,
             )
             List =List+ list(common_utils.call_gm(server_id, None, "query_lover_activities",None)["data"])
-    
     return {"info": List}
 
 

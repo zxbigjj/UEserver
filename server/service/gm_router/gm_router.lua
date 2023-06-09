@@ -274,14 +274,6 @@ local GM_HANDLE = {
         },
     },
 
-    -- 查询所有服务器信息
-    query_all_servers = {
-        type = GMTYPE.global,
-        handle = 'gm_query_all_servers',
-        must_params = {
-        },
-    },
-
     -- 删除道具
     delete_item = {
         type = GMTYPE.server,
@@ -1003,32 +995,6 @@ end
 
 function gm_router:gm_add_item(args)
     return self:call_game_server(args.server_id, args)
-end
-
-function gm_router:gm_query_all_servers(args)
-    local servers = {
-        [ 50 ] = {
-            [ "build_time" ] = 20211101,
-            [ "id" ] = 50,
-            [ "ip" ] = "52.74.143.82",
-            [ "name" ] = "内部服",
-            [ "partition" ] = 100001,
-            [ "port" ] = 15015,
-        },
-        [ 55 ] = {
-            [ "build_time" ] = 20211101,
-            [ "id" ] = 55,
-            [ "ip" ] = "52.74.143.82",
-            [ "name" ] = "外服",
-            [ "partition" ] = 100001,
-            [ "port" ] = 15515,
-        }
-    }
-    local result  = {
-        [ "code" ] = 0,
-        [ "data" ] = servers,
-    }
-    return result
 end
 
 function gm_router:gm_delete_item(args)

@@ -160,17 +160,6 @@ function lua_handles.lc_query_pay_order(args)
     local orderId = args.order_id
     return pay_order.queryPayOrder(orderId)
 end
-function lua_handles.lc_set_client_log(args)
-    local uuid = args.uuid
-    local server_id=args.server_id
-    local error_log=args.error_log
-    local db = {
-        uuid = args.uuid,
-        server_id = args.server_id,
-        error_log = error_log,
-    }
-    return require("schema_world").ClientErrorLog:insert(uuid, db)
-end
 
 
 return lua_handles

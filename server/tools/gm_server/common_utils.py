@@ -106,13 +106,6 @@ def check_uuid(uuid_list):
         return None
 
 
-def call_dev_http():
-    data = dict(
-        gm_name="query_all_servers",
-    )
-    return req_gm_router('do_gm',  json.dumps(data))
-
-
 # def query_forbid_login(server_id, uuid):
 #     data = dict(
 #         gm_name="query_forbid_login",

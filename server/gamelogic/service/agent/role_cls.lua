@@ -938,6 +938,10 @@ function role_cls:change_vitality(num, is_add)
     return self.arena:change_vitality(num, is_add)
 end
 
+function role_cls:change_taoxin(num, is_add)
+    return self.arena:change_taoxin(num, is_add)
+end
+
 function role_cls:arena_select_reward(reward_index)
     return self.arena:arena_select_reward(reward_index)
 end

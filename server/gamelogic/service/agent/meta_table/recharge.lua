@@ -1,4 +1,4 @@
-local role_recharge = DECLARE_MODULE("cluster_utilsmeta_table.recharge")
+local role_recharge = DECLARE_MODULE("meta_table.recharge")
 local excel_data = require("excel_data")
 local date = require("sys_utils.date")
 local schema_game = require("schema_game")
@@ -416,6 +416,21 @@ end
         self.role:unlock_single_recharge(recharge_id)
         self.role:get_recharge_addition_draw_num(recharge_count)
     end
+
+-- 激活充值的活动
+function role_recharge:activation_recharge_activities(recharge_count)
+    self.role.accum_recharge:on_recharge(recharge_count) -- 限时累充
+    self:upadate_first_recharge_gift_state()
+    self.role:add_vip_exp(math.floor(recharge_count * 10), g_reason.recharge)
+    -- 转盘数量
+    self.role:get_recharge_addition_draw_num(recharge_count)
+
+    local result = hero_activities_utils.get_ongoing_hero_activities(self.role)
+    self.role:send_client("s_update_ongoing_hero_activities", result)
+    local lover_result = lover_activities_utils.get_ongoing_lover_activities(self.role)
+    self.role:send_client("s_update_ongoing_lover_activities", lover_result)
+end
+
 -- 更新首冲状态
 function role_recharge:upadate_first_recharge_gift_state()
     print("------ sc")

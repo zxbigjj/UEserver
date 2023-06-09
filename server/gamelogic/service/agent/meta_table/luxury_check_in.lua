@@ -2,6 +2,8 @@ local excel_data = require("excel_data")
 local luxury_check_in_utils = require("luxury_check_in_utils")
 
 local luxury_check_in = DECLARE_MODULE("meta_table.luxury_check_in")
+local json = require("json")
+
 
 function luxury_check_in.new(role)
     local self = {
@@ -73,8 +75,17 @@ function luxury_check_in:clear_data(id)
         self.data[id] = nil
         return
     end
+
+    -- reward_id 可能为 null
+    if self.data[id].reward_id == nil then
+        self.data[id] = nil
+        return
+    end
+
     local mail_id = CSConst.MailId.LuxuryCheckIn
     local all_item_list = {}
+    print("luxury_check_in clear_data id:"..json.encode(id))
+    print("luxury_check_in clear_data :"..json.encode(self.data[id]))
     local item_list = excel_data.RewardData[self.data[id].reward_id].item_list
     for i = 1, self.data[id].reward_times do
         table.extend(all_item_list, table.deep_copy(item_list))

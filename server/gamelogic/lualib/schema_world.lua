@@ -85,14 +85,6 @@ COLLECTION("PayOrder", {
         description = STR(nil, "varchar(256)"),
     },
 })
-COLLECTION("ClientErrorLog", {
-    primary = "uuid",
-    db_name = "world_db",
-    fields = {
-        server_id = INT,
-        uuid = INT,
-        error_log = STR,
-    },
-})
+
 
 return MOD

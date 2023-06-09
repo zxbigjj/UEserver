@@ -71,6 +71,7 @@ function role_db:_load(mgr, key, not_auto_create)
 		
 	end, g_log.trace_handle)
 	mgr._load_lock[key] = nil
+	print("========role_db:_load=========" .. key )
 	return mgr._db_dict[key].value
 end
 

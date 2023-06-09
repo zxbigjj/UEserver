@@ -3,9 +3,11 @@ local rank_utils = require("rank_utils")
 local agent_utils = require("agent_utils")
 local cluster_utils = require("msg_utils.cluster_utils")
 local rush_activity_utils = require("rush_activity_utils")
+local agent_utils = require("agent_utils")
 local STATE = CSConst.ActivityState -- 活动状态
 
 local role_rush_activity = DECLARE_MODULE("meta_table.rush_activity")
+local json = require("json")
 
 function role_rush_activity.new(role)
     local self = {
@@ -20,12 +22,15 @@ function role_rush_activity:load()
     -- 清理无效的活动数据 (nostart/expired)
     for activity_id, activity_data in pairs(self.data) do
         local activity_obj = rush_activity_utils.activity_dict[activity_id]
+        print("role_rush_activity activity_obj :"..json.encode(activity_obj))
+        print("role_rush_activity activity_data :"..json.encode(activity_data))
         if not activity_obj or activity_obj.start_ts ~= activity_data.start_ts then
             self.data[activity_id] = nil
         end
     end
     -- 初始化有效的活动数据 (started/stopped)
     for activity_id, activity_obj in pairs(rush_activity_utils.activity_dict) do
+        print("role_rush_activity load :"..json.encode(activity_obj))
         local state = activity_obj.state
         local start_ts = activity_obj.start_ts
         if (state == STATE.started or state == STATE.stopped) and (not self.data[activity_id]) then
@@ -36,6 +41,7 @@ end
 
 function role_rush_activity:online()
     local data = table.deep_copy(self.data)
+    print("role_rush_activity online data:"..json.encode(data))
     for activity_id, activity_data in pairs(data) do
         local activity_obj = rush_activity_utils.activity_dict[activity_id]
         local rank_name = excel_data.RushActivityData[activity_id].rank
@@ -53,6 +59,8 @@ function role_rush_activity:online()
         activity_data.end_ts = activity_obj.end_ts
         activity_data.state = activity_obj.state
     end
+    agent_utils.get_server_day()
+    print("role_rush_activity online current:"..json.encode(data))
     self:send(data)
 end
 

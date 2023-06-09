@@ -146,10 +146,11 @@ function role_friend:receive_gift(uuid)
     local receive_gift = self.db.friend.receive_gift
     local vitality_limit = excel_data.ParamData["vitality_limit"].f_value
 
-    if self.db.vitality >= vitality_limit then return end
+    --if self.db.vitality >= vitality_limit then return end
     for k, v in ipairs(receive_gift) do
         if v == uuid then
             table.remove(receive_gift, k)
+            self.role:change_taoxin(excel_data.ParamData["frienditem_value"].f_value, true)
             self.role:change_vitality(excel_data.ParamData["gift_value"].f_value, true)
             self.db.friend.receive_gift_count = self.db.friend.receive_gift_count + 1
             self.role:send_client("s_update_receive_gift_count", {
@@ -170,14 +171,17 @@ function role_friend:receive_all_gift()
     if #receive_gift <= 0 then return true end
     local vitality_limit = excel_data.ParamData["vitality_limit"].f_value
 
-    if receive_gift_count >= receive_count_limit or self.db.vitality >= vitality_limit then return end
+    --if receive_gift_count >= receive_count_limit or self.db.vitality >= vitality_limit then return end
+    if receive_gift_count >= receive_count_limit then return end
     local num = 0
     for i = 1, #receive_gift do
         table.remove(receive_gift, 1)
         num = num + 1
+        self.role:change_taoxin(excel_data.ParamData["frienditem_value"].f_value, true)
         self.role:change_vitality(excel_data.ParamData["gift_value"].f_value, true)
         self.db.friend.receive_gift_count = self.db.friend.receive_gift_count + 1
-        if receive_gift_count >= receive_count_limit or self.db.vitality >= vitality_limit then break end
+        --if receive_gift_count >= receive_count_limit or self.db.vitality >= vitality_limit then break end
+        if receive_gift_count >= receive_count_limit then break end
     end
     self.role:send_client("s_update_receive_gift_count", {
         receive_gift_count = self.db.friend.receive_gift_count,

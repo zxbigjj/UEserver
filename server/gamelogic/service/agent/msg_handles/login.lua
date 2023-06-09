@@ -107,7 +107,7 @@ function M.c_new_role(sock, args)
     if not role then return end
     if not schema.Player:insert(urs) then return g_tips.error_resp end
 
-    schema.Player:set_field({urs = urs}, {uuid = role.uuid})
+    schema.Player:set_field({urs = urs}, {uuid = role.uuid,channel_id = args.channel})
     local role_info = {
         role_id = role.db.role_id,
         name = role.db.name,

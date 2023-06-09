@@ -1,2 +1,6 @@
-[script]
-./gamelogic/service/agent/msg_handles/role.lua
+[data]
+./exceldata/GotoUIData.lua
+./exceldata/IconData.lua
+./exceldata/ItemData.lua
+./exceldata/RoleLookData.lua
+./exceldata/UnitData.lua

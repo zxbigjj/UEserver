@@ -1158,6 +1158,7 @@ function GM_HANDLE.validation_recharge(args)
     if not is_uuid_exist(uuid) then
         return false, g_tips.yunwei_uuid_not_exist
     end
+    role.recharge:activation_recharge_activities(order_info.local_price)
     return true , "ok"
 end
 
@@ -1208,7 +1209,7 @@ function GM_HANDLE.imitate_yueka_recharge(args)
     else
         g_log:warn("imitate_yueka_recharge role warn:"..uuid)
     end
-
+    role.recharge:activation_recharge_activities(order_info.local_price)
     return true
 end
 
@@ -1311,6 +1312,7 @@ function GM_HANDLE.imitate_loverpackage_recharge(args)
             end
         end
     end
+    role.recharge:activation_recharge_activities(order_info.local_price)
     return true
 end
 
@@ -1426,6 +1428,7 @@ function GM_HANDLE.imitate_heropackage_recharge(args)
             end
         end
     end
+    role.recharge:activation_recharge_activities(order_info.local_price)
     return true
 end
 
@@ -1473,19 +1476,25 @@ end
 
 
 function GM_HANDLE.imitate_giftpackage_recharge(args)
-    print("imitate_heropackage_recharge args :"..json.encode(args))
+    print("imitate_giftpackage_recharge args :"..json.encode(args))
     local uuid = args.uuid
     local order_id = args.order_id
     local order_info = schema_game.GiftPackageOrder:get_db_client():query_one("select * from t_giftpackageorder where order_id = "..order_id)
     if not order_info then
         return false, "order is not exist"
     end
+
+    if order_info.status ~= 0 then
+        print("imitate_giftpackage_recharge order had used order_info :"..json.encode(order_info))
+        return true
+    end
+
     if not is_uuid_exist(uuid) then
         return false, g_tips.yunwei_uuid_not_exist
     end
 
     print("===order_info === "..json.encode(order_info))
-    schema_game.GiftPackageOrder:get_db_client():query("update t_heropackageorder  set status = 2 where order_id = "..order_id)
+    schema_game.GiftPackageOrder:get_db_client():query("update t_giftpackageorder  set status = 2 where order_id = '"..order_id.."'")
 
     if order_info.product_number <= 0 then
         return false, "count is wrong"
@@ -1496,6 +1505,7 @@ function GM_HANDLE.imitate_giftpackage_recharge(args)
     if role then
         role.daily_gift_package_activities:send_gift_reward(role , order_info.gift_id)
     end
+    role.recharge:activation_recharge_activities(order_info.local_price)
     return true
 end
 
@@ -1612,6 +1622,7 @@ end
 function GM_HANDLE.add_hero_activities(args)
     local data = {
         server_id = args.server_id,
+        goods_name = args.goods_name,
         end_ts = date.time_second() + 60 * args.refresh_interval,
         price = args.price, discount = args.discount, item_list = args.item_list,
         icon = args.icon, status = args.status, refresh_interval = args.refresh_interval,
@@ -1635,6 +1646,7 @@ function GM_HANDLE.edit_hero_activities(args)
     local data = {
         id = args.id,
         server_id = args.server_id,
+        goods_name = args.goods_name,
         end_ts = date.time_second() + 60 * args.refresh_interval,
         price = args.price, discount = args.discount, item_list = args.item_list,
         icon = args.icon, status = args.status, refresh_interval = args.refresh_interval,

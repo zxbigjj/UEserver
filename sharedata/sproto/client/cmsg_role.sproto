@@ -540,13 +540,3 @@ c_get_cross_train_rank_list 173 {               # 跨服叛军榜
         self_rank_score 3 : integer  #排行积分，不同排行榜表示意思不一样
     }
 }
-c_set_client_log 174 {               # 日志json数据
-    request {
-        uuid 0 : string
-        error_log 1 : string
-    }
-    response {
-        errcode 0 : integer  
-    }
-}
-

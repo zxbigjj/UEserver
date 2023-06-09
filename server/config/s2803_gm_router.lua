@@ -11,15 +11,15 @@ config_path = 'config/'
 db_host = '127.0.0.1'
 db_port = 3306
 db_user = 'root'
-db_passwd = '123456'
+db_passwd = 'cys123456'
 
 server_id = 2803
 server_name = 's2803' -- 服务器ID
 server_type = 'gm_router'
 
 cluster_nodename = 's2803_gm_router' -- 集群节点名
-cluster_nodeaddr = '117.50.193.85:40201' -- 地址
-cluster_router = '117.50.193.85:40301'
+cluster_nodeaddr = '117.50.192.198:40201' -- 地址
+cluster_router = '117.50.192.198:40301'
 cluster_router_name = 's2800_cluster_router'
 cluster_port = 40201
 debug_console_port = 40202

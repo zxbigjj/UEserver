@@ -98,6 +98,7 @@ s_update_vitality 109 {           #更新活力
     request {
         vitality 0 : integer
         vitality_ts 1 : integer
+        taoxin_vitality 2 : integer
     }
 }
 

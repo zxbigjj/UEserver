@@ -142,10 +142,11 @@ end
 
 -- 充值回调
 function accum_recharge:on_recharge(recharge_num)
-    print("------ hd "..recharge_num)
+    print("accum_recharge ------ hd "..recharge_num)
     if not recharge_num then return end
     if not accum_recharge_utils.activity_is_started() then return end
     self.data.recharge_amount = self.data.recharge_amount + recharge_num
+    print("accum_recharge on_recharge :"..self.data.recharge_amount)
     local is_change = self:update_reward()
     if is_change then
         self.role:send_client("s_update_accum_recharge_data", {recharge_amount = self.data.recharge_amount, reward_state_dict = self.data.reward_state_dict})

@@ -60,7 +60,7 @@ function role_arena:load_arena()
 end
 
 function role_arena:online_arena()
-    self.role:send_client("s_update_vitality", {vitality = self.db.vitality, vitality_ts = self.db.vitality_ts})
+    self.role:send_client("s_update_vitality", {vitality = self.db.vitality, vitality_ts = self.db.vitality_ts, taoxin_vitality = self.db.taoxin_vitality})
     local arena = self.db.arena
     self.role:send_client("s_update_arena_info", {
         arena_history_rank = arena.history_rank,
@@ -74,7 +74,7 @@ function role_arena:vitality_recover()
     if self.db.vitality < limit_value then
         self.db.vitality = self.db.vitality + 1
         self.db.vitality_ts = date.time_second()
-        self.role:send_client("s_update_vitality", {vitality = self.db.vitality, vitality_ts = self.db.vitality_ts})
+        self.role:send_client("s_update_vitality", {vitality = self.db.vitality, vitality_ts = self.db.vitality_ts , taoxin_vitality = self.db.taoxin_vitality})
     end
     if self.db.vitality >= limit_value then
         self.vitality_timer:cancel()
@@ -108,7 +108,24 @@ function role_arena:change_vitality(num, is_add)
         end
     end
 
-    self.role:send_client("s_update_vitality", {vitality = self.db.vitality, vitality_ts = self.db.vitality_ts})
+    self.role:send_client("s_update_vitality", {vitality = self.db.vitality, vitality_ts = self.db.vitality_ts , taoxin_vitality = self.db.taoxin_vitality})
+    return true
+end
+
+-- 改变桃心
+function role_arena:change_taoxin(num, is_add)
+    local param_data = excel_data.ParamData
+    if is_add then
+        self.db.taoxin_vitality = self.db.taoxin_vitality + num
+        local max_num = param_data["vitality_max_num"].f_value
+        if self.db.taoxin_vitality > max_num then
+            self.db.taoxin_vitality = max_num
+        end
+    else
+        if self.db.taoxin_vitality < num then return end
+        self.db.taoxin_vitality = self.db.taoxin_vitality - num
+    end
+    self.role:send_client("s_update_vitality", {vitality = self.db.vitality, vitality_ts = self.db.vitality_ts , taoxin_vitality = self.db.taoxin_vitality})
     return true
 end
 

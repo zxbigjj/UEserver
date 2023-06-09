@@ -127,7 +127,7 @@ function daily_gift_package_activities_utils.send_reward(role , id)
 
     -- 更新客户端每日礼包
     local daily_gift_package = daily_gift_package_activities_utils.get_all_gift_info(role);
-    print("daily_gift_package_activities_utils send_reward daily_gift_package :"..daily_gift_package)
+    print("daily_gift_package_activities_utils send_reward daily_gift_package :"..json.encode(daily_gift_package))
     role:send_client("s_update_daily_gift", daily_gift_package)
 end
 

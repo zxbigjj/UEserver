@@ -53,6 +53,7 @@ c_new_role 8 {
         role_name 1 : string
         role_id 2 : integer
         flag_id 3 : integer      #旗帜id
+        channel 4 : string
     }
     response {
         errcode 0 : integer

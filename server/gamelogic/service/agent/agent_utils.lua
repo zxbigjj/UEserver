@@ -5,6 +5,7 @@ local cluster_utils = require("msg_utils.cluster_utils")
 local LRU = require("table_extend").LRU
 local Timer = require("timer")
 local Date = require("sys_utils.date")
+local json = require("json")
 
 DECLARE_RUNNING_ATTR(agent_utils, "_is_shutdowning", nil)
 DECLARE_RUNNING_ATTR(agent_utils, "_shutdown_uuid_dict", {})
@@ -189,7 +190,9 @@ end
 function agent_utils.get_server_day()
     local now = Date.time_second()
     local server_open_time = require("server_data").get_server_core("server_open_time")
+    print("agent_utils get_server_day ："..json.encode(now))
     local server_day = (now - server_open_time)/CSConst.Time.Day
+    print("agent_utils get_server_day ："..json.encode(server_day))
     return math.floor(server_day)
 end
 

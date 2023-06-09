@@ -2,6 +2,7 @@ local date = require("sys_utils.date")
 local excel_data = require("excel_data")
 
 local monthly_card = DECLARE_MODULE("meta_table.monthly_card")
+local json = require("json")
 
 function monthly_card.new(role)
     local self = {
@@ -39,7 +40,17 @@ function monthly_card:on_daily(last_daily_ts)
         -- 补发月卡奖励
         local card_exldata = excel_data.MonthlyCardData[card_id]
         local mail_id = CSConst.MailId.MonthlyCardReward
-        local item_list = {{item_id = card_exldata.item_id, count = card_exldata.daily_item_num}}
+
+        local item_list = {}
+        for k, v in ipairs(card_exldata.daily_item_id) do
+            table.insert(item_list , {
+                item_id = v ,
+                count = card_exldata.daily_item_num[k]
+            })
+        end
+        print("每日刷新 item_list  :"..json.encode(item_list))
+
+        --local item_list = {{item_id = card_exldata.item_id, count = card_exldata.daily_item_num}}
         for i = 1, replacement_count do
             self.role:add_mail({mail_id = mail_id, item_list = item_list})
         end
@@ -65,6 +76,7 @@ function monthly_card:buy_card(card_id)
         g_log:info("not card_id or self.data[card_id]")
         return 
     end
+    print("buy_card card_id:"..json.encode(card_id))
     local exldata = excel_data.MonthlyCardData[card_id]    
     if not exldata then
         g_log:info("not exldata")  
@@ -74,9 +86,18 @@ function monthly_card:buy_card(card_id)
         is_received = false,
         remaining_days = exldata.validity_period_day,
     }
-    g_log:info("card_id:"..card_id..",add_vip_exp:"..exldata.add_vip_exp..",exldata.item_id:"..exldata.item_id..",exldata.add_item_num:"..exldata.add_item_num)
+    print("buy_card exceldata:"..json.encode(exldata))
     self.role:add_vip_exp(exldata.add_vip_exp, g_reason.monthly_card_buy_reward)
-    self.role:add_item(exldata.item_id, exldata.add_item_num, g_reason.monthly_card_buy_reward)
+
+    local reward_dict = {}
+    for k, v in ipairs(exldata.daily_item_id) do
+        reward_dict[v] = exldata.daily_item_num[k]
+    end
+    print("monthly_card receiving_reward  :"..json.encode(reward_dict))
+    self.role:add_item_dict(reward_dict, g_reason.monthly_card_daily_reward)
+
+    --self.role:add_item(exldata.item_id, exldata.add_item_num, g_reason.monthly_card_buy_reward)
+
     self.role:send_client("s_update_monthly_card_data", {card_dict = {[card_id] = self.data[card_id]}})
     return true
 end
@@ -87,7 +108,15 @@ function monthly_card:receiving_reward(card_id)
     local exldata = excel_data.MonthlyCardData[card_id]
     if not exldata then return end
     self.data[card_id].is_received = true
-    self.role:add_item(exldata.item_id, exldata.daily_item_num, g_reason.monthly_card_daily_reward)
+
+    local reward_dict = {}
+    for k, v in ipairs(exldata.daily_item_id) do
+        reward_dict[v] = exldata.daily_item_num[k]
+    end
+    print("monthly_card receiving_reward  :"..json.encode(reward_dict))
+    self.role:add_item_dict(reward_dict, g_reason.monthly_card_daily_reward)
+
+    --self.role:add_item(exldata.item_id, exldata.daily_item_num, g_reason.monthly_card_daily_reward)
     if self.data[card_id].remaining_days then
         if self.data[card_id].remaining_days <= 1 then
             -- 领完最后一次奖就算过期
